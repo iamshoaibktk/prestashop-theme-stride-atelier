@@ -1,0 +1,3930 @@
+{
+ "meta": {
+  "slug": "stride-atelier",
+  "theme": "stride-atelier",
+  "name": "Stride Atelier",
+  "version": "1.0.0",
+  "description": {
+   "en": "Shoe and sneaker store with a dark, sporty retail layout: sneakers, running shoes, boots, sandals and dress shoes.",
+   "fr": "Boutique de chaussures et sneakers au style retail sombre et sportif : sneakers, running, bottes, sandales et chaussures de ville.",
+   "es": "Tienda de calzado y zapatillas con un diseño retail oscuro y deportivo: zapatillas, running, botas, sandalias y zapatos de vestir.",
+   "it": "Negozio di scarpe e sneakers dal layout retail scuro e sportivo: sneakers, running, stivali, sandali e scarpe eleganti.",
+   "pl": "Sklep z butami i sneakersami w ciemnym, sportowym układzie: sneakersy, buty do biegania, botki, sandały i buty wizytowe.",
+   "de": "Schuh- und Sneaker-Shop mit dunklem, sportlichem Retail-Layout: Sneaker, Laufschuhe, Boots, Sandalen und Business-Schuhe.",
+   "cs": "Obchod s obuví a teniskami v tmavém sportovním rozvržení: tenisky, běžecké boty, kotníkové boty, sandály a společenská obuv.",
+   "nl": "Schoenen- en sneakerwinkel met een donkere, sportieve retail-lay-out: sneakers, hardloopschoenen, boots, sandalen en nette schoenen.",
+   "pt": "Loja de calçado e sapatilhas com um layout retail escuro e desportivo: sapatilhas, running, botas, sandálias e sapatos clássicos.",
+   "ru": "Магазин обуви и кроссовок в тёмном спортивном ретейл-макете: кроссовки, беговая обувь, ботинки, сандалии и классическая обувь."
+  }
+ },
+ "vars": {
+  "shop": "Stride Atelier",
+  "free_over": {
+   "en": "€80",
+   "fr": "80 €",
+   "es": "80 €",
+   "it": "80 €",
+   "pl": "80 €",
+   "de": "80 €",
+   "cs": "80 €",
+   "nl": "€ 80",
+   "pt": "80 €",
+   "ru": "80 €"
+  }
+ },
+ "shop": {
+  "name": "Stride Atelier",
+  "email": "hello@strideatelier.example",
+  "phone": "+34 93 123 45 67",
+  "address1": "Carrer de Verdi 48",
+  "postcode": "08012",
+  "city": "Barcelona",
+  "country": "ES",
+  "logo": "brand/logo.png",
+  "favicon": "brand/favicon.ico",
+  "social": {
+   "instagram": "https://www.instagram.com/",
+   "tiktok": "https://www.tiktok.com/",
+   "youtube": "https://www.youtube.com/"
+  }
+ },
+ "tokens": {
+  "primary": "#1c1b19",
+  "primary_contrast": "#f3f1ec",
+  "accent": "#8f3f17",
+  "bg": "#f3f1ec",
+  "surface": "#e6e2d9",
+  "text": "#1c1b19",
+  "muted": "#615d55",
+  "border": "#dcd7cc",
+  "sale": "#b42318",
+  "dark": "#1c1b19",
+  "dark_text": "#f3f1ec",
+  "field_border": "#8a857a",
+  "field_height": "48",
+  "font_heading": "Archivo",
+  "font_body": "Archivo",
+  "heading_weight": "800",
+  "heading_transform": "none",
+  "heading_spacing": "-0.02",
+  "radius": "4",
+  "button_radius": "4",
+  "button_transform": "none",
+  "header_style": "classic",
+  "footer_style": "dark",
+  "card_style": "overlay",
+  "cart_style": "drawer",
+  "cart_layout": "classic",
+  "listing_layout": "drawer",
+  "category_header": "minimal",
+  "grid_columns": "4",
+  "product_layout": "classic",
+  "product_thumbs": "bottom",
+  "product_tabs": "accordion",
+  "free_bar": "1",
+  "header_sticky": "up",
+  "search_style": "field",
+  "search_trigger": "icon",
+  "cart_word": "bag"
+ },
+ "topbar": {
+  "active": 1,
+  "text": {
+   "en": "Free delivery over €80 | Free 30-day returns | Resoling service for leather shoes",
+   "fr": "Livraison offerte dès 80 € | Retours gratuits sous 30 jours | Service de ressemelage pour chaussures en cuir",
+   "es": "Envío gratis a partir de 80 € | Devoluciones gratis en 30 días | Servicio de cambio de suela para zapatos de piel",
+   "it": "Spedizione gratuita oltre 80 € | Reso gratuito entro 30 giorni | Servizio di risuolatura per scarpe in pelle",
+   "pl": "Darmowa dostawa od 80 € | Bezpłatny zwrot w 30 dni | Wymiana podeszew w butach skórzanych",
+   "de": "Kostenloser Versand ab 80 € | 30 Tage kostenlose Rücksendung | Neubesohlung für Lederschuhe",
+   "cs": "Doprava zdarma od 80 € | Vrácení zdarma do 30 dní | Výměna podrážek u kožených bot",
+   "nl": "Gratis verzending vanaf € 80 | 30 dagen gratis retour | Verzoolservice voor leren schoenen",
+   "pt": "Entrega gratuita a partir de 80 € | Devoluções gratuitas em 30 dias | Serviço de solas para sapatos de pele",
+   "ru": "Бесплатная доставка от 80 € | Бесплатный возврат в течение 30 дней | Замена подошвы для кожаной обуви"
+  }
+ },
+ "attribute_groups": [
+  {
+   "key": "size",
+   "type": "radio",
+   "name": {
+    "en": "Shoe size",
+    "fr": "Pointure",
+    "es": "Talla de calzado",
+    "it": "Numero",
+    "pl": "Rozmiar buta",
+    "de": "Schuhgröße",
+    "cs": "Velikost obuvi",
+    "nl": "Schoenmaat",
+    "pt": "Número",
+    "ru": "Размер обуви"
+   },
+   "values": [
+    {
+     "key": "36",
+     "name": "36"
+    },
+    {
+     "key": "37",
+     "name": "37"
+    },
+    {
+     "key": "38",
+     "name": "38"
+    },
+    {
+     "key": "39",
+     "name": "39"
+    },
+    {
+     "key": "40",
+     "name": "40"
+    },
+    {
+     "key": "41",
+     "name": "41"
+    },
+    {
+     "key": "42",
+     "name": "42"
+    },
+    {
+     "key": "43",
+     "name": "43"
+    },
+    {
+     "key": "44",
+     "name": "44"
+    },
+    {
+     "key": "45",
+     "name": "45"
+    },
+    {
+     "key": "s",
+     "name": "S"
+    },
+    {
+     "key": "m",
+     "name": "M"
+    },
+    {
+     "key": "l",
+     "name": "L"
+    }
+   ]
+  },
+  {
+   "key": "color",
+   "type": "color",
+   "name": {
+    "en": "Colour",
+    "fr": "Couleur",
+    "es": "Color",
+    "it": "Colore",
+    "pl": "Kolor",
+    "de": "Farbe",
+    "cs": "Barva",
+    "nl": "Kleur",
+    "pt": "Cor",
+    "ru": "Цвет"
+   },
+   "values": [
+    {
+     "key": "white",
+     "name": {
+      "en": "White",
+      "fr": "Blanc",
+      "es": "Blanco",
+      "it": "Bianco",
+      "pl": "Biały",
+      "de": "Weiß",
+      "cs": "Bílá",
+      "nl": "Wit",
+      "pt": "Branco",
+      "ru": "Белый"
+     },
+     "color": "#FFFFFF"
+    },
+    {
+     "key": "black",
+     "name": {
+      "en": "Black",
+      "fr": "Noir",
+      "es": "Negro",
+      "it": "Nero",
+      "pl": "Czarny",
+      "de": "Schwarz",
+      "cs": "Černá",
+      "nl": "Zwart",
+      "pt": "Preto",
+      "ru": "Чёрный"
+     },
+     "color": "#1C1C1C"
+    },
+    {
+     "key": "grey",
+     "name": {
+      "en": "Grey",
+      "fr": "Gris",
+      "es": "Gris",
+      "it": "Grigio",
+      "pl": "Szary",
+      "de": "Grau",
+      "cs": "Šedá",
+      "nl": "Grijs",
+      "pt": "Cinzento",
+      "ru": "Серый"
+     },
+     "color": "#8D8D8D"
+    },
+    {
+     "key": "tan",
+     "name": {
+      "en": "Tan",
+      "fr": "Fauve",
+      "es": "Tostado",
+      "it": "Cuoio",
+      "pl": "Jasnobrązowy",
+      "de": "Hellbraun",
+      "cs": "Světle hnědá",
+      "nl": "Lichtbruin",
+      "pt": "Caramelo",
+      "ru": "Светло-коричневый"
+     },
+     "color": "#C69C6D"
+    },
+    {
+     "key": "navy",
+     "name": {
+      "en": "Navy",
+      "fr": "Marine",
+      "es": "Azul marino",
+      "it": "Blu navy",
+      "pl": "Granatowy",
+      "de": "Marine",
+      "cs": "Námořnická modrá",
+      "nl": "Marineblauw",
+      "pt": "Azul-marinho",
+      "ru": "Тёмно-синий"
+     },
+     "color": "#1F2A44"
+    },
+    {
+     "key": "orange",
+     "name": {
+      "en": "Orange",
+      "fr": "Orange",
+      "es": "Naranja",
+      "it": "Arancione",
+      "pl": "Pomarańczowy",
+      "de": "Orange",
+      "cs": "Oranžová",
+      "nl": "Oranje",
+      "pt": "Laranja",
+      "ru": "Оранжевый"
+     },
+     "color": "#F26B1D"
+    },
+    {
+     "key": "green",
+     "name": {
+      "en": "Green",
+      "fr": "Vert",
+      "es": "Verde",
+      "it": "Verde",
+      "pl": "Zielony",
+      "de": "Grün",
+      "cs": "Zelená",
+      "nl": "Groen",
+      "pt": "Verde",
+      "ru": "Зелёный"
+     },
+     "color": "#3F5E3A"
+    },
+    {
+     "key": "red",
+     "name": {
+      "en": "Red",
+      "fr": "Rouge",
+      "es": "Rojo",
+      "it": "Rosso",
+      "pl": "Czerwony",
+      "de": "Rot",
+      "cs": "Červená",
+      "nl": "Rood",
+      "pt": "Vermelho",
+      "ru": "Красный"
+     },
+     "color": "#C8322B"
+    },
+    {
+     "key": "brown",
+     "name": {
+      "en": "Brown",
+      "fr": "Marron",
+      "es": "Marrón",
+      "it": "Marrone",
+      "pl": "Brązowy",
+      "de": "Braun",
+      "cs": "Hnědá",
+      "nl": "Bruin",
+      "pt": "Castanho",
+      "ru": "Коричневый"
+     },
+     "color": "#6B4A2F"
+    },
+    {
+     "key": "stone",
+     "name": {
+      "en": "Stone",
+      "fr": "Pierre",
+      "es": "Piedra",
+      "it": "Pietra",
+      "pl": "Kamienny",
+      "de": "Stein",
+      "cs": "Kamenná",
+      "nl": "Steen",
+      "pt": "Pedra",
+      "ru": "Каменный"
+     },
+     "color": "#C9BFAE"
+    },
+    {
+     "key": "beige",
+     "name": {
+      "en": "Beige",
+      "fr": "Beige",
+      "es": "Beige",
+      "it": "Beige",
+      "pl": "Beżowy",
+      "de": "Beige",
+      "cs": "Béžová",
+      "nl": "Beige",
+      "pt": "Bege",
+      "ru": "Бежевый"
+     },
+     "color": "#D9C6A5"
+    },
+    {
+     "key": "burgundy",
+     "name": {
+      "en": "Burgundy",
+      "fr": "Bordeaux",
+      "es": "Burdeos",
+      "it": "Bordeaux",
+      "pl": "Bordowy",
+      "de": "Bordeaux",
+      "cs": "Vínová",
+      "nl": "Bordeaux",
+      "pt": "Bordeaux",
+      "ru": "Бордовый"
+     },
+     "color": "#6E1F2B"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "key": "material",
+   "name": {
+    "en": "Material",
+    "fr": "Matière",
+    "es": "Material",
+    "it": "Materiale",
+    "pl": "Materiał",
+    "de": "Material",
+    "cs": "Materiál",
+    "nl": "Materiaal",
+    "pt": "Material",
+    "ru": "Материал"
+   },
+   "values": [
+    {
+     "key": "leather-full",
+     "name": {
+      "en": "Full-grain leather",
+      "fr": "Cuir pleine fleur",
+      "es": "Piel plena flor",
+      "it": "Pelle pieno fiore",
+      "pl": "Skóra licowa",
+      "de": "Vollnarbenleder",
+      "cs": "Lícová kůže",
+      "nl": "Volnerf leer",
+      "pt": "Pele flor integral",
+      "ru": "Натуральная кожа"
+     }
+    },
+    {
+     "key": "suede",
+     "name": {
+      "en": "Suede",
+      "fr": "Daim",
+      "es": "Ante",
+      "it": "Camoscio",
+      "pl": "Zamsz",
+      "de": "Veloursleder",
+      "cs": "Semiš",
+      "nl": "Suède",
+      "pt": "Camurça",
+      "ru": "Замша"
+     }
+    },
+    {
+     "key": "nubuck",
+     "name": {
+      "en": "Waterproof nubuck",
+      "fr": "Nubuck imperméable",
+      "es": "Nobuk impermeable",
+      "it": "Nabuk impermeabile",
+      "pl": "Wodoodporny nubuk",
+      "de": "Wasserdichtes Nubukleder",
+      "cs": "Nepromokavý nubuk",
+      "nl": "Waterdicht nubuck",
+      "pt": "Nobuck impermeável",
+      "ru": "Водостойкий нубук"
+     }
+    },
+    {
+     "key": "canvas",
+     "name": {
+      "en": "Cotton canvas",
+      "fr": "Toile de coton",
+      "es": "Lona de algodón",
+      "it": "Tela di cotone",
+      "pl": "Płótno bawełniane",
+      "de": "Baumwoll-Canvas",
+      "cs": "Bavlněné plátno",
+      "nl": "Katoenen canvas",
+      "pt": "Lona de algodão",
+      "ru": "Хлопковый канвас"
+     }
+    },
+    {
+     "key": "mesh",
+     "name": {
+      "en": "Engineered mesh",
+      "fr": "Mesh technique",
+      "es": "Malla técnica",
+      "it": "Mesh tecnico",
+      "pl": "Siatka techniczna",
+      "de": "Technisches Mesh",
+      "cs": "Technická síťovina",
+      "nl": "Technische mesh",
+      "pt": "Malha técnica",
+      "ru": "Техническая сетка"
+     }
+    },
+    {
+     "key": "knit-recycled",
+     "name": {
+      "en": "Recycled knit",
+      "fr": "Maille recyclée",
+      "es": "Punto reciclado",
+      "it": "Maglia riciclata",
+      "pl": "Dzianina z recyklingu",
+      "de": "Recycelter Strick",
+      "cs": "Recyklovaný úplet",
+      "nl": "Gerecycled breiwerk",
+      "pt": "Malha reciclada",
+      "ru": "Переработанный трикотаж"
+     }
+    },
+    {
+     "key": "nylon",
+     "name": {
+      "en": "Recycled nylon",
+      "fr": "Nylon recyclé",
+      "es": "Nailon reciclado",
+      "it": "Nylon riciclato",
+      "pl": "Nylon z recyklingu",
+      "de": "Recyceltes Nylon",
+      "cs": "Recyklovaný nylon",
+      "nl": "Gerecycled nylon",
+      "pt": "Nylon reciclado",
+      "ru": "Переработанный нейлон"
+     }
+    },
+    {
+     "key": "merino-wool",
+     "name": {
+      "en": "Merino wool",
+      "fr": "Laine mérinos",
+      "es": "Lana merino",
+      "it": "Lana merino",
+      "pl": "Wełna merino",
+      "de": "Merinowolle",
+      "cs": "Merino vlna",
+      "nl": "Merinowol",
+      "pt": "Lã merino",
+      "ru": "Шерсть мериноса"
+     }
+    }
+   ]
+  },
+  {
+   "key": "sole",
+   "name": {
+    "en": "Sole",
+    "fr": "Semelle",
+    "es": "Suela",
+    "it": "Suola",
+    "pl": "Podeszwa",
+    "de": "Sohle",
+    "cs": "Podrážka",
+    "nl": "Zool",
+    "pt": "Sola",
+    "ru": "Подошва"
+   },
+   "values": [
+    {
+     "key": "rubber",
+     "name": {
+      "en": "Rubber cupsole",
+      "fr": "Semelle cuvette en caoutchouc",
+      "es": "Suela de caucho tipo cupsole",
+      "it": "Suola a scatola in gomma",
+      "pl": "Gumowa podeszwa kubełkowa",
+      "de": "Gummi-Cupsole",
+      "cs": "Gumová vaničková podrážka",
+      "nl": "Rubberen cupzool",
+      "pt": "Sola de borracha tipo cupsole",
+      "ru": "Резиновая подошва-чашка"
+     }
+    },
+    {
+     "key": "eva",
+     "name": {
+      "en": "EVA foam",
+      "fr": "Mousse EVA",
+      "es": "Espuma EVA",
+      "it": "Schiuma EVA",
+      "pl": "Pianka EVA",
+      "de": "EVA-Schaum",
+      "cs": "Pěna EVA",
+      "nl": "EVA-schuim",
+      "pt": "Espuma EVA",
+      "ru": "Пена EVA"
+     }
+    },
+    {
+     "key": "lug",
+     "name": {
+      "en": "Lugged rubber",
+      "fr": "Caoutchouc crantée",
+      "es": "Caucho con tacos",
+      "it": "Gomma scolpita",
+      "pl": "Gumowa podeszwa z bieżnikiem",
+      "de": "Profilgummi",
+      "cs": "Gumová podrážka s dezénem",
+      "nl": "Profielzool van rubber",
+      "pt": "Borracha com relevo",
+      "ru": "Рифлёная резина"
+     }
+    },
+    {
+     "key": "crepe",
+     "name": {
+      "en": "Natural crepe",
+      "fr": "Crêpe naturel",
+      "es": "Crepé natural",
+      "it": "Para naturale",
+      "pl": "Naturalna krepa",
+      "de": "Naturkrepp",
+      "cs": "Přírodní krep",
+      "nl": "Natuurlijke crêpe",
+      "pt": "Crepe natural",
+      "ru": "Натуральный креп"
+     }
+    },
+    {
+     "key": "leather",
+     "name": {
+      "en": "Leather sole",
+      "fr": "Semelle en cuir",
+      "es": "Suela de cuero",
+      "it": "Suola in cuoio",
+      "pl": "Skórzana podeszwa",
+      "de": "Ledersohle",
+      "cs": "Kožená podrážka",
+      "nl": "Leren zool",
+      "pt": "Sola de couro",
+      "ru": "Кожаная подошва"
+     }
+    },
+    {
+     "key": "cork",
+     "name": {
+      "en": "Cork footbed",
+      "fr": "Lit de liège",
+      "es": "Plantilla de corcho",
+      "it": "Plantare in sughero",
+      "pl": "Korkowa wkładka",
+      "de": "Kork-Fußbett",
+      "cs": "Korková stélka",
+      "nl": "Kurken voetbed",
+      "pt": "Palmilha de cortiça",
+      "ru": "Пробковая стелька"
+     }
+    },
+    {
+     "key": "jute",
+     "name": {
+      "en": "Braided jute",
+      "fr": "Jute tressé",
+      "es": "Yute trenzado",
+      "it": "Juta intrecciata",
+      "pl": "Pleciona juta",
+      "de": "Geflochtene Jute",
+      "cs": "Pletená juta",
+      "nl": "Gevlochten jute",
+      "pt": "Juta entrançada",
+      "ru": "Плетёный джут"
+     }
+    }
+   ]
+  },
+  {
+   "key": "shoefit",
+   "name": {
+    "en": "Fit",
+    "fr": "Chaussant",
+    "es": "Horma",
+    "it": "Calzata",
+    "pl": "Rozmiarówka",
+    "de": "Passform",
+    "cs": "Střih",
+    "nl": "Pasvorm",
+    "pt": "Ajuste",
+    "ru": "Размерность"
+   },
+   "values": [
+    {
+     "key": "small",
+     "name": {
+      "en": "Runs small",
+      "fr": "Taille petit",
+      "es": "Talla pequeña",
+      "it": "Veste piccolo",
+      "pl": "Rozmiar zaniżony",
+      "de": "Fällt klein aus",
+      "cs": "Menší střih",
+      "nl": "Valt klein",
+      "pt": "Veste pequeno",
+      "ru": "Маломерит"
+     }
+    },
+    {
+     "key": "true",
+     "name": {
+      "en": "True to size",
+      "fr": "Taille normalement",
+      "es": "Talla normal",
+      "it": "Veste regolare",
+      "pl": "Zgodny z rozmiarem",
+      "de": "Fällt normal aus",
+      "cs": "Odpovídá velikosti",
+      "nl": "Valt normaal",
+      "pt": "Tamanho certo",
+      "ru": "Соответствует размеру"
+     }
+    },
+    {
+     "key": "large",
+     "name": {
+      "en": "Runs large",
+      "fr": "Taille grand",
+      "es": "Talla grande",
+      "it": "Veste grande",
+      "pl": "Rozmiar zawyżony",
+      "de": "Fällt groß aus",
+      "cs": "Větší střih",
+      "nl": "Valt groot",
+      "pt": "Veste grande",
+      "ru": "Большемерит"
+     }
+    }
+   ]
+  },
+  {
+   "key": "care",
+   "name": {
+    "en": "Care",
+    "fr": "Entretien",
+    "es": "Cuidado",
+    "it": "Manutenzione",
+    "pl": "Pielęgnacja",
+    "de": "Pflege",
+    "cs": "Péče",
+    "nl": "Onderhoud",
+    "pt": "Cuidados",
+    "ru": "Уход"
+   },
+   "values": [
+    {
+     "key": "wipe",
+     "name": {
+      "en": "Wipe with a soft cloth",
+      "fr": "Essuyer avec un chiffon doux",
+      "es": "Limpiar con un paño suave",
+      "it": "Pulire con un panno morbido",
+      "pl": "Przetrzeć miękką ściereczką",
+      "de": "Mit weichem Tuch abwischen",
+      "cs": "Otřít jemným hadříkem",
+      "nl": "Afnemen met een zachte doek",
+      "pt": "Limpar com um pano macio",
+      "ru": "Протирать мягкой тканью"
+     }
+    },
+    {
+     "key": "brush",
+     "name": {
+      "en": "Brush with a suede brush",
+      "fr": "Brosser avec une brosse à daim",
+      "es": "Cepillar con cepillo para ante",
+      "it": "Spazzolare con spazzola per camoscio",
+      "pl": "Czyścić szczotką do zamszu",
+      "de": "Mit Velourslederbürste bürsten",
+      "cs": "Kartáčovat kartáčem na semiš",
+      "nl": "Borstelen met een suèdeborstel",
+      "pt": "Escovar com escova de camurça",
+      "ru": "Чистить щёткой для замши"
+     }
+    },
+    {
+     "key": "machine",
+     "name": {
+      "en": "Machine wash 30°C",
+      "fr": "Lavage en machine à 30 °C",
+      "es": "Lavar a máquina a 30 °C",
+      "it": "Lavare in lavatrice a 30 °C",
+      "pl": "Prać w pralce w 30 °C",
+      "de": "Maschinenwäsche 30 °C",
+      "cs": "Praní v pračce na 30 °C",
+      "nl": "Machinewas 30 °C",
+      "pt": "Lavar na máquina a 30 °C",
+      "ru": "Машинная стирка при 30 °C"
+     }
+    }
+   ]
+  },
+  {
+   "key": "origin",
+   "name": {
+    "en": "Made in",
+    "fr": "Fabriqué en",
+    "es": "Fabricado en",
+    "it": "Prodotto in",
+    "pl": "Wyprodukowano w",
+    "de": "Hergestellt in",
+    "cs": "Vyrobeno v",
+    "nl": "Gemaakt in",
+    "pt": "Fabricado em",
+    "ru": "Сделано в"
+   },
+   "values": [
+    {
+     "key": "portugal",
+     "name": {
+      "en": "Portugal",
+      "fr": "Portugal",
+      "es": "Portugal",
+      "it": "Portogallo",
+      "pl": "Portugalii",
+      "de": "Portugal",
+      "cs": "Portugalsku",
+      "nl": "Portugal",
+      "pt": "Portugal",
+      "ru": "Португалии"
+     }
+    },
+    {
+     "key": "italy",
+     "name": {
+      "en": "Italy",
+      "fr": "Italie",
+      "es": "Italia",
+      "it": "Italia",
+      "pl": "Włoszech",
+      "de": "Italien",
+      "cs": "Itálii",
+      "nl": "Italië",
+      "pt": "Itália",
+      "ru": "Италии"
+     }
+    },
+    {
+     "key": "spain",
+     "name": {
+      "en": "Spain",
+      "fr": "Espagne",
+      "es": "España",
+      "it": "Spagna",
+      "pl": "Hiszpanii",
+      "de": "Spanien",
+      "cs": "Španělsku",
+      "nl": "Spanje",
+      "pt": "Espanha",
+      "ru": "Испании"
+     }
+    },
+    {
+     "key": "vietnam",
+     "name": {
+      "en": "Vietnam",
+      "fr": "Viêt Nam",
+      "es": "Vietnam",
+      "it": "Vietnam",
+      "pl": "Wietnamie",
+      "de": "Vietnam",
+      "cs": "Vietnamu",
+      "nl": "Vietnam",
+      "pt": "Vietname",
+      "ru": "Вьетнаме"
+     }
+    },
+    {
+     "key": "germany",
+     "name": {
+      "en": "Germany",
+      "fr": "Allemagne",
+      "es": "Alemania",
+      "it": "Germania",
+      "pl": "Niemczech",
+      "de": "Deutschland",
+      "cs": "Německu",
+      "nl": "Duitsland",
+      "pt": "Alemanha",
+      "ru": "Германии"
+     }
+    }
+   ]
+  },
+  {
+   "key": "build",
+   "name": {
+    "en": "Resoling",
+    "fr": "Ressemelage",
+    "es": "Cambio de suela",
+    "it": "Risuolatura",
+    "pl": "Wymiana podeszwy",
+    "de": "Neubesohlung",
+    "cs": "Výměna podrážky",
+    "nl": "Verzolen",
+    "pt": "Troca de sola",
+    "ru": "Замена подошвы"
+   },
+   "values": [
+    {
+     "key": "stitched",
+     "name": {
+      "en": "Stitched sole, resolable in our workshop",
+      "fr": "Semelle cousue, ressemelable dans notre atelier",
+      "es": "Suela cosida, se cambia en nuestro taller",
+      "it": "Suola cucita, risuolabile nel nostro laboratorio",
+      "pl": "Szyta podeszwa, wymienna w naszej pracowni",
+      "de": "Genähte Sohle, in unserer Werkstatt neu besohlbar",
+      "cs": "Šitá podrážka, vyměnitelná v naší dílně",
+      "nl": "Gestikte zool, te verzolen in onze werkplaats",
+      "pt": "Sola cosida, trocada na nossa oficina",
+      "ru": "Прошитая подошва, заменим в нашей мастерской"
+     }
+    }
+   ]
+  }
+ ],
+ "brands": [
+  {
+   "key": "stride-atelier",
+   "name": "Stride Atelier",
+   "logo": "brands/stride-atelier.png"
+  },
+  {
+   "key": "velo-runner",
+   "name": "Velo Runner",
+   "logo": "brands/velo-runner.png"
+  },
+  {
+   "key": "ironpeak",
+   "name": "Ironpeak",
+   "logo": "brands/ironpeak.png"
+  },
+  {
+   "key": "solea",
+   "name": "Solea",
+   "logo": "brands/solea.png"
+  }
+ ],
+ "categories": [
+  {
+   "key": "sneakers",
+   "name": {
+    "en": "Sneakers",
+    "fr": "Sneakers",
+    "es": "Zapatillas",
+    "it": "Sneakers",
+    "pl": "Sneakersy",
+    "de": "Sneaker",
+    "cs": "Tenisky",
+    "nl": "Sneakers",
+    "pt": "Sapatilhas",
+    "ru": "Кроссовки"
+   },
+   "description": {
+    "en": "Everyday sneakers in leather, suede, canvas and recycled knit.",
+    "fr": "Des sneakers de tous les jours en cuir, daim, toile et maille recyclée.",
+    "es": "Zapatillas de diario en piel, ante, lona y punto reciclado.",
+    "it": "Sneakers per tutti i giorni in pelle, camoscio, tela e maglia riciclata.",
+    "pl": "Codzienne sneakersy ze skóry, zamszu, płótna i dzianiny z recyklingu.",
+    "de": "Alltagssneaker aus Leder, Veloursleder, Canvas und recyceltem Strick.",
+    "cs": "Každodenní tenisky z kůže, semiše, plátna a recyklovaného úpletu.",
+    "nl": "Sneakers voor elke dag van leer, suède, canvas en gerecycled breiwerk.",
+    "pt": "Sapatilhas do dia a dia em pele, camurça, lona e malha reciclada.",
+    "ru": "Повседневные кроссовки из кожи, замши, канваса и переработанного трикотажа."
+   },
+   "image": "categories/sneakers.jpg"
+  },
+  {
+   "key": "running",
+   "name": {
+    "en": "Running",
+    "fr": "Running",
+    "es": "Running",
+    "it": "Running",
+    "pl": "Bieganie",
+    "de": "Laufschuhe",
+    "cs": "Běh",
+    "nl": "Hardlopen",
+    "pt": "Running",
+    "ru": "Бег"
+   },
+   "description": {
+    "en": "Cushioned road shoes, grippy trail shoes and fast race flats.",
+    "fr": "Chaussures de route amorties, trail accrocheuses et chaussures de compétition légères.",
+    "es": "Zapatillas de asfalto amortiguadas, trail con agarre y voladoras de competición.",
+    "it": "Scarpe da strada ammortizzate, trail con grip e scarpe da gara leggere.",
+    "pl": "Amortyzowane buty na asfalt, przyczepne trailowe i szybkie startówki.",
+    "de": "Gedämpfte Straßenschuhe, griffige Trailschuhe und schnelle Wettkampfschuhe.",
+    "cs": "Odpružené silniční boty, přilnavé trailové boty a rychlé závodky.",
+    "nl": "Gedempte wegschoenen, grippy trailschoenen en snelle wedstrijdschoenen.",
+    "pt": "Sapatilhas de estrada amortecidas, trail com aderência e sapatilhas de competição rápidas.",
+    "ru": "Амортизирующие кроссовки для асфальта, цепкие трейловые и быстрые марафонки."
+   },
+   "image": "categories/running.jpg"
+  },
+  {
+   "key": "boots",
+   "name": {
+    "en": "Boots",
+    "fr": "Bottes & boots",
+    "es": "Botas",
+    "it": "Stivali",
+    "pl": "Botki",
+    "de": "Boots",
+    "cs": "Kotníkové boty",
+    "nl": "Boots",
+    "pt": "Botas",
+    "ru": "Ботинки"
+   },
+   "description": {
+    "en": "Chelsea, desert, hiking and winter boots built for every season.",
+    "fr": "Boots Chelsea, desert, de randonnée et d'hiver pour toutes les saisons.",
+    "es": "Botas Chelsea, desert, de montaña y de invierno para todas las estaciones.",
+    "it": "Chelsea, desert, trekking e stivali invernali per ogni stagione.",
+    "pl": "Sztyblety Chelsea, desert boots, buty trekkingowe i zimowe na każdą porę roku.",
+    "de": "Chelsea-, Desert-, Wander- und Winterboots für jede Jahreszeit.",
+    "cs": "Chelsea, desert, turistické a zimní boty na každé roční období.",
+    "nl": "Chelsea-, desert-, wandel- en winterboots voor elk seizoen.",
+    "pt": "Botas Chelsea, desert, de caminhada e de inverno para todas as estações.",
+    "ru": "Челси, дезерты, треккинговые и зимние ботинки на любой сезон."
+   },
+   "image": "categories/boots.jpg"
+  },
+  {
+   "key": "sandals",
+   "name": {
+    "en": "Sandals",
+    "fr": "Sandales",
+    "es": "Sandalias",
+    "it": "Sandali",
+    "pl": "Sandały",
+    "de": "Sandalen",
+    "cs": "Sandály",
+    "nl": "Sandalen",
+    "pt": "Sandálias",
+    "ru": "Сандалии"
+   },
+   "description": {
+    "en": "Slides, trek sandals, espadrilles and cork footbeds for warm days.",
+    "fr": "Mules, sandales de marche, espadrilles et lits de liège pour les beaux jours.",
+    "es": "Chanclas, sandalias de trekking, alpargatas y plantillas de corcho para los días de calor.",
+    "it": "Ciabatte, sandali da trekking, espadrillas e plantari in sughero per le giornate calde.",
+    "pl": "Klapki, sandały trekkingowe, espadryle i korkowe wkładki na ciepłe dni.",
+    "de": "Pantoletten, Trekkingsandalen, Espadrilles und Kork-Fußbetten für warme Tage.",
+    "cs": "Pantofle, trekové sandály, espadrilky a korkové stélky na teplé dny.",
+    "nl": "Slippers, trekkingsandalen, espadrilles en kurken voetbedden voor warme dagen.",
+    "pt": "Chinelos, sandálias de trekking, alpercatas e palmilhas de cortiça para os dias quentes.",
+    "ru": "Шлёпанцы, треккинговые сандалии, эспадрильи и пробковые стельки для жарких дней."
+   },
+   "image": "categories/sandals.jpg"
+  },
+  {
+   "key": "formal",
+   "name": {
+    "en": "Dress shoes",
+    "fr": "Chaussures de ville",
+    "es": "Zapatos de vestir",
+    "it": "Scarpe eleganti",
+    "pl": "Buty wizytowe",
+    "de": "Business-Schuhe",
+    "cs": "Společenská obuv",
+    "nl": "Nette schoenen",
+    "pt": "Sapatos clássicos",
+    "ru": "Классическая обувь"
+   },
+   "description": {
+    "en": "Goodyear-style dress shoes: oxfords, derbies, loafers and monk straps.",
+    "fr": "Chaussures de ville cousues : richelieus, derbies, mocassins et double boucle.",
+    "es": "Zapatos de vestir cosidos: oxford, derby, mocasines y doble hebilla.",
+    "it": "Scarpe eleganti cucite: oxford, derby, mocassini e doppia fibbia.",
+    "pl": "Szyte buty wizytowe: oksfordy, derby, mokasyny i monki.",
+    "de": "Genähte Business-Schuhe: Oxfords, Derbys, Loafer und Monkstraps.",
+    "cs": "Šité společenské boty: oxfordky, derby, mokasíny a monky.",
+    "nl": "Gestikte nette schoenen: oxfords, derby's, loafers en monkstraps.",
+    "pt": "Sapatos clássicos cosidos: oxford, derby, mocassins e fivela dupla.",
+    "ru": "Прошивная классическая обувь: оксфорды, дерби, лоферы и монки."
+   },
+   "image": "categories/formal.jpg"
+  },
+  {
+   "key": "care",
+   "name": {
+    "en": "Care & socks",
+    "fr": "Entretien & chaussettes",
+    "es": "Cuidado y calcetines",
+    "it": "Cura e calze",
+    "pl": "Pielęgnacja i skarpety",
+    "de": "Pflege & Socken",
+    "cs": "Péče a ponožky",
+    "nl": "Onderhoud & sokken",
+    "pt": "Cuidados e meias",
+    "ru": "Уход и носки"
+   },
+   "description": {
+    "en": "Shoe care kits, brushes, laces and merino socks.",
+    "fr": "Kits d’entretien, brosses, lacets et chaussettes en mérinos.",
+    "es": "Kits de cuidado, cepillos, cordones y calcetines de merino.",
+    "it": "Kit per la cura, spazzole, lacci e calze in merino.",
+    "pl": "Zestawy do pielęgnacji, szczotki, sznurówki i skarpety z merynosa.",
+    "de": "Pflegesets, Bürsten, Schnürsenkel und Socken aus Merinowolle.",
+    "cs": "Sady na péči, kartáče, tkaničky a merino ponožky.",
+    "nl": "Verzorgingssets, borstels, veters en sokken van merinowol.",
+    "pt": "Kits de cuidado, escovas, atacadores e meias de merino.",
+    "ru": "Наборы для ухода, щётки, шнурки и носки из мериноса."
+   },
+   "image": "categories/care.jpg"
+  }
+ ],
+ "catalog": {
+  "id_tax_rules_group": 0,
+  "also_in_home": true,
+  "details_feature_list": false,
+  "home_name": {
+   "en": "Home",
+   "fr": "Accueil",
+   "es": "Inicio",
+   "it": "Home",
+   "pl": "Strona główna",
+   "de": "Startseite",
+   "cs": "Domů",
+   "nl": "Home",
+   "pt": "Início",
+   "ru": "Главная"
+  },
+  "facets": [
+   "group:size",
+   "feature:shoefit",
+   "group:color",
+   "feature:material",
+   "price"
+  ]
+ },
+ "products": [
+  {
+   "key": "classic-leather-sneaker",
+   "reference": "SA-101",
+   "category": "sneakers",
+   "brand": "stride-atelier",
+   "price": 119,
+   "name": {
+    "en": "Classic Leather Sneaker",
+    "fr": "Sneaker classique en cuir",
+    "es": "Zapatilla clásica de piel",
+    "it": "Sneaker classica in pelle",
+    "pl": "Klasyczny skórzany sneaker",
+    "de": "Klassischer Leder-Sneaker",
+    "cs": "Klasická kožená teniska",
+    "nl": "Klassieke leren sneaker",
+    "pt": "Sapatilha clássica de pele",
+    "ru": "Классические кожаные кеды"
+   },
+   "short": {
+    "en": "A minimal low-top sneaker in smooth full-grain leather.",
+    "fr": "Une sneaker basse minimaliste en cuir pleine fleur lisse.",
+    "es": "Una zapatilla baja minimalista en piel plena flor lisa.",
+    "it": "Una sneaker bassa minimal in pelle pieno fiore liscia.",
+    "pl": "Minimalistyczny niski sneaker z gładkiej skóry licowej.",
+    "de": "Ein minimalistischer Low-Top-Sneaker aus glattem Vollnarbenleder.",
+    "cs": "Minimalistická nízká teniska z hladké lícové kůže.",
+    "nl": "Een minimalistische lage sneaker van glad volnerf leer.",
+    "pt": "Uma sapatilha baixa minimalista em pele flor integral lisa.",
+    "ru": "Минималистичные низкие кеды из гладкой натуральной кожи."
+   },
+   "description": {
+    "en": "Clean lines, smooth full-grain leather and a stitched rubber cupsole. The sneaker that goes with jeans, chinos and suits alike.",
+    "fr": "Des lignes épurées, un cuir pleine fleur lisse et une semelle cuvette cousue. La sneaker qui va avec le jean, le chino et même le costume.",
+    "es": "Líneas limpias, piel plena flor lisa y suela de caucho cosida. La zapatilla que combina con vaqueros, chinos e incluso traje.",
+    "it": "Linee pulite, pelle pieno fiore liscia e suola in gomma cucita. La sneaker che va con jeans, chino e persino con l'abito.",
+    "pl": "Czyste linie, gładka skóra licowa i przeszywana gumowa podeszwa. Sneaker do dżinsów, chinosów, a nawet garnituru.",
+    "de": "Klare Linien, glattes Vollnarbenleder und eine genähte Gummi-Cupsole. Der Sneaker zu Jeans, Chinos und sogar zum Anzug.",
+    "cs": "Čisté linie, hladká lícová kůže a prošívaná gumová podrážka. Teniska k džínům, chino kalhotám i obleku.",
+    "nl": "Strakke lijnen, glad volnerf leer en een gestikte rubberen cupzool. De sneaker bij jeans, chino's en zelfs een pak.",
+    "pt": "Linhas limpas, pele flor integral lisa e sola de borracha cosida. A sapatilha que combina com jeans, chinos e até fato.",
+    "ru": "Чистые линии, гладкая натуральная кожа и прошитая резиновая подошва. Кеды, которые подходят к джинсам, чиносам и даже костюму."
+   },
+   "features": {
+    "material": "leather-full",
+    "sole": "rubber",
+    "care": "wipe",
+    "origin": "portugal",
+    "shoefit": "true",
+    "build": "stitched"
+   },
+   "combinations": {
+    "size": [
+     "38",
+     "39",
+     "40",
+     "41",
+     "42",
+     "43",
+     "44",
+     "45"
+    ],
+    "color": [
+     "white",
+     "black"
+    ]
+   },
+   "images": [
+    "products/classic-leather-sneaker.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": true,
+   "related": [
+    "shoe-care-kit",
+    "merino-socks"
+   ]
+  },
+  {
+   "key": "suede-low-top",
+   "reference": "SA-102",
+   "category": "sneakers",
+   "brand": "stride-atelier",
+   "price": 109,
+   "name": {
+    "en": "Suede Low-Top",
+    "fr": "Sneaker basse en daim",
+    "es": "Zapatilla baja de ante",
+    "it": "Sneaker bassa in camoscio",
+    "pl": "Niski sneaker z zamszu",
+    "de": "Velours-Low-Top",
+    "cs": "Nízká semišová teniska",
+    "nl": "Suède low-top",
+    "pt": "Sapatilha baixa de camurça",
+    "ru": "Низкие замшевые кеды"
+   },
+   "short": {
+    "en": "A soft suede sneaker with a gum-coloured sole.",
+    "fr": "Une sneaker en daim doux avec semelle couleur gomme.",
+    "es": "Una zapatilla de ante suave con suela color goma.",
+    "it": "Una sneaker in camoscio morbido con suola color para.",
+    "pl": "Miękki zamszowy sneaker z podeszwą w kolorze kauczuku.",
+    "de": "Ein weicher Sneaker aus Veloursleder mit Naturgummisohle.",
+    "cs": "Měkká semišová teniska s podrážkou barvy kaučuku.",
+    "nl": "Een zachte suède sneaker met gomkleurige zool.",
+    "pt": "Uma sapatilha de camurça macia com sola cor de borracha natural.",
+    "ru": "Мягкие замшевые кеды с подошвой цвета каучука."
+   },
+   "description": {
+    "en": "Velvety suede, a padded collar and a gum rubber sole. Relaxed enough for weekends, smart enough for the office.",
+    "fr": "Un daim velouté, un col rembourré et une semelle en gomme. Assez décontractée pour le week-end, assez chic pour le bureau.",
+    "es": "Ante aterciopelado, cuello acolchado y suela de goma. Informal para el fin de semana y elegante para la oficina.",
+    "it": "Camoscio vellutato, collarino imbottito e suola in para. Informale per il weekend, elegante per l'ufficio.",
+    "pl": "Aksamitny zamsz, wyściełany kołnierz i kauczukowa podeszwa. Swobodny na weekend, elegancki do biura.",
+    "de": "Samtiges Veloursleder, gepolsterter Schaftrand und eine Naturgummisohle. Lässig fürs Wochenende, schick genug fürs Büro.",
+    "cs": "Sametový semiš, polstrovaný lem a kaučuková podrážka. Ležérní na víkend, elegantní do kanceláře.",
+    "nl": "Fluweelzacht suède, een gevoerde kraag en een gomzool. Relaxed voor het weekend, net genoeg voor kantoor.",
+    "pt": "Camurça aveludada, colarinho almofadado e sola de borracha natural. Descontraída ao fim de semana e elegante no escritório.",
+    "ru": "Бархатистая замша, мягкий кант и каучуковая подошва. Расслабленные для выходных, аккуратные для офиса."
+   },
+   "features": {
+    "material": "suede",
+    "sole": "rubber",
+    "care": "brush",
+    "origin": "portugal",
+    "shoefit": "true"
+   },
+   "combinations": {
+    "size": [
+     "38",
+     "39",
+     "40",
+     "41",
+     "42",
+     "43",
+     "44",
+     "45"
+    ],
+    "color": [
+     "grey",
+     "tan"
+    ]
+   },
+   "images": [
+    "products/suede-low-top.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "canvas-high-top",
+   "reference": "SA-103",
+   "category": "sneakers",
+   "brand": "solea",
+   "price": 69,
+   "name": {
+    "en": "Canvas High-Top",
+    "fr": "Sneaker montante en toile",
+    "es": "Zapatilla alta de lona",
+    "it": "Sneaker alta in tela",
+    "pl": "Wysokie trampki z płótna",
+    "de": "Canvas-High-Top",
+    "cs": "Vysoké plátěné tenisky",
+    "nl": "Canvas high-top",
+    "pt": "Sapatilha alta de lona",
+    "ru": "Высокие кеды из канваса"
+   },
+   "short": {
+    "en": "A classic canvas high-top with a vulcanised sole.",
+    "fr": "Une montante classique en toile à semelle vulcanisée.",
+    "es": "Una bota clásica de lona con suela vulcanizada.",
+    "it": "Una classica sneaker alta in tela con suola vulcanizzata.",
+    "pl": "Klasyczne wysokie trampki z płótna z wulkanizowaną podeszwą.",
+    "de": "Ein klassischer Canvas-High-Top mit vulkanisierter Sohle.",
+    "cs": "Klasické vysoké plátěnky s vulkanizovanou podrážkou.",
+    "nl": "Een klassieke canvas high-top met gevulkaniseerde zool.",
+    "pt": "Uma sapatilha alta clássica de lona com sola vulcanizada.",
+    "ru": "Классические высокие кеды из канваса с вулканизированной подошвой."
+   },
+   "description": {
+    "en": "Sturdy cotton canvas, metal eyelets and a flexible vulcanised sole. A timeless shape for every season.",
+    "fr": "Une toile de coton robuste, des œillets métalliques et une semelle vulcanisée souple. Une forme intemporelle pour toutes les saisons.",
+    "es": "Lona de algodón resistente, ojales metálicos y suela vulcanizada flexible. Una forma atemporal para todas las estaciones.",
+    "it": "Tela di cotone resistente, occhielli metallici e suola vulcanizzata flessibile. Una forma senza tempo per ogni stagione.",
+    "pl": "Mocne bawełniane płótno, metalowe oczka i elastyczna wulkanizowana podeszwa. Ponadczasowy fason na każdy sezon.",
+    "de": "Robustes Baumwoll-Canvas, Metallösen und eine flexible vulkanisierte Sohle. Eine zeitlose Form für jede Saison.",
+    "cs": "Pevné bavlněné plátno, kovová očka a ohebná vulkanizovaná podrážka. Nadčasový tvar na každou sezonu.",
+    "nl": "Stevig katoenen canvas, metalen vetergaatjes en een flexibele gevulkaniseerde zool. Een tijdloze vorm voor elk seizoen.",
+    "pt": "Lona de algodão resistente, ilhós metálicos e sola vulcanizada flexível. Uma forma intemporal para todas as estações.",
+    "ru": "Прочный хлопковый канвас, металлические люверсы и гибкая вулканизированная подошва. Вневременная форма на любой сезон."
+   },
+   "features": {
+    "material": "canvas",
+    "sole": "rubber",
+    "care": "wipe",
+    "origin": "vietnam",
+    "shoefit": "true"
+   },
+   "combinations": {
+    "size": [
+     "38",
+     "39",
+     "40",
+     "41",
+     "42",
+     "43",
+     "44",
+     "45"
+    ],
+    "color": [
+     "white",
+     "navy"
+    ]
+   },
+   "images": [
+    "products/canvas-high-top.jpg"
+   ],
+   "quantity": 30,
+   "discount": 20,
+   "new": false
+  },
+  {
+   "key": "knit-slip-on",
+   "reference": "SA-104",
+   "category": "sneakers",
+   "brand": "velo-runner",
+   "price": 89,
+   "name": {
+    "en": "Knit Slip-On",
+    "fr": "Slip-on en maille",
+    "es": "Slip-on de punto",
+    "it": "Slip-on in maglia",
+    "pl": "Wsuwane buty z dzianiny",
+    "de": "Strick-Slip-on",
+    "cs": "Pletené nazouváky",
+    "nl": "Knit slip-on",
+    "pt": "Slip-on de malha",
+    "ru": "Трикотажные слипоны"
+   },
+   "short": {
+    "en": "A light slip-on sneaker in recycled knit.",
+    "fr": "Une sneaker slip-on légère en maille recyclée.",
+    "es": "Una zapatilla slip-on ligera de punto reciclado.",
+    "it": "Una sneaker slip-on leggera in maglia riciclata.",
+    "pl": "Lekkie wsuwane sneakersy z dzianiny z recyklingu.",
+    "de": "Ein leichter Slip-on aus recyceltem Strick.",
+    "cs": "Lehké nazouvací tenisky z recyklovaného úpletu.",
+    "nl": "Een lichte slip-on sneaker van gerecycled breiwerk.",
+    "pt": "Uma sapatilha slip-on leve em malha reciclada.",
+    "ru": "Лёгкие слипоны из переработанного трикотажа."
+   },
+   "description": {
+    "en": "A sock-like upper knitted from recycled bottles and a cushioned EVA sole. Slip it on, and it is machine washable too.",
+    "fr": "Une tige façon chaussette tricotée à partir de bouteilles recyclées et une semelle EVA amortie. Elle s'enfile en un geste et passe en machine.",
+    "es": "Un empeine tipo calcetín tejido con botellas recicladas y suela de EVA amortiguada. Se calza en un segundo y se puede lavar a máquina.",
+    "it": "Una tomaia a calza ottenuta da bottiglie riciclate e una suola in EVA ammortizzata. Si infila al volo ed è lavabile in lavatrice.",
+    "pl": "Cholewka jak skarpeta z butelek z recyklingu i amortyzowana podeszwa EVA. Wsuwasz i idziesz – można je prać w pralce.",
+    "de": "Ein sockenartiges Obermaterial aus recycelten Flaschen und eine gedämpfte EVA-Sohle. Schnell angezogen und maschinenwaschbar.",
+    "cs": "Svršek jako ponožka z recyklovaných lahví a odpružená podrážka EVA. Nazujete je hned a lze je prát v pračce.",
+    "nl": "Een sokachtige bovenkant gebreid van gerecyclede flessen en een gedempte EVA-zool. Zo aan, en ook nog machinewasbaar.",
+    "pt": "Um corpo tipo meia tecido com garrafas recicladas e sola EVA amortecida. Calça-se num instante e pode ir à máquina.",
+    "ru": "Верх-носок из переработанных бутылок и амортизирующая подошва EVA. Надеваются в одно движение и стираются в машине."
+   },
+   "features": {
+    "material": "knit-recycled",
+    "sole": "eva",
+    "care": "machine",
+    "origin": "vietnam",
+    "shoefit": "true"
+   },
+   "combinations": {
+    "size": [
+     "38",
+     "39",
+     "40",
+     "41",
+     "42",
+     "43",
+     "44",
+     "45"
+    ],
+    "color": [
+     "black",
+     "grey"
+    ]
+   },
+   "images": [
+    "products/knit-slip-on.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "road-runner",
+   "reference": "SA-201",
+   "category": "running",
+   "brand": "velo-runner",
+   "price": 139,
+   "name": {
+    "en": "Road Runner",
+    "fr": "Road Runner",
+    "es": "Road Runner",
+    "it": "Road Runner",
+    "pl": "Road Runner",
+    "de": "Road Runner",
+    "cs": "Road Runner",
+    "nl": "Road Runner",
+    "pt": "Road Runner",
+    "ru": "Road Runner"
+   },
+   "short": {
+    "en": "A cushioned daily trainer for road running.",
+    "fr": "Une chaussure d'entraînement amortie pour la course sur route.",
+    "es": "Una zapatilla de entrenamiento amortiguada para asfalto.",
+    "it": "Una scarpa da allenamento ammortizzata per la strada.",
+    "pl": "Amortyzowany but treningowy do biegania po asfalcie.",
+    "de": "Ein gedämpfter Trainingsschuh für die Straße.",
+    "cs": "Odpružená tréninková bota na silniční běh.",
+    "nl": "Een gedempte trainingsschoen voor op de weg.",
+    "pt": "Uma sapatilha de treino amortecida para estrada.",
+    "ru": "Амортизирующие кроссовки для бега по асфальту."
+   },
+   "description": {
+    "en": "Responsive EVA foam, a breathable mesh upper and an 8 mm drop. Built for easy runs and long weekend miles.",
+    "fr": "Une mousse EVA dynamique, une tige en mesh respirant et un drop de 8 mm. Faite pour les footings faciles et les longues sorties du week-end.",
+    "es": "Espuma EVA reactiva, empeine de malla transpirable y drop de 8 mm. Para rodajes suaves y tiradas largas de fin de semana.",
+    "it": "Schiuma EVA reattiva, tomaia in mesh traspirante e drop di 8 mm. Per le corse facili e i lunghi del weekend.",
+    "pl": "Responsywna pianka EVA, przewiewna siatka i drop 8 mm. Do spokojnych biegów i długich weekendowych wybiegań.",
+    "de": "Reaktiver EVA-Schaum, atmungsaktives Mesh und 8 mm Sprengung. Für lockere Läufe und lange Wochenendkilometer.",
+    "cs": "Reaktivní pěna EVA, prodyšná síťovina a drop 8 mm. Na lehké běhy a dlouhé víkendové kilometry.",
+    "nl": "Responsief EVA-schuim, ademende mesh en 8 mm drop. Voor rustige rondjes en lange weekendkilometers.",
+    "pt": "Espuma EVA reativa, corpo em malha respirável e drop de 8 mm. Para corridas tranquilas e treinos longos ao fim de semana.",
+    "ru": "Отзывчивая пена EVA, дышащая сетка и перепад 8 мм. Для лёгких пробежек и длинных выходных тренировок."
+   },
+   "features": {
+    "material": "mesh",
+    "sole": "eva",
+    "care": "wipe",
+    "origin": "vietnam",
+    "shoefit": "true"
+   },
+   "combinations": {
+    "size": [
+     "38",
+     "39",
+     "40",
+     "41",
+     "42",
+     "43",
+     "44",
+     "45"
+    ],
+    "color": [
+     "orange",
+     "black"
+    ]
+   },
+   "images": [
+    "products/road-runner.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false,
+   "related": [
+    "merino-socks",
+    "trail-runner"
+   ]
+  },
+  {
+   "key": "trail-runner",
+   "reference": "SA-202",
+   "category": "running",
+   "brand": "velo-runner",
+   "price": 149,
+   "name": {
+    "en": "Trail Runner",
+    "fr": "Trail Runner",
+    "es": "Trail Runner",
+    "it": "Trail Runner",
+    "pl": "Trail Runner",
+    "de": "Trail Runner",
+    "cs": "Trail Runner",
+    "nl": "Trail Runner",
+    "pt": "Trail Runner",
+    "ru": "Trail Runner"
+   },
+   "short": {
+    "en": "A grippy trail shoe with a protective toe cap.",
+    "fr": "Une chaussure de trail accrocheuse avec pare-pierres.",
+    "es": "Una zapatilla de trail con agarre y puntera protectora.",
+    "it": "Una scarpa da trail con grip e puntale protettivo.",
+    "pl": "Przyczepny but trailowy z ochronnym noskiem.",
+    "de": "Ein griffiger Trailschuh mit Zehenschutz.",
+    "cs": "Přilnavá trailová bota s ochrannou špičkou.",
+    "nl": "Een grippy trailschoen met beschermende neus.",
+    "pt": "Uma sapatilha de trail com aderência e biqueira protetora.",
+    "ru": "Цепкие трейловые кроссовки с защитным носком."
+   },
+   "description": {
+    "en": "Deep lugs grip mud and rock, a rock plate protects underfoot, and the toe cap takes the knocks.",
+    "fr": "Des crampons profonds accrochent la boue et la roche, une plaque protège le pied et le pare-pierres encaisse les chocs.",
+    "es": "Tacos profundos que agarran en barro y roca, placa protectora bajo el pie y puntera que aguanta los golpes.",
+    "it": "Tasselli profondi che aderiscono su fango e roccia, piastra protettiva sotto il piede e puntale che assorbe i colpi.",
+    "pl": "Głęboki bieżnik trzyma się błota i skał, płytka chroni stopę, a nosek przyjmuje uderzenia.",
+    "de": "Tiefe Stollen greifen auf Matsch und Fels, eine Steinschutzplatte schützt die Sohle, die Zehenkappe steckt Stöße weg.",
+    "cs": "Hluboký dezén drží v blátě i na skále, destička chrání chodidlo a špička zachytí nárazy.",
+    "nl": "Diepe noppen grijpen in modder en rots, een rotsplaat beschermt de voet en de neus vangt stoten op.",
+    "pt": "Pitons profundos que agarram na lama e na rocha, placa protetora sob o pé e biqueira que aguenta os impactos.",
+    "ru": "Глубокие шипы держат на грязи и камнях, защитная пластина бережёт стопу, а носок принимает удары."
+   },
+   "features": {
+    "material": "mesh",
+    "sole": "lug",
+    "care": "wipe",
+    "origin": "vietnam",
+    "shoefit": "true"
+   },
+   "combinations": {
+    "size": [
+     "38",
+     "39",
+     "40",
+     "41",
+     "42",
+     "43",
+     "44",
+     "45"
+    ],
+    "color": [
+     "green",
+     "grey"
+    ]
+   },
+   "images": [
+    "products/trail-runner.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": true
+  },
+  {
+   "key": "lightweight-trainer",
+   "reference": "SA-203",
+   "category": "running",
+   "brand": "velo-runner",
+   "price": 109,
+   "name": {
+    "en": "Lightweight Trainer",
+    "fr": "Trainer légère",
+    "es": "Zapatilla ligera de entrenamiento",
+    "it": "Scarpa leggera da allenamento",
+    "pl": "Lekki but treningowy",
+    "de": "Leichter Trainingsschuh",
+    "cs": "Lehká tréninková bota",
+    "nl": "Lichte trainingsschoen",
+    "pt": "Sapatilha de treino leve",
+    "ru": "Лёгкие тренировочные кроссовки"
+   },
+   "short": {
+    "en": "A light, flexible shoe for gym and short runs.",
+    "fr": "Une chaussure légère et souple pour la salle et les sorties courtes.",
+    "es": "Una zapatilla ligera y flexible para el gimnasio y rodajes cortos.",
+    "it": "Una scarpa leggera e flessibile per palestra e uscite brevi.",
+    "pl": "Lekki, elastyczny but na siłownię i krótkie biegi.",
+    "de": "Ein leichter, flexibler Schuh für Gym und kurze Läufe.",
+    "cs": "Lehká ohebná bota do posilovny a na krátké běhy.",
+    "nl": "Een lichte, flexibele schoen voor de gym en korte runs.",
+    "pt": "Uma sapatilha leve e flexível para o ginásio e corridas curtas.",
+    "ru": "Лёгкие гибкие кроссовки для зала и коротких пробежек."
+   },
+   "description": {
+    "en": "Just 240 g, with a flexible sole and a breathable upper. Ideal for interval training, the gym and short runs.",
+    "fr": "Seulement 240 g, une semelle souple et une tige respirante. Idéale pour le fractionné, la salle et les courtes sorties.",
+    "es": "Solo 240 g, suela flexible y empeine transpirable. Ideal para series, gimnasio y rodajes cortos.",
+    "it": "Solo 240 g, suola flessibile e tomaia traspirante. Ideale per ripetute, palestra e corse brevi.",
+    "pl": "Tylko 240 g, elastyczna podeszwa i przewiewna cholewka. Idealny na interwały, siłownię i krótkie biegi.",
+    "de": "Nur 240 g, mit flexibler Sohle und atmungsaktivem Obermaterial. Ideal für Intervalle, das Gym und kurze Läufe.",
+    "cs": "Jen 240 g, ohebná podrážka a prodyšný svršek. Ideální na intervaly, posilovnu a krátké běhy.",
+    "nl": "Slechts 240 g, met een flexibele zool en ademende bovenkant. Ideaal voor intervallen, de gym en korte runs.",
+    "pt": "Apenas 240 g, sola flexível e corpo respirável. Ideal para séries, ginásio e corridas curtas.",
+    "ru": "Всего 240 г, гибкая подошва и дышащий верх. Идеальны для интервалов, зала и коротких пробежек."
+   },
+   "features": {
+    "material": "mesh",
+    "sole": "eva",
+    "care": "wipe",
+    "origin": "vietnam",
+    "shoefit": "true"
+   },
+   "combinations": {
+    "size": [
+     "38",
+     "39",
+     "40",
+     "41",
+     "42",
+     "43",
+     "44",
+     "45"
+    ],
+    "color": [
+     "navy",
+     "white"
+    ]
+   },
+   "images": [
+    "products/lightweight-trainer.jpg"
+   ],
+   "quantity": 30,
+   "discount": 25,
+   "new": false
+  },
+  {
+   "key": "race-flat",
+   "reference": "SA-204",
+   "category": "running",
+   "brand": "velo-runner",
+   "price": 129,
+   "name": {
+    "en": "Race Flat",
+    "fr": "Chaussure de compétition",
+    "es": "Voladora de competición",
+    "it": "Scarpa da gara",
+    "pl": "Startówka",
+    "de": "Wettkampfschuh",
+    "cs": "Závodka",
+    "nl": "Wedstrijdschoen",
+    "pt": "Sapatilha de competição",
+    "ru": "Марафонки"
+   },
+   "short": {
+    "en": "A low-profile racing shoe for fast days.",
+    "fr": "Une chaussure de course basse pour les jours rapides.",
+    "es": "Una zapatilla de competición de perfil bajo para los días rápidos.",
+    "it": "Una scarpa da gara a basso profilo per i giorni veloci.",
+    "pl": "Niski but startowy na szybkie dni.",
+    "de": "Ein flacher Wettkampfschuh für schnelle Tage.",
+    "cs": "Nízká závodní bota na rychlé dny.",
+    "nl": "Een lage wedstrijdschoen voor snelle dagen.",
+    "pt": "Uma sapatilha de competição de perfil baixo para os dias rápidos.",
+    "ru": "Низкопрофильные гоночные кроссовки для быстрых дней."
+   },
+   "description": {
+    "en": "A firm, springy midsole and a minimal upper for 5K to half-marathon race days.",
+    "fr": "Une semelle intermédiaire ferme et dynamique et une tige minimaliste pour les courses du 5 km au semi-marathon.",
+    "es": "Mediasuela firme y reactiva y empeine minimalista para carreras de 5 km a media maratón.",
+    "it": "Intersuola compatta e reattiva e tomaia minimal per le gare dai 5 km alla mezza maratona.",
+    "pl": "Twarda, sprężysta podeszwa środkowa i minimalistyczna cholewka na zawody od 5 km do półmaratonu.",
+    "de": "Eine feste, federnde Zwischensohle und ein minimalistisches Obermaterial für Rennen von 5 km bis zum Halbmarathon.",
+    "cs": "Pevná pružná mezipodešev a minimalistický svršek na závody od 5 km po půlmaraton.",
+    "nl": "Een stevige, verende tussenzool en een minimale bovenkant voor wedstrijden van 5 km tot de halve marathon.",
+    "pt": "Entressola firme e reativa e corpo minimalista para provas dos 5 km à meia maratona.",
+    "ru": "Жёсткая пружинящая промежуточная подошва и минималистичный верх для забегов от 5 км до полумарафона."
+   },
+   "features": {
+    "material": "mesh",
+    "sole": "eva",
+    "care": "wipe",
+    "origin": "vietnam",
+    "shoefit": "true"
+   },
+   "combinations": {
+    "size": [
+     "38",
+     "39",
+     "40",
+     "41",
+     "42",
+     "43",
+     "44",
+     "45"
+    ],
+    "color": [
+     "red",
+     "white"
+    ]
+   },
+   "images": [
+    "products/race-flat.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "chelsea-boot",
+   "reference": "SA-301",
+   "category": "boots",
+   "brand": "ironpeak",
+   "price": 189,
+   "name": {
+    "en": "Chelsea Boot",
+    "fr": "Boots Chelsea",
+    "es": "Bota Chelsea",
+    "it": "Chelsea boot",
+    "pl": "Sztyblety Chelsea",
+    "de": "Chelsea Boot",
+    "cs": "Chelsea boty",
+    "nl": "Chelsea boot",
+    "pt": "Bota Chelsea",
+    "ru": "Челси"
+   },
+   "short": {
+    "en": "A leather Chelsea boot with elastic sides.",
+    "fr": "Une boots Chelsea en cuir à élastiques latéraux.",
+    "es": "Una bota Chelsea de piel con elásticos laterales.",
+    "it": "Uno stivaletto Chelsea in pelle con elastici laterali.",
+    "pl": "Skórzane sztyblety z gumowymi wstawkami po bokach.",
+    "de": "Ein Chelsea Boot aus Leder mit seitlichen Gummizügen.",
+    "cs": "Kožené kotníkové boty Chelsea s pružnými boky.",
+    "nl": "Een leren Chelsea boot met elastiek aan de zijkant.",
+    "pt": "Uma bota Chelsea de pele com elásticos laterais.",
+    "ru": "Кожаные челси с эластичными вставками."
+   },
+   "description": {
+    "en": "Full-grain leather, elastic side panels and a pull tab. Slip on, slip off and wear with everything.",
+    "fr": "Cuir pleine fleur, élastiques latéraux et tirette. Elle s'enfile, s'enlève et se porte avec tout.",
+    "es": "Piel plena flor, elásticos laterales y tirador. Se pone, se quita y combina con todo.",
+    "it": "Pelle pieno fiore, elastici laterali e linguetta. Si infila, si sfila e sta bene con tutto.",
+    "pl": "Skóra licowa, elastyczne boki i uchwyt do wciągania. Szybko zakładasz, szybko zdejmujesz – pasują do wszystkiego.",
+    "de": "Vollnarbenleder, seitliche Gummizüge und eine Anziehschlaufe. Schnell an, schnell aus und passt zu allem.",
+    "cs": "Lícová kůže, pružné boční vsadky a poutko. Rychle nazout, rychle zout – hodí se ke všemu.",
+    "nl": "Volnerf leer, elastische zijpanelen en een aantreklus. Snel aan, snel uit en draagbaar bij alles.",
+    "pt": "Pele flor integral, elásticos laterais e puxador. Calça-se, descalça-se e combina com tudo.",
+    "ru": "Натуральная кожа, эластичные боковые вставки и ушко. Быстро надеть, быстро снять — и подходят ко всему."
+   },
+   "features": {
+    "material": "leather-full",
+    "sole": "rubber",
+    "care": "wipe",
+    "origin": "portugal",
+    "shoefit": "true",
+    "build": "stitched"
+   },
+   "combinations": {
+    "size": [
+     "38",
+     "39",
+     "40",
+     "41",
+     "42",
+     "43",
+     "44",
+     "45"
+    ],
+    "color": [
+     "brown",
+     "black"
+    ]
+   },
+   "images": [
+    "products/chelsea-boot.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": true,
+   "related": [
+    "cedar-shoe-trees",
+    "shoe-care-kit"
+   ]
+  },
+  {
+   "key": "hiking-boot",
+   "reference": "SA-302",
+   "category": "boots",
+   "brand": "ironpeak",
+   "price": 199,
+   "name": {
+    "en": "Hiking Boot",
+    "fr": "Chaussure de randonnée",
+    "es": "Bota de montaña",
+    "it": "Scarpone da trekking",
+    "pl": "But trekkingowy",
+    "de": "Wanderstiefel",
+    "cs": "Turistická obuv",
+    "nl": "Wandelschoen",
+    "pt": "Bota de caminhada",
+    "ru": "Треккинговые ботинки"
+   },
+   "short": {
+    "en": "A waterproof nubuck hiking boot with a lugged sole.",
+    "fr": "Une chaussure de randonnée en nubuck imperméable à semelle crantée.",
+    "es": "Una bota de montaña de nobuk impermeable con suela de tacos.",
+    "it": "Uno scarpone in nabuk impermeabile con suola scolpita.",
+    "pl": "Wodoodporny nubukowy but trekkingowy z podeszwą z bieżnikiem.",
+    "de": "Ein wasserdichter Wanderstiefel aus Nubuk mit Profilsohle.",
+    "cs": "Nepromokavá nubuková turistická obuv s dezénem.",
+    "nl": "Een waterdichte nubuck wandelschoen met profielzool.",
+    "pt": "Uma bota de caminhada em nobuck impermeável com sola de relevo.",
+    "ru": "Водостойкие ботинки из нубука с рифлёной подошвой."
+   },
+   "description": {
+    "en": "Waterproof nubuck, a padded ankle collar and a lugged rubber sole that grips on rock, mud and snow.",
+    "fr": "Nubuck imperméable, col de cheville rembourré et semelle crantée qui accroche sur la roche, la boue et la neige.",
+    "es": "Nobuk impermeable, collar de tobillo acolchado y suela de tacos que agarra en roca, barro y nieve.",
+    "it": "Nabuk impermeabile, collarino imbottito e suola scolpita che fa presa su roccia, fango e neve.",
+    "pl": "Wodoodporny nubuk, wyściełany kołnierz i bieżnik trzymający się skał, błota i śniegu.",
+    "de": "Wasserdichtes Nubukleder, gepolsterter Knöchelbereich und eine Profilsohle mit Halt auf Fels, Matsch und Schnee.",
+    "cs": "Nepromokavý nubuk, polstrovaný lem kotníku a podrážka s dezénem, která drží na skále, v blátě i na sněhu.",
+    "nl": "Waterdicht nubuck, een gevoerde enkelkraag en een profielzool die grip houdt op rots, modder en sneeuw.",
+    "pt": "Nobuck impermeável, colarinho almofadado e sola com relevo que agarra na rocha, na lama e na neve.",
+    "ru": "Водостойкий нубук, мягкий кант у щиколотки и рифлёная подошва, которая держит на камнях, грязи и снегу."
+   },
+   "features": {
+    "material": "nubuck",
+    "sole": "lug",
+    "care": "brush",
+    "origin": "italy",
+    "shoefit": "true"
+   },
+   "combinations": {
+    "size": [
+     "38",
+     "39",
+     "40",
+     "41",
+     "42",
+     "43",
+     "44",
+     "45"
+    ],
+    "color": [
+     "brown"
+    ]
+   },
+   "images": [
+    "products/hiking-boot.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "desert-boot",
+   "reference": "SA-303",
+   "category": "boots",
+   "brand": "stride-atelier",
+   "price": 139,
+   "name": {
+    "en": "Desert Boot",
+    "fr": "Desert boot",
+    "es": "Bota desert",
+    "it": "Desert boot",
+    "pl": "Desert boots",
+    "de": "Desert Boot",
+    "cs": "Desert boty",
+    "nl": "Desert boot",
+    "pt": "Desert boot",
+    "ru": "Дезерты"
+   },
+   "short": {
+    "en": "A soft suede desert boot on a natural crepe sole.",
+    "fr": "Une desert boot en daim souple sur semelle en crêpe naturel.",
+    "es": "Una bota desert de ante suave con suela de crepé natural.",
+    "it": "Una desert boot in camoscio morbido con suola in para naturale.",
+    "pl": "Miękkie zamszowe desert boots na naturalnej krepie.",
+    "de": "Ein weicher Desert Boot aus Veloursleder auf Naturkreppsohle.",
+    "cs": "Měkké semišové desert boty na přírodní krepové podrážce.",
+    "nl": "Een zachte suède desert boot op een natuurlijke crêpezool.",
+    "pt": "Uma desert boot de camurça macia com sola de crepe natural.",
+    "ru": "Мягкие замшевые дезерты на подошве из натурального крепа."
+   },
+   "description": {
+    "en": "Two-eyelet suede uppers on a soft natural crepe sole. Lightweight, comfortable and endlessly versatile.",
+    "fr": "Une tige en daim à deux œillets sur une semelle en crêpe naturel souple. Légère, confortable et polyvalente à l'infini.",
+    "es": "Ante con dos ojales sobre una suave suela de crepé natural. Ligera, cómoda e infinitamente versátil.",
+    "it": "Tomaia in camoscio a due occhielli su una morbida suola in para naturale. Leggera, comoda e versatile.",
+    "pl": "Zamszowa cholewka z dwoma oczkami na miękkiej naturalnej krepie. Lekkie, wygodne i niezwykle uniwersalne.",
+    "de": "Velours-Obermaterial mit zwei Ösen auf einer weichen Naturkreppsohle. Leicht, bequem und unendlich vielseitig.",
+    "cs": "Semišový svršek se dvěma očky na měkké přírodní krepové podrážce. Lehké, pohodlné a nekonečně univerzální.",
+    "nl": "Suède bovenwerk met twee vetergaten op een zachte natuurlijke crêpezool. Licht, comfortabel en eindeloos veelzijdig.",
+    "pt": "Corpo em camurça com dois ilhós sobre uma macia sola de crepe natural. Leve, confortável e infinitamente versátil.",
+    "ru": "Замшевый верх на двух люверсах и мягкая подошва из натурального крепа. Лёгкие, удобные и бесконечно универсальные."
+   },
+   "features": {
+    "material": "suede",
+    "sole": "crepe",
+    "care": "brush",
+    "origin": "portugal",
+    "shoefit": "large",
+    "build": "stitched"
+   },
+   "combinations": {
+    "size": [
+     "38",
+     "39",
+     "40",
+     "41",
+     "42",
+     "43",
+     "44",
+     "45"
+    ],
+    "color": [
+     "tan",
+     "stone"
+    ]
+   },
+   "images": [
+    "products/desert-boot.jpg"
+   ],
+   "quantity": 30,
+   "discount": 15,
+   "new": false
+  },
+  {
+   "key": "winter-boot",
+   "reference": "SA-304",
+   "category": "boots",
+   "brand": "ironpeak",
+   "price": 219,
+   "name": {
+    "en": "Winter Boot",
+    "fr": "Bottine d'hiver",
+    "es": "Bota de invierno",
+    "it": "Stivaletto invernale",
+    "pl": "But zimowy",
+    "de": "Winterstiefel",
+    "cs": "Zimní obuv",
+    "nl": "Winterboot",
+    "pt": "Bota de inverno",
+    "ru": "Зимние ботинки"
+   },
+   "short": {
+    "en": "A warm, lined leather boot for icy days.",
+    "fr": "Une bottine en cuir fourrée et chaude pour les jours de verglas.",
+    "es": "Una bota de piel forrada y cálida para días de hielo.",
+    "it": "Uno stivaletto in pelle foderato e caldo per le giornate di ghiaccio.",
+    "pl": "Ciepły ocieplany skórzany but na oblodzone dni.",
+    "de": "Ein warm gefütterter Lederstiefel für eisige Tage.",
+    "cs": "Teplá zateplená kožená obuv na náledí.",
+    "nl": "Een warm gevoerde leren boot voor ijzige dagen.",
+    "pt": "Uma bota de pele forrada e quente para dias de gelo.",
+    "ru": "Тёплые утеплённые кожаные ботинки для гололёда."
+   },
+   "description": {
+    "en": "Warm wool lining, a sealed leather upper and a lugged sole with an ice-grip compound.",
+    "fr": "Une doublure chaude en laine, une tige en cuir étanche et une semelle crantée à gomme antiglisse.",
+    "es": "Forro cálido de lana, empeine de piel sellado y suela de tacos con compuesto antideslizante para el hielo.",
+    "it": "Fodera calda in lana, tomaia in pelle sigillata e suola scolpita con mescola antiscivolo per il ghiaccio.",
+    "pl": "Ciepła wełniana podszewka, uszczelniona skóra i podeszwa z bieżnikiem z mieszanką antypoślizgową na lód.",
+    "de": "Warmes Wollfutter, versiegeltes Leder und eine Profilsohle mit Eisgrip-Mischung.",
+    "cs": "Teplá vlněná podšívka, utěsněná kůže a podrážka s dezénem a směsí proti ledu.",
+    "nl": "Warme wollen voering, afgedicht leer en een profielzool met ijsgrip-rubber.",
+    "pt": "Forro quente de lã, pele selada e sola com relevo em composto antiderrapante para o gelo.",
+    "ru": "Тёплая шерстяная подкладка, герметичная кожа и рифлёная подошва с противоскользящей резиной для льда."
+   },
+   "features": {
+    "material": "leather-full",
+    "sole": "lug",
+    "care": "wipe",
+    "origin": "italy",
+    "shoefit": "true"
+   },
+   "combinations": {
+    "size": [
+     "38",
+     "39",
+     "40",
+     "41",
+     "42",
+     "43",
+     "44",
+     "45"
+    ],
+    "color": [
+     "black"
+    ]
+   },
+   "images": [
+    "products/winter-boot.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "leather-slide",
+   "reference": "SA-401",
+   "category": "sandals",
+   "brand": "solea",
+   "price": 59,
+   "name": {
+    "en": "Leather Slide",
+    "fr": "Mule en cuir",
+    "es": "Chancla de piel",
+    "it": "Ciabatta in pelle",
+    "pl": "Skórzany klapek",
+    "de": "Leder-Pantolette",
+    "cs": "Kožené pantofle",
+    "nl": "Leren slipper",
+    "pt": "Chinelo de pele",
+    "ru": "Кожаные шлёпанцы"
+   },
+   "short": {
+    "en": "A simple leather slide with a moulded footbed.",
+    "fr": "Une mule simple en cuir avec semelle anatomique.",
+    "es": "Una chancla sencilla de piel con plantilla anatómica.",
+    "it": "Una semplice ciabatta in pelle con plantare anatomico.",
+    "pl": "Prosty skórzany klapek z wyprofilowaną wkładką.",
+    "de": "Eine schlichte Leder-Pantolette mit geformtem Fußbett.",
+    "cs": "Jednoduché kožené pantofle s tvarovanou stélkou.",
+    "nl": "Een eenvoudige leren slipper met gevormd voetbed.",
+    "pt": "Um chinelo simples de pele com palmilha anatómica.",
+    "ru": "Простые кожаные шлёпанцы с анатомической стелькой."
+   },
+   "description": {
+    "en": "A wide leather strap and a moulded footbed that supports the arch. Easy to wear from the beach to dinner.",
+    "fr": "Une large bride en cuir et une semelle moulée qui soutient la voûte plantaire. De la plage au dîner.",
+    "es": "Una tira ancha de piel y una plantilla moldeada que sujeta el arco. De la playa a la cena.",
+    "it": "Una larga fascia in pelle e un plantare modellato che sostiene l'arco plantare. Dalla spiaggia alla cena.",
+    "pl": "Szeroki skórzany pasek i wyprofilowana wkładka podtrzymująca łuk stopy. Od plaży po kolację.",
+    "de": "Ein breiter Lederriemen und ein geformtes Fußbett, das das Gewölbe stützt. Vom Strand bis zum Abendessen.",
+    "cs": "Široký kožený pásek a tvarovaná stélka, která podepírá klenbu. Z pláže až na večeři.",
+    "nl": "Een brede leren band en een gevormd voetbed dat de voetboog ondersteunt. Van het strand tot het diner.",
+    "pt": "Uma tira larga de pele e uma palmilha moldada que apoia o arco do pé. Da praia ao jantar.",
+    "ru": "Широкий кожаный ремешок и фигурная стелька, поддерживающая свод стопы. С пляжа — на ужин."
+   },
+   "features": {
+    "material": "leather-full",
+    "sole": "rubber",
+    "care": "wipe",
+    "origin": "spain",
+    "shoefit": "true"
+   },
+   "combinations": {
+    "size": [
+     "36",
+     "37",
+     "38",
+     "39",
+     "40",
+     "41",
+     "42",
+     "43",
+     "44"
+    ],
+    "color": [
+     "tan",
+     "black"
+    ]
+   },
+   "images": [
+    "products/leather-slide.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "trek-sandal",
+   "reference": "SA-402",
+   "category": "sandals",
+   "brand": "solea",
+   "price": 79,
+   "name": {
+    "en": "Trek Sandal",
+    "fr": "Sandale de marche",
+    "es": "Sandalia de trekking",
+    "it": "Sandalo da trekking",
+    "pl": "Sandał trekkingowy",
+    "de": "Trekkingsandale",
+    "cs": "Trekový sandál",
+    "nl": "Trekkingsandaal",
+    "pt": "Sandália de trekking",
+    "ru": "Треккинговые сандалии"
+   },
+   "short": {
+    "en": "An adjustable sport sandal for walks and water.",
+    "fr": "Une sandale sport réglable pour la marche et l'eau.",
+    "es": "Una sandalia deportiva regulable para caminar y para el agua.",
+    "it": "Un sandalo sportivo regolabile per camminate e acqua.",
+    "pl": "Regulowany sportowy sandał na spacery i do wody.",
+    "de": "Eine verstellbare Sportsandale für Wege und Wasser.",
+    "cs": "Nastavitelný sportovní sandál na výlety i do vody.",
+    "nl": "Een verstelbare sportsandaal voor wandelingen en water.",
+    "pt": "Uma sandália desportiva ajustável para caminhadas e água.",
+    "ru": "Регулируемые спортивные сандалии для прогулок и воды."
+   },
+   "description": {
+    "en": "Three adjustable straps, quick-dry webbing and a grippy sole. Made for hikes, rivers and city summers.",
+    "fr": "Trois brides réglables, des sangles à séchage rapide et une semelle accrocheuse. Pour la rando, les rivières et l'été en ville.",
+    "es": "Tres tiras regulables, cinchas de secado rápido y suela con agarre. Para senderos, ríos y veranos en la ciudad.",
+    "it": "Tre cinturini regolabili, fettucce ad asciugatura rapida e suola con grip. Per escursioni, fiumi ed estati in città.",
+    "pl": "Trzy regulowane paski, szybkoschnące taśmy i przyczepna podeszwa. Na szlaki, rzeki i miejskie lato.",
+    "de": "Drei verstellbare Riemen, schnell trocknende Gurte und eine griffige Sohle. Für Wanderungen, Flüsse und Stadtsommer.",
+    "cs": "Tři nastavitelné pásky, rychleschnoucí popruhy a přilnavá podrážka. Na stezky, řeky i městské léto.",
+    "nl": "Drie verstelbare banden, sneldrogend webbing en een grippy zool. Voor hikes, rivieren en stadszomers.",
+    "pt": "Três tiras ajustáveis, fitas de secagem rápida e sola com aderência. Para trilhos, rios e verões na cidade.",
+    "ru": "Три регулируемых ремешка, быстросохнущие стропы и цепкая подошва. Для походов, рек и городского лета."
+   },
+   "features": {
+    "material": "nylon",
+    "sole": "lug",
+    "care": "machine",
+    "origin": "portugal",
+    "shoefit": "true"
+   },
+   "combinations": {
+    "size": [
+     "38",
+     "39",
+     "40",
+     "41",
+     "42",
+     "43",
+     "44",
+     "45"
+    ],
+    "color": [
+     "black",
+     "green"
+    ]
+   },
+   "images": [
+    "products/trek-sandal.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "espadrille",
+   "reference": "SA-403",
+   "category": "sandals",
+   "brand": "solea",
+   "price": 49,
+   "name": {
+    "en": "Canvas Espadrille",
+    "fr": "Espadrille en toile",
+    "es": "Alpargata de lona",
+    "it": "Espadrillas in tela",
+    "pl": "Espadryle z płótna",
+    "de": "Canvas-Espadrille",
+    "cs": "Plátěné espadrilky",
+    "nl": "Canvas espadrille",
+    "pt": "Alpercata de lona",
+    "ru": "Эспадрильи из канваса"
+   },
+   "short": {
+    "en": "A classic espadrille with a braided jute sole.",
+    "fr": "Une espadrille classique à semelle en jute tressé.",
+    "es": "Una alpargata clásica con suela de yute trenzado.",
+    "it": "Un'espadrillas classica con suola in juta intrecciata.",
+    "pl": "Klasyczne espadryle z podeszwą z plecionej juty.",
+    "de": "Eine klassische Espadrille mit Sohle aus geflochtener Jute.",
+    "cs": "Klasické espadrilky s podrážkou z pletené juty.",
+    "nl": "Een klassieke espadrille met zool van gevlochten jute.",
+    "pt": "Uma alpercata clássica com sola de juta entrançada.",
+    "ru": "Классические эспадрильи с подошвой из плетёного джута."
+   },
+   "description": {
+    "en": "Soft canvas uppers stitched by hand to a braided jute sole. The summer classic, made in Spain.",
+    "fr": "Une tige en toile souple cousue main sur une semelle en jute tressé. Le classique de l'été, fabriqué en Espagne.",
+    "es": "Lona suave cosida a mano sobre una suela de yute trenzado. El clásico del verano, hecho en España.",
+    "it": "Tela morbida cucita a mano su una suola in juta intrecciata. Il classico dell'estate, fatto in Spagna.",
+    "pl": "Miękkie płótno ręcznie przyszyte do podeszwy z plecionej juty. Letni klasyk z Hiszpanii.",
+    "de": "Weiches Canvas, von Hand auf eine Sohle aus geflochtener Jute genäht. Der Sommerklassiker, hergestellt in Spanien.",
+    "cs": "Měkké plátno ručně přišité k podrážce z pletené juty. Letní klasika vyrobená ve Španělsku.",
+    "nl": "Zacht canvas met de hand op een zool van gevlochten jute genaaid. De zomerklassieker, gemaakt in Spanje.",
+    "pt": "Lona macia cosida à mão numa sola de juta entrançada. O clássico de verão, feito em Espanha.",
+    "ru": "Мягкий канвас, вручную пришитый к подошве из плетёного джута. Летняя классика, сделанная в Испании."
+   },
+   "features": {
+    "material": "canvas",
+    "sole": "jute",
+    "care": "wipe",
+    "origin": "spain",
+    "shoefit": "large"
+   },
+   "combinations": {
+    "size": [
+     "36",
+     "37",
+     "38",
+     "39",
+     "40",
+     "41",
+     "42",
+     "43",
+     "44"
+    ],
+    "color": [
+     "beige",
+     "navy"
+    ]
+   },
+   "images": [
+    "products/espadrille.jpg"
+   ],
+   "quantity": 30,
+   "discount": 20,
+   "new": false
+  },
+  {
+   "key": "cork-sandal",
+   "reference": "SA-404",
+   "category": "sandals",
+   "brand": "solea",
+   "price": 89,
+   "name": {
+    "en": "Cork Footbed Sandal",
+    "fr": "Sandale à lit de liège",
+    "es": "Sandalia con plantilla de corcho",
+    "it": "Sandalo con plantare in sughero",
+    "pl": "Sandał z korkową wkładką",
+    "de": "Sandale mit Kork-Fußbett",
+    "cs": "Sandál s korkovou stélkou",
+    "nl": "Sandaal met kurken voetbed",
+    "pt": "Sandália com palmilha de cortiça",
+    "ru": "Сандалии с пробковой стелькой"
+   },
+   "short": {
+    "en": "A two-strap sandal on an anatomic cork footbed.",
+    "fr": "Une sandale à deux brides sur lit de liège anatomique.",
+    "es": "Una sandalia de dos tiras sobre plantilla anatómica de corcho.",
+    "it": "Un sandalo a due fasce su plantare anatomico in sughero.",
+    "pl": "Sandał z dwoma paskami na anatomicznej korkowej wkładce.",
+    "de": "Eine Zwei-Riemen-Sandale auf anatomischem Kork-Fußbett.",
+    "cs": "Sandál se dvěma pásky na anatomické korkové stélce.",
+    "nl": "Een sandaal met twee banden op een anatomisch kurken voetbed.",
+    "pt": "Uma sandália de duas tiras sobre palmilha anatómica de cortiça.",
+    "ru": "Сандалии на двух ремешках с анатомической пробковой стелькой."
+   },
+   "description": {
+    "en": "A cork footbed that moulds to your feet and two adjustable leather straps. Comfortable all day long.",
+    "fr": "Un lit de liège qui épouse vos pieds et deux brides en cuir réglables. Confortable toute la journée.",
+    "es": "Una plantilla de corcho que se adapta a tus pies y dos tiras de piel regulables. Cómoda todo el día.",
+    "it": "Un plantare in sughero che si modella sul piede e due fasce in pelle regolabili. Comodo tutto il giorno.",
+    "pl": "Korkowa wkładka dopasowuje się do stóp, a dwa skórzane paski można regulować. Wygodny przez cały dzień.",
+    "de": "Ein Kork-Fußbett, das sich Ihren Füßen anpasst, und zwei verstellbare Lederriemen. Den ganzen Tag bequem.",
+    "cs": "Korková stélka, která se přizpůsobí chodidlu, a dva nastavitelné kožené pásky. Pohodlné celý den.",
+    "nl": "Een kurken voetbed dat zich naar je voeten vormt en twee verstelbare leren banden. De hele dag comfortabel.",
+    "pt": "Uma palmilha de cortiça que se molda ao pé e duas tiras de pele ajustáveis. Confortável o dia todo.",
+    "ru": "Пробковая стелька, которая принимает форму стопы, и два регулируемых кожаных ремешка. Удобно весь день."
+   },
+   "features": {
+    "material": "leather-full",
+    "sole": "cork",
+    "care": "wipe",
+    "origin": "portugal",
+    "shoefit": "true"
+   },
+   "combinations": {
+    "size": [
+     "36",
+     "37",
+     "38",
+     "39",
+     "40",
+     "41",
+     "42",
+     "43",
+     "44"
+    ],
+    "color": [
+     "brown"
+    ]
+   },
+   "images": [
+    "products/cork-sandal.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "oxford-shoe",
+   "reference": "SA-501",
+   "category": "formal",
+   "brand": "stride-atelier",
+   "price": 179,
+   "name": {
+    "en": "Oxford Shoe",
+    "fr": "Richelieu",
+    "es": "Zapato Oxford",
+    "it": "Scarpa Oxford",
+    "pl": "Oksfordy",
+    "de": "Oxford-Schuh",
+    "cs": "Oxfordky",
+    "nl": "Oxford",
+    "pt": "Sapato Oxford",
+    "ru": "Оксфорды"
+   },
+   "short": {
+    "en": "A polished cap-toe oxford with a leather sole.",
+    "fr": "Un richelieu à bout droit ciré avec semelle en cuir.",
+    "es": "Un oxford de puntera recta abrillantado con suela de cuero.",
+    "it": "Un oxford con puntale lucidato e suola in cuoio.",
+    "pl": "Polerowane oksfordy z noskiem i skórzaną podeszwą.",
+    "de": "Ein polierter Oxford mit Zehenkappe und Ledersohle.",
+    "cs": "Leštěné oxfordky s rovnou špičkou a koženou podrážkou.",
+    "nl": "Een gepoetste oxford met neuskap en leren zool.",
+    "pt": "Um oxford de biqueira reta polido com sola de couro.",
+    "ru": "Начищенные оксфорды с прямым носком и кожаной подошвой."
+   },
+   "description": {
+    "en": "Closed lacing, a cap toe and a stitched leather sole. The essential dress shoe for suits and ceremonies.",
+    "fr": "Laçage fermé, bout rapporté et semelle en cuir cousue. La chaussure habillée essentielle pour le costume et les cérémonies.",
+    "es": "Cordones cerrados, puntera aplicada y suela de cuero cosida. El zapato de vestir esencial para traje y ceremonias.",
+    "it": "Allacciatura chiusa, puntale applicato e suola in cuoio cucita. La scarpa elegante essenziale per abito e cerimonie.",
+    "pl": "Zamknięte sznurowanie, nakładany nosek i przeszywana skórzana podeszwa. Podstawowe buty do garnituru i na uroczystości.",
+    "de": "Geschlossene Schnürung, Zehenkappe und genähte Ledersohle. Der unverzichtbare Schuh zu Anzug und Anlass.",
+    "cs": "Uzavřené šněrování, nášivka na špičce a šitá kožená podrážka. Základní společenská bota k obleku i na obřady.",
+    "nl": "Gesloten vetersluiting, neuskap en een gestikte leren zool. De onmisbare nette schoen voor pak en gelegenheden.",
+    "pt": "Atacadores fechados, biqueira aplicada e sola de couro cosida. O sapato clássico essencial para fato e cerimónias.",
+    "ru": "Закрытая шнуровка, накладной носок и прошитая кожаная подошва. Базовая классическая обувь для костюма и торжеств."
+   },
+   "features": {
+    "material": "leather-full",
+    "sole": "leather",
+    "care": "wipe",
+    "origin": "spain",
+    "shoefit": "small",
+    "build": "stitched"
+   },
+   "combinations": {
+    "size": [
+     "38",
+     "39",
+     "40",
+     "41",
+     "42",
+     "43",
+     "44",
+     "45"
+    ],
+    "color": [
+     "black",
+     "burgundy"
+    ]
+   },
+   "images": [
+    "products/oxford-shoe.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "derby-shoe",
+   "reference": "SA-502",
+   "category": "formal",
+   "brand": "stride-atelier",
+   "price": 169,
+   "name": {
+    "en": "Derby Shoe",
+    "fr": "Derby",
+    "es": "Zapato Derby",
+    "it": "Scarpa Derby",
+    "pl": "Derby",
+    "de": "Derby-Schuh",
+    "cs": "Derby",
+    "nl": "Derby",
+    "pt": "Sapato Derby",
+    "ru": "Дерби"
+   },
+   "short": {
+    "en": "A versatile leather derby with open lacing.",
+    "fr": "Un derby en cuir polyvalent à laçage ouvert.",
+    "es": "Un derby de piel versátil con cordones abiertos.",
+    "it": "Una derby in pelle versatile con allacciatura aperta.",
+    "pl": "Uniwersalne skórzane derby z otwartym sznurowaniem.",
+    "de": "Ein vielseitiger Lederderby mit offener Schnürung.",
+    "cs": "Univerzální kožené derby s otevřeným šněrováním.",
+    "nl": "Een veelzijdige leren derby met open vetersluiting.",
+    "pt": "Um derby de pele versátil com atacadores abertos.",
+    "ru": "Универсальные кожаные дерби с открытой шнуровкой."
+   },
+   "description": {
+    "en": "Open lacing gives a comfortable fit. Smart with tailoring, relaxed with chinos.",
+    "fr": "Le laçage ouvert offre un chaussant confortable. Élégant avec un costume, décontracté avec un chino.",
+    "es": "Los cordones abiertos dan un calce cómodo. Elegante con sastrería, informal con chinos.",
+    "it": "L'allacciatura aperta assicura una calzata comoda. Elegante con la sartoria, rilassata con i chino.",
+    "pl": "Otwarte sznurowanie zapewnia wygodne dopasowanie. Eleganckie z garniturem, swobodne z chinosami.",
+    "de": "Die offene Schnürung sorgt für bequemen Sitz. Schick zum Anzug, lässig zu Chinos.",
+    "cs": "Otevřené šněrování zajišťuje pohodlné padnutí. Elegantní k obleku, ležérní k chino kalhotám.",
+    "nl": "De open vetersluiting zorgt voor een comfortabele pasvorm. Net bij maatwerk, relaxed bij chino's.",
+    "pt": "Os atacadores abertos garantem um calce confortável. Elegante com alfaiataria, descontraído com chinos.",
+    "ru": "Открытая шнуровка обеспечивает удобную посадку. Элегантно с костюмом, непринуждённо с чиносами."
+   },
+   "features": {
+    "material": "leather-full",
+    "sole": "leather",
+    "care": "wipe",
+    "origin": "spain",
+    "shoefit": "true",
+    "build": "stitched"
+   },
+   "combinations": {
+    "size": [
+     "38",
+     "39",
+     "40",
+     "41",
+     "42",
+     "43",
+     "44",
+     "45"
+    ],
+    "color": [
+     "brown"
+    ]
+   },
+   "images": [
+    "products/derby-shoe.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "penny-loafer",
+   "reference": "SA-503",
+   "category": "formal",
+   "brand": "stride-atelier",
+   "price": 159,
+   "name": {
+    "en": "Penny Loafer",
+    "fr": "Mocassin penny",
+    "es": "Mocasín penny",
+    "it": "Mocassino penny",
+    "pl": "Mokasyny penny",
+    "de": "Penny Loafer",
+    "cs": "Penny mokasíny",
+    "nl": "Penny loafer",
+    "pt": "Mocassim penny",
+    "ru": "Пенни-лоферы"
+   },
+   "short": {
+    "en": "A classic penny loafer in polished leather.",
+    "fr": "Un mocassin penny classique en cuir ciré.",
+    "es": "Un mocasín penny clásico en piel abrillantada.",
+    "it": "Un classico mocassino penny in pelle lucida.",
+    "pl": "Klasyczne mokasyny penny z polerowanej skóry.",
+    "de": "Ein klassischer Penny Loafer aus poliertem Leder.",
+    "cs": "Klasické penny mokasíny z leštěné kůže.",
+    "nl": "Een klassieke penny loafer van gepoetst leer.",
+    "pt": "Um mocassim penny clássico em pele polida.",
+    "ru": "Классические пенни-лоферы из полированной кожи."
+   },
+   "description": {
+    "en": "Hand-sewn moccasin construction, a penny strap and a leather sole. Wear it with or without socks.",
+    "fr": "Une construction mocassin cousue main, une barrette et une semelle en cuir. Avec ou sans chaussettes.",
+    "es": "Construcción mocasín cosida a mano, antifaz y suela de cuero. Con o sin calcetines.",
+    "it": "Costruzione mocassino cucita a mano, mascherina e suola in cuoio. Con o senza calze.",
+    "pl": "Ręcznie szyta konstrukcja mokasynowa, pasek z wycięciem i skórzana podeszwa. Ze skarpetkami lub bez.",
+    "de": "Handgenähte Mokassin-Machart, Querriegel und Ledersohle. Mit oder ohne Socken.",
+    "cs": "Ručně šitá mokasínová konstrukce, příčný pásek a kožená podrážka. S ponožkami i bez.",
+    "nl": "Handgenaaide mocassinconstructie, een penny-band en een leren zool. Met of zonder sokken.",
+    "pt": "Construção mocassim cosida à mão, presilha e sola de couro. Com ou sem meias.",
+    "ru": "Мокасиновая конструкция ручной работы, перемычка и кожаная подошва. С носками или без."
+   },
+   "features": {
+    "material": "leather-full",
+    "sole": "leather",
+    "care": "wipe",
+    "origin": "italy",
+    "shoefit": "small",
+    "build": "stitched"
+   },
+   "combinations": {
+    "size": [
+     "38",
+     "39",
+     "40",
+     "41",
+     "42",
+     "43",
+     "44",
+     "45"
+    ],
+    "color": [
+     "black",
+     "tan"
+    ]
+   },
+   "images": [
+    "products/penny-loafer.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": true
+  },
+  {
+   "key": "monk-strap",
+   "reference": "SA-504",
+   "category": "formal",
+   "brand": "stride-atelier",
+   "price": 189,
+   "name": {
+    "en": "Double Monk Strap",
+    "fr": "Double boucle",
+    "es": "Zapato de doble hebilla",
+    "it": "Scarpa a doppia fibbia",
+    "pl": "Podwójne monki",
+    "de": "Doppelmonk",
+    "cs": "Dvojité monky",
+    "nl": "Dubbele monkstrap",
+    "pt": "Sapato de fivela dupla",
+    "ru": "Монки с двумя пряжками"
+   },
+   "short": {
+    "en": "A double monk strap shoe with brushed buckles.",
+    "fr": "Une chaussure à double boucle avec boucles brossées.",
+    "es": "Un zapato de doble hebilla con hebillas cepilladas.",
+    "it": "Una scarpa a doppia fibbia con fibbie spazzolate.",
+    "pl": "Buty z podwójnymi sprzączkami w wykończeniu szczotkowanym.",
+    "de": "Ein Doppelmonk mit gebürsteten Schnallen.",
+    "cs": "Boty s dvojitým přezkovým páskem a broušenými přezkami.",
+    "nl": "Een dubbele monkstrap met geborstelde gespen.",
+    "pt": "Um sapato de fivela dupla com fivelas escovadas.",
+    "ru": "Туфли с двумя ремешками и матовыми пряжками."
+   },
+   "description": {
+    "en": "Two buckled straps instead of laces, on a sleek leather last. A confident alternative to the oxford.",
+    "fr": "Deux brides à boucle à la place des lacets, sur une forme élancée. Une alternative affirmée au richelieu.",
+    "es": "Dos tiras con hebilla en lugar de cordones, sobre una horma estilizada. Una alternativa segura al oxford.",
+    "it": "Due cinturini con fibbia al posto dei lacci, su una forma slanciata. Un'alternativa decisa all'oxford.",
+    "pl": "Dwa paski ze sprzączkami zamiast sznurówek na smukłym kopycie. Pewna siebie alternatywa dla oksfordów.",
+    "de": "Zwei Schnallenriemen statt Schnürsenkeln auf einem schlanken Leisten. Eine selbstbewusste Alternative zum Oxford.",
+    "cs": "Dva pásky s přezkami místo tkaniček na štíhlém kopytě. Sebevědomá alternativa oxfordek.",
+    "nl": "Twee gespbanden in plaats van veters, op een slanke leest. Een zelfverzekerd alternatief voor de oxford.",
+    "pt": "Duas tiras com fivela em vez de atacadores, numa forma esguia. Uma alternativa confiante ao oxford.",
+    "ru": "Два ремешка с пряжками вместо шнурков на изящной колодке. Уверенная альтернатива оксфордам."
+   },
+   "features": {
+    "material": "leather-full",
+    "sole": "leather",
+    "care": "wipe",
+    "origin": "italy",
+    "shoefit": "true",
+    "build": "stitched"
+   },
+   "combinations": {
+    "size": [
+     "38",
+     "39",
+     "40",
+     "41",
+     "42",
+     "43",
+     "44",
+     "45"
+    ],
+    "color": [
+     "brown"
+    ]
+   },
+   "images": [
+    "products/monk-strap.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "shoe-care-kit",
+   "reference": "SA-601",
+   "category": "care",
+   "brand": "stride-atelier",
+   "price": 29,
+   "name": {
+    "en": "Shoe Care Kit",
+    "fr": "Kit d'entretien",
+    "es": "Kit de cuidado del calzado",
+    "it": "Kit per la cura delle scarpe",
+    "pl": "Zestaw do pielęgnacji obuwia",
+    "de": "Schuhpflegeset",
+    "cs": "Sada na péči o obuv",
+    "nl": "Schoenonderhoudsset",
+    "pt": "Kit de cuidado do calçado",
+    "ru": "Набор для ухода за обувью"
+   },
+   "short": {
+    "en": "Everything you need to clean, feed and polish leather.",
+    "fr": "Tout le nécessaire pour nettoyer, nourrir et cirer le cuir.",
+    "es": "Todo lo necesario para limpiar, nutrir y abrillantar la piel.",
+    "it": "Tutto il necessario per pulire, nutrire e lucidare la pelle.",
+    "pl": "Wszystko, by oczyścić, odżywić i wypolerować skórę.",
+    "de": "Alles, um Leder zu reinigen, zu pflegen und zu polieren.",
+    "cs": "Vše potřebné k čištění, výživě a leštění kůže.",
+    "nl": "Alles om leer te reinigen, voeden en poetsen.",
+    "pt": "Tudo para limpar, nutrir e polir a pele.",
+    "ru": "Всё, чтобы чистить, питать и полировать кожу."
+   },
+   "description": {
+    "en": "A horsehair brush, a cleaning cloth, neutral cream and wax polish in a canvas pouch.",
+    "fr": "Une brosse en crin, un chiffon, une crème neutre et un cirage dans une trousse en toile.",
+    "es": "Cepillo de crin, paño de limpieza, crema neutra y betún de cera en un estuche de lona.",
+    "it": "Spazzola in crine, panno, crema neutra e lucido in cera in un astuccio di tela.",
+    "pl": "Szczotka z włosia końskiego, ściereczka, neutralny krem i pasta woskowa w płóciennym etui.",
+    "de": "Eine Rosshaarbürste, ein Putztuch, neutrale Creme und Wachspolitur in einem Canvas-Etui.",
+    "cs": "Kartáč z koňských žíní, utěrka, neutrální krém a voskový krém v plátěném pouzdře.",
+    "nl": "Een paardenharen borstel, een poetsdoek, neutrale crème en waxpoets in een canvas etui.",
+    "pt": "Escova de crina, pano de limpeza, creme neutro e graxa de cera numa bolsa de lona.",
+    "ru": "Щётка из конского волоса, салфетка, нейтральный крем и восковой крем в холщовом чехле."
+   },
+   "features": {
+    "origin": "germany"
+   },
+   "combinations": {},
+   "images": [
+    "products/shoe-care-kit.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "cedar-shoe-trees",
+   "reference": "SA-602",
+   "category": "care",
+   "brand": "stride-atelier",
+   "price": 19,
+   "name": {
+    "en": "Horsehair Polishing Brush",
+    "fr": "Brosse à lustrer en crin",
+    "es": "Cepillo de crin para abrillantar",
+    "it": "Spazzola lucidante in crine",
+    "pl": "Szczotka z włosia końskiego do polerowania",
+    "de": "Polierbürste aus Rosshaar",
+    "cs": "Leštící kartáč z koňských žíní",
+    "nl": "Paardenharen poetsborstel",
+    "pt": "Escova de crina para polir",
+    "ru": "Полировочная щётка из конского волоса"
+   },
+   "short": {
+    "en": "A soft horsehair brush for buffing leather to a shine.",
+    "fr": "Une brosse douce en crin de cheval pour faire briller le cuir.",
+    "es": "Un cepillo suave de crin de caballo para abrillantar la piel.",
+    "it": "Una morbida spazzola in crine di cavallo per lucidare la pelle.",
+    "pl": "Miękka szczotka z włosia końskiego do nabłyszczania skóry.",
+    "de": "Eine weiche Rosshaarbürste, um Leder auf Hochglanz zu bringen.",
+    "cs": "Měkký kartáč z koňských žíní k vyleštění kůže.",
+    "nl": "Een zachte paardenharen borstel om leer te laten glanzen.",
+    "pt": "Uma escova macia de crina de cavalo para dar brilho à pele.",
+    "ru": "Мягкая щётка из конского волоса для блеска кожи."
+   },
+   "description": {
+    "en": "Soft horsehair bristles set in a solid beech handle. Brush off dust before polishing and buff afterwards for a deep shine.",
+    "fr": "Des soies douces en crin de cheval montées sur un manche en hêtre massif. Dépoussiérez avant le cirage et lustrez ensuite pour un brillant profond.",
+    "es": "Cerdas suaves de crin de caballo sobre un mango de haya maciza. Quita el polvo antes de aplicar el betún y abrillanta después para un acabado profundo.",
+    "it": "Setole morbide in crine di cavallo su un manico in faggio massello. Togli la polvere prima del lucido e spazzola dopo per una brillantezza profonda.",
+    "pl": "Miękkie włosie końskie osadzone w uchwycie z litego buku. Usuń kurz przed pastowaniem i wypoleruj po nim, by uzyskać głęboki połysk.",
+    "de": "Weiche Rosshaarborsten in einem Griff aus massiver Buche. Vor dem Eincremen Staub abbürsten, danach für tiefen Glanz polieren.",
+    "cs": "Měkké koňské žíně v rukojeti z masivního buku. Před krémováním obuv očistěte od prachu a poté vyleštěte do hlubokého lesku.",
+    "nl": "Zachte paardenharen in een handvat van massief beuken. Borstel stof weg voor het poetsen en wrijf daarna op voor een diepe glans.",
+    "pt": "Cerdas macias de crina de cavalo num cabo de faia maciça. Tire o pó antes de engraxar e escove depois para um brilho profundo.",
+    "ru": "Мягкая щетина из конского волоса на ручке из массива бука. Смахните пыль перед нанесением крема и отполируйте после для глубокого блеска."
+   },
+   "features": {
+    "origin": "germany"
+   },
+   "combinations": {},
+   "images": [
+    "products/cedar-shoe-trees.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "merino-socks",
+   "reference": "SA-603",
+   "category": "care",
+   "brand": "velo-runner",
+   "price": 25,
+   "name": {
+    "en": "Merino Socks (3-pack)",
+    "fr": "Lot de 3 chaussettes en mérinos",
+    "es": "Pack de 3 calcetines de merino",
+    "it": "Calze in merino (3 paia)",
+    "pl": "Skarpety merino (3 pary)",
+    "de": "Merinosocken (3er-Pack)",
+    "cs": "Merino ponožky (3 páry)",
+    "nl": "Merinosokken (3-pack)",
+    "pt": "Meias de merino (3 pares)",
+    "ru": "Носки из мериноса (3 пары)"
+   },
+   "short": {
+    "en": "Three pairs of cushioned merino wool socks.",
+    "fr": "Trois paires de chaussettes en laine mérinos rembourrées.",
+    "es": "Tres pares de calcetines acolchados de lana merino.",
+    "it": "Tre paia di calze imbottite in lana merino.",
+    "pl": "Trzy pary amortyzowanych skarpet z wełny merino.",
+    "de": "Drei Paar gepolsterte Socken aus Merinowolle.",
+    "cs": "Tři páry polstrovaných ponožek z merino vlny.",
+    "nl": "Drie paar gevoerde sokken van merinowol.",
+    "pt": "Três pares de meias almofadadas em lã merino.",
+    "ru": "Три пары носков из шерсти мериноса с уплотнённой стопой."
+   },
+   "description": {
+    "en": "Merino wool keeps feet dry and fresh, with a cushioned sole and a reinforced heel and toe.",
+    "fr": "La laine mérinos garde les pieds au sec et frais, avec une semelle rembourrée et un talon et une pointe renforcés.",
+    "es": "La lana merino mantiene los pies secos y frescos, con planta acolchada y talón y puntera reforzados.",
+    "it": "La lana merino mantiene i piedi asciutti e freschi, con pianta imbottita e tallone e punta rinforzati.",
+    "pl": "Wełna merino utrzymuje stopy suche i świeże, z wyściełaną podeszwą i wzmocnioną piętą i palcami.",
+    "de": "Merinowolle hält die Füße trocken und frisch, mit gepolsterter Sohle und verstärkter Ferse und Spitze.",
+    "cs": "Merino vlna udrží nohy suché a svěží, s polstrovaným chodidlem a zesílenou patou a špičkou.",
+    "nl": "Merinowol houdt voeten droog en fris, met een gevoerde zool en verstevigde hiel en teen.",
+    "pt": "A lã merino mantém os pés secos e frescos, com planta almofadada e calcanhar e biqueira reforçados.",
+    "ru": "Шерсть мериноса сохраняет ноги сухими и свежими, с уплотнённой стопой и усиленными пяткой и мыском."
+   },
+   "features": {
+    "material": "merino-wool",
+    "care": "machine",
+    "origin": "portugal"
+   },
+   "combinations": {
+    "size": [
+     "s",
+     "m",
+     "l"
+    ],
+    "color": [
+     "grey",
+     "navy"
+    ]
+   },
+   "images": [
+    "products/merino-socks.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "replacement-laces",
+   "reference": "SA-604",
+   "category": "care",
+   "brand": "stride-atelier",
+   "price": 9,
+   "name": {
+    "en": "Waxed Laces",
+    "fr": "Lacets cirés",
+    "es": "Cordones encerados",
+    "it": "Lacci cerati",
+    "pl": "Woskowane sznurówki",
+    "de": "Gewachste Schnürsenkel",
+    "cs": "Voskované tkaničky",
+    "nl": "Gewaxte veters",
+    "pt": "Atacadores encerados",
+    "ru": "Вощёные шнурки"
+   },
+   "short": {
+    "en": "A pair of waxed cotton laces for sneakers and boots.",
+    "fr": "Une paire de lacets en coton ciré pour sneakers et boots.",
+    "es": "Un par de cordones de algodón encerado para zapatillas y botas.",
+    "it": "Un paio di lacci in cotone cerato per sneakers e stivali.",
+    "pl": "Para woskowanych bawełnianych sznurówek do sneakersów i butów.",
+    "de": "Ein Paar gewachste Baumwollschnürsenkel für Sneaker und Boots.",
+    "cs": "Pár voskovaných bavlněných tkaniček do tenisek a bot.",
+    "nl": "Een paar gewaxte katoenen veters voor sneakers en boots.",
+    "pt": "Um par de atacadores de algodão encerado para sapatilhas e botas.",
+    "ru": "Пара вощёных хлопковых шнурков для кроссовок и ботинок."
+   },
+   "description": {
+    "en": "Waxed cotton laces that stay tied, in three lengths for sneakers, shoes and boots.",
+    "fr": "Des lacets en coton ciré qui restent noués, en trois longueurs pour sneakers, chaussures et boots.",
+    "es": "Cordones de algodón encerado que no se desatan, en tres largos para zapatillas, zapatos y botas.",
+    "it": "Lacci in cotone cerato che restano annodati, in tre lunghezze per sneakers, scarpe e stivali.",
+    "pl": "Woskowane bawełniane sznurówki, które się nie rozwiązują, w trzech długościach do sneakersów, butów i botków.",
+    "de": "Gewachste Baumwollschnürsenkel, die halten, in drei Längen für Sneaker, Schuhe und Boots.",
+    "cs": "Voskované bavlněné tkaničky, které se nerozvazují, ve třech délkách pro tenisky, boty i kotníkové boty.",
+    "nl": "Gewaxte katoenen veters die vast blijven zitten, in drie lengtes voor sneakers, schoenen en boots.",
+    "pt": "Atacadores de algodão encerado que não se desapertam, em três comprimentos para sapatilhas, sapatos e botas.",
+    "ru": "Вощёные хлопковые шнурки, которые не развязываются, трёх длин для кроссовок, туфель и ботинок."
+   },
+   "features": {
+    "origin": "portugal"
+   },
+   "combinations": {
+    "color": [
+     "white",
+     "black",
+     "tan"
+    ]
+   },
+   "images": [
+    "products/replacement-laces.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  }
+ ],
+ "cms": [
+  {
+   "key": "about",
+   "title": {
+    "en": "About us",
+    "fr": "À propos",
+    "es": "Quiénes somos",
+    "it": "Chi siamo",
+    "pl": "O nas",
+    "de": "Über uns",
+    "cs": "O nás",
+    "nl": "Over ons",
+    "pt": "Sobre nós",
+    "ru": "О нас"
+   },
+   "meta_description": {
+    "en": "Stride Atelier makes and curates shoes built to last and designed to be resoled.",
+    "fr": "Stride Atelier crée et sélectionne des chaussures faites pour durer et conçues pour être ressemelées.",
+    "es": "Stride Atelier diseña y selecciona calzado hecho para durar y pensado para cambiarle la suela.",
+    "it": "Stride Atelier crea e seleziona scarpe fatte per durare e pensate per essere risuolate.",
+    "pl": "Stride Atelier projektuje i wybiera trwałe buty, którym można wymienić podeszwę.",
+    "de": "Stride Atelier entwirft und kuratiert langlebige Schuhe, die neu besohlt werden können.",
+    "cs": "Stride Atelier navrhuje a vybírá odolnou obuv, které lze vyměnit podrážku.",
+    "nl": "Stride Atelier ontwerpt en selecteert schoenen die lang meegaan en opnieuw verzoold kunnen worden.",
+    "pt": "A Stride Atelier cria e seleciona calçado feito para durar e pensado para trocar de sola.",
+    "ru": "Stride Atelier создаёт и отбирает долговечную обувь, которой можно менять подошву."
+   },
+   "content": {
+    "en": "<h2>Shoes worth keeping</h2><p>Stride Atelier began in a small Barcelona workshop resoling worn-out shoes. Today we design our own sneakers and leather shoes, and still repair them in the same workshop.</p><h3>Built to be resoled</h3><p>Our leather shoes are stitched, not glued, so the sole can be replaced again and again.</p><h3>Tested on the street</h3><p>Every model is worn for weeks by our team before it reaches the shop.</p><p><em>This is demo content for the Stride Atelier theme.</em></p>",
+    "fr": "<h2>Des chaussures qu'on garde</h2><p>Stride Atelier a commencé dans un petit atelier de Barcelone en ressemelant des chaussures usées. Aujourd'hui nous créons nos propres sneakers et chaussures en cuir, et nous les réparons toujours dans le même atelier.</p><h3>Faites pour être ressemelées</h3><p>Nos chaussures en cuir sont cousues, pas collées : la semelle peut être remplacée encore et encore.</p><h3>Testées dans la rue</h3><p>Chaque modèle est porté pendant des semaines par notre équipe avant d'arriver en boutique.</p><p><em>Ceci est un contenu de démonstration du thème Stride Atelier.</em></p>",
+    "es": "<h2>Zapatos para conservar</h2><p>Stride Atelier empezó en un pequeño taller de Barcelona cambiando suelas de zapatos gastados. Hoy diseñamos nuestras propias zapatillas y zapatos de piel, y los seguimos reparando en el mismo taller.</p><h3>Hechos para cambiar la suela</h3><p>Nuestros zapatos de piel están cosidos, no pegados, así que la suela se puede cambiar una y otra vez.</p><h3>Probados en la calle</h3><p>Nuestro equipo lleva cada modelo durante semanas antes de que llegue a la tienda.</p><p><em>Este es contenido de demostración del tema Stride Atelier.</em></p>",
+    "it": "<h2>Scarpe da tenere</h2><p>Stride Atelier è nato in un piccolo laboratorio di Barcellona risuolando scarpe consumate. Oggi disegniamo le nostre sneakers e scarpe in pelle, e le ripariamo ancora nello stesso laboratorio.</p><h3>Fatte per essere risuolate</h3><p>Le nostre scarpe in pelle sono cucite, non incollate: la suola si può sostituire più e più volte.</p><h3>Testate per strada</h3><p>Il nostro team indossa ogni modello per settimane prima che arrivi in negozio.</p><p><em>Questo è un contenuto dimostrativo del tema Stride Atelier.</em></p>",
+    "pl": "<h2>Buty, które się zostawia</h2><p>Stride Atelier zaczęło w małym warsztacie w Barcelonie od wymiany podeszew w zdartych butach. Dziś projektujemy własne sneakersy i buty skórzane – i nadal naprawiamy je w tym samym warsztacie.</p><h3>Do wymiany podeszwy</h3><p>Nasze skórzane buty są szyte, nie klejone, więc podeszwę można wymieniać wielokrotnie.</p><h3>Testowane na ulicy</h3><p>Każdy model nasz zespół nosi tygodniami, zanim trafi do sklepu.</p><p><em>To jest treść demonstracyjna motywu Stride Atelier.</em></p>",
+    "de": "<h2>Schuhe zum Behalten</h2><p>Stride Atelier begann in einer kleinen Werkstatt in Barcelona mit dem Neubesohlen abgelaufener Schuhe. Heute entwerfen wir eigene Sneaker und Lederschuhe – und reparieren sie noch immer in derselben Werkstatt.</p><h3>Zum Neubesohlen gemacht</h3><p>Unsere Lederschuhe sind genäht, nicht geklebt, sodass die Sohle immer wieder ersetzt werden kann.</p><h3>Auf der Straße getestet</h3><p>Jedes Modell wird wochenlang von unserem Team getragen, bevor es in den Shop kommt.</p><p><em>Dies ist Demo-Inhalt des Themes Stride Atelier.</em></p>",
+    "cs": "<h2>Boty, které si nechte</h2><p>Stride Atelier začal v malé dílně v Barceloně výměnou podrážek u prošlapaných bot. Dnes navrhujeme vlastní tenisky a kožené boty – a opravujeme je stále ve stejné dílně.</p><h3>Stvořené k výměně podrážky</h3><p>Naše kožené boty jsou šité, ne lepené, takže podrážku lze měnit znovu a znovu.</p><h3>Testované na ulici</h3><p>Každý model nosí náš tým týdny, než se dostane do obchodu.</p><p><em>Toto je ukázkový obsah šablony Stride Atelier.</em></p>",
+    "nl": "<h2>Schoenen om te houden</h2><p>Stride Atelier begon in een kleine werkplaats in Barcelona met het verzolen van versleten schoenen. Nu ontwerpen we onze eigen sneakers en leren schoenen, en repareren we ze nog steeds in dezelfde werkplaats.</p><h3>Gemaakt om te verzolen</h3><p>Onze leren schoenen zijn gestikt, niet gelijmd, dus de zool kan keer op keer worden vervangen.</p><h3>Getest op straat</h3><p>Elk model wordt wekenlang door ons team gedragen voordat het in de winkel komt.</p><p><em>Dit is democontent van het thema Stride Atelier.</em></p>",
+    "pt": "<h2>Sapatos para guardar</h2><p>A Stride Atelier começou numa pequena oficina em Barcelona a trocar solas de sapatos gastos. Hoje desenhamos as nossas próprias sapatilhas e sapatos de pele, e continuamos a repará-los na mesma oficina.</p><h3>Feitos para trocar de sola</h3><p>Os nossos sapatos de pele são cosidos, não colados, por isso a sola pode ser trocada vezes sem conta.</p><h3>Testados na rua</h3><p>A nossa equipa usa cada modelo durante semanas antes de chegar à loja.</p><p><em>Este é conteúdo de demonstração do tema Stride Atelier.</em></p>",
+    "ru": "<h2>Обувь, которую хочется сохранить</h2><p>Stride Atelier начинался в маленькой мастерской в Барселоне с замены подошв на стоптанной обуви. Сегодня мы создаём собственные кроссовки и кожаную обувь — и по-прежнему ремонтируем их в той же мастерской.</p><h3>Чтобы менять подошву</h3><p>Наша кожаная обувь прошита, а не склеена, поэтому подошву можно менять снова и снова.</p><h3>Проверено на улице</h3><p>Каждую модель наша команда носит неделями, прежде чем она попадёт в магазин.</p><p><em>Это демонстрационный контент темы Stride Atelier.</em></p>"
+   }
+  },
+  {
+   "key": "size-guide",
+   "title": {
+    "en": "Size guide",
+    "fr": "Guide des pointures",
+    "es": "Guía de tallas",
+    "it": "Guida alle taglie",
+    "pl": "Tabela rozmiarów",
+    "de": "Größentabelle",
+    "cs": "Tabulka velikostí",
+    "nl": "Maattabel",
+    "pt": "Guia de tamanhos",
+    "ru": "Таблица размеров"
+   },
+   "meta_description": {
+    "en": "Find your shoe size: EU, UK and US sizes with foot length.",
+    "fr": "Trouvez votre pointure : tailles EU, UK et US avec longueur du pied.",
+    "es": "Encuentra tu talla de calzado: tallas EU, UK y US con longitud del pie.",
+    "it": "Trova la tua misura: taglie EU, UK e US con lunghezza del piede.",
+    "pl": "Dobierz rozmiar buta: rozmiary EU, UK i US z długością stopy.",
+    "de": "Finden Sie Ihre Schuhgröße: EU-, UK- und US-Größen mit Fußlänge.",
+    "cs": "Najděte svou velikost bot: velikosti EU, UK a US s délkou chodidla.",
+    "nl": "Vind je schoenmaat: EU-, UK- en US-maten met voetlengte.",
+    "pt": "Encontre o seu número: tamanhos EU, UK e US com comprimento do pé.",
+    "ru": "Подберите размер обуви: размеры EU, UK и US с длиной стопы."
+   },
+   "content": {
+    "en": "<h2>Size guide</h2><p>Measure your foot from heel to longest toe and pick the matching size.</p><table class=\"table\"><thead><tr><th>EU</th><th>UK</th><th>US (M)</th><th>Foot (cm)</th></tr></thead><tbody><tr><td>38</td><td>5</td><td>6</td><td>24.0</td></tr><tr><td>39</td><td>6</td><td>7</td><td>24.7</td></tr><tr><td>40</td><td>6.5</td><td>7.5</td><td>25.3</td></tr><tr><td>41</td><td>7.5</td><td>8.5</td><td>26.0</td></tr><tr><td>42</td><td>8</td><td>9</td><td>26.7</td></tr><tr><td>43</td><td>9</td><td>10</td><td>27.3</td></tr><tr><td>44</td><td>9.5</td><td>10.5</td><td>28.0</td></tr><tr><td>45</td><td>10.5</td><td>11.5</td><td>28.7</td></tr></tbody></table><p>Running shoes: we recommend half a size up.</p>",
+    "fr": "<h2>Guide des pointures</h2><p>Mesurez votre pied du talon à l'orteil le plus long et choisissez la pointure correspondante.</p><table class=\"table\"><thead><tr><th>EU</th><th>UK</th><th>US (H)</th><th>Pied (cm)</th></tr></thead><tbody><tr><td>38</td><td>5</td><td>6</td><td>24,0</td></tr><tr><td>39</td><td>6</td><td>7</td><td>24,7</td></tr><tr><td>40</td><td>6,5</td><td>7,5</td><td>25,3</td></tr><tr><td>41</td><td>7,5</td><td>8,5</td><td>26,0</td></tr><tr><td>42</td><td>8</td><td>9</td><td>26,7</td></tr><tr><td>43</td><td>9</td><td>10</td><td>27,3</td></tr><tr><td>44</td><td>9,5</td><td>10,5</td><td>28,0</td></tr><tr><td>45</td><td>10,5</td><td>11,5</td><td>28,7</td></tr></tbody></table><p>Running : nous conseillons une demi-pointure au-dessus.</p>",
+    "es": "<h2>Guía de tallas</h2><p>Mide tu pie del talón al dedo más largo y elige la talla correspondiente.</p><table class=\"table\"><thead><tr><th>EU</th><th>UK</th><th>US (H)</th><th>Pie (cm)</th></tr></thead><tbody><tr><td>38</td><td>5</td><td>6</td><td>24,0</td></tr><tr><td>39</td><td>6</td><td>7</td><td>24,7</td></tr><tr><td>40</td><td>6,5</td><td>7,5</td><td>25,3</td></tr><tr><td>41</td><td>7,5</td><td>8,5</td><td>26,0</td></tr><tr><td>42</td><td>8</td><td>9</td><td>26,7</td></tr><tr><td>43</td><td>9</td><td>10</td><td>27,3</td></tr><tr><td>44</td><td>9,5</td><td>10,5</td><td>28,0</td></tr><tr><td>45</td><td>10,5</td><td>11,5</td><td>28,7</td></tr></tbody></table><p>Running: recomendamos media talla más.</p>",
+    "it": "<h2>Guida alle taglie</h2><p>Misura il piede dal tallone al dito più lungo e scegli la taglia corrispondente.</p><table class=\"table\"><thead><tr><th>EU</th><th>UK</th><th>US (U)</th><th>Piede (cm)</th></tr></thead><tbody><tr><td>38</td><td>5</td><td>6</td><td>24,0</td></tr><tr><td>39</td><td>6</td><td>7</td><td>24,7</td></tr><tr><td>40</td><td>6,5</td><td>7,5</td><td>25,3</td></tr><tr><td>41</td><td>7,5</td><td>8,5</td><td>26,0</td></tr><tr><td>42</td><td>8</td><td>9</td><td>26,7</td></tr><tr><td>43</td><td>9</td><td>10</td><td>27,3</td></tr><tr><td>44</td><td>9,5</td><td>10,5</td><td>28,0</td></tr><tr><td>45</td><td>10,5</td><td>11,5</td><td>28,7</td></tr></tbody></table><p>Running: consigliamo mezza taglia in più.</p>",
+    "pl": "<h2>Tabela rozmiarów</h2><p>Zmierz stopę od pięty do najdłuższego palca i wybierz odpowiedni rozmiar.</p><table class=\"table\"><thead><tr><th>EU</th><th>UK</th><th>US (M)</th><th>Stopa (cm)</th></tr></thead><tbody><tr><td>38</td><td>5</td><td>6</td><td>24,0</td></tr><tr><td>39</td><td>6</td><td>7</td><td>24,7</td></tr><tr><td>40</td><td>6,5</td><td>7,5</td><td>25,3</td></tr><tr><td>41</td><td>7,5</td><td>8,5</td><td>26,0</td></tr><tr><td>42</td><td>8</td><td>9</td><td>26,7</td></tr><tr><td>43</td><td>9</td><td>10</td><td>27,3</td></tr><tr><td>44</td><td>9,5</td><td>10,5</td><td>28,0</td></tr><tr><td>45</td><td>10,5</td><td>11,5</td><td>28,7</td></tr></tbody></table><p>Buty do biegania: polecamy o pół rozmiaru większe.</p>",
+    "de": "<h2>Größentabelle</h2><p>Messen Sie Ihren Fuß von der Ferse bis zum längsten Zeh und wählen Sie die passende Größe.</p><table class=\"table\"><thead><tr><th>EU</th><th>UK</th><th>US (H)</th><th>Fuß (cm)</th></tr></thead><tbody><tr><td>38</td><td>5</td><td>6</td><td>24,0</td></tr><tr><td>39</td><td>6</td><td>7</td><td>24,7</td></tr><tr><td>40</td><td>6,5</td><td>7,5</td><td>25,3</td></tr><tr><td>41</td><td>7,5</td><td>8,5</td><td>26,0</td></tr><tr><td>42</td><td>8</td><td>9</td><td>26,7</td></tr><tr><td>43</td><td>9</td><td>10</td><td>27,3</td></tr><tr><td>44</td><td>9,5</td><td>10,5</td><td>28,0</td></tr><tr><td>45</td><td>10,5</td><td>11,5</td><td>28,7</td></tr></tbody></table><p>Laufschuhe: Wir empfehlen eine halbe Größe größer.</p>",
+    "cs": "<h2>Tabulka velikostí</h2><p>Změřte chodidlo od paty k nejdelšímu prstu a vyberte odpovídající velikost.</p><table class=\"table\"><thead><tr><th>EU</th><th>UK</th><th>US (M)</th><th>Chodidlo (cm)</th></tr></thead><tbody><tr><td>38</td><td>5</td><td>6</td><td>24,0</td></tr><tr><td>39</td><td>6</td><td>7</td><td>24,7</td></tr><tr><td>40</td><td>6,5</td><td>7,5</td><td>25,3</td></tr><tr><td>41</td><td>7,5</td><td>8,5</td><td>26,0</td></tr><tr><td>42</td><td>8</td><td>9</td><td>26,7</td></tr><tr><td>43</td><td>9</td><td>10</td><td>27,3</td></tr><tr><td>44</td><td>9,5</td><td>10,5</td><td>28,0</td></tr><tr><td>45</td><td>10,5</td><td>11,5</td><td>28,7</td></tr></tbody></table><p>Běžecké boty: doporučujeme o půl čísla větší.</p>",
+    "nl": "<h2>Maattabel</h2><p>Meet je voet van hiel tot langste teen en kies de passende maat.</p><table class=\"table\"><thead><tr><th>EU</th><th>UK</th><th>US (H)</th><th>Voet (cm)</th></tr></thead><tbody><tr><td>38</td><td>5</td><td>6</td><td>24,0</td></tr><tr><td>39</td><td>6</td><td>7</td><td>24,7</td></tr><tr><td>40</td><td>6,5</td><td>7,5</td><td>25,3</td></tr><tr><td>41</td><td>7,5</td><td>8,5</td><td>26,0</td></tr><tr><td>42</td><td>8</td><td>9</td><td>26,7</td></tr><tr><td>43</td><td>9</td><td>10</td><td>27,3</td></tr><tr><td>44</td><td>9,5</td><td>10,5</td><td>28,0</td></tr><tr><td>45</td><td>10,5</td><td>11,5</td><td>28,7</td></tr></tbody></table><p>Hardloopschoenen: we raden een halve maat groter aan.</p>",
+    "pt": "<h2>Guia de tamanhos</h2><p>Meça o pé do calcanhar ao dedo mais comprido e escolha o número correspondente.</p><table class=\"table\"><thead><tr><th>EU</th><th>UK</th><th>US (H)</th><th>Pé (cm)</th></tr></thead><tbody><tr><td>38</td><td>5</td><td>6</td><td>24,0</td></tr><tr><td>39</td><td>6</td><td>7</td><td>24,7</td></tr><tr><td>40</td><td>6,5</td><td>7,5</td><td>25,3</td></tr><tr><td>41</td><td>7,5</td><td>8,5</td><td>26,0</td></tr><tr><td>42</td><td>8</td><td>9</td><td>26,7</td></tr><tr><td>43</td><td>9</td><td>10</td><td>27,3</td></tr><tr><td>44</td><td>9,5</td><td>10,5</td><td>28,0</td></tr><tr><td>45</td><td>10,5</td><td>11,5</td><td>28,7</td></tr></tbody></table><p>Running: recomendamos meio número acima.</p>",
+    "ru": "<h2>Таблица размеров</h2><p>Измерьте стопу от пятки до самого длинного пальца и выберите соответствующий размер.</p><table class=\"table\"><thead><tr><th>EU</th><th>UK</th><th>US (М)</th><th>Стопа (см)</th></tr></thead><tbody><tr><td>38</td><td>5</td><td>6</td><td>24,0</td></tr><tr><td>39</td><td>6</td><td>7</td><td>24,7</td></tr><tr><td>40</td><td>6,5</td><td>7,5</td><td>25,3</td></tr><tr><td>41</td><td>7,5</td><td>8,5</td><td>26,0</td></tr><tr><td>42</td><td>8</td><td>9</td><td>26,7</td></tr><tr><td>43</td><td>9</td><td>10</td><td>27,3</td></tr><tr><td>44</td><td>9,5</td><td>10,5</td><td>28,0</td></tr><tr><td>45</td><td>10,5</td><td>11,5</td><td>28,7</td></tr></tbody></table><p>Беговая обувь: рекомендуем на полразмера больше.</p>"
+   }
+  },
+  {
+   "key": "repairs",
+   "title": {
+    "en": "Resoling & repairs",
+    "fr": "Ressemelage & réparations",
+    "es": "Cambio de suela y reparaciones",
+    "it": "Risuolatura e riparazioni",
+    "pl": "Wymiana podeszew i naprawy",
+    "de": "Neubesohlung & Reparatur",
+    "cs": "Výměna podrážek a opravy",
+    "nl": "Verzolen & reparaties",
+    "pt": "Solas e reparações",
+    "ru": "Замена подошвы и ремонт"
+   },
+   "meta_description": {
+    "en": "Send us your leather shoes for a new sole, heel or a full restoration.",
+    "fr": "Envoyez-nous vos chaussures en cuir pour une nouvelle semelle, un talon ou une restauration complète.",
+    "es": "Envíanos tus zapatos de piel para una suela nueva, un tacón o una restauración completa.",
+    "it": "Inviaci le tue scarpe in pelle per una suola nuova, un tacco o un restauro completo.",
+    "pl": "Wyślij nam skórzane buty do wymiany podeszwy, obcasa lub pełnej renowacji.",
+    "de": "Schicken Sie uns Ihre Lederschuhe für eine neue Sohle, einen Absatz oder eine komplette Aufarbeitung.",
+    "cs": "Pošlete nám kožené boty na novou podrážku, podpatek nebo kompletní renovaci.",
+    "nl": "Stuur ons je leren schoenen voor een nieuwe zool, hak of volledige opknapbeurt.",
+    "pt": "Envie-nos os seus sapatos de pele para uma sola nova, um tacão ou um restauro completo.",
+    "ru": "Отправьте нам кожаную обувь для новой подошвы, набойки или полной реставрации."
+   },
+   "content": {
+    "en": "<h2>Resoling &amp; repairs</h2><p>A good pair of leather shoes can last decades. Our workshop replaces soles and heels, re-stitches seams and restores the leather.</p><ul><li><strong>New heel:</strong> 1 week</li><li><strong>Full resole:</strong> 2–3 weeks</li><li><strong>Restoration:</strong> clean, feed and polish</li></ul><p>Contact us for a quote with a photo of your shoes.</p><p><em>This is demo content. Replace it with your own service details.</em></p>",
+    "fr": "<h2>Ressemelage &amp; réparations</h2><p>Une bonne paire de chaussures en cuir peut durer des décennies. Notre atelier remplace semelles et talons, recoud les coutures et restaure le cuir.</p><ul><li><strong>Talon neuf :</strong> 1 semaine</li><li><strong>Ressemelage complet :</strong> 2 à 3 semaines</li><li><strong>Restauration :</strong> nettoyage, nourriture et cirage</li></ul><p>Contactez-nous avec une photo de vos chaussures pour un devis.</p><p><em>Contenu de démonstration. Remplacez-le par les détails de votre service.</em></p>",
+    "es": "<h2>Cambio de suela y reparaciones</h2><p>Un buen par de zapatos de piel puede durar décadas. Nuestro taller cambia suelas y tacones, recose costuras y restaura la piel.</p><ul><li><strong>Tacón nuevo:</strong> 1 semana</li><li><strong>Suela completa:</strong> 2–3 semanas</li><li><strong>Restauración:</strong> limpieza, nutrición y abrillantado</li></ul><p>Contáctanos con una foto de tus zapatos para pedir presupuesto.</p><p><em>Contenido de demostración. Sustitúyelo por los detalles de tu servicio.</em></p>",
+    "it": "<h2>Risuolatura e riparazioni</h2><p>Un buon paio di scarpe in pelle può durare decenni. Il nostro laboratorio sostituisce suole e tacchi, ricuce le cuciture e restaura la pelle.</p><ul><li><strong>Tacco nuovo:</strong> 1 settimana</li><li><strong>Risuolatura completa:</strong> 2–3 settimane</li><li><strong>Restauro:</strong> pulizia, nutrimento e lucidatura</li></ul><p>Contattaci con una foto delle tue scarpe per un preventivo.</p><p><em>Contenuto dimostrativo. Sostituiscilo con i dettagli del tuo servizio.</em></p>",
+    "pl": "<h2>Wymiana podeszew i naprawy</h2><p>Dobra para skórzanych butów może służyć dziesiątki lat. Nasz warsztat wymienia podeszwy i obcasy, przeszywa szwy i odnawia skórę.</p><ul><li><strong>Nowy obcas:</strong> 1 tydzień</li><li><strong>Pełna wymiana podeszwy:</strong> 2–3 tygodnie</li><li><strong>Renowacja:</strong> czyszczenie, odżywianie i polerowanie</li></ul><p>Skontaktuj się z nami i prześlij zdjęcie butów, a przygotujemy wycenę.</p><p><em>Treść demonstracyjna. Zastąp ją szczegółami własnej usługi.</em></p>",
+    "de": "<h2>Neubesohlung &amp; Reparatur</h2><p>Ein gutes Paar Lederschuhe kann Jahrzehnte halten. Unsere Werkstatt ersetzt Sohlen und Absätze, näht Nähte nach und arbeitet das Leder auf.</p><ul><li><strong>Neuer Absatz:</strong> 1 Woche</li><li><strong>Komplette Neubesohlung:</strong> 2–3 Wochen</li><li><strong>Aufarbeitung:</strong> reinigen, pflegen und polieren</li></ul><p>Kontaktieren Sie uns mit einem Foto Ihrer Schuhe für ein Angebot.</p><p><em>Demo-Inhalt. Ersetzen Sie ihn durch Ihre eigenen Leistungsdetails.</em></p>",
+    "cs": "<h2>Výměna podrážek a opravy</h2><p>Dobrý pár kožených bot vydrží desítky let. Naše dílna mění podrážky a podpatky, přešívá švy a renovuje kůži.</p><ul><li><strong>Nový podpatek:</strong> 1 týden</li><li><strong>Kompletní výměna podrážky:</strong> 2–3 týdny</li><li><strong>Renovace:</strong> čištění, výživa a leštění</li></ul><p>Pro cenovou nabídku nám pošlete fotku bot.</p><p><em>Ukázkový obsah. Nahraďte jej podrobnostmi své služby.</em></p>",
+    "nl": "<h2>Verzolen &amp; reparaties</h2><p>Een goed paar leren schoenen kan tientallen jaren mee. Onze werkplaats vervangt zolen en hakken, stikt naden opnieuw en knapt het leer op.</p><ul><li><strong>Nieuwe hak:</strong> 1 week</li><li><strong>Volledig verzolen:</strong> 2–3 weken</li><li><strong>Opknappen:</strong> reinigen, voeden en poetsen</li></ul><p>Neem contact op met een foto van je schoenen voor een offerte.</p><p><em>Democontent. Vervang dit door je eigen servicedetails.</em></p>",
+    "pt": "<h2>Solas e reparações</h2><p>Um bom par de sapatos de pele pode durar décadas. A nossa oficina troca solas e tacões, volta a coser costuras e restaura a pele.</p><ul><li><strong>Tacão novo:</strong> 1 semana</li><li><strong>Sola completa:</strong> 2–3 semanas</li><li><strong>Restauro:</strong> limpeza, nutrição e polimento</li></ul><p>Contacte-nos com uma foto dos seus sapatos para um orçamento.</p><p><em>Conteúdo de demonstração. Substitua-o pelos detalhes do seu serviço.</em></p>",
+    "ru": "<h2>Замена подошвы и ремонт</h2><p>Хорошая пара кожаной обуви может служить десятилетиями. Наша мастерская меняет подошвы и каблуки, перешивает швы и реставрирует кожу.</p><ul><li><strong>Новый каблук:</strong> 1 неделя</li><li><strong>Полная замена подошвы:</strong> 2–3 недели</li><li><strong>Реставрация:</strong> чистка, питание и полировка</li></ul><p>Свяжитесь с нами и пришлите фото обуви, чтобы узнать стоимость.</p><p><em>Демонстрационный контент. Замените его описанием своих услуг.</em></p>"
+   }
+  },
+  {
+   "key": "delivery",
+   "title": {
+    "en": "Delivery",
+    "fr": "Livraison",
+    "es": "Envíos",
+    "it": "Spedizioni",
+    "pl": "Dostawa",
+    "de": "Versand",
+    "cs": "Doprava",
+    "nl": "Verzending",
+    "pt": "Entregas",
+    "ru": "Доставка"
+   },
+   "meta_description": {
+    "en": "Delivery times and costs for Stride Atelier orders.",
+    "fr": "Délais et frais de livraison des commandes Stride Atelier.",
+    "es": "Plazos y costes de envío de los pedidos de Stride Atelier.",
+    "it": "Tempi e costi di spedizione degli ordini Stride Atelier.",
+    "pl": "Czas i koszt dostawy zamówień Stride Atelier.",
+    "de": "Lieferzeiten und Versandkosten für Bestellungen bei Stride Atelier.",
+    "cs": "Dodací lhůty a ceny dopravy objednávek Stride Atelier.",
+    "nl": "Levertijden en verzendkosten van bestellingen bij Stride Atelier.",
+    "pt": "Prazos e custos de entrega das encomendas Stride Atelier.",
+    "ru": "Сроки и стоимость доставки заказов Stride Atelier."
+   },
+   "content": {
+    "en": "<h2>Delivery</h2><p>Orders placed before 2 pm on a working day are shipped the same day.</p><ul><li><strong>Standard:</strong> 2 to 4 working days, free over €80.</li><li><strong>Express:</strong> next working day in most of Europe.</li><li><strong>Click &amp; collect:</strong> free, ready within 24 hours.</li></ul><p>Every parcel is tracked, and you receive the tracking link by email as soon as it leaves our warehouse.</p><p><em>This is demo content. Replace it with your own delivery terms.</em></p>",
+    "fr": "<h2>Livraison</h2><p>Les commandes passées avant 14 h un jour ouvré sont expédiées le jour même.</p><ul><li><strong>Standard :</strong> 2 à 4 jours ouvrés, offerte dès 80 €.</li><li><strong>Express :</strong> jour ouvré suivant dans la plupart des pays d'Europe.</li><li><strong>Retrait en magasin :</strong> gratuit, prêt sous 24 heures.</li></ul><p>Chaque colis est suivi : vous recevez le lien de suivi par e-mail dès qu'il quitte notre entrepôt.</p><p><em>Contenu de démonstration. Remplacez-le par vos propres conditions de livraison.</em></p>",
+    "es": "<h2>Envíos</h2><p>Los pedidos realizados antes de las 14:00 en día laborable se envían el mismo día.</p><ul><li><strong>Estándar:</strong> de 2 a 4 días laborables, gratis a partir de 80 €.</li><li><strong>Exprés:</strong> siguiente día laborable en la mayor parte de Europa.</li><li><strong>Recogida en tienda:</strong> gratis, listo en 24 horas.</li></ul><p>Todos los paquetes llevan seguimiento y recibirás el enlace por correo en cuanto salga de nuestro almacén.</p><p><em>Contenido de demostración. Sustitúyelo por tus propias condiciones de envío.</em></p>",
+    "it": "<h2>Spedizioni</h2><p>Gli ordini effettuati entro le 14:00 di un giorno lavorativo vengono spediti in giornata.</p><ul><li><strong>Standard:</strong> 2–4 giorni lavorativi, gratuita oltre 80 €.</li><li><strong>Express:</strong> giorno lavorativo successivo in gran parte d'Europa.</li><li><strong>Ritiro in negozio:</strong> gratuito, pronto entro 24 ore.</li></ul><p>Ogni pacco è tracciato: ricevi il link via email appena lascia il nostro magazzino.</p><p><em>Contenuto dimostrativo. Sostituiscilo con le tue condizioni di spedizione.</em></p>",
+    "pl": "<h2>Dostawa</h2><p>Zamówienia złożone w dzień roboczy przed 14:00 wysyłamy tego samego dnia.</p><ul><li><strong>Standard:</strong> 2–4 dni robocze, gratis od 80 €.</li><li><strong>Ekspres:</strong> następny dzień roboczy w większości krajów Europy.</li><li><strong>Odbiór osobisty:</strong> bezpłatnie, gotowe w 24 godziny.</li></ul><p>Każda paczka ma numer śledzenia – link otrzymasz e-mailem, gdy tylko opuści nasz magazyn.</p><p><em>Treść demonstracyjna. Zastąp ją własnymi warunkami dostawy.</em></p>",
+    "de": "<h2>Versand</h2><p>Bestellungen, die an Werktagen vor 14 Uhr eingehen, werden am selben Tag verschickt.</p><ul><li><strong>Standard:</strong> 2–4 Werktage, kostenlos ab 80 €.</li><li><strong>Express:</strong> nächster Werktag in den meisten Ländern Europas.</li><li><strong>Click &amp; Collect:</strong> kostenlos, innerhalb von 24 Stunden abholbereit.</li></ul><p>Jedes Paket ist verfolgbar; den Link erhalten Sie per E-Mail, sobald es unser Lager verlässt.</p><p><em>Demo-Inhalt. Ersetzen Sie ihn durch Ihre eigenen Versandbedingungen.</em></p>",
+    "cs": "<h2>Doprava</h2><p>Objednávky přijaté v pracovní den do 14:00 odesíláme ještě týž den.</p><ul><li><strong>Standard:</strong> 2–4 pracovní dny, zdarma od 80 €.</li><li><strong>Expres:</strong> následující pracovní den ve většině Evropy.</li><li><strong>Osobní odběr:</strong> zdarma, připraveno do 24 hodin.</li></ul><p>Každý balík je sledovaný; odkaz vám pošleme e-mailem, jakmile opustí náš sklad.</p><p><em>Ukázkový obsah. Nahraďte jej vlastními dodacími podmínkami.</em></p>",
+    "nl": "<h2>Verzending</h2><p>Bestellingen die op een werkdag vóór 14.00 uur worden geplaatst, versturen we dezelfde dag.</p><ul><li><strong>Standaard:</strong> 2–4 werkdagen, gratis vanaf € 80.</li><li><strong>Express:</strong> volgende werkdag in het grootste deel van Europa.</li><li><strong>Afhalen:</strong> gratis, binnen 24 uur klaar.</li></ul><p>Elk pakket is te volgen; je ontvangt de link per e-mail zodra het ons magazijn verlaat.</p><p><em>Democontent. Vervang dit door je eigen verzendvoorwaarden.</em></p>",
+    "pt": "<h2>Entregas</h2><p>As encomendas feitas antes das 14h num dia útil são enviadas no mesmo dia.</p><ul><li><strong>Normal:</strong> 2 a 4 dias úteis, grátis a partir de 80 €.</li><li><strong>Expresso:</strong> dia útil seguinte na maior parte da Europa.</li><li><strong>Levantamento em loja:</strong> grátis, pronto em 24 horas.</li></ul><p>Todas as encomendas têm seguimento e recebe a ligação por e-mail assim que saem do nosso armazém.</p><p><em>Conteúdo de demonstração. Substitua-o pelas suas condições de entrega.</em></p>",
+    "ru": "<h2>Доставка</h2><p>Заказы, оформленные в рабочий день до 14:00, отправляются в тот же день.</p><ul><li><strong>Стандартная:</strong> 2–4 рабочих дня, бесплатно от 80 €.</li><li><strong>Экспресс:</strong> следующий рабочий день в большинстве стран Европы.</li><li><strong>Самовывоз:</strong> бесплатно, готово в течение 24 часов.</li></ul><p>Каждая посылка отслеживается — ссылку вы получите по e-mail, как только она покинет наш склад.</p><p><em>Демонстрационный контент. Замените его своими условиями доставки.</em></p>"
+   }
+  },
+  {
+   "key": "returns",
+   "title": {
+    "en": "Returns & exchanges",
+    "fr": "Retours & échanges",
+    "es": "Devoluciones y cambios",
+    "it": "Resi e cambi",
+    "pl": "Zwroty i wymiany",
+    "de": "Rücksendung & Umtausch",
+    "cs": "Vrácení a výměna",
+    "nl": "Retourneren & ruilen",
+    "pt": "Devoluções e trocas",
+    "ru": "Возврат и обмен"
+   },
+   "meta_description": {
+    "en": "Free returns within 30 days on Stride Atelier orders.",
+    "fr": "Retours gratuits sous 30 jours sur les commandes Stride Atelier.",
+    "es": "Devoluciones gratuitas en 30 días en los pedidos de Stride Atelier.",
+    "it": "Reso gratuito entro 30 giorni sugli ordini Stride Atelier.",
+    "pl": "Bezpłatne zwroty w ciągu 30 dni dla zamówień Stride Atelier.",
+    "de": "Kostenlose Rücksendung innerhalb von 30 Tagen bei Stride Atelier.",
+    "cs": "Vrácení zdarma do 30 dní u objednávek Stride Atelier.",
+    "nl": "Gratis retourneren binnen 30 dagen bij Stride Atelier.",
+    "pt": "Devoluções gratuitas em 30 dias nas encomendas Stride Atelier.",
+    "ru": "Бесплатный возврат в течение 30 дней для заказов Stride Atelier."
+   },
+   "content": {
+    "en": "<h2>Returns &amp; exchanges</h2><p>You have 30 days from delivery to return any unworn item with its labels attached. Returns are free within the European Union.</p><ol><li>Sign in to your account and open the order.</li><li>Choose the items to return and print the prepaid label.</li><li>Drop the parcel at any post office or collection point.</li></ol><p>Refunds are made to the original payment method within 5 working days of receiving your parcel. For an exchange, simply return the item and place a new order.</p><p><em>This is demo content. Replace it with your own return policy.</em></p>",
+    "fr": "<h2>Retours &amp; échanges</h2><p>Vous disposez de 30 jours après la livraison pour retourner tout article non porté avec ses étiquettes. Les retours sont gratuits dans l'Union européenne.</p><ol><li>Connectez-vous à votre compte et ouvrez la commande.</li><li>Choisissez les articles à retourner et imprimez l'étiquette prépayée.</li><li>Déposez le colis dans un bureau de poste ou un point relais.</li></ol><p>Le remboursement est effectué sur le moyen de paiement d'origine sous 5 jours ouvrés après réception du colis. Pour un échange, retournez simplement l'article et passez une nouvelle commande.</p><p><em>Contenu de démonstration. Remplacez-le par votre propre politique de retour.</em></p>",
+    "es": "<h2>Devoluciones y cambios</h2><p>Dispones de 30 días desde la entrega para devolver cualquier artículo sin usar y con sus etiquetas. Las devoluciones son gratuitas dentro de la Unión Europea.</p><ol><li>Inicia sesión en tu cuenta y abre el pedido.</li><li>Elige los artículos que quieres devolver e imprime la etiqueta prepagada.</li><li>Entrega el paquete en cualquier oficina de correos o punto de recogida.</li></ol><p>El reembolso se realiza al método de pago original en un plazo de 5 días laborables tras recibir el paquete. Para un cambio, devuelve el artículo y realiza un nuevo pedido.</p><p><em>Contenido de demostración. Sustitúyelo por tu propia política de devoluciones.</em></p>",
+    "it": "<h2>Resi e cambi</h2><p>Hai 30 giorni dalla consegna per restituire qualsiasi articolo non indossato e con le etichette. Il reso è gratuito nell'Unione europea.</p><ol><li>Accedi al tuo account e apri l'ordine.</li><li>Scegli gli articoli da restituire e stampa l'etichetta prepagata.</li><li>Consegna il pacco in un ufficio postale o punto di ritiro.</li></ol><p>Il rimborso avviene sul metodo di pagamento originale entro 5 giorni lavorativi dalla ricezione del pacco. Per un cambio, restituisci l'articolo ed effettua un nuovo ordine.</p><p><em>Contenuto dimostrativo. Sostituiscilo con la tua politica di reso.</em></p>",
+    "pl": "<h2>Zwroty i wymiany</h2><p>Masz 30 dni od dostawy na zwrot nienoszonego produktu z metkami. Zwroty w Unii Europejskiej są bezpłatne.</p><ol><li>Zaloguj się na swoje konto i otwórz zamówienie.</li><li>Wybierz produkty do zwrotu i wydrukuj opłaconą etykietę.</li><li>Nadaj paczkę na poczcie lub w punkcie odbioru.</li></ol><p>Zwrot pieniędzy następuje na pierwotną metodę płatności w ciągu 5 dni roboczych od otrzymania paczki. Aby wymienić produkt, zwróć go i złóż nowe zamówienie.</p><p><em>Treść demonstracyjna. Zastąp ją własną polityką zwrotów.</em></p>",
+    "de": "<h2>Rücksendung &amp; Umtausch</h2><p>Sie haben ab Lieferung 30 Tage Zeit, ungetragene Artikel mit Etikett zurückzusenden. Rücksendungen innerhalb der EU sind kostenlos.</p><ol><li>Melden Sie sich in Ihrem Konto an und öffnen Sie die Bestellung.</li><li>Wählen Sie die Artikel aus und drucken Sie das vorfrankierte Etikett.</li><li>Geben Sie das Paket bei einer Post- oder Paketstelle ab.</li></ol><p>Die Erstattung erfolgt innerhalb von 5 Werktagen nach Eingang auf das ursprüngliche Zahlungsmittel. Für einen Umtausch senden Sie den Artikel zurück und bestellen neu.</p><p><em>Demo-Inhalt. Ersetzen Sie ihn durch Ihre eigenen Rückgabebedingungen.</em></p>",
+    "cs": "<h2>Vrácení a výměna</h2><p>Na vrácení nenošeného zboží s visačkami máte 30 dní od doručení. Vrácení v rámci Evropské unie je zdarma.</p><ol><li>Přihlaste se ke svému účtu a otevřete objednávku.</li><li>Vyberte zboží k vrácení a vytiskněte předplacený štítek.</li><li>Balík odevzdejte na poště nebo ve výdejním místě.</li></ol><p>Peníze vracíme původní platební metodou do 5 pracovních dnů od přijetí balíku. Pro výměnu zboží vraťte a vytvořte novou objednávku.</p><p><em>Ukázkový obsah. Nahraďte jej vlastními podmínkami vrácení.</em></p>",
+    "nl": "<h2>Retourneren &amp; ruilen</h2><p>Je hebt 30 dagen na levering om ongedragen artikelen met label terug te sturen. Retourneren binnen de Europese Unie is gratis.</p><ol><li>Log in op je account en open de bestelling.</li><li>Kies de artikelen en print het gefrankeerde label.</li><li>Lever het pakket af bij een postkantoor of afhaalpunt.</li></ol><p>We betalen terug via de oorspronkelijke betaalmethode binnen 5 werkdagen na ontvangst. Om te ruilen stuur je het artikel terug en plaats je een nieuwe bestelling.</p><p><em>Democontent. Vervang dit door je eigen retourbeleid.</em></p>",
+    "pt": "<h2>Devoluções e trocas</h2><p>Tem 30 dias após a entrega para devolver qualquer artigo não usado e com etiquetas. As devoluções são gratuitas na União Europeia.</p><ol><li>Inicie sessão na sua conta e abra a encomenda.</li><li>Escolha os artigos a devolver e imprima a etiqueta pré-paga.</li><li>Entregue a encomenda numa estação de correios ou ponto de recolha.</li></ol><p>O reembolso é feito no método de pagamento original no prazo de 5 dias úteis após receção. Para uma troca, devolva o artigo e faça uma nova encomenda.</p><p><em>Conteúdo de demonstração. Substitua-o pela sua política de devoluções.</em></p>",
+    "ru": "<h2>Возврат и обмен</h2><p>У вас есть 30 дней с момента доставки, чтобы вернуть неношеный товар с ярлыками. Возврат в пределах Европейского союза бесплатный.</p><ol><li>Войдите в свой аккаунт и откройте заказ.</li><li>Выберите товары для возврата и распечатайте оплаченную этикетку.</li><li>Сдайте посылку в почтовое отделение или пункт приёма.</li></ol><p>Деньги возвращаются на исходный способ оплаты в течение 5 рабочих дней после получения посылки. Для обмена верните товар и оформите новый заказ.</p><p><em>Демонстрационный контент. Замените его своей политикой возврата.</em></p>"
+   }
+  },
+  {
+   "key": "terms",
+   "title": {
+    "en": "Terms and conditions",
+    "fr": "Conditions générales de vente",
+    "es": "Condiciones generales",
+    "it": "Condizioni di vendita",
+    "pl": "Regulamin",
+    "de": "AGB",
+    "cs": "Obchodní podmínky",
+    "nl": "Algemene voorwaarden",
+    "pt": "Termos e condições",
+    "ru": "Условия продажи"
+   },
+   "meta_description": {
+    "en": "Terms and conditions of sale.",
+    "fr": "Conditions générales de vente.",
+    "es": "Condiciones generales de venta.",
+    "it": "Condizioni generali di vendita.",
+    "pl": "Regulamin sprzedaży.",
+    "de": "Allgemeine Geschäftsbedingungen.",
+    "cs": "Všeobecné obchodní podmínky.",
+    "nl": "Algemene verkoopvoorwaarden.",
+    "pt": "Condições gerais de venda.",
+    "ru": "Общие условия продажи."
+   },
+   "content": {
+    "en": "<h2>Terms and conditions of sale</h2><p>These terms apply to all orders placed on this website. By placing an order you accept them in full.</p><h3>Prices</h3><p>Prices are shown in euros, including VAT. Delivery costs are shown before you confirm your order.</p><h3>Payment</h3><p>Payment is taken when your order is confirmed.</p><h3>Right of withdrawal</h3><p>You may withdraw from your purchase within 30 days of delivery, as described on our returns page.</p><p><em>This is demo content. Replace it with terms reviewed by a legal professional for your country.</em></p>",
+    "fr": "<h2>Conditions générales de vente</h2><p>Ces conditions s'appliquent à toutes les commandes passées sur ce site. En passant commande, vous les acceptez dans leur intégralité.</p><h3>Prix</h3><p>Les prix sont indiqués en euros, TVA comprise. Les frais de livraison sont affichés avant la validation de la commande.</p><h3>Paiement</h3><p>Le paiement est prélevé à la confirmation de la commande.</p><h3>Droit de rétractation</h3><p>Vous pouvez vous rétracter dans les 30 jours suivant la livraison, comme indiqué sur notre page des retours.</p><p><em>Contenu de démonstration. Remplacez-le par des conditions validées par un juriste pour votre pays.</em></p>",
+    "es": "<h2>Condiciones generales de venta</h2><p>Estas condiciones se aplican a todos los pedidos realizados en este sitio web. Al realizar un pedido, las aceptas íntegramente.</p><h3>Precios</h3><p>Los precios se muestran en euros, IVA incluido. Los gastos de envío se indican antes de confirmar el pedido.</p><h3>Pago</h3><p>El pago se cobra al confirmar el pedido.</p><h3>Derecho de desistimiento</h3><p>Puedes desistir de tu compra en los 30 días siguientes a la entrega, tal como se describe en nuestra página de devoluciones.</p><p><em>Contenido de demostración. Sustitúyelo por condiciones revisadas por un profesional jurídico de tu país.</em></p>",
+    "it": "<h2>Condizioni generali di vendita</h2><p>Queste condizioni si applicano a tutti gli ordini effettuati su questo sito. Effettuando un ordine le accetti integralmente.</p><h3>Prezzi</h3><p>I prezzi sono indicati in euro, IVA inclusa. Le spese di spedizione sono indicate prima della conferma dell'ordine.</p><h3>Pagamento</h3><p>Il pagamento viene addebitato alla conferma dell'ordine.</p><h3>Diritto di recesso</h3><p>Puoi recedere dall'acquisto entro 30 giorni dalla consegna, come descritto nella pagina dei resi.</p><p><em>Contenuto dimostrativo. Sostituiscilo con condizioni verificate da un legale del tuo Paese.</em></p>",
+    "pl": "<h2>Regulamin sprzedaży</h2><p>Niniejszy regulamin dotyczy wszystkich zamówień składanych w tym sklepie. Składając zamówienie, akceptujesz go w całości.</p><h3>Ceny</h3><p>Ceny podane są w euro i zawierają VAT. Koszty dostawy wyświetlamy przed potwierdzeniem zamówienia.</p><h3>Płatność</h3><p>Płatność pobierana jest w momencie potwierdzenia zamówienia.</p><h3>Prawo odstąpienia</h3><p>Możesz odstąpić od umowy w ciągu 30 dni od dostawy, jak opisano na stronie zwrotów.</p><p><em>Treść demonstracyjna. Zastąp ją regulaminem sprawdzonym przez prawnika w Twoim kraju.</em></p>",
+    "de": "<h2>Allgemeine Geschäftsbedingungen</h2><p>Diese Bedingungen gelten für alle Bestellungen auf dieser Website. Mit Ihrer Bestellung erkennen Sie sie vollständig an.</p><h3>Preise</h3><p>Alle Preise in Euro inklusive Mehrwertsteuer. Versandkosten werden vor der Bestellbestätigung angezeigt.</p><h3>Zahlung</h3><p>Die Zahlung wird mit der Bestellbestätigung fällig.</p><h3>Widerrufsrecht</h3><p>Sie können innerhalb von 30 Tagen nach Lieferung widerrufen, wie auf unserer Rückgabeseite beschrieben.</p><p><em>Demo-Inhalt. Ersetzen Sie ihn durch rechtlich geprüfte Bedingungen für Ihr Land.</em></p>",
+    "cs": "<h2>Všeobecné obchodní podmínky</h2><p>Tyto podmínky platí pro všechny objednávky na tomto webu. Odesláním objednávky je přijímáte v plném rozsahu.</p><h3>Ceny</h3><p>Ceny jsou uvedeny v eurech včetně DPH. Cena dopravy se zobrazí před potvrzením objednávky.</p><h3>Platba</h3><p>Platba je stržena při potvrzení objednávky.</p><h3>Odstoupení od smlouvy</h3><p>Od nákupu můžete odstoupit do 30 dnů od doručení, jak je popsáno na stránce vrácení.</p><p><em>Ukázkový obsah. Nahraďte jej podmínkami schválenými právníkem pro vaši zemi.</em></p>",
+    "nl": "<h2>Algemene verkoopvoorwaarden</h2><p>Deze voorwaarden gelden voor alle bestellingen op deze website. Door te bestellen ga je er volledig mee akkoord.</p><h3>Prijzen</h3><p>Prijzen zijn in euro's, inclusief btw. Verzendkosten zie je voordat je je bestelling bevestigt.</p><h3>Betaling</h3><p>De betaling wordt afgeschreven bij bevestiging van de bestelling.</p><h3>Herroepingsrecht</h3><p>Je kunt je aankoop binnen 30 dagen na levering herroepen, zoals beschreven op onze retourpagina.</p><p><em>Democontent. Vervang dit door voorwaarden die door een jurist voor jouw land zijn gecontroleerd.</em></p>",
+    "pt": "<h2>Condições gerais de venda</h2><p>Estas condições aplicam-se a todas as encomendas feitas neste site. Ao encomendar, aceita-as na íntegra.</p><h3>Preços</h3><p>Os preços são apresentados em euros, com IVA incluído. Os portes são indicados antes de confirmar a encomenda.</p><h3>Pagamento</h3><p>O pagamento é cobrado na confirmação da encomenda.</p><h3>Direito de livre resolução</h3><p>Pode desistir da compra no prazo de 30 dias após a entrega, conforme descrito na página de devoluções.</p><p><em>Conteúdo de demonstração. Substitua-o por condições revistas por um jurista do seu país.</em></p>",
+    "ru": "<h2>Общие условия продажи</h2><p>Эти условия распространяются на все заказы на этом сайте. Оформляя заказ, вы принимаете их полностью.</p><h3>Цены</h3><p>Цены указаны в евро с учётом НДС. Стоимость доставки отображается до подтверждения заказа.</p><h3>Оплата</h3><p>Оплата списывается при подтверждении заказа.</p><h3>Право на отказ</h3><p>Вы можете отказаться от покупки в течение 30 дней после доставки, как описано на странице возврата.</p><p><em>Демонстрационный контент. Замените его условиями, проверенными юристом вашей страны.</em></p>"
+   },
+   "role": "conditions"
+  },
+  {
+   "key": "privacy",
+   "title": {
+    "en": "Privacy policy",
+    "fr": "Politique de confidentialité",
+    "es": "Política de privacidad",
+    "it": "Informativa sulla privacy",
+    "pl": "Polityka prywatności",
+    "de": "Datenschutzerklärung",
+    "cs": "Ochrana osobních údajů",
+    "nl": "Privacybeleid",
+    "pt": "Política de privacidade",
+    "ru": "Политика конфиденциальности"
+   },
+   "meta_description": {
+    "en": "How we collect and use your personal data.",
+    "fr": "Comment nous collectons et utilisons vos données personnelles.",
+    "es": "Cómo recogemos y utilizamos tus datos personales.",
+    "it": "Come raccogliamo e utilizziamo i tuoi dati personali.",
+    "pl": "Jak zbieramy i wykorzystujemy Twoje dane osobowe.",
+    "de": "Wie wir Ihre personenbezogenen Daten erheben und nutzen.",
+    "cs": "Jak shromažďujeme a používáme vaše osobní údaje.",
+    "nl": "Hoe we je persoonsgegevens verzamelen en gebruiken.",
+    "pt": "Como recolhemos e utilizamos os seus dados pessoais.",
+    "ru": "Как мы собираем и используем ваши персональные данные."
+   },
+   "content": {
+    "en": "<h2>Privacy policy</h2><p>We only collect the personal data we need to process your orders, answer your questions and, if you agree, send you our newsletter.</p><h3>Your rights</h3><p>You can access, correct or delete your data at any time from your account or by contacting us.</p><h3>Cookies</h3><p>We use the cookies needed for the shop to work, and others only with your consent.</p><p><em>This is demo content. Replace it with a privacy policy reviewed by a legal professional.</em></p>",
+    "fr": "<h2>Politique de confidentialité</h2><p>Nous ne collectons que les données personnelles nécessaires pour traiter vos commandes, répondre à vos questions et, si vous l'acceptez, vous envoyer notre newsletter.</p><h3>Vos droits</h3><p>Vous pouvez à tout moment accéder à vos données, les corriger ou les supprimer depuis votre compte ou en nous contactant.</p><h3>Cookies</h3><p>Nous utilisons les cookies nécessaires au fonctionnement de la boutique, et les autres uniquement avec votre consentement.</p><p><em>Contenu de démonstration. Remplacez-le par une politique validée par un juriste.</em></p>",
+    "es": "<h2>Política de privacidad</h2><p>Solo recogemos los datos personales necesarios para tramitar tus pedidos, responder a tus preguntas y, si lo aceptas, enviarte nuestro boletín.</p><h3>Tus derechos</h3><p>Puedes acceder, corregir o eliminar tus datos en cualquier momento desde tu cuenta o contactándonos.</p><h3>Cookies</h3><p>Usamos las cookies necesarias para el funcionamiento de la tienda y las demás solo con tu consentimiento.</p><p><em>Contenido de demostración. Sustitúyelo por una política revisada por un profesional jurídico.</em></p>",
+    "it": "<h2>Informativa sulla privacy</h2><p>Raccogliamo solo i dati personali necessari per gestire i tuoi ordini, rispondere alle tue domande e, se acconsenti, inviarti la nostra newsletter.</p><h3>I tuoi diritti</h3><p>Puoi accedere, correggere o cancellare i tuoi dati in qualsiasi momento dal tuo account o contattandoci.</p><h3>Cookie</h3><p>Usiamo i cookie necessari al funzionamento del negozio e gli altri solo con il tuo consenso.</p><p><em>Contenuto dimostrativo. Sostituiscilo con un'informativa verificata da un legale.</em></p>",
+    "pl": "<h2>Polityka prywatności</h2><p>Zbieramy wyłącznie dane osobowe potrzebne do realizacji zamówień, odpowiedzi na pytania i – za Twoją zgodą – wysyłki newslettera.</p><h3>Twoje prawa</h3><p>W każdej chwili możesz uzyskać dostęp do swoich danych, poprawić je lub usunąć w swoim koncie albo kontaktując się z nami.</p><h3>Pliki cookie</h3><p>Używamy plików cookie niezbędnych do działania sklepu, a pozostałych wyłącznie za Twoją zgodą.</p><p><em>Treść demonstracyjna. Zastąp ją polityką sprawdzoną przez prawnika.</em></p>",
+    "de": "<h2>Datenschutzerklärung</h2><p>Wir erheben nur die personenbezogenen Daten, die wir zur Abwicklung Ihrer Bestellungen, zur Beantwortung Ihrer Fragen und – mit Ihrer Zustimmung – für unseren Newsletter benötigen.</p><h3>Ihre Rechte</h3><p>Sie können Ihre Daten jederzeit in Ihrem Konto oder über unseren Kontakt einsehen, berichtigen oder löschen.</p><h3>Cookies</h3><p>Wir verwenden die für den Shop notwendigen Cookies, andere nur mit Ihrer Einwilligung.</p><p><em>Demo-Inhalt. Ersetzen Sie ihn durch eine rechtlich geprüfte Datenschutzerklärung.</em></p>",
+    "cs": "<h2>Ochrana osobních údajů</h2><p>Shromažďujeme pouze osobní údaje nutné k vyřízení objednávek, zodpovězení dotazů a – s vaším souhlasem – k zasílání newsletteru.</p><h3>Vaše práva</h3><p>Své údaje můžete kdykoli zobrazit, opravit nebo smazat ve svém účtu nebo nás kontaktovat.</p><h3>Cookies</h3><p>Používáme cookies nezbytné pro chod obchodu, ostatní pouze s vaším souhlasem.</p><p><em>Ukázkový obsah. Nahraďte jej zásadami schválenými právníkem.</em></p>",
+    "nl": "<h2>Privacybeleid</h2><p>We verzamelen alleen de persoonsgegevens die nodig zijn om je bestellingen te verwerken, je vragen te beantwoorden en, als je dat wilt, onze nieuwsbrief te sturen.</p><h3>Je rechten</h3><p>Je kunt je gegevens op elk moment inzien, corrigeren of verwijderen via je account of door contact met ons op te nemen.</p><h3>Cookies</h3><p>We gebruiken de cookies die nodig zijn voor de werking van de winkel, en andere alleen met jouw toestemming.</p><p><em>Democontent. Vervang dit door een privacybeleid dat door een jurist is gecontroleerd.</em></p>",
+    "pt": "<h2>Política de privacidade</h2><p>Recolhemos apenas os dados pessoais necessários para processar as suas encomendas, responder às suas perguntas e, se concordar, enviar a nossa newsletter.</p><h3>Os seus direitos</h3><p>Pode aceder, corrigir ou apagar os seus dados a qualquer momento na sua conta ou contactando-nos.</p><h3>Cookies</h3><p>Usamos os cookies necessários ao funcionamento da loja e os restantes apenas com o seu consentimento.</p><p><em>Conteúdo de demonstração. Substitua-o por uma política revista por um jurista.</em></p>",
+    "ru": "<h2>Политика конфиденциальности</h2><p>Мы собираем только те персональные данные, которые нужны для обработки заказов, ответов на ваши вопросы и — с вашего согласия — отправки рассылки.</p><h3>Ваши права</h3><p>Вы можете в любой момент просмотреть, исправить или удалить свои данные в аккаунте или связавшись с нами.</p><h3>Файлы cookie</h3><p>Мы используем cookie, необходимые для работы магазина, а остальные — только с вашего согласия.</p><p><em>Демонстрационный контент. Замените его политикой, проверенной юристом.</em></p>"
+   }
+  },
+  {
+   "key": "legal",
+   "title": {
+    "en": "Legal notice",
+    "fr": "Mentions légales",
+    "es": "Aviso legal",
+    "it": "Note legali",
+    "pl": "Nota prawna",
+    "de": "Impressum",
+    "cs": "Právní informace",
+    "nl": "Juridische informatie",
+    "pt": "Aviso legal",
+    "ru": "Правовая информация"
+   },
+   "meta_description": {
+    "en": "Legal notice and company information.",
+    "fr": "Mentions légales et informations sur la société.",
+    "es": "Aviso legal e información de la empresa.",
+    "it": "Note legali e informazioni sulla società.",
+    "pl": "Nota prawna i dane firmy.",
+    "de": "Impressum und Unternehmensangaben.",
+    "cs": "Právní informace a údaje o společnosti.",
+    "nl": "Juridische informatie en bedrijfsgegevens.",
+    "pt": "Aviso legal e informações da empresa.",
+    "ru": "Правовая информация и сведения о компании."
+   },
+   "content": {
+    "en": "<h2>Legal notice</h2><p>Stride Atelier is a fictional brand created for this demo store.</p><p>Publisher: your company name, address, registration number and VAT number.</p><p>Hosting: your hosting provider's name and address.</p><p><em>This is demo content. Replace it with your own company details.</em></p>",
+    "fr": "<h2>Mentions légales</h2><p>Stride Atelier est une marque fictive créée pour cette boutique de démonstration.</p><p>Éditeur : nom de votre société, adresse, numéro d'immatriculation et numéro de TVA.</p><p>Hébergement : nom et adresse de votre hébergeur.</p><p><em>Contenu de démonstration. Remplacez-le par les informations de votre société.</em></p>",
+    "es": "<h2>Aviso legal</h2><p>Stride Atelier es una marca ficticia creada para esta tienda de demostración.</p><p>Titular: nombre de tu empresa, dirección, número de registro y NIF/IVA.</p><p>Alojamiento: nombre y dirección de tu proveedor de hosting.</p><p><em>Contenido de demostración. Sustitúyelo por los datos de tu empresa.</em></p>",
+    "it": "<h2>Note legali</h2><p>Stride Atelier è un marchio di fantasia creato per questo negozio dimostrativo.</p><p>Editore: nome della tua società, indirizzo, numero di registrazione e partita IVA.</p><p>Hosting: nome e indirizzo del tuo fornitore di hosting.</p><p><em>Contenuto dimostrativo. Sostituiscilo con i dati della tua società.</em></p>",
+    "pl": "<h2>Nota prawna</h2><p>Stride Atelier to fikcyjna marka stworzona na potrzeby tego sklepu demonstracyjnego.</p><p>Wydawca: nazwa Twojej firmy, adres, numer rejestrowy i NIP.</p><p>Hosting: nazwa i adres dostawcy hostingu.</p><p><em>Treść demonstracyjna. Zastąp ją danymi swojej firmy.</em></p>",
+    "de": "<h2>Impressum</h2><p>Stride Atelier ist eine fiktive Marke, die für diesen Demo-Shop erstellt wurde.</p><p>Anbieter: Name Ihres Unternehmens, Anschrift, Registernummer und USt-IdNr.</p><p>Hosting: Name und Anschrift Ihres Hosting-Anbieters.</p><p><em>Demo-Inhalt. Ersetzen Sie ihn durch Ihre eigenen Unternehmensangaben.</em></p>",
+    "cs": "<h2>Právní informace</h2><p>Stride Atelier je smyšlená značka vytvořená pro tento ukázkový obchod.</p><p>Provozovatel: název vaší společnosti, adresa, IČO a DIČ.</p><p>Hosting: název a adresa vašeho poskytovatele hostingu.</p><p><em>Ukázkový obsah. Nahraďte jej údaji vaší společnosti.</em></p>",
+    "nl": "<h2>Juridische informatie</h2><p>Stride Atelier is een fictief merk, gemaakt voor deze demowinkel.</p><p>Uitgever: je bedrijfsnaam, adres, KvK-nummer en btw-nummer.</p><p>Hosting: naam en adres van je hostingprovider.</p><p><em>Democontent. Vervang dit door je eigen bedrijfsgegevens.</em></p>",
+    "pt": "<h2>Aviso legal</h2><p>A Stride Atelier é uma marca fictícia criada para esta loja de demonstração.</p><p>Editor: nome da sua empresa, morada, número de registo e NIF.</p><p>Alojamento: nome e morada do seu fornecedor de alojamento.</p><p><em>Conteúdo de demonstração. Substitua-o pelos dados da sua empresa.</em></p>",
+    "ru": "<h2>Правовая информация</h2><p>Stride Atelier — вымышленный бренд, созданный для этого демонстрационного магазина.</p><p>Владелец: название вашей компании, адрес, регистрационный номер и номер НДС.</p><p>Хостинг: название и адрес вашего хостинг-провайдера.</p><p><em>Демонстрационный контент. Замените его данными вашей компании.</em></p>"
+   }
+  }
+ ],
+ "menu": [
+  "category:sneakers",
+  "category:running",
+  "category:boots",
+  "category:sandals",
+  "category:formal",
+  "category:care",
+  {
+   "label": {
+    "en": "Sale",
+    "fr": "Soldes",
+    "es": "Rebajas",
+    "it": "Saldi",
+    "pl": "Wyprzedaż",
+    "de": "Sale",
+    "cs": "Výprodej",
+    "nl": "Sale",
+    "pt": "Saldos",
+    "ru": "Распродажа"
+   },
+   "url": "page:prices-drop"
+  }
+ ],
+ "link_blocks": [
+  {
+   "name": {
+    "en": "Shop",
+    "fr": "Boutique",
+    "es": "Tienda",
+    "it": "Negozio",
+    "pl": "Sklep",
+    "de": "Shop",
+    "cs": "Obchod",
+    "nl": "Winkel",
+    "pt": "Loja",
+    "ru": "Магазин"
+   },
+   "hook": "displayFooter",
+   "links": [
+    "page:new-products",
+    "page:prices-drop",
+    "page:best-sales"
+   ]
+  },
+  {
+   "name": {
+    "en": "Customer care",
+    "fr": "Service client",
+    "es": "Atención al cliente",
+    "it": "Assistenza clienti",
+    "pl": "Obsługa klienta",
+    "de": "Kundenservice",
+    "cs": "Zákaznický servis",
+    "nl": "Klantenservice",
+    "pt": "Apoio ao cliente",
+    "ru": "Покупателям"
+   },
+   "hook": "displayFooter",
+   "links": [
+    "cms:delivery",
+    "cms:returns",
+    "cms:size-guide",
+    "cms:repairs",
+    "page:contact"
+   ]
+  },
+  {
+   "name": {
+    "en": "Stride Atelier",
+    "fr": "Stride Atelier",
+    "es": "Stride Atelier",
+    "it": "Stride Atelier",
+    "pl": "Stride Atelier",
+    "de": "Stride Atelier",
+    "cs": "Stride Atelier",
+    "nl": "Stride Atelier",
+    "pt": "Stride Atelier",
+    "ru": "Stride Atelier"
+   },
+   "hook": "displayFooter",
+   "links": [
+    "cms:about",
+    "cms:terms",
+    "cms:privacy",
+    "cms:legal",
+    "page:sitemap"
+   ]
+  }
+ ],
+ "reassurance": [
+  {
+   "icon": "pack2/carrier.svg",
+   "title": {
+    "en": "Free delivery over €80",
+    "fr": "Livraison offerte dès 80 €",
+    "es": "Envío gratis a partir de 80 €",
+    "it": "Spedizione gratuita oltre 80 €",
+    "pl": "Darmowa dostawa od 80 €",
+    "de": "Kostenloser Versand ab 80 €",
+    "cs": "Doprava zdarma od 80 €",
+    "nl": "Gratis verzending vanaf € 80",
+    "pt": "Entrega grátis a partir de 80 €",
+    "ru": "Бесплатная доставка от 80 €"
+   },
+   "text": {
+    "en": "Tracked shipping across Europe",
+    "fr": "Envoi suivi dans toute l'Europe",
+    "es": "Envío con seguimiento en toda Europa",
+    "it": "Spedizione tracciata in tutta Europa",
+    "pl": "Przesyłki ze śledzeniem w całej Europie",
+    "de": "Sendungsverfolgung in ganz Europa",
+    "cs": "Sledované zásilky po celé Evropě",
+    "nl": "Track & trace in heel Europa",
+    "pt": "Envio com seguimento em toda a Europa",
+    "ru": "Отслеживаемая доставка по всей Европе"
+   },
+   "cms": "delivery"
+  },
+  {
+   "icon": "pack2/return.svg",
+   "title": {
+    "en": "Free 30-day returns",
+    "fr": "Retours gratuits sous 30 jours",
+    "es": "Devoluciones gratis en 30 días",
+    "it": "Reso gratuito entro 30 giorni",
+    "pl": "Bezpłatny zwrot w 30 dni",
+    "de": "30 Tage kostenlose Rücksendung",
+    "cs": "Vrácení zdarma do 30 dní",
+    "nl": "30 dagen gratis retour",
+    "pt": "Devoluções grátis em 30 dias",
+    "ru": "Бесплатный возврат за 30 дней"
+   },
+   "text": {
+    "en": "Easy returns, no questions asked",
+    "fr": "Retours simples, sans justification",
+    "es": "Devoluciones fáciles, sin preguntas",
+    "it": "Resi semplici, senza domande",
+    "pl": "Proste zwroty bez pytań",
+    "de": "Einfache Rückgabe ohne Fragen",
+    "cs": "Snadné vrácení bez otázek",
+    "nl": "Makkelijk retourneren, zonder vragen",
+    "pt": "Devoluções fáceis, sem perguntas",
+    "ru": "Простой возврат без лишних вопросов"
+   },
+   "cms": "returns"
+  },
+  {
+   "icon": "pack2/security.svg",
+   "title": {
+    "en": "Secure payment",
+    "fr": "Paiement sécurisé",
+    "es": "Pago seguro",
+    "it": "Pagamento sicuro",
+    "pl": "Bezpieczna płatność",
+    "de": "Sichere Zahlung",
+    "cs": "Bezpečná platba",
+    "nl": "Veilig betalen",
+    "pt": "Pagamento seguro",
+    "ru": "Безопасная оплата"
+   },
+   "text": {
+    "en": "Card, PayPal and bank transfer",
+    "fr": "Carte, PayPal et virement",
+    "es": "Tarjeta, PayPal y transferencia",
+    "it": "Carta, PayPal e bonifico",
+    "pl": "Karta, PayPal i przelew",
+    "de": "Karte, PayPal und Überweisung",
+    "cs": "Karta, PayPal a převod",
+    "nl": "Kaart, PayPal en overschrijving",
+    "pt": "Cartão, PayPal e transferência",
+    "ru": "Карта, PayPal и банковский перевод"
+   }
+  }
+ ],
+ "config": {
+  "HOME_FEATURED_CAT": "category:home",
+  "PS_NB_DAYS_NEW_PRODUCT": 30,
+  "PS_PRODUCTS_PER_PAGE": 12,
+  "PS_SHOP_DETAILS": "",
+  "BLOCKSOCIAL_TWITTER": "",
+  "PS_JPEG_QUALITY": 82,
+  "PS_SHIPPING_FREE_PRICE": 80,
+  "PS_DISPLAY_BEST_SELLERS": 1,
+  "PS_GIFT_WRAPPING": 0,
+  "HBKIT_CARD_FEATURE": "feature:shoefit,feature:material",
+  "HBKIT_PRODUCT_FEATURES": "",
+  "HBKIT_QUICK_FACET": "group:size",
+  "HBKIT_SIZE_GUIDE": "cms:size-guide",
+  "HBKIT_NEXT_CATEGORY": 1,
+  "HBKIT_FIT_FEATURE": "feature:shoefit",
+  "HBKIT_STAMP_FEATURE": "feature:build",
+  "HBKIT_TXT_NEWS_TITLE": {
+   "en": "First in line for new drops",
+   "fr": "Les premiers sur les nouveautés",
+   "es": "Los primeros en las novedades",
+   "it": "I primi sulle novità",
+   "pl": "Pierwsi przy nowych premierach",
+   "de": "Als Erste von neuen Drops erfahren",
+   "cs": "Buďte první u novinek",
+   "nl": "Als eerste bij nieuwe drops",
+   "pt": "Os primeiros nas novidades",
+   "ru": "Узнавайте о новинках первыми"
+  },
+  "HBKIT_TXT_NEWS_TEXT": {
+   "en": "<p>New releases, restocks and care tips. Get 10% off your first pair.</p>",
+   "fr": "<p>Sorties, réassorts et conseils d'entretien. Recevez 10 % de réduction sur votre première paire.</p>",
+   "es": "<p>Lanzamientos, reposiciones y consejos de cuidado. Consigue un 10 % de descuento en tu primer par.</p>",
+   "it": "<p>Nuove uscite, riassortimenti e consigli per la cura. Ricevi il 10% di sconto sul primo paio.</p>",
+   "pl": "<p>Premiery, uzupełnienia dostaw i porady pielęgnacyjne. Otrzymaj 10% rabatu na pierwszą parę.</p>",
+   "de": "<p>Neuerscheinungen, Restocks und Pflegetipps. 10 % Rabatt auf Ihr erstes Paar.</p>",
+   "cs": "<p>Nové modely, doplnění zásob a tipy na péči. Získejte 10% slevu na první pár.</p>",
+   "nl": "<p>Nieuwe releases, restocks en onderhoudstips. Krijg 10% korting op je eerste paar.</p>",
+   "pt": "<p>Lançamentos, reposições e dicas de cuidado. Receba 10% de desconto no primeiro par.</p>",
+   "ru": "<p>Новые релизы, пополнения и советы по уходу. Скидка 10% на первую пару.</p>"
+  },
+  "HBKIT_TXT_PRODUCT_NOTE": {
+   "en": "Free delivery over €80|Free size exchange and returns for 30 days|Resoling service when the sole wears out",
+   "fr": "Livraison offerte dès 80 €|Échange de taille et retours gratuits sous 30 jours|Ressemelage quand la semelle est usée",
+   "es": "Envío gratis desde 80 €|Cambio de talla y devoluciones gratis en 30 días|Cambio de suela cuando se desgaste",
+   "it": "Spedizione gratuita sopra 80 €|Cambio taglia e resi gratuiti entro 30 giorni|Risuolatura quando la suola è consumata",
+   "pl": "Darmowa dostawa od 80 €|Darmowa wymiana rozmiaru i zwroty przez 30 dni|Wymiana podeszwy, gdy się zużyje",
+   "de": "Kostenloser Versand ab 80 €|Kostenloser Größentausch und Rückgabe in 30 Tagen|Neubesohlung, wenn die Sohle abgelaufen ist",
+   "cs": "Doprava zdarma od 80 €|Výměna velikosti a vrácení zdarma do 30 dnů|Výměna podrážky, když se ochodí",
+   "nl": "Gratis verzending vanaf €80|Gratis maat ruilen en retour binnen 30 dagen|Nieuwe zool als de oude versleten is",
+   "pt": "Entrega gratuita acima de 80 €|Troca de tamanho e devoluções gratuitas em 30 dias|Troca de sola quando estiver gasta",
+   "ru": "Бесплатная доставка от 80 €|Бесплатный обмен размера и возврат 30 дней|Замена подошвы, когда она износится"
+  },
+  "HBKIT_TXT_SEARCH_PLACEHOLDER": {
+   "en": "Search shoes, sizes, materials",
+   "fr": "Chercher chaussures, tailles, matières",
+   "es": "Buscar zapatos, tallas, materiales",
+   "it": "Cerca scarpe, taglie, materiali",
+   "pl": "Szukaj butów, rozmiarów, materiałów",
+   "de": "Schuhe, Größen, Materialien suchen",
+   "cs": "Hledat boty, velikosti, materiály",
+   "nl": "Zoek schoenen, maten, materialen",
+   "pt": "Pesquisar sapatos, tamanhos, materiais",
+   "ru": "Поиск обуви, размеров, материалов"
+  },
+  "HBKIT_TXT_SIZE_HINT": {
+   "en": "Between two sizes? Take the larger one.",
+   "fr": "Entre deux tailles ? Prenez la plus grande.",
+   "es": "¿Entre dos tallas? Elige la más grande.",
+   "it": "Tra due taglie? Scegli la più grande.",
+   "pl": "Pomiędzy rozmiarami? Wybierz większy.",
+   "de": "Zwischen zwei Größen? Nehmen Sie die größere.",
+   "cs": "Mezi dvěma velikostmi? Vezměte větší.",
+   "nl": "Tussen twee maten? Kies de grootste.",
+   "pt": "Entre dois tamanhos? Escolha o maior.",
+   "ru": "Между двумя размерами? Берите больший."
+  }
+ },
+ "home": [
+  {
+   "type": "hero",
+   "subtitle": {
+    "en": "SA-301 · Chelsea boot",
+    "fr": "SA-301 · Bottine Chelsea",
+    "es": "SA-301 · Bota Chelsea",
+    "it": "SA-301 · Stivaletto Chelsea",
+    "pl": "SA-301 · Sztyblet Chelsea",
+    "de": "SA-301 · Chelsea Boot",
+    "cs": "SA-301 · Chelsea boty",
+    "nl": "SA-301 · Chelsea boot",
+    "pt": "SA-301 · Bota Chelsea",
+    "ru": "SA-301 · Ботинки челси"
+   },
+   "title": "€189",
+   "content": {
+    "en": "Full-grain leather · Rubber sole · EU 38–45 · Made in Portugal",
+    "fr": "Cuir pleine fleur · Semelle caoutchouc · EU 38–45 · Fabriqué au Portugal",
+    "es": "Piel plena flor · Suela de goma · EU 38–45 · Hecho en Portugal",
+    "it": "Pelle pieno fiore · Suola in gomma · EU 38–45 · Prodotto in Portogallo",
+    "pl": "Skóra licowa · Gumowa podeszwa · EU 38–45 · Wyprodukowano w Portugalii",
+    "de": "Vollnarbenleder · Gummisohle · EU 38–45 · Hergestellt in Portugal",
+    "cs": "Lícová kůže · Pryžová podrážka · EU 38–45 · Vyrobeno v Portugalsku",
+    "nl": "Volnerf leer · Rubberen zool · EU 38–45 · Gemaakt in Portugal",
+    "pt": "Pele flor integral · Sola de borracha · EU 38–45 · Feito em Portugal",
+    "ru": "Кожа полного зерна · Резиновая подошва · EU 38–45 · Сделано в Португалии"
+   },
+   "settings": {
+    "variant": "split",
+    "height": "m",
+    "autoplay": 0,
+    "overlay": 0,
+    "width": "container",
+    "spacing": "none"
+   },
+   "items": [
+    {
+     "data": {
+      "image": "products/chelsea-boot.jpg",
+      "link": "page:new-products",
+      "align": "left",
+      "tone": "dark"
+     },
+     "title": {
+      "en": "Made to move. Made to last.",
+      "fr": "Faites pour bouger. Faites pour durer.",
+      "es": "Hechos para moverse. Hechos para durar.",
+      "it": "Fatte per muoversi. Fatte per durare.",
+      "pl": "Stworzone do ruchu. Stworzone na lata.",
+      "de": "Gemacht für Bewegung. Gemacht, um zu halten.",
+      "cs": "Stvořené k pohybu. Stvořené vydržet.",
+      "nl": "Gemaakt om te bewegen. Gemaakt om te blijven.",
+      "pt": "Feitos para andar. Feitos para durar.",
+      "ru": "Созданы для движения. Созданы надолго."
+     },
+     "text": {
+      "en": "<p>Sneakers, runners, boots and dress shoes from our workshop in Barcelona. A stitched sole can be replaced again and again.</p><p class=\"sa-hero-alt\"><a href=\"#resoling\">Resoling and repairs</a></p>",
+      "fr": "<p>Baskets, running, bottes et chaussures de ville de notre atelier à Barcelone. Une semelle cousue se remplace encore et encore.</p><p class=\"sa-hero-alt\"><a href=\"#resoling\">Ressemelage et réparations</a></p>",
+      "es": "<p>Zapatillas, running, botas y zapatos de vestir de nuestro taller en Barcelona. Una suela cosida se puede cambiar una y otra vez.</p><p class=\"sa-hero-alt\"><a href=\"#resoling\">Cambio de suela y reparaciones</a></p>",
+      "it": "<p>Sneaker, running, stivali e scarpe eleganti dal nostro laboratorio a Barcellona. Una suola cucita si sostituisce più e più volte.</p><p class=\"sa-hero-alt\"><a href=\"#resoling\">Risuolatura e riparazioni</a></p>",
+      "pl": "<p>Sneakersy, buty do biegania, botki i buty wizytowe z naszej pracowni w Barcelonie. Szytą podeszwę można wymieniać wiele razy.</p><p class=\"sa-hero-alt\"><a href=\"#resoling\">Wymiana podeszwy i naprawy</a></p>",
+      "de": "<p>Sneaker, Laufschuhe, Boots und Business-Schuhe aus unserer Werkstatt in Barcelona. Eine genähte Sohle lässt sich immer wieder ersetzen.</p><p class=\"sa-hero-alt\"><a href=\"#resoling\">Neubesohlung und Reparaturen</a></p>",
+      "cs": "<p>Tenisky, běžecké boty, kozačky a společenské boty z naší dílny v Barceloně. Šitou podrážku lze měnit znovu a znovu.</p><p class=\"sa-hero-alt\"><a href=\"#resoling\">Výměna podrážky a opravy</a></p>",
+      "nl": "<p>Sneakers, hardloopschoenen, boots en nette schoenen uit onze werkplaats in Barcelona. Een gestikte zool kun je keer op keer vervangen.</p><p class=\"sa-hero-alt\"><a href=\"#resoling\">Verzolen en reparaties</a></p>",
+      "pt": "<p>Ténis, running, botas e sapatos clássicos da nossa oficina em Barcelona. Uma sola cosida pode ser trocada vezes sem conta.</p><p class=\"sa-hero-alt\"><a href=\"#resoling\">Troca de sola e reparações</a></p>",
+      "ru": "<p>Кеды, беговые кроссовки, ботинки и классическая обувь из нашей мастерской в Барселоне. Прошитую подошву можно менять снова и снова.</p><p class=\"sa-hero-alt\"><a href=\"#resoling\">Замена подошвы и ремонт</a></p>"
+     },
+     "button": {
+      "en": "Shop new in",
+      "fr": "Voir les nouveautés",
+      "es": "Ver novedades",
+      "it": "Scopri le novità",
+      "pl": "Zobacz nowości",
+      "de": "Neuheiten ansehen",
+      "cs": "Prohlédnout novinky",
+      "nl": "Bekijk nieuw binnen",
+      "pt": "Ver novidades",
+      "ru": "Смотреть новинки"
+     }
+    }
+   ]
+  },
+  {
+   "type": "categories",
+   "title": {
+    "en": "Shop by style",
+    "fr": "Choisir par style",
+    "es": "Comprar por estilo",
+    "it": "Scegli per stile",
+    "pl": "Wybierz styl",
+    "de": "Nach Stil einkaufen",
+    "cs": "Nakupujte podle stylu",
+    "nl": "Shop op stijl",
+    "pt": "Comprar por estilo",
+    "ru": "Выбор по стилю"
+   },
+   "subtitle": {
+    "en": "All shoes",
+    "fr": "Toutes les chaussures",
+    "es": "Todos los zapatos",
+    "it": "Tutte le scarpe",
+    "pl": "Wszystkie buty",
+    "de": "Alle Schuhe",
+    "cs": "Všechny boty",
+    "nl": "Alle schoenen",
+    "pt": "Todos os sapatos",
+    "ru": "Вся обувь"
+   },
+   "settings": {
+    "style": "tiles",
+    "columns": "6",
+    "spacing": "l",
+    "heading_align": "split",
+    "head_link": "category:home"
+   },
+   "items": [
+    {
+     "data": {
+      "id_category": "sneakers",
+      "image": "categories/sneakers.jpg"
+     },
+     "subtitle": {
+      "en": "Leather, suede & knit",
+      "fr": "Cuir, daim & maille",
+      "es": "Piel, ante y punto",
+      "it": "Pelle, camoscio e maglia",
+      "pl": "Skóra, zamsz i dzianina",
+      "de": "Leder, Veloursleder & Strick",
+      "cs": "Kůže, semiš a úplet",
+      "nl": "Leer, suède & knit",
+      "pt": "Pele, camurça e malha",
+      "ru": "Кожа, замша и трикотаж"
+     }
+    },
+    {
+     "data": {
+      "id_category": "running",
+      "image": "categories/running.jpg"
+     },
+     "subtitle": {
+      "en": "Road & trail",
+      "fr": "Route & trail",
+      "es": "Asfalto y trail",
+      "it": "Strada e trail",
+      "pl": "Asfalt i trail",
+      "de": "Straße & Trail",
+      "cs": "Silnice a trail",
+      "nl": "Weg & trail",
+      "pt": "Estrada e trail",
+      "ru": "Шоссе и трейл"
+     }
+    },
+    {
+     "data": {
+      "id_category": "boots",
+      "image": "categories/boots.jpg"
+     },
+     "subtitle": {
+      "en": "Chelsea, hiking & winter",
+      "fr": "Chelsea, rando & hiver",
+      "es": "Chelsea, montaña e invierno",
+      "it": "Chelsea, trekking e inverno",
+      "pl": "Chelsea, trekking i zima",
+      "de": "Chelsea, Wandern & Winter",
+      "cs": "Chelsea, turistika a zima",
+      "nl": "Chelsea, wandel & winter",
+      "pt": "Chelsea, caminhada e inverno",
+      "ru": "Челси, треккинг и зима"
+     }
+    },
+    {
+     "data": {
+      "id_category": "sandals",
+      "image": "categories/sandals.jpg"
+     },
+     "subtitle": {
+      "en": "Slides & espadrilles",
+      "fr": "Mules & espadrilles",
+      "es": "Chanclas y alpargatas",
+      "it": "Ciabatte ed espadrillas",
+      "pl": "Klapki i espadryle",
+      "de": "Pantoletten & Espadrilles",
+      "cs": "Pantofle a espadrilky",
+      "nl": "Slippers & espadrilles",
+      "pt": "Chinelos e alpercatas",
+      "ru": "Шлёпанцы и эспадрильи"
+     }
+    },
+    {
+     "data": {
+      "id_category": "formal",
+      "image": "categories/formal.jpg"
+     },
+     "subtitle": {
+      "en": "Oxford, derby & loafer",
+      "fr": "Richelieu, derby & mocassin",
+      "es": "Oxford, derby y mocasín",
+      "it": "Oxford, derby e mocassino",
+      "pl": "Oxford, derby i mokasyn",
+      "de": "Oxford, Derby & Loafer",
+      "cs": "Oxford, derby a mokasín",
+      "nl": "Oxford, derby & loafer",
+      "pt": "Oxford, derby e mocassim",
+      "ru": "Оксфорды, дерби и лоферы"
+     }
+    },
+    {
+     "data": {
+      "id_category": "care",
+      "image": "categories/care.jpg"
+     },
+     "subtitle": {
+      "en": "Keep them going",
+      "fr": "Pour les faire durer",
+      "es": "Para que duren",
+      "it": "Per farle durare",
+      "pl": "Aby służyły dłużej",
+      "de": "Damit sie lange halten",
+      "cs": "Ať vydrží",
+      "nl": "Zodat ze lang meegaan",
+      "pt": "Para durarem",
+      "ru": "Чтобы служили дольше"
+     }
+    }
+   ]
+  },
+  {
+   "type": "products",
+   "title": {
+    "en": "New in",
+    "fr": "Nouveautés",
+    "es": "Novedades",
+    "it": "Novità",
+    "pl": "Nowości",
+    "de": "Neu eingetroffen",
+    "cs": "Novinky",
+    "nl": "Nieuw binnen",
+    "pt": "Novidades",
+    "ru": "Новинки"
+   },
+   "subtitle": {
+    "en": "See everything new",
+    "fr": "Voir toutes les nouveautés",
+    "es": "Ver todas las novedades",
+    "it": "Vedi tutte le novità",
+    "pl": "Zobacz wszystkie nowości",
+    "de": "Alle Neuheiten ansehen",
+    "cs": "Všechny novinky",
+    "nl": "Alles wat nieuw is",
+    "pt": "Ver todas as novidades",
+    "ru": "Все новинки"
+   },
+   "settings": {
+    "limit": 4,
+    "layout": "grid",
+    "columns": "4",
+    "spacing": "l",
+    "heading_align": "split",
+    "head_link": "page:new-products"
+   },
+   "items": [
+    {
+     "data": {
+      "source": "new"
+     },
+     "title": {
+      "en": "New in",
+      "fr": "Nouveautés",
+      "es": "Novedades",
+      "it": "Novità",
+      "pl": "Nowości",
+      "de": "Neu",
+      "cs": "Novinky",
+      "nl": "Nieuw",
+      "pt": "Novidades",
+      "ru": "Новинки"
+     }
+    }
+   ]
+  },
+  {
+   "type": "image_text",
+   "settings": {
+    "style": "image-right",
+    "ratio": "landscape",
+    "spacing": "l",
+    "background": "dark",
+    "width": "full"
+   },
+   "items": [
+    {
+     "data": {
+      "image": "home/story-2.jpg",
+      "link": "cms:repairs"
+     },
+     "title": {
+      "en": "Stitched to last",
+      "fr": "Cousues pour durer",
+      "es": "Cosidos para durar",
+      "it": "Cucite per durare",
+      "pl": "Szyte na lata",
+      "de": "Genäht für lange Zeit",
+      "cs": "Šité, aby vydržely",
+      "nl": "Gestikt om te blijven",
+      "pt": "Cosidos para durar",
+      "ru": "Прошиты на годы"
+     },
+     "text": {
+      "en": "<p>Stitched leather soles can be replaced again and again. Send us your favourite pair and we will make it new.</p><ol class=\"sa-steps\"><li>Book a resole on the Resoling and repairs page.</li><li>Send your pair to our workshop in Barcelona.</li><li>We fit a new sole and send them back to you.</li></ol>",
+      "fr": "<p>Les semelles en cuir cousues peuvent être remplacées encore et encore. Envoyez-nous votre paire préférée, nous la remettrons à neuf.</p><ol class=\"sa-steps\"><li>Réservez un ressemelage sur la page Ressemelage et réparations.</li><li>Envoyez votre paire à notre atelier à Barcelone.</li><li>Nous posons une semelle neuve et vous les renvoyons.</li></ol>",
+      "es": "<p>Las suelas de cuero cosidas se pueden cambiar una y otra vez. Envíanos tu par favorito y lo dejaremos como nuevo.</p><ol class=\"sa-steps\"><li>Reserva un cambio de suela en la página Cambio de suela y reparaciones.</li><li>Envía tu par a nuestro taller en Barcelona.</li><li>Ponemos una suela nueva y te los devolvemos.</li></ol>",
+      "it": "<p>Le suole in cuoio cucite si possono sostituire più e più volte. Inviaci il tuo paio preferito e lo faremo tornare come nuovo.</p><ol class=\"sa-steps\"><li>Prenota una risuolatura nella pagina Risuolatura e riparazioni.</li><li>Spedisci il tuo paio al nostro laboratorio a Barcellona.</li><li>Montiamo una suola nuova e te le rispediamo.</li></ol>",
+      "pl": "<p>Szyte skórzane podeszwy można wymieniać wielokrotnie. Wyślij nam ulubioną parę, a sprawimy, że będzie jak nowa.</p><ol class=\"sa-steps\"><li>Zamów wymianę podeszwy na stronie Wymiana podeszwy i naprawy.</li><li>Wyślij parę do naszej pracowni w Barcelonie.</li><li>Zakładamy nową podeszwę i odsyłamy buty.</li></ol>",
+      "de": "<p>Genähte Ledersohlen lassen sich immer wieder ersetzen. Schicken Sie uns Ihr Lieblingspaar, wir machen es wie neu.</p><ol class=\"sa-steps\"><li>Buchen Sie eine Neubesohlung auf der Seite Neubesohlung und Reparaturen.</li><li>Schicken Sie Ihr Paar in unsere Werkstatt in Barcelona.</li><li>Wir setzen eine neue Sohle ein und schicken sie zurück.</li></ol>",
+      "cs": "<p>Šité kožené podrážky lze měnit znovu a znovu. Pošlete nám svůj oblíbený pár a uděláme ho jako nový.</p><ol class=\"sa-steps\"><li>Objednejte výměnu podrážky na stránce Výměna podrážky a opravy.</li><li>Pošlete pár do naší dílny v Barceloně.</li><li>Nasadíme novou podrážku a pošleme je zpět.</li></ol>",
+      "nl": "<p>Gestikte leren zolen kun je keer op keer vervangen. Stuur ons je favoriete paar en we maken het weer als nieuw.</p><ol class=\"sa-steps\"><li>Boek een nieuwe zool op de pagina Verzolen en reparaties.</li><li>Stuur je paar naar onze werkplaats in Barcelona.</li><li>Wij zetten er een nieuwe zool onder en sturen ze terug.</li></ol>",
+      "pt": "<p>As solas de couro cosidas podem ser trocadas vezes sem conta. Envie-nos o seu par preferido e deixamo-lo como novo.</p><ol class=\"sa-steps\"><li>Marque uma troca de sola na página Troca de sola e reparações.</li><li>Envie o seu par para a nossa oficina em Barcelona.</li><li>Colocamos uma sola nova e devolvemos-lhos.</li></ol>",
+      "ru": "<p>Прошитые кожаные подошвы можно менять снова и снова. Пришлите нам любимую пару — и мы вернём её как новую.</p><ol class=\"sa-steps\"><li>Оформите замену подошвы на странице «Замена подошвы и ремонт».</li><li>Отправьте пару в нашу мастерскую в Барселоне.</li><li>Мы ставим новую подошву и отправляем обувь обратно.</li></ol>"
+     },
+     "button": {
+      "en": "Resoling & repairs",
+      "fr": "Ressemelage & réparations",
+      "es": "Cambio de suela y reparaciones",
+      "it": "Risuolatura e riparazioni",
+      "pl": "Wymiana podeszew i naprawy",
+      "de": "Neubesohlung & Reparatur",
+      "cs": "Výměna podrážek a opravy",
+      "nl": "Verzolen & reparaties",
+      "pt": "Solas e reparações",
+      "ru": "Замена подошвы и ремонт"
+     }
+    }
+   ]
+  },
+  {
+   "type": "image_text",
+   "settings": {
+    "style": "image-left",
+    "ratio": "landscape",
+    "spacing": "l"
+   },
+   "items": [
+    {
+     "data": {
+      "image": "home/story-1.jpg",
+      "link": "cms:about"
+     },
+     "subtitle": {
+      "en": "Our workshop",
+      "fr": "Notre atelier",
+      "es": "Nuestro taller",
+      "it": "Il nostro laboratorio",
+      "pl": "Nasz warsztat",
+      "de": "Unsere Werkstatt",
+      "cs": "Naše dílna",
+      "nl": "Onze werkplaats",
+      "pt": "A nossa oficina",
+      "ru": "Наша мастерская"
+     },
+     "title": {
+      "en": "From workbench to street",
+      "fr": "De l'établi à la rue",
+      "es": "Del banco de trabajo a la calle",
+      "it": "Dal banco alla strada",
+      "pl": "Z warsztatu na ulicę",
+      "de": "Von der Werkbank auf die Straße",
+      "cs": "Z dílny na ulici",
+      "nl": "Van werkbank naar straat",
+      "pt": "Da bancada para a rua",
+      "ru": "От верстака — на улицу"
+     },
+     "text": {
+      "en": "<p>Every shoe starts on a workbench in Barcelona, where we design, test and refine it until it feels right from the first step.</p>",
+      "fr": "<p>Chaque chaussure commence sur un établi à Barcelone, où nous la dessinons, la testons et l'affinons jusqu'à ce qu'elle soit parfaite dès le premier pas.</p>",
+      "es": "<p>Cada zapato empieza en un banco de trabajo en Barcelona, donde lo diseñamos, probamos y afinamos hasta que es perfecto desde el primer paso.</p>",
+      "it": "<p>Ogni scarpa nasce su un banco da lavoro a Barcellona, dove la disegniamo, la testiamo e la perfezioniamo finché è giusta dal primo passo.</p>",
+      "pl": "<p>Każdy but powstaje na stole warsztatowym w Barcelonie, gdzie go projektujemy, testujemy i dopracowujemy, aż będzie idealny od pierwszego kroku.</p>",
+      "de": "<p>Jeder Schuh beginnt auf einer Werkbank in Barcelona, wo wir ihn entwerfen, testen und verfeinern, bis er vom ersten Schritt an passt.</p>",
+      "cs": "<p>Každá bota vzniká na pracovním stole v Barceloně, kde ji navrhujeme, testujeme a ladíme, dokud nesedí od prvního kroku.</p>",
+      "nl": "<p>Elke schoen begint op een werkbank in Barcelona, waar we hem ontwerpen, testen en verfijnen tot hij vanaf de eerste stap goed voelt.</p>",
+      "pt": "<p>Cada sapato começa numa bancada em Barcelona, onde o desenhamos, testamos e afinamos até estar perfeito desde o primeiro passo.</p>",
+      "ru": "<p>Каждая пара начинается на верстаке в Барселоне, где мы её проектируем, тестируем и дорабатываем, пока она не станет удобной с первого шага.</p>"
+     },
+     "button": {
+      "en": "About us",
+      "fr": "À propos",
+      "es": "Quiénes somos",
+      "it": "Chi siamo",
+      "pl": "O nas",
+      "de": "Über uns",
+      "cs": "O nás",
+      "nl": "Over ons",
+      "pt": "Sobre nós",
+      "ru": "О нас"
+     }
+    }
+   ]
+  },
+  {
+   "type": "testimonials",
+   "settings": {
+    "style": "quote",
+    "spacing": "l"
+   },
+   "items": [
+    {
+     "data": {
+      "rating": 5
+     },
+     "title": {
+      "en": "Ines G.",
+      "fr": "Ines G.",
+      "es": "Ines G.",
+      "it": "Ines G.",
+      "pl": "Ines G.",
+      "de": "Ines G.",
+      "cs": "Ines G.",
+      "nl": "Ines G.",
+      "pt": "Ines G.",
+      "ru": "Ines G."
+     },
+     "subtitle": {
+      "en": "Madrid",
+      "fr": "Madrid",
+      "es": "Madrid",
+      "it": "Madrid",
+      "pl": "Madryt",
+      "de": "Madrid",
+      "cs": "Madrid",
+      "nl": "Madrid",
+      "pt": "Madrid",
+      "ru": "Мадрид"
+     },
+     "text": {
+      "en": "They resoled my Chelsea boots after four years. They look and feel like new.",
+      "fr": "Ils ont ressemelé mes boots Chelsea au bout de quatre ans. Elles sont comme neuves.",
+      "es": "Les cambiaron la suela a mis botas Chelsea después de cuatro años. Parecen nuevas.",
+      "it": "Hanno risuolato i miei Chelsea dopo quattro anni. Sembrano nuovi.",
+      "pl": "Wymienili podeszwy w moich sztybletach Chelsea po czterech latach. Są jak nowe.",
+      "de": "Sie haben meine Chelsea Boots nach vier Jahren neu besohlt. Sie sind wie neu.",
+      "cs": "Po čtyřech letech mi na Chelsea botách vyměnili podrážky. Jsou jako nové.",
+      "nl": "Ze hebben mijn Chelsea boots na vier jaar verzoold. Ze zijn weer als nieuw.",
+      "pt": "Trocaram a sola das minhas botas Chelsea ao fim de quatro anos. Parecem novas.",
+      "ru": "Через четыре года мне поменяли подошву на челси. Как новые."
+     }
+    }
+   ]
+  },
+  {
+   "type": "faq",
+   "title": {
+    "en": "Questions",
+    "fr": "Questions",
+    "es": "Preguntas",
+    "it": "Domande",
+    "pl": "Pytania",
+    "de": "Fragen",
+    "cs": "Otázky",
+    "nl": "Vragen",
+    "pt": "Perguntas",
+    "ru": "Вопросы"
+   },
+   "subtitle": {
+    "en": "Size guide",
+    "fr": "Guide des tailles",
+    "es": "Guía de tallas",
+    "it": "Guida alle taglie",
+    "pl": "Tabela rozmiarów",
+    "de": "Größentabelle",
+    "cs": "Průvodce velikostmi",
+    "nl": "Maattabel",
+    "pt": "Guia de tamanhos",
+    "ru": "Таблица размеров"
+   },
+   "settings": {
+    "spacing": "l",
+    "heading_align": "split",
+    "head_link": "cms:size-guide"
+   },
+   "items": [
+    {
+     "title": {
+      "en": "How do your sizes fit?",
+      "fr": "Comment taillent vos chaussures ?",
+      "es": "¿Cómo es la talla de vuestros zapatos?",
+      "it": "Come vestono le vostre scarpe?",
+      "pl": "Jak wypada wasza rozmiarówka?",
+      "de": "Wie fallen Ihre Größen aus?",
+      "cs": "Jak odpovídají vaše velikosti?",
+      "nl": "Hoe vallen jullie maten?",
+      "pt": "Como é o tamanho dos vossos sapatos?",
+      "ru": "Как маломерит или большемерит ваша обувь?"
+     },
+     "text": {
+      "en": "<p>Most of our shoes fit true to size. Each product page says when a style runs small or large.</p>",
+      "fr": "<p>La plupart de nos chaussures taillent normalement. Chaque fiche produit indique si un modèle taille petit ou grand.</p>",
+      "es": "<p>La mayoría de nuestros zapatos tienen una talla normal. Cada ficha indica si un modelo es pequeño o grande.</p>",
+      "it": "<p>La maggior parte delle nostre scarpe veste regolare. Ogni scheda prodotto indica se un modello veste piccolo o grande.</p>",
+      "pl": "<p>Większość naszych butów jest zgodna z rozmiarem. Na stronie produktu podajemy, gdy model ma zaniżoną lub zawyżoną rozmiarówkę.</p>",
+      "de": "<p>Die meisten unserer Schuhe fallen normal aus. Auf jeder Produktseite steht, wenn ein Modell klein oder groß ausfällt.</p>",
+      "cs": "<p>Většina našich bot odpovídá velikosti. Na stránce produktu uvádíme, když má model menší nebo větší střih.</p>",
+      "nl": "<p>De meeste van onze schoenen vallen normaal. Op elke productpagina staat het als een model klein of groot valt.</p>",
+      "pt": "<p>A maioria dos nossos sapatos tem o tamanho certo. Cada página de produto diz quando um modelo veste pequeno ou grande.</p>",
+      "ru": "<p>Большинство нашей обуви соответствует размеру. На странице товара указано, если модель маломерит или большемерит.</p>"
+     }
+    },
+    {
+     "title": {
+      "en": "Can I exchange a size?",
+      "fr": "Puis-je échanger une taille ?",
+      "es": "¿Puedo cambiar la talla?",
+      "it": "Posso cambiare la taglia?",
+      "pl": "Czy mogę wymienić rozmiar?",
+      "de": "Kann ich die Größe umtauschen?",
+      "cs": "Mohu vyměnit velikost?",
+      "nl": "Kan ik een maat ruilen?",
+      "pt": "Posso trocar o tamanho?",
+      "ru": "Можно ли обменять размер?"
+     },
+     "text": {
+      "en": "<p>Yes. Size exchanges are free: send the pair back within 30 days and we send you the new size.</p>",
+      "fr": "<p>Oui. L’échange de taille est gratuit : renvoyez la paire sous 30 jours et nous vous envoyons la nouvelle taille.</p>",
+      "es": "<p>Sí. El cambio de talla es gratis: devuelve el par en 30 días y te enviamos la nueva talla.</p>",
+      "it": "<p>Sì. Il cambio taglia è gratuito: rispedisci il paio entro 30 giorni e ti inviamo la nuova taglia.</p>",
+      "pl": "<p>Tak. Wymiana rozmiaru jest bezpłatna: odeślij parę w ciągu 30 dni, a wyślemy nowy rozmiar.</p>",
+      "de": "<p>Ja. Der Größentausch ist kostenlos: Schicken Sie das Paar innerhalb von 30 Tagen zurück, und wir senden Ihnen die neue Größe.</p>",
+      "cs": "<p>Ano. Výměna velikosti je zdarma: pošlete pár zpět do 30 dnů a my vám pošleme novou velikost.</p>",
+      "nl": "<p>Ja. Een maat ruilen is gratis: stuur het paar binnen 30 dagen terug en wij sturen je de nieuwe maat.</p>",
+      "pt": "<p>Sim. A troca de tamanho é gratuita: devolva o par em 30 dias e enviamos o novo tamanho.</p>",
+      "ru": "<p>Да. Обмен размера бесплатный: верните пару в течение 30 дней, и мы отправим новый размер.</p>"
+     }
+    },
+    {
+     "title": {
+      "en": "Which shoes can be resoled?",
+      "fr": "Quelles chaussures peut-on ressemeler ?",
+      "es": "¿Qué zapatos admiten cambio de suela?",
+      "it": "Quali scarpe si possono risuolare?",
+      "pl": "Które buty można podzelować?",
+      "de": "Welche Schuhe lassen sich neu besohlen?",
+      "cs": "Které boty lze podrazit?",
+      "nl": "Welke schoenen kunnen verzoold worden?",
+      "pt": "Que sapatos podem levar sola nova?",
+      "ru": "Какой обуви можно заменить подошву?"
+     },
+     "text": {
+      "en": "<p>Shoes with a stitched sole: our dress shoes, the Chelsea and desert boots and the Classic Leather Sneaker. Look for the Resolable stamp on the product page.</p>",
+      "fr": "<p>Les chaussures à semelle cousue : nos chaussures de ville, les bottines Chelsea et desert et la Classic Leather Sneaker. Repérez le tampon Ressemelable sur la fiche produit.</p>",
+      "es": "<p>Los zapatos con suela cosida: nuestros zapatos de vestir, las botas Chelsea y desert y la Classic Leather Sneaker. Busca el sello en la ficha del producto.</p>",
+      "it": "<p>Le scarpe con suola cucita: le nostre scarpe eleganti, gli stivaletti Chelsea e desert e la Classic Leather Sneaker. Cerca il timbro nella scheda prodotto.</p>",
+      "pl": "<p>Buty z szytą podeszwą: nasze buty wizytowe, sztyblety Chelsea i desert oraz Classic Leather Sneaker. Szukaj pieczątki na stronie produktu.</p>",
+      "de": "<p>Schuhe mit genähter Sohle: unsere Business-Schuhe, die Chelsea- und Desert-Boots und der Classic Leather Sneaker. Achten Sie auf den Stempel auf der Produktseite.</p>",
+      "cs": "<p>Boty se šitou podrážkou: naše společenské boty, kotníkové boty Chelsea a desert a Classic Leather Sneaker. Hledejte razítko na stránce produktu.</p>",
+      "nl": "<p>Schoenen met een gestikte zool: onze nette schoenen, de Chelsea- en desertboots en de Classic Leather Sneaker. Let op het stempel op de productpagina.</p>",
+      "pt": "<p>Sapatos com sola cosida: os nossos sapatos clássicos, as botas Chelsea e desert e a Classic Leather Sneaker. Procure o carimbo na página do produto.</p>",
+      "ru": "<p>Обувь с прошитой подошвой: наши классические туфли, ботинки челси и дезерты и Classic Leather Sneaker. Ищите штамп на странице товара.</p>"
+     }
+    }
+   ]
+  }
+ ]
+}

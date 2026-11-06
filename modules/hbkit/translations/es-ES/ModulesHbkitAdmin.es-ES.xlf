@@ -1,0 +1,1991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="hbkit" source-language="en-US" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="06df33001c1d7187fdd81ea1f5b277aa">
+        <source>Actions</source>
+        <target>Acciones</target>
+      </trans-unit>
+      <trans-unit id="ff19c966036b4a0c7350b2fc7e2861c2">
+        <source>Add item</source>
+        <target>Añadir elemento</target>
+      </trans-unit>
+      <trans-unit id="deaacc1b560b4ac7dd5c493a419b5fd7">
+        <source>Add section</source>
+        <target>Añadir sección</target>
+      </trans-unit>
+      <trans-unit id="bb8956c67b82c7444a80c6b2433dd8b4">
+        <source>Are you sure you want to uninstall this module?</source>
+        <target>¿Seguro que desea desinstalar este módulo?</target>
+      </trans-unit>
+      <trans-unit id="630f6dc397fe74e52d5189e2c80f282b">
+        <source>Back to list</source>
+        <target>Volver a la lista</target>
+      </trans-unit>
+      <trans-unit id="930800441b7ceea300e3cb6f6a264b71">
+        <source>Button label</source>
+        <target>Texto del botón</target>
+      </trans-unit>
+      <trans-unit id="41b76b573248ca1ebca213bb00e81983">
+        <source>Colours, fonts and shapes are applied as CSS variables, so they change the whole shop without editing any template.</source>
+        <target>Los colores, fuentes y formas se aplican como variables CSS, así que cambian toda la tienda sin editar ninguna plantilla.</target>
+      </trans-unit>
+      <trans-unit id="f2a6c498fb90ee345d997f888fce3b18">
+        <source>Delete</source>
+        <target>Eliminar</target>
+      </trans-unit>
+      <trans-unit id="5fec416c94859964364449c11e7bf552">
+        <source>Delete this section?</source>
+        <target>¿Eliminar esta sección?</target>
+      </trans-unit>
+      <trans-unit id="70a793ed5eeea34b27c15355089a8c1d">
+        <source>Demo import</source>
+        <target>Importar demo</target>
+      </trans-unit>
+      <trans-unit id="4d0d099db6d9efd4e1f9d3a135e8b154">
+        <source>Demo imported.</source>
+        <target>Demo importada.</target>
+      </trans-unit>
+      <trans-unit id="3a11426de87c88f596cae42e24f1f481">
+        <source>Demo pack not found.</source>
+        <target>Paquete de demo no encontrado.</target>
+      </trans-unit>
+      <trans-unit id="ed75712b0eb1913c28a3872731ffd48d">
+        <source>Duplicate</source>
+        <target>Duplicar</target>
+      </trans-unit>
+      <trans-unit id="7dce122004969d56ae2e0245cb754d35">
+        <source>Edit</source>
+        <target>Editar</target>
+      </trans-unit>
+      <trans-unit id="ee2e006978d1918d72bfeb2a335bc453">
+        <source>Editing language</source>
+        <target>Idioma de edición</target>
+      </trans-unit>
+      <trans-unit id="c26f362a80ced857e8d008ead96be549">
+        <source>Fonts: use the family name declared by your theme (for example in assets/css/custom.css). Radius values are in pixels; heading spacing is in em.</source>
+        <target>Fuentes: usa el nombre de familia declarado por tu tema (por ejemplo en assets/css/custom.css). Los radios van en píxeles; el espaciado de títulos en em.</target>
+      </trans-unit>
+      <trans-unit id="0101316665d4f82adaa26d86fbbb2d6e">
+        <source>Heading</source>
+        <target>Encabezado</target>
+      </trans-unit>
+      <trans-unit id="30a89f288582d85e2970a0cfea680a89">
+        <source>Homepage sections</source>
+        <target>Secciones de la página de inicio</target>
+      </trans-unit>
+      <trans-unit id="b2d2cf45874e999f604a632a1dfa08ea">
+        <source>Hummingbird Theme Kit</source>
+        <target>Hummingbird Theme Kit</target>
+      </trans-unit>
+      <trans-unit id="bf8937848d7e23b530e2d8d2eaa70c97">
+        <source>Import a demo on a fresh shop. With &quot;Remove existing content&quot; checked, all products, categories, brands, CMS pages, menu links, footer link blocks and homepage sections are deleted first. Orders and customers are not touched.</source>
+        <target>Importa una demo en una tienda nueva. Con «Eliminar el contenido existente» marcado, primero se borran todos los productos, categorías, marcas, páginas CMS, enlaces del menú, bloques de enlaces del pie y secciones de inicio. Los pedidos y clientes no se tocan.</target>
+      </trans-unit>
+      <trans-unit id="23e7f4b70281e1293a4985626589aeee">
+        <source>Import finished</source>
+        <target>Importación terminada</target>
+      </trans-unit>
+      <trans-unit id="58899484a338d3c4ec62a35390efc361">
+        <source>Import this demo</source>
+        <target>Importar esta demo</target>
+      </trans-unit>
+      <trans-unit id="98dd43dfae05b11befe1f140e0ec787a">
+        <source>Installed</source>
+        <target>Instalada</target>
+      </trans-unit>
+      <trans-unit id="9dea4016dbcc290b773ab2fae678aaa8">
+        <source>Items</source>
+        <target>Elementos</target>
+      </trans-unit>
+      <trans-unit id="bfd4f879667e79b850c28cebc18f16d0">
+        <source>Link of the first message (optional)</source>
+        <target>Enlace del primer mensaje (opcional)</target>
+      </trans-unit>
+      <trans-unit id="d5c0b6c279c9f70a7c8655f2f0f497e4">
+        <source>Messages (separate several with |)</source>
+        <target>Mensajes (sepáralos con |)</target>
+      </trans-unit>
+      <trans-unit id="dd9f0c7e1bb3b749bd423e3544b4a8e3">
+        <source>Move down</source>
+        <target>Bajar</target>
+      </trans-unit>
+      <trans-unit id="f77af7695f71323808f9b6e2795cde86">
+        <source>Move up</source>
+        <target>Subir</target>
+      </trans-unit>
+      <trans-unit id="22f078098e47e8b588e8f1e8c02de4d4">
+        <source>No demo pack found. Demo packs live in themes/&lt;theme&gt;/demo/demo.json.</source>
+        <target>No se encontró ningún paquete de demo. Están en themes/&lt;theme&gt;/demo/demo.json.</target>
+      </trans-unit>
+      <trans-unit id="ca6a9f0c10180f0919f91612eb5d35b8">
+        <source>No sections yet. Add one, or import a demo from the Demo import tab.</source>
+        <target>Aún no hay secciones. Añade una o importa una demo desde la pestaña Importar demo.</target>
+      </trans-unit>
+      <trans-unit id="a53f982219dd1d93e8aa066debe9a5c3">
+        <source>Only JPG, PNG, WebP, GIF and SVG images can be uploaded.</source>
+        <target>Solo se pueden subir imágenes JPG, PNG, WebP, GIF y SVG.</target>
+      </trans-unit>
+      <trans-unit id="a240fa27925a635b08dc28c9e4f9216d">
+        <source>Order</source>
+        <target>Orden</target>
+      </trans-unit>
+      <trans-unit id="97f08a40f22a625d0cbfe03db3349108">
+        <source>Product ID</source>
+        <target>ID de producto</target>
+      </trans-unit>
+      <trans-unit id="1063e38cb53d94d386f21227fcd84717">
+        <source>Remove</source>
+        <target>Quitar</target>
+      </trans-unit>
+      <trans-unit id="71d1b4337cd8df20bf77aaa5616c47c7">
+        <source>Remove existing content first</source>
+        <target>Eliminar primero el contenido existente</target>
+      </trans-unit>
+      <trans-unit id="c9cc8cce247e49bae79f15173ce97354">
+        <source>Save</source>
+        <target>Guardar</target>
+      </trans-unit>
+      <trans-unit id="e32348d3582192e05a371c7ea6bd2865">
+        <source>Section saved.</source>
+        <target>Sección guardada.</target>
+      </trans-unit>
+      <trans-unit id="f4f70727dc34561dfde1a3c529b6205c">
+        <source>Settings</source>
+        <target>Configuración</target>
+      </trans-unit>
+      <trans-unit id="a7e447745db68d77c53157364c6d1e2a">
+        <source>Show the top bar</source>
+        <target>Mostrar la barra superior</target>
+      </trans-unit>
+      <trans-unit id="7e9bd4f4b756ba7d514e1368992a2e32">
+        <source>Small heading (eyebrow)</source>
+        <target>Antetítulo</target>
+      </trans-unit>
+      <trans-unit id="ef1f32f8516e2ff19b360cb6f881d139">
+        <source>Small heading / subtitle</source>
+        <target>Antetítulo / subtítulo</target>
+      </trans-unit>
+      <trans-unit id="ec53a8c4f07baed5d8825072c89799be">
+        <source>Status</source>
+        <target>Estado</target>
+      </trans-unit>
+      <trans-unit id="9901aaaa4e3cec6cb047e421b3ef2fc8">
+        <source>Text (HTML allowed)</source>
+        <target>Texto (se permite HTML)</target>
+      </trans-unit>
+      <trans-unit id="5820d5d04f966991aa4bba4b073407cb">
+        <source>The image could not be uploaded.</source>
+        <target>No se pudo subir la imagen.</target>
+      </trans-unit>
+      <trans-unit id="6d99337f3fcdb96a3e499628a3e26bc0">
+        <source>Theme options</source>
+        <target>Opciones del tema</target>
+      </trans-unit>
+      <trans-unit id="d4e215a811b87b55403bb2c8720bdaa3">
+        <source>Theme options saved.</source>
+        <target>Opciones del tema guardadas.</target>
+      </trans-unit>
+      <trans-unit id="b87d7aeb9187c27d7518a02b750999fe">
+        <source>Theme options, homepage sections and one-click demo import for Hummingbird child themes.</source>
+        <target>Opciones de tema, secciones de inicio e importación de demo en un clic para temas hijo de Hummingbird.</target>
+      </trans-unit>
+      <trans-unit id="4a65ba76129e08fae89dab8df22886cb">
+        <source>This SVG file contains scripts and was rejected.</source>
+        <target>Este archivo SVG contiene scripts y se ha rechazado.</target>
+      </trans-unit>
+      <trans-unit id="b78a3223503896721cca1303f776159b">
+        <source>Title</source>
+        <target>Título</target>
+      </trans-unit>
+      <trans-unit id="adb06033ad9c48d8b0fbaa3cfd141c54">
+        <source>Top bar</source>
+        <target>Barra superior</target>
+      </trans-unit>
+      <trans-unit id="08f276244d3aac1e5c24ef8cd7b16ef4">
+        <source>Top bar saved.</source>
+        <target>Barra superior guardada.</target>
+      </trans-unit>
+      <trans-unit id="a1fa27779242b4902f7ae3bdd5c6d508">
+        <source>Type</source>
+        <target>Tipo</target>
+      </trans-unit>
+      <trans-unit id="e694e1d7b03fe55d0e158bb871bd3147">
+        <source>Type IMPORT to confirm</source>
+        <target>Escribe IMPORT para confirmar</target>
+      </trans-unit>
+      <trans-unit id="3b3fda68f3a1b45ec6ccbe20f35008c7">
+        <source>Type IMPORT to confirm.</source>
+        <target>Escribe IMPORT para confirmar.</target>
+      </trans-unit>
+      <trans-unit id="011253e36bcf1b9ed57690b8cb79634a">
+        <source>URL (when no link is set)</source>
+        <target>URL (si no hay enlace)</target>
+      </trans-unit>
+      <trans-unit id="2102935429676e98b7a5e46be1192382">
+        <source>View shop</source>
+        <target>Ver la tienda</target>
+      </trans-unit>
+      <trans-unit id="ec24d78ce33048dc73a2b6b1a0690192">
+        <source>Visible</source>
+        <target>Visible</target>
+      </trans-unit>
+      <trans-unit id="2641821687bcb840ea686810e8d915c0">
+        <source>Visible on the homepage</source>
+        <target>Visible en la página de inicio</target>
+      </trans-unit>
+      <trans-unit id="93cba07454f06a4a960172bbd6e2a435">
+        <source>Yes</source>
+        <target>Sí</target>
+      </trans-unit>
+      <trans-unit id="5fa7d8b0f3353c987a98717a595c15ac">
+        <source>&quot;Add to cart&quot; appears over the picture.</source>
+        <target>«Añadir al carrito» aparece sobre la imagen.</target>
+      </trans-unit>
+      <trans-unit id="ca96f27e7d3e3b67b5d1f43a54296466">
+        <source>%count% items</source>
+        <target>%count% elementos</target>
+      </trans-unit>
+      <trans-unit id="7156dc6f847d19261b0bbe56b0f4404f">
+        <source>2 per row</source>
+        <target>2 por fila</target>
+      </trans-unit>
+      <trans-unit id="956d42166342fd3ee70742a00a0c558c">
+        <source>3 per row</source>
+        <target>3 por fila</target>
+      </trans-unit>
+      <trans-unit id="2822fc047b269614e6552a0d3f62c7b6">
+        <source>4 per row</source>
+        <target>4 por fila</target>
+      </trans-unit>
+      <trans-unit id="e3ebed87169c8af25354b1328a077b16">
+        <source>400 regular, 600 semi-bold, 700 bold.</source>
+        <target>400 normal, 600 seminegrita, 700 negrita.</target>
+      </trans-unit>
+      <trans-unit id="8a657a635b7b23b76138c7afb5115574">
+        <source>A short message in the corner. Customers keep browsing.</source>
+        <target>Un mensaje corto en la esquina. El cliente sigue navegando.</target>
+      </trans-unit>
+      <trans-unit id="35819719b9ffef5dba1fe57133a3208a">
+        <source>A thin frame around each card.</source>
+        <target>Un marco fino alrededor de cada tarjeta.</target>
+      </trans-unit>
+      <trans-unit id="e0075f3f75f1529bf0fdda534b559c78">
+        <source>A window in the middle of the page.</source>
+        <target>Una ventana en el centro de la página.</target>
+      </trans-unit>
+      <trans-unit id="b9486aa41cd280296a43874b793b71f4">
+        <source>Accent colour</source>
+        <target>Color de acento</target>
+      </trans-unit>
+      <trans-unit id="4d5aae0b218a0bb62ff4513b66fc34d0">
+        <source>Accordion</source>
+        <target>Acordeón</target>
+      </trans-unit>
+      <trans-unit id="9d0fdb96f3305b28db60715a7289c277">
+        <source>After &quot;Add to cart&quot;</source>
+        <target>Tras «Añadir al carrito»</target>
+      </trans-unit>
+      <trans-unit id="b799ac556ebd421294c54bc5d7b81cbc">
+        <source>All open</source>
+        <target>Todo abierto</target>
+      </trans-unit>
+      <trans-unit id="9d5d500ac0faa74b012640b0a037bd11">
+        <source>As typed</source>
+        <target>Tal como se escribe</target>
+      </trans-unit>
+      <trans-unit id="6ff29916f99fff9d2494d28e721ae77e">
+        <source>Banner</source>
+        <target>Banner</target>
+      </trans-unit>
+      <trans-unit id="e59dd8d25c0b6bb6697eac0617ccd412">
+        <source>Below</source>
+        <target>Debajo</target>
+      </trans-unit>
+      <trans-unit id="28b32d66c338dd53fbe5c53f5aeff8bc">
+        <source>Bigger pictures, details stay in view.</source>
+        <target>Imágenes más grandes, detalles siempre visibles.</target>
+      </trans-unit>
+      <trans-unit id="028fd6d723d229b834b70a76ce3ea67a">
+        <source>Bordered</source>
+        <target>Con borde</target>
+      </trans-unit>
+      <trans-unit id="7c9188d7c84c62fb4d3070740d2d12dc">
+        <source>Boxed details</source>
+        <target>Detalles en panel</target>
+      </trans-unit>
+      <trans-unit id="2fab2401347dffcdb8e13050f515e971">
+        <source>Boxes, image backgrounds and the side cart footer.</source>
+        <target>Cajas, fondos de imagen y pie del carrito lateral.</target>
+      </trans-unit>
+      <trans-unit id="e27948b65973a09d789dfd1831cb83c3">
+        <source>Brand colours used by buttons, links, prices, backgrounds and the footer.</source>
+        <target>Colores de marca para botones, enlaces, precios, fondos y pie de página.</target>
+      </trans-unit>
+      <trans-unit id="fcaeb417bad99af38a29f9a562537572">
+        <source>Button letters</source>
+        <target>Letras de los botones</target>
+      </trans-unit>
+      <trans-unit id="99e8b9ebe1313555b77130472eb107e3">
+        <source>Button on picture</source>
+        <target>Botón sobre la imagen</target>
+      </trans-unit>
+      <trans-unit id="13b7244e310fda20fd5d66e2bcbe6a46">
+        <source>Button radius</source>
+        <target>Radio de los botones</target>
+      </trans-unit>
+      <trans-unit id="41f0bf4c3182122beaf6391d8bf8615c">
+        <source>Buttons, links and highlights.</source>
+        <target>Botones, enlaces y destacados.</target>
+      </trans-unit>
+      <trans-unit id="8e75ffc90a57dab9257fa7d54d6e35b1">
+        <source>Capitals</source>
+        <target>Mayúsculas</target>
+      </trans-unit>
+      <trans-unit id="ba12a5f9f03fe6c2dc2b95f6a57bf84a">
+        <source>Card style</source>
+        <target>Estilo de tarjeta</target>
+      </trans-unit>
+      <trans-unit id="cd81f9f55969c822377f076017bb3484">
+        <source>Cards</source>
+        <target>Tarjetas</target>
+      </trans-unit>
+      <trans-unit id="08296b37866ec13a65525d72f89d922c">
+        <source>Cards float with a soft shadow.</source>
+        <target>Tarjetas flotantes con sombra suave.</target>
+      </trans-unit>
+      <trans-unit id="bb54cce5a0fb4e80d1b2dce5a28d6efb">
+        <source>Cart page</source>
+        <target>Página del carrito</target>
+      </trans-unit>
+      <trans-unit id="b51b59d96d22c759482010c4841fe4ea">
+        <source>Cart page layout</source>
+        <target>Diseño del carrito</target>
+      </trans-unit>
+      <trans-unit id="138e54532ba071f0046271304e6c1359">
+        <source>Category pages</source>
+        <target>Páginas de categoría</target>
+      </trans-unit>
+      <trans-unit id="56e454837a2831bbb5c9c578c75f1e29">
+        <source>Category title area</source>
+        <target>Zona de título de categoría</target>
+      </trans-unit>
+      <trans-unit id="398124682999fe955755feb5cfccf031">
+        <source>Centred</source>
+        <target>Centrado</target>
+      </trans-unit>
+      <trans-unit id="46a6810b2b8763e241ac62aed45754cc">
+        <source>Centred text and a text link.</source>
+        <target>Texto centrado y enlace de texto.</target>
+      </trans-unit>
+      <trans-unit id="ddf8e0d8ab42a28dd1af81631a93ccd7">
+        <source>Centred title, no image.</source>
+        <target>Título centrado, sin imagen.</target>
+      </trans-unit>
+      <trans-unit id="9c71c746138d62ff24e5c92fe216743a">
+        <source>Choose a page on the left, change what you need and press Save. Changes show on the shop straight away.</source>
+        <target>Elige una página a la izquierda, cambia lo que necesites y guarda. Los cambios se ven al instante.</target>
+      </trans-unit>
+      <trans-unit id="d35b51b639528d580362ca7042de6a0e">
+        <source>Classic</source>
+        <target>Clásico</target>
+      </trans-unit>
+      <trans-unit id="7add294b8e0689fd134eba50e5f2c95f">
+        <source>Colours</source>
+        <target>Colores</target>
+      </trans-unit>
+      <trans-unit id="b1fe2c2a59e883740e7ea87667e44a24">
+        <source>Compact</source>
+        <target>Compacto</target>
+      </trans-unit>
+      <trans-unit id="158b3b19e8682e63add0e0434ee743a3">
+        <source>Corner radius</source>
+        <target>Radio de las esquinas</target>
+      </trans-unit>
+      <trans-unit id="fa6025910ccea406ae0a77a03a6495c3">
+        <source>Customers are taken straight to the cart page.</source>
+        <target>El cliente va directo al carrito.</target>
+      </trans-unit>
+      <trans-unit id="a18366b217ebf811ad1886e4f4f865b2">
+        <source>Dark</source>
+        <target>Oscuro</target>
+      </trans-unit>
+      <trans-unit id="c6651d222052b92ea79d46d6326763a8">
+        <source>Dark footer background</source>
+        <target>Fondo del pie oscuro</target>
+      </trans-unit>
+      <trans-unit id="4e688de6e8b71fc91ee5e49fdb0f673e">
+        <source>Dark footer text</source>
+        <target>Texto del pie oscuro</target>
+      </trans-unit>
+      <trans-unit id="59b6defb5a749b20f8b07c7ff03c0375">
+        <source>Dense grid with an icon button.</source>
+        <target>Cuadrícula densa con botón de icono.</target>
+      </trans-unit>
+      <trans-unit id="fa67951fa29c0e9ace7fc37778ce4d3e">
+        <source>Description and details</source>
+        <target>Descripción y detalles</target>
+      </trans-unit>
+      <trans-unit id="1afa74da05ca145d3418aad9af510109">
+        <source>Design</source>
+        <target>Diseño</target>
+      </trans-unit>
+      <trans-unit id="44a6510339d335ce03158593e486664d">
+        <source>Design saved. Open the shop to see it.</source>
+        <target>Diseño guardado. Abre la tienda para verlo.</target>
+      </trans-unit>
+      <trans-unit id="caa4a48ffa8e3387076688f7f1198162">
+        <source>Details first</source>
+        <target>Detalles primero</target>
+      </trans-unit>
+      <trans-unit id="c603a81932e8c0c2c1c624ab93e9275b">
+        <source>Details left, gallery right.</source>
+        <target>Detalles a la izquierda, galería a la derecha.</target>
+      </trans-unit>
+      <trans-unit id="03f1e546c0422e0ca39400355e24e767">
+        <source>Details on a panel that stays in view.</source>
+        <target>Detalles en un panel siempre visible.</target>
+      </trans-unit>
+      <trans-unit id="57a1013bccf3efb469ddb0eb9fcd6dfb">
+        <source>Each product on its own panel, summary on a panel.</source>
+        <target>Cada producto en su panel, resumen en un panel.</target>
+      </trans-unit>
+      <trans-unit id="33be2fab88f08eabfdfcdbd13561dbeb">
+        <source>Editorial</source>
+        <target>Editorial</target>
+      </trans-unit>
+      <trans-unit id="c416a36c4932a1a3b9aa6971cca9a965">
+        <source>Every section shown one under the other.</source>
+        <target>Todas las secciones una debajo de otra.</target>
+      </trans-unit>
+      <trans-unit id="d6bc6f1f26b9f9de199cbd19353a946e">
+        <source>Family name declared by the theme.</source>
+        <target>Nombre de familia declarado por el tema.</target>
+      </trans-unit>
+      <trans-unit id="cc474a06804640e7a2d740ff8518031f">
+        <source>Filter button</source>
+        <target>Botón de filtro</target>
+      </trans-unit>
+      <trans-unit id="f3f43e30c8c7d78c6ac0173515e57a00">
+        <source>Filters</source>
+        <target>Filtros</target>
+      </trans-unit>
+      <trans-unit id="35a6358cc3dc36f56e084fe5e77d29e6">
+        <source>Filters and categories on the left.</source>
+        <target>Filtros y categorías a la izquierda.</target>
+      </trans-unit>
+      <trans-unit id="ac4f9ec98b3e9a2e04d07f549fa45c45">
+        <source>Filters and categories on the right.</source>
+        <target>Filtros y categorías a la derecha.</target>
+      </trans-unit>
+      <trans-unit id="2182220d6d81946887e340d1d0cd3f5f">
+        <source>Filters, the category title area and how many products per row.</source>
+        <target>Filtros, zona de título y productos por fila.</target>
+      </trans-unit>
+      <trans-unit id="0738078f31de9c1618206ce083b68f58">
+        <source>Fonts and shapes</source>
+        <target>Fuentes y formas</target>
+      </trans-unit>
+      <trans-unit id="ded40f2a77c30efc6062db0cbd857746">
+        <source>Footer</source>
+        <target>Pie de página</target>
+      </trans-unit>
+      <trans-unit id="6b73ad372508225645eb96a2e505a602">
+        <source>Framed</source>
+        <target>Enmarcado</target>
+      </trans-unit>
+      <trans-unit id="dbf4a121c85becedb547cc7a3292a5a8">
+        <source>Free delivery bar</source>
+        <target>Barra de envío gratis</target>
+      </trans-unit>
+      <trans-unit id="7c8ebdb0fd63c96d7fdce86635eaba7f">
+        <source>Full-width grid, filters slide in from a button.</source>
+        <target>Cuadrícula a ancho completo, filtros en un panel.</target>
+      </trans-unit>
+      <trans-unit id="128cbcfa29f6dc15cc15c360b792695d">
+        <source>Gallery left, details right.</source>
+        <target>Galería a la izquierda, detalles a la derecha.</target>
+      </trans-unit>
+      <trans-unit id="5b6a0dee8941729fae7d84218e63aa65">
+        <source>Gallery, buy box and how the description and details are shown.</source>
+        <target>Galería, bloque de compra y cómo se muestran la descripción y los detalles.</target>
+      </trans-unit>
+      <trans-unit id="5e136fae06a2284367755df5ebb89a80">
+        <source>Go to the cart</source>
+        <target>Ir al carrito</target>
+      </trans-unit>
+      <trans-unit id="bf50d5e661106d0abe925af3c2e6f7e7">
+        <source>Header</source>
+        <target>Cabecera</target>
+      </trans-unit>
+      <trans-unit id="89c608da9b2642dadd553a73625f902f">
+        <source>Header and footer</source>
+        <target>Cabecera y pie</target>
+      </trans-unit>
+      <trans-unit id="6dbc78b72724213e99cad37195ddf171">
+        <source>Header on the dark colour.</source>
+        <target>Cabecera en el color oscuro.</target>
+      </trans-unit>
+      <trans-unit id="5dc802f142ea6e2324b53901ec03b185">
+        <source>Header sits on the first homepage image.</source>
+        <target>La cabecera va sobre la primera imagen de la portada.</target>
+      </trans-unit>
+      <trans-unit id="16bf11530bc42fe5fad63a29cc456561">
+        <source>Heading font</source>
+        <target>Fuente de títulos</target>
+      </trans-unit>
+      <trans-unit id="182d8b6c9b9c83b73c670c988010f858">
+        <source>Heading letter spacing</source>
+        <target>Espaciado de letras de títulos</target>
+      </trans-unit>
+      <trans-unit id="3dcb547b0371a2ff02cfdeb357e80c0c">
+        <source>Heading letters</source>
+        <target>Letras de títulos</target>
+      </trans-unit>
+      <trans-unit id="1b6a7b1a93be57a6c236fdfdaa78d4ae">
+        <source>Heading weight</source>
+        <target>Grosor de títulos</target>
+      </trans-unit>
+      <trans-unit id="62a5e490880a92eef74f167d9dc6dca0">
+        <source>Hide</source>
+        <target>Ocultar</target>
+      </trans-unit>
+      <trans-unit id="339f7a2e087a159e6a31501649027a77">
+        <source>Homepage</source>
+        <target>Portada</target>
+      </trans-unit>
+      <trans-unit id="b17702d6475e51f95cabb9f376d6f19b">
+        <source>How the top of every page and the footer look.</source>
+        <target>Cómo se ven la parte superior de cada página y el pie.</target>
+      </trans-unit>
+      <trans-unit id="1615fc6c5735def29775ebf5a4c22733">
+        <source>In em, for example 0.05.</source>
+        <target>En em, por ejemplo 0.05.</target>
+      </trans-unit>
+      <trans-unit id="10b7bb613f0e0f37007c63345ddcf9db">
+        <source>In pixels. 0 gives square corners.</source>
+        <target>En píxeles. 0 da esquinas rectas.</target>
+      </trans-unit>
+      <trans-unit id="4588ba65f1c7ad605b7eb902d8ef35d9">
+        <source>In pixels. 40 gives pill buttons.</source>
+        <target>En píxeles. 40 da botones redondeados.</target>
+      </trans-unit>
+      <trans-unit id="2c7eb50e2d0f451bbc0af385762a83ff">
+        <source>Large gallery</source>
+        <target>Galería grande</target>
+      </trans-unit>
+      <trans-unit id="f9e4884c7654daa6581b42ed90aeaba4">
+        <source>Left column</source>
+        <target>Columna izquierda</target>
+      </trans-unit>
+      <trans-unit id="9914a0ce04a7b7b6a8e39bec55064b82">
+        <source>Light</source>
+        <target>Claro</target>
+      </trans-unit>
+      <trans-unit id="3f141ed5a81c38221731c718828d6f40">
+        <source>Lined</source>
+        <target>Con líneas</target>
+      </trans-unit>
+      <trans-unit id="a0b0293a2db49f5f93c15a62e095c819">
+        <source>Lines</source>
+        <target>Líneas</target>
+      </trans-unit>
+      <trans-unit id="d963c89baeefabd83e68c80f06121db4">
+        <source>Logo in the middle, menu below.</source>
+        <target>Logo en el centro, menú debajo.</target>
+      </trans-unit>
+      <trans-unit id="049dba7aa37c38ab2283b3a1c13f9910">
+        <source>Logo left, menu next to it.</source>
+        <target>Logo a la izquierda, menú al lado.</target>
+      </trans-unit>
+      <trans-unit id="2a9c7c069e91954f4ad5963dbec24ff4">
+        <source>Main colour</source>
+        <target>Color principal</target>
+      </trans-unit>
+      <trans-unit id="30fc6bbba82125243ecf4ddb27fee645">
+        <source>Minimal</source>
+        <target>Mínimo</target>
+      </trans-unit>
+      <trans-unit id="de83da5a7a920800779a299378f48493">
+        <source>On large screens. Phones always show two.</source>
+        <target>En pantallas grandes. Los móviles siempre muestran dos.</target>
+      </trans-unit>
+      <trans-unit id="25c31dd5cbd298f3aec321770b7cb814">
+        <source>On the left</source>
+        <target>A la izquierda</target>
+      </trans-unit>
+      <trans-unit id="e31b02a90f7702c57111302cdef08ecb">
+        <source>Only shown when a product has several pictures.</source>
+        <target>Solo se muestran si el producto tiene varias imágenes.</target>
+      </trans-unit>
+      <trans-unit id="043794e8f834f15279cd99c0266ef6f1">
+        <source>Open an example page</source>
+        <target>Abrir una página de ejemplo</target>
+      </trans-unit>
+      <trans-unit id="ea0ce7d47795ad77a180076654719021">
+        <source>Over the hero</source>
+        <target>Sobre la imagen principal</target>
+      </trans-unit>
+      <trans-unit id="349d650bbc0a758c00b84fd056a06f94">
+        <source>Page background</source>
+        <target>Fondo de página</target>
+      </trans-unit>
+      <trans-unit id="905b9bffb319a41b53cec6051a006a4d">
+        <source>Panel background</source>
+        <target>Fondo de paneles</target>
+      </trans-unit>
+      <trans-unit id="025211c78ce1727d5762c568eeb92c44">
+        <source>Picture in a mount, outline button.</source>
+        <target>Imagen con paspartú, botón con contorno.</target>
+      </trans-unit>
+      <trans-unit id="f4cd108eb2e8face43919e9ff643b86c">
+        <source>Picture, name, price and button.</source>
+        <target>Imagen, nombre, precio y botón.</target>
+      </trans-unit>
+      <trans-unit id="4cd8413207629a963225f4314b53adcd">
+        <source>Plain</source>
+        <target>Sencillo</target>
+      </trans-unit>
+      <trans-unit id="81a3c552b697bba87c72db7bc6ce5d1e">
+        <source>Pop-up</source>
+        <target>Ventana emergente</target>
+      </trans-unit>
+      <trans-unit id="becc91b13018469763ca47197427cec8">
+        <source>Product cards</source>
+        <target>Tarjetas de producto</target>
+      </trans-unit>
+      <trans-unit id="222292ac067afdfc694ee7333172a27a">
+        <source>Product layout</source>
+        <target>Diseño del producto</target>
+      </trans-unit>
+      <trans-unit id="d2517e3326aa1d538f93fc0667c0fa12">
+        <source>Product list and a summary column.</source>
+        <target>Lista de productos y columna de resumen.</target>
+      </trans-unit>
+      <trans-unit id="eb763a2e313718f33f55e1f0d84df6ee">
+        <source>Product page</source>
+        <target>Página de producto</target>
+      </trans-unit>
+      <trans-unit id="1c6c5b52aca9922e6ff36ce77162dfd6">
+        <source>Products per row</source>
+        <target>Productos por fila</target>
+      </trans-unit>
+      <trans-unit id="feb6cc332459769fe15570bf332a6b50">
+        <source>Right column</source>
+        <target>Columna derecha</target>
+      </trans-unit>
+      <trans-unit id="b5a922930944073635f971d8f03858f4">
+        <source>Rounded box</source>
+        <target>Caja redondeada</target>
+      </trans-unit>
+      <trans-unit id="3c7c40de19b7cfda0fd8de57ea3785a3">
+        <source>Ruled list with a framed summary.</source>
+        <target>Lista con líneas y resumen enmarcado.</target>
+      </trans-unit>
+      <trans-unit id="b1c7a4487892f284ac7e0885b74518f8">
+        <source>Sale price</source>
+        <target>Precio rebajado</target>
+      </trans-unit>
+      <trans-unit id="df3f3930fee8fa0a0d881cf75bef21f2">
+        <source>Section type</source>
+        <target>Tipo de sección</target>
+      </trans-unit>
+      <trans-unit id="b2bf9612fa82b205d28c0ecddf59b503">
+        <source>Sections as tabs in a row.</source>
+        <target>Secciones como pestañas en fila.</target>
+      </trans-unit>
+      <trans-unit id="ee5fa575d0bd264aa80d26c5bf68af8e">
+        <source>Sections open one at a time.</source>
+        <target>Las secciones se abren de una en una.</target>
+      </trans-unit>
+      <trans-unit id="3f39588bb19e28051d9aedfbb170025c">
+        <source>Shadow</source>
+        <target>Sombra</target>
+      </trans-unit>
+      <trans-unit id="498f79c4c5bbde77f1bceb6c86fd0f6d">
+        <source>Show</source>
+        <target>Mostrar</target>
+      </trans-unit>
+      <trans-unit id="7a721f7d9bd9b9850002130004ad5ce1">
+        <source>Show on the homepage</source>
+        <target>Mostrar en la portada</target>
+      </trans-unit>
+      <trans-unit id="75a0cc9609c822551345093bad098c64">
+        <source>Shows how much is left for free delivery. Set the amount in Shipping &gt; Preferences.</source>
+        <target>Muestra cuánto falta para el envío gratis. Fija el importe en Transporte &gt; Preferencias.</target>
+      </trans-unit>
+      <trans-unit id="f167c7fcc3aa0564439ce46d3580a05b">
+        <source>Side cart</source>
+        <target>Carrito lateral</target>
+      </trans-unit>
+      <trans-unit id="f37dda3dbbb40c612f213e801ab6e246">
+        <source>Small details: icons, labels, progress bars.</source>
+        <target>Pequeños detalles: iconos, etiquetas, barras de progreso.</target>
+      </trans-unit>
+      <trans-unit id="917361c94a9a3723914082e2a5374c3b">
+        <source>Small notice</source>
+        <target>Aviso breve</target>
+      </trans-unit>
+      <trans-unit id="7a0bc5845eab21a217e0d9afaccc38f4">
+        <source>Soft panel and a round cart button.</source>
+        <target>Panel suave y botón de carrito redondo.</target>
+      </trans-unit>
+      <trans-unit id="3fb7c93ebdc1432926457fc4774c001b">
+        <source>Soft text</source>
+        <target>Texto suave</target>
+      </trans-unit>
+      <trans-unit id="8a9e64d86ed12ad40de129bc7f4683b2">
+        <source>Split</source>
+        <target>Dividido</target>
+      </trans-unit>
+      <trans-unit id="eb6d8ae6f20283755b339c0dc273988b">
+        <source>Standard</source>
+        <target>Estándar</target>
+      </trans-unit>
+      <trans-unit id="7015777bcc86cd0c5e4819310d62b040">
+        <source>Tabs</source>
+        <target>Pestañas</target>
+      </trans-unit>
+      <trans-unit id="2c26a2b618e51a0372630b0d8375064b">
+        <source>Tall picture, small capitals.</source>
+        <target>Imagen alta, versalitas.</target>
+      </trans-unit>
+      <trans-unit id="9dffbf69ffba8bc38bc4e01abf4b1675">
+        <source>Text</source>
+        <target>Texto</target>
+      </trans-unit>
+      <trans-unit id="2c2191772548e04c171d7230e7c0a6e5">
+        <source>Text font</source>
+        <target>Fuente del texto</target>
+      </trans-unit>
+      <trans-unit id="5c961552f41f114838344714104f4abc">
+        <source>Text on main colour</source>
+        <target>Texto sobre color principal</target>
+      </trans-unit>
+      <trans-unit id="cfefa0d6620b9df288b5581822719019">
+        <source>Text on the left, image on the right.</source>
+        <target>Texto a la izquierda, imagen a la derecha.</target>
+      </trans-unit>
+      <trans-unit id="9903b71cdb55fd5cb3e2b5b26cf31476">
+        <source>The cart slides in from the right. The header cart opens it too.</source>
+        <target>El carrito se desliza desde la derecha. El carrito de la cabecera también lo abre.</target>
+      </trans-unit>
+      <trans-unit id="d6f4a1b0dd3785994c3a6c6df1a13a3b">
+        <source>The homepage is built from these sections, top to bottom. Use the arrows to change the order; the switch hides a section without deleting it.</source>
+        <target>La portada se compone de estas secciones, de arriba abajo. Las flechas cambian el orden; el interruptor oculta una sección sin borrarla.</target>
+      </trans-unit>
+      <trans-unit id="5accad505617d5574c187d95ad545630">
+        <source>The layout of the cart page before checkout.</source>
+        <target>El diseño del carrito antes de la compra.</target>
+      </trans-unit>
+      <trans-unit id="6b5161ff6a1142cdfe7c827fd2e1cfa5">
+        <source>The product tiles on the homepage, category pages and in carousels.</source>
+        <target>Las fichas de producto en la portada, categorías y carruseles.</target>
+      </trans-unit>
+      <trans-unit id="a3364c33ff38458705a5e316f16cd18e">
+        <source>Theme Kit</source>
+        <target>Theme Kit</target>
+      </trans-unit>
+      <trans-unit id="acc66e14d297c1bfc20986bf593cb054">
+        <source>Thumbnails</source>
+        <target>Miniaturas</target>
+      </trans-unit>
+      <trans-unit id="ffcd6f127180b9d078ac37af6f37218d">
+        <source>Title written on the category image.</source>
+        <target>Título sobre la imagen de la categoría.</target>
+      </trans-unit>
+      <trans-unit id="5b8232dc366e58687f1d50cb260590fb">
+        <source>Title, text, then the image.</source>
+        <target>Título, texto y luego la imagen.</target>
+      </trans-unit>
+      <trans-unit id="8625e1de7be14c39b1d14dc03d822497">
+        <source>Tools</source>
+        <target>Herramientas</target>
+      </trans-unit>
+      <trans-unit id="2d77b9e75528878497943c48423819cf">
+        <source>Typefaces, heading style and how round corners and buttons are.</source>
+        <target>Fuentes, estilo de títulos y redondez de esquinas y botones.</target>
+      </trans-unit>
+      <trans-unit id="0b9f7dd42dede4b8b5bc6968903b034d">
+        <source>What customers see after &quot;Add to cart&quot;, and the free delivery bar.</source>
+        <target>Lo que ve el cliente tras «Añadir al carrito» y la barra de envío gratis.</target>
+      </trans-unit>
+      <trans-unit id="59bf570105198463bf4b5306ba16a4f0">
+        <source>Field borders</source>
+        <target>Bordes de los campos</target>
+      </trans-unit>
+      <trans-unit id="9b141dfedccf0d50b73ffd9724c7fe89">
+        <source>Border of text fields, selects and checkboxes.</source>
+        <target>Borde de campos, listas y casillas.</target>
+      </trans-unit>
+      <trans-unit id="c84466d34a71c3746d4a213dfa173992">
+        <source>Field height</source>
+        <target>Altura de los campos</target>
+      </trans-unit>
+      <trans-unit id="8883e4b97d05d930149dbf0760103a6b">
+        <source>In pixels, for example 46.</source>
+        <target>En píxeles, por ejemplo 46.</target>
+      </trans-unit>
+      <trans-unit id="c45ab7267c8b411413d3b90fcbea2345">
+        <source>Fabric label</source>
+        <target>Etiqueta de tejido</target>
+      </trans-unit>
+      <trans-unit id="6f81728be6d4e753af77ba8b6c494ce0">
+        <source>Name and price on one line, a feature label, no button.</source>
+        <target>Nombre y precio en una línea, una etiqueta de característica, sin botón.</target>
+      </trans-unit>
+      <trans-unit id="91ce547cb2e4e5f34fe43c044491f049">
+        <source>A search field in the header.</source>
+        <target>Un campo de búsqueda en la cabecera.</target>
+      </trans-unit>
+      <trans-unit id="d3ab3d5184fe9b1b4428e4ffb797bdca">
+        <source>Bag</source>
+        <target>Bolsa</target>
+      </trans-unit>
+      <trans-unit id="a85eba4c6c699122b2bb1387ea4813ad">
+        <source>Cart</source>
+        <target>Carrito</target>
+      </trans-unit>
+      <trans-unit id="7c50a25463813a4358036118d2e61ddc">
+        <source>Cart wording</source>
+        <target>Palabra para el carrito</target>
+      </trans-unit>
+      <trans-unit id="13348442cc6a27032d2b4aa28b75a5d3">
+        <source>Search</source>
+        <target>Búsqueda</target>
+      </trans-unit>
+      <trans-unit id="9b47369d72e17f6b7fe04d5bf2ad5986">
+        <source>Search field</source>
+        <target>Campo de búsqueda</target>
+      </trans-unit>
+      <trans-unit id="bafd3c729c65b83c9cf779745260f684">
+        <source>Search panel</source>
+        <target>Panel de búsqueda</target>
+      </trans-unit>
+      <trans-unit id="850f596fc240296acf6a0f14381a1239">
+        <source>The word &quot;Search&quot; opens a panel with live results.</source>
+        <target>La palabra «Buscar» abre un panel con resultados al instante.</target>
+      </trans-unit>
+      <trans-unit id="a1d23a04671db1abfd0e26f58682dfcf">
+        <source>The word used in the header, side cart and buttons.</source>
+        <target>La palabra usada en la cabecera, el carrito lateral y los botones.</target>
+      </trans-unit>
+      <trans-unit id="7d2980e6496993d8f801c701d950750a">
+        <source>Search button</source>
+        <target>Botón de búsqueda</target>
+      </trans-unit>
+      <trans-unit id="2aa67f201421719fb4fee5a0f1ea83ef">
+        <source>How the search panel is opened from the header.</source>
+        <target>Cómo se abre el panel de búsqueda desde la cabecera.</target>
+      </trans-unit>
+      <trans-unit id="dc2da93b8d4e59ef438b3beea3b9fe5b">
+        <source>The word &quot;Search&quot;</source>
+        <target>La palabra «Buscar»</target>
+      </trans-unit>
+      <trans-unit id="6fd4f044c26c5126a2f20e55885ef53f">
+        <source>Magnifier icon</source>
+        <target>Icono de lupa</target>
+      </trans-unit>
+      <trans-unit id="11da42253cf3949a9dd6a75dde5ea88e">
+        <source>A dot marks a language with empty fields.</source>
+        <target>Un punto indica un idioma con campos vacíos.</target>
+      </trans-unit>
+      <trans-unit id="6cac8f48df86a9137e667c17b91cbdfd">
+        <source>A full web address, for example your delivery page.</source>
+        <target>Una dirección web completa, por ejemplo tu página de envíos.</target>
+      </trans-unit>
+      <trans-unit id="dc941c45a54ed185f4fd59dc56c2a86b">
+        <source>A row of brand logos from Catalog &gt; Brands.</source>
+        <target>Una fila de logotipos de Catálogo &gt; Marcas.</target>
+      </trans-unit>
+      <trans-unit id="44fd331be062db96c671b0819e0354bd">
+        <source>A row of logos</source>
+        <target>Una fila de logotipos</target>
+      </trans-unit>
+      <trans-unit id="b59a8352c6cfa48deb8ae1a98184be47">
+        <source>A row of photos</source>
+        <target>Una fila de fotos</target>
+      </trans-unit>
+      <trans-unit id="9c1088851e180af4ebb565c6e6c8ef97">
+        <source>A row of photos, for example from your customers or Instagram.</source>
+        <target>Una fila de fotos, por ejemplo de tus clientes o de Instagram.</target>
+      </trans-unit>
+      <trans-unit id="1a03009478d2aef17bc9c88e8a82de88">
+        <source>A row of products. Add a second list to show tabs, for example New in and Best sellers.</source>
+        <target>Una fila de productos. Añade una segunda lista para mostrar pestañas, por ejemplo Novedades y Más vendidos.</target>
+      </trans-unit>
+      <trans-unit id="82650929bc20a011d3586f041ca7005c">
+        <source>A story next to a photo</source>
+        <target>Una historia junto a una foto</target>
+      </trans-unit>
+      <trans-unit id="01f8cea36b23294902f58c6b0917fa83">
+        <source>A story next to a photo. Add more blocks and they alternate sides.</source>
+        <target>Una historia junto a una foto. Añade más bloques y alternarán de lado.</target>
+      </trans-unit>
+      <trans-unit id="6163ba3beef8220ddc64a974cc4e7736">
+        <source>A title, a few lines of text and an optional button.</source>
+        <target>Un título, unas líneas de texto y un botón opcional.</target>
+      </trans-unit>
+      <trans-unit id="c900e1bd8e22771d610bd2a5861b544f">
+        <source>Accent</source>
+        <target>Acento</target>
+      </trans-unit>
+      <trans-unit id="92bcd69af2e7fc7b658bd4b2b88f5d22">
+        <source>Add a list</source>
+        <target>Añadir una lista</target>
+      </trans-unit>
+      <trans-unit id="58b3d8603dffe8484e90c0ca371921ac">
+        <source>Add a message</source>
+        <target>Añadir un mensaje</target>
+      </trans-unit>
+      <trans-unit id="b76f39b68894af6cf2c4374285bbb152">
+        <source>Add a section</source>
+        <target>Añadir una sección</target>
+      </trans-unit>
+      <trans-unit id="bff13b03e3e759a6dffcbfbf9abefb47">
+        <source>Add banner</source>
+        <target>Añadir banner</target>
+      </trans-unit>
+      <trans-unit id="fff5d98ced5b7a395be2f2afa103d676">
+        <source>Add benefit</source>
+        <target>Añadir ventaja</target>
+      </trans-unit>
+      <trans-unit id="2ff8071bcd15a31f9a743f1b06d0d00f">
+        <source>Add block</source>
+        <target>Añadir bloque</target>
+      </trans-unit>
+      <trans-unit id="c004294d02270fdac23acfe074114c65">
+        <source>Add brand</source>
+        <target>Añadir marca</target>
+      </trans-unit>
+      <trans-unit id="3abd4b07c50c7ca7d319a77235f57c0d">
+        <source>Add category</source>
+        <target>Añadir categoría</target>
+      </trans-unit>
+      <trans-unit id="f946bba948d8c1eca3765a937e52b35b">
+        <source>Add photo</source>
+        <target>Añadir foto</target>
+      </trans-unit>
+      <trans-unit id="eb877453dc1f82abb01dfcb730053d3e">
+        <source>Add question</source>
+        <target>Añadir pregunta</target>
+      </trans-unit>
+      <trans-unit id="2c2fbcc0f3fe666b09e6667747b2119c">
+        <source>Add quote</source>
+        <target>Añadir cita</target>
+      </trans-unit>
+      <trans-unit id="056f53405bf3cf4bde3731c26d725365">
+        <source>Add slide</source>
+        <target>Añadir diapositiva</target>
+      </trans-unit>
+      <trans-unit id="2d0f6b8300be19cf35e89e66f0677f95">
+        <source>Add to cart</source>
+        <target>Añadir al carrito</target>
+      </trans-unit>
+      <trans-unit id="e18a22d145b38e4fff582663b5b4ec1e">
+        <source>All brands</source>
+        <target>Todas las marcas</target>
+      </trans-unit>
+      <trans-unit id="a967b597659107a5f0f52c0f7f642dff">
+        <source>All brands with a logo</source>
+        <target>Todas las marcas con logotipo</target>
+      </trans-unit>
+      <trans-unit id="918bba63d066b83c418905067fc5cfd1">
+        <source>Alternate</source>
+        <target>Alternar</target>
+      </trans-unit>
+      <trans-unit id="3751695c17afed4055a7a5ad5d46f6f5">
+        <source>Answer</source>
+        <target>Respuesta</target>
+      </trans-unit>
+      <trans-unit id="44e549fbe9ef045ee5234f17fb79a9d7">
+        <source>Arrangement</source>
+        <target>Disposición</target>
+      </trans-unit>
+      <trans-unit id="a9ded1e5ce5d75814730bb4caaf49419">
+        <source>Background</source>
+        <target>Fondo</target>
+      </trans-unit>
+      <trans-unit id="cca65a547fe70cced505e37fca12d604">
+        <source>Backgrounds</source>
+        <target>Fondos</target>
+      </trans-unit>
+      <trans-unit id="a54f98b0e23e6925c855760cdabd7168">
+        <source>Banners</source>
+        <target>Banners</target>
+      </trans-unit>
+      <trans-unit id="7e1b508db18f35890e72c8a5d2658c45">
+        <source>Below the photo</source>
+        <target>Debajo de la foto</target>
+      </trans-unit>
+      <trans-unit id="d0b37cb641df70f32a642387802f2cee">
+        <source>Benefit</source>
+        <target>Ventaja</target>
+      </trans-unit>
+      <trans-unit id="e654f7a86a4458b9cd662267e0f29b52">
+        <source>Benefits</source>
+        <target>Ventajas</target>
+      </trans-unit>
+      <trans-unit id="01f7ac959c1e6ebbb2e0ee706a7a5255">
+        <source>Best sellers</source>
+        <target>Más vendidos</target>
+      </trans-unit>
+      <trans-unit id="383dfd25a72c0c7e2607ac21b0140f02">
+        <source>Best size: 2400 × 1200 px, JPG or WebP.</source>
+        <target>Tamaño ideal: 2400 × 1200 px, JPG o WebP.</target>
+      </trans-unit>
+      <trans-unit id="e1e4c8c9ccd9fc39c391da4bcd093fb2">
+        <source>Block</source>
+        <target>Bloque</target>
+      </trans-unit>
+      <trans-unit id="04c4f9f595c4f21d1de65eb07056c15a">
+        <source>Blocks</source>
+        <target>Bloques</target>
+      </trans-unit>
+      <trans-unit id="1be6f9eb563f3bf85c78b4219bf09de9">
+        <source>Brand</source>
+        <target>Marca</target>
+      </trans-unit>
+      <trans-unit id="9183d384c4f17a243f0e33e9e82560d4">
+        <source>Brand logos</source>
+        <target>Logotipos de marcas</target>
+      </trans-unit>
+      <trans-unit id="84be54bb4bd1b755a27d86388700d097">
+        <source>Brands</source>
+        <target>Marcas</target>
+      </trans-unit>
+      <trans-unit id="87b7760f14fbff78d8819291f36ab9a0">
+        <source>Button</source>
+        <target>Botón</target>
+      </trans-unit>
+      <trans-unit id="094a8d294f851d0f97b97fb617a8bfb2">
+        <source>Button goes to</source>
+        <target>El botón lleva a</target>
+      </trans-unit>
+      <trans-unit id="111082bb18b636c4493e0370dce09f00">
+        <source>Button text</source>
+        <target>Texto del botón</target>
+      </trans-unit>
+      <trans-unit id="ea4788705e6873b424c65e91c2846b19">
+        <source>Cancel</source>
+        <target>Cancelar</target>
+      </trans-unit>
+      <trans-unit id="272ba7d164aa836995be6319a698be84">
+        <source>Caption</source>
+        <target>Pie de foto</target>
+      </trans-unit>
+      <trans-unit id="225bf3d9290b5f536b2e442259e78652">
+        <source>Carousel</source>
+        <target>Carrusel</target>
+      </trans-unit>
+      <trans-unit id="af1b98adf7f686b84cd0b443e022b7a0">
+        <source>Categories</source>
+        <target>Categorías</target>
+      </trans-unit>
+      <trans-unit id="3adbdb3ac060038aa0e6e6c138ef9873">
+        <source>Category</source>
+        <target>Categoría</target>
+      </trans-unit>
+      <trans-unit id="1b83331ee5b0015c375e6542628088a8">
+        <source>Centre</source>
+        <target>Centro</target>
+      </trans-unit>
+      <trans-unit id="300533dcefd2ffb18c6df4cc30c12b24">
+        <source>Change slides</source>
+        <target>Cambiar diapositivas</target>
+      </trans-unit>
+      <trans-unit id="88cd39f95917879686df58d9c3ec55da">
+        <source>Choose a brand</source>
+        <target>Elige una marca</target>
+      </trans-unit>
+      <trans-unit id="0173374ac20f5843d58b553d5b226ef6">
+        <source>Choose a category</source>
+        <target>Elige una categoría</target>
+      </trans-unit>
+      <trans-unit id="92fbf0e5d97b8afd7e73126b52bdc4bb">
+        <source>Choose a file</source>
+        <target>Elegir archivo</target>
+      </trans-unit>
+      <trans-unit id="c1a450d4ebf98138a836434e6ca9c1b7">
+        <source>Choose a product</source>
+        <target>Elige un producto</target>
+      </trans-unit>
+      <trans-unit id="7733799d81c4be1caf3cd5ac45f648c4">
+        <source>Chosen brands</source>
+        <target>Marcas elegidas</target>
+      </trans-unit>
+      <trans-unit id="0b746483cd6f7830702edd6ee7d8d4b9">
+        <source>Circles</source>
+        <target>Círculos</target>
+      </trans-unit>
+      <trans-unit id="d3d2e617335f08df83599665eef8a418">
+        <source>Close</source>
+        <target>Cerrar</target>
+      </trans-unit>
+      <trans-unit id="80537ae177dc663602f7997ab0a05a49">
+        <source>Colours come from Design &gt; Colours.</source>
+        <target>Los colores vienen de Diseño &gt; Colores.</target>
+      </trans-unit>
+      <trans-unit id="02d4482d332e1aef3437cd61c9bcc624">
+        <source>Contact us</source>
+        <target>Contacto</target>
+      </trans-unit>
+      <trans-unit id="a0f2844e79c2a58db851c5d582d24aac">
+        <source>Copy to empty languages</source>
+        <target>Copiar a los idiomas vacíos</target>
+      </trans-unit>
+      <trans-unit id="cfef255ed4ead42355c72f30bbb7ec9d">
+        <source>Could not save. Reload the page and try again.</source>
+        <target>No se pudo guardar. Recarga la página e inténtalo de nuevo.</target>
+      </trans-unit>
+      <trans-unit id="87a22bb98f11230fc54d12f4831beb88">
+        <source>Customer quotes</source>
+        <target>Opiniones de clientes</target>
+      </trans-unit>
+      <trans-unit id="56d7c177a4c64ab4ba12177770e4b8a0">
+        <source>Dark footer</source>
+        <target>Pie oscuro</target>
+      </trans-unit>
+      <trans-unit id="248c8d913eee66197a1fdc921252482b">
+        <source>Darkens the photo so white text stays readable.</source>
+        <target>Oscurece la foto para que el texto blanco se lea bien.</target>
+      </trans-unit>
+      <trans-unit id="ba787cd37f9c0a32af16c8fb520e569b">
+        <source>Deal with countdown</source>
+        <target>Oferta con cuenta atrás</target>
+      </trans-unit>
+      <trans-unit id="7b10466022c677323b540b4c955d9202">
+        <source>Delete this section? This cannot be undone.</source>
+        <target>¿Eliminar esta sección? No se puede deshacer.</target>
+      </trans-unit>
+      <trans-unit id="44a34e9e8849ab63171083d18fb2b301">
+        <source>Dim the photo</source>
+        <target>Oscurecer la foto</target>
+      </trans-unit>
+      <trans-unit id="f92965e2c8a7afb3c1b9a5c09a263636">
+        <source>Done</source>
+        <target>Listo</target>
+      </trans-unit>
+      <trans-unit id="40f3198d5129a8d33f35c6111814a691">
+        <source>Drop an image here</source>
+        <target>Suelta una imagen aquí</target>
+      </trans-unit>
+      <trans-unit id="d1e80d25933d9cc49056dc8cf2072e91">
+        <source>Each list becomes a tab when there is more than one.</source>
+        <target>Cada lista se convierte en pestaña cuando hay más de una.</target>
+      </trans-unit>
+      <trans-unit id="b3b6cfb4c512f67c6b09851f96b3354f">
+        <source>Edge to edge</source>
+        <target>De borde a borde</target>
+      </trans-unit>
+      <trans-unit id="8bb2ee153afdc35a30bb410dd91f6c60">
+        <source>Edit %item%</source>
+        <target>Editar: %item%</target>
+      </trans-unit>
+      <trans-unit id="668a49cdf94ce5ef62fc443d19604979">
+        <source>Email sign-up</source>
+        <target>Suscripción por e-mail</target>
+      </trans-unit>
+      <trans-unit id="1b4c5d26cd31e7930d7fb07b7ec18e03">
+        <source>Email sign-up with a photo.</source>
+        <target>Suscripción por e-mail con una foto.</target>
+      </trans-unit>
+      <trans-unit id="08eed9536d7ca674cb084acee723bad5">
+        <source>Every 10 seconds</source>
+        <target>Cada 10 segundos</target>
+      </trans-unit>
+      <trans-unit id="34dc698738ea8c8d02e4313fecf73a8d">
+        <source>Every 4 seconds</source>
+        <target>Cada 4 segundos</target>
+      </trans-unit>
+      <trans-unit id="e31f91df93dfe1094867b87f2d95225b">
+        <source>Every 6 seconds</source>
+        <target>Cada 6 segundos</target>
+      </trans-unit>
+      <trans-unit id="8c9678499410b54207bacb3fd07d3b98">
+        <source>Every 8 seconds</source>
+        <target>Cada 8 segundos</target>
+      </trans-unit>
+      <trans-unit id="ddd4cf8364dc8d9ae0099183990d5765">
+        <source>Featured (home category)</source>
+        <target>Destacados (categoría Inicio)</target>
+      </trans-unit>
+      <trans-unit id="5d97df59fe7d2ae21275af132a3eddd7">
+        <source>Four side by side</source>
+        <target>Cuatro en fila</target>
+      </trans-unit>
+      <trans-unit id="037ce826179956cdca16f36af8b43898">
+        <source>Frequently asked questions that open one at a time.</source>
+        <target>Preguntas frecuentes que se abren de una en una.</target>
+      </trans-unit>
+      <trans-unit id="c7bc8582e700c8d0bd81420544c362f6">
+        <source>From a category</source>
+        <target>De una categoría</target>
+      </trans-unit>
+      <trans-unit id="764ff8d94d40c2ecfca7141e7451aa23">
+        <source>Full screen</source>
+        <target>Pantalla completa</target>
+      </trans-unit>
+      <trans-unit id="5c93310dd0291e121181e830cdda892e">
+        <source>Gallery</source>
+        <target>Galería</target>
+      </trans-unit>
+      <trans-unit id="185b12b2b3ee5b50703f1a2b813f8af6">
+        <source>Goes to</source>
+        <target>Lleva a</target>
+      </trans-unit>
+      <trans-unit id="5174d1309f275ba6f275db3af9eb3e18">
+        <source>Grid</source>
+        <target>Cuadrícula</target>
+      </trans-unit>
+      <trans-unit id="eec6c4bdbd339edf8cbea68becb85244">
+        <source>Height</source>
+        <target>Altura</target>
+      </trans-unit>
+      <trans-unit id="e0a67c8c63f8f7362917abef6ca24c6b">
+        <source>Hero</source>
+        <target>Cabecera principal</target>
+      </trans-unit>
+      <trans-unit id="b5c06eb9de36ca0ddb266c35e1c5a9fe">
+        <source>How many products</source>
+        <target>Cuántos productos</target>
+      </trans-unit>
+      <trans-unit id="817434295a673aed431435658b65d9a7">
+        <source>Icon</source>
+        <target>Icono</target>
+      </trans-unit>
+      <trans-unit id="ca9700fcc899d84604ac6c05af8443a3">
+        <source>Icons with short reasons to buy</source>
+        <target>Iconos con breves razones para comprar</target>
+      </trans-unit>
+      <trans-unit id="29d77859f9b8d7136dc216471912aafc">
+        <source>Image and text</source>
+        <target>Imagen y texto</target>
+      </trans-unit>
+      <trans-unit id="72d6d7a1885885bb55a565fd1070581a">
+        <source>Import</source>
+        <target>Importar</target>
+      </trans-unit>
+      <trans-unit id="3d03bfc0b0154962d3f9f411611b8399">
+        <source>Import again…</source>
+        <target>Importar de nuevo…</target>
+      </trans-unit>
+      <trans-unit id="d1c1663066338d9c653131835b5a4006">
+        <source>Import…</source>
+        <target>Importar…</target>
+      </trans-unit>
+      <trans-unit id="2bad9fc2b0e56fad2438712a5854c66a">
+        <source>Intro under the title</source>
+        <target>Introducción bajo el título</target>
+      </trans-unit>
+      <trans-unit id="bd62404991ef70ec97d74abee6e1165c">
+        <source>Its price and discount are shown next to the timer.</source>
+        <target>Su precio y descuento aparecen junto al contador.</target>
+      </trans-unit>
+      <trans-unit id="96de1486440400236c22ab93bee761b4">
+        <source>Keep each message short: one line on a phone is about 40 characters.</source>
+        <target>Mantén cada mensaje corto: una línea en el móvil son unos 40 caracteres.</target>
+      </trans-unit>
+      <trans-unit id="b021df6aac4654c454f46c77646e745f">
+        <source>Label</source>
+        <target>Etiqueta</target>
+      </trans-unit>
+      <trans-unit id="815dff01257e5ef182b25d4c1ef0a7a0">
+        <source>Landscape</source>
+        <target>Horizontal</target>
+      </trans-unit>
+      <trans-unit id="4994a8ffeba4ac3140beb89e8d41f174">
+        <source>Language</source>
+        <target>Idioma</target>
+      </trans-unit>
+      <trans-unit id="3a69b34ce86dacb205936a8094f6c743">
+        <source>Large</source>
+        <target>Grande</target>
+      </trans-unit>
+      <trans-unit id="be6b207237bdbb72a3acc99916566dc1">
+        <source>Large and small</source>
+        <target>Grande y pequeño</target>
+      </trans-unit>
+      <trans-unit id="1603da1802bce8870fee0b0a696a1b81">
+        <source>Large names with a photo</source>
+        <target>Nombres grandes con una foto</target>
+      </trans-unit>
+      <trans-unit id="54ec2915548db9d87da9df441ee90d16">
+        <source>Large photo with a title</source>
+        <target>Foto grande con título</target>
+      </trans-unit>
+      <trans-unit id="ebd9bec4d70abc789d439c1f136b0538">
+        <source>Layout</source>
+        <target>Diseño</target>
+      </trans-unit>
+      <trans-unit id="c7ee7b1cec9354c48edd6414e722da63">
+        <source>Leave empty to use the category name.</source>
+        <target>Déjalo vacío para usar el nombre de la categoría.</target>
+      </trans-unit>
+      <trans-unit id="777675f4622888cb4ee8d53e4d6562ff">
+        <source>Leave empty to use the category picture.</source>
+        <target>Déjalo vacío para usar la imagen de la categoría.</target>
+      </trans-unit>
+      <trans-unit id="945d5e233cf7d6240f6b783b36a374ff">
+        <source>Left</source>
+        <target>Izquierda</target>
+      </trans-unit>
+      <trans-unit id="a131559a6dd0d802a46508f9c4f4ab59">
+        <source>Left, with a link</source>
+        <target>A la izquierda, con enlace</target>
+      </trans-unit>
+      <trans-unit id="8b019a52f4adf987bf60dab6124fdb60">
+        <source>Link goes to</source>
+        <target>El enlace lleva a</target>
+      </trans-unit>
+      <trans-unit id="46e23d475ee9d27404c5a74a49f5c66f">
+        <source>Link of the first message</source>
+        <target>Enlace del primer mensaje</target>
+      </trans-unit>
+      <trans-unit id="7461bdf89c3e6d70ff61a331377fdf83">
+        <source>Link text on the right</source>
+        <target>Texto del enlace a la derecha</target>
+      </trans-unit>
+      <trans-unit id="e40e5cf7707c8efd70e8c220cb692b5e">
+        <source>Link type</source>
+        <target>Tipo de enlace</target>
+      </trans-unit>
+      <trans-unit id="c6cb9e56339902f641cce55fe368df37">
+        <source>Links to your main categories, as tiles, circles or a list.</source>
+        <target>Enlaces a tus categorías principales, en mosaico, círculos o lista.</target>
+      </trans-unit>
+      <trans-unit id="4ee29ca12c7d126654bd0e5275de6135">
+        <source>List</source>
+        <target>Lista</target>
+      </trans-unit>
+      <trans-unit id="691d1860ec58dd973e803e209697d065">
+        <source>Lists</source>
+        <target>Listas</target>
+      </trans-unit>
+      <trans-unit id="c7d44cdcc544745a8329fa1efb5e4316">
+        <source>Load a complete demo: products, categories, pages, menu, footer links, homepage and design. Orders and customers are never touched.</source>
+        <target>Carga una demo completa: productos, categorías, páginas, menú, enlaces del pie, portada y diseño. Los pedidos y clientes nunca se tocan.</target>
+      </trans-unit>
+      <trans-unit id="a02c83a7dbd96295beaefb72c2bee2de">
+        <source>Main</source>
+        <target>Principal</target>
+      </trans-unit>
+      <trans-unit id="87f8a6ab85c9ced3702b4ea641ad4bb5">
+        <source>Medium</source>
+        <target>Mediano</target>
+      </trans-unit>
+      <trans-unit id="4c2a8fe7eaf24721cc7a9f0175115bd4">
+        <source>Message</source>
+        <target>Mensaje</target>
+      </trans-unit>
+      <trans-unit id="41de6d6cfb8953c021bbe4ba0701c8a1">
+        <source>Messages</source>
+        <target>Mensajes</target>
+      </trans-unit>
+      <trans-unit id="284716247b12b363fd6b6a71bff0918e">
+        <source>More actions</source>
+        <target>Más acciones</target>
+      </trans-unit>
+      <trans-unit id="49ee3087348e8d44e1feda1917443987">
+        <source>Name</source>
+        <target>Nombre</target>
+      </trans-unit>
+      <trans-unit id="9ce7fc085ae2674194e040609635e5ba">
+        <source>Name shown</source>
+        <target>Nombre visible</target>
+      </trans-unit>
+      <trans-unit id="e2c0e77b164d5cbe1770dee697ad30e7">
+        <source>Name written on the photo</source>
+        <target>Nombre sobre la foto</target>
+      </trans-unit>
+      <trans-unit id="4a7ab319be06025840ef3389301424b9">
+        <source>Narrow</source>
+        <target>Estrecho</target>
+      </trans-unit>
+      <trans-unit id="6e7b34fa59e1bd229b207892956dc41c">
+        <source>Never</source>
+        <target>Nunca</target>
+      </trans-unit>
+      <trans-unit id="44060deddf118ae7da705f23595f5eab">
+        <source>New %item%</source>
+        <target>Nuevo: %item%</target>
+      </trans-unit>
+      <trans-unit id="9ff0635f5737513b1a6f559ac2bff745">
+        <source>New products</source>
+        <target>Productos nuevos</target>
+      </trans-unit>
+      <trans-unit id="aee9a835c7ecc0a9a3d9704d1df5a51d">
+        <source>New, best sellers or a category</source>
+        <target>Novedades, más vendidos o una categoría</target>
+      </trans-unit>
+      <trans-unit id="4ed867da19b3f62e54ab3c2040b91ecc">
+        <source>Newest products</source>
+        <target>Productos más nuevos</target>
+      </trans-unit>
+      <trans-unit id="ffb7e666a70151215b4c55c6268d7d72">
+        <source>Newsletter</source>
+        <target>Boletín</target>
+      </trans-unit>
+      <trans-unit id="a741d105f6108dea011b93e21b92b239">
+        <source>No demo found. A demo lives in themes/&lt;theme&gt;/demo/demo.json.</source>
+        <target>No se encontró ninguna demo. Una demo está en themes/&lt;theme&gt;/demo/demo.json.</target>
+      </trans-unit>
+      <trans-unit id="5ccd727b3dbccbd232b06af580ff4486">
+        <source>No sections yet. Add one, or import a demo from Demo import.</source>
+        <target>Aún no hay secciones. Añade una o importa una demo.</target>
+      </trans-unit>
+      <trans-unit id="6adf97f83acf6453d4a6a4b1070f3754">
+        <source>None</source>
+        <target>Ninguno</target>
+      </trans-unit>
+      <trans-unit id="62ae06914d254984def5edf1bc791693">
+        <source>Not used by the List style.</source>
+        <target>No se usa en el estilo Lista.</target>
+      </trans-unit>
+      <trans-unit id="e56fc964976b3770a35b2d6fb4b78224">
+        <source>Nowhere</source>
+        <target>Ningún sitio</target>
+      </trans-unit>
+      <trans-unit id="f481a5786c91651b045300f4985de32b">
+        <source>Offer ends</source>
+        <target>Fin de la oferta</target>
+      </trans-unit>
+      <trans-unit id="588907ab2d492aca0b07b5bf9c931eea">
+        <source>On sale</source>
+        <target>En oferta</target>
+      </trans-unit>
+      <trans-unit id="e67fdce460a63b88104b38b358b8d0fc">
+        <source>On the photo</source>
+        <target>Sobre la foto</target>
+      </trans-unit>
+      <trans-unit id="cd73499237c1d1d7283c4f34a7dacc6e">
+        <source>One large quote</source>
+        <target>Una cita grande</target>
+      </trans-unit>
+      <trans-unit id="744262234602db6a1bad02935d424a81">
+        <source>One offer with a timer</source>
+        <target>Una oferta con contador</target>
+      </trans-unit>
+      <trans-unit id="20992241215855fa270529cc046b8e07">
+        <source>One product on offer, with a timer until the offer ends.</source>
+        <target>Un producto en oferta, con contador hasta el final.</target>
+      </trans-unit>
+      <trans-unit id="dc43b0fb974c36b74102ff217c2bd290">
+        <source>One slide shows as a still photo. Two or more turn into a slider.</source>
+        <target>Una diapositiva se ve como foto fija. Dos o más se convierten en carrusel.</target>
+      </trans-unit>
+      <trans-unit id="da6563de1d6f0aa7ca4714d327aaa7d7">
+        <source>One wide banner</source>
+        <target>Un banner ancho</target>
+      </trans-unit>
+      <trans-unit id="144e9a34bb5ceba24eb749ec409c49ec">
+        <source>Only used when &quot;Chosen brands&quot; is selected.</source>
+        <target>Solo con «Marcas elegidas».</target>
+      </trans-unit>
+      <trans-unit id="7d5dcb04b93aa1f3c773ae6bc76be716">
+        <source>Only used when there are two or more slides.</source>
+        <target>Solo con dos o más diapositivas.</target>
+      </trans-unit>
+      <trans-unit id="5e03b288ec42a8ca5450c7bd32e40c65">
+        <source>Only when the banner goes to another website.</source>
+        <target>Solo si el banner lleva a otro sitio.</target>
+      </trans-unit>
+      <trans-unit id="852fe1ebda322fb41cbb6975b14fba9c">
+        <source>Only when the button goes to another website.</source>
+        <target>Solo si el botón lleva a otro sitio.</target>
+      </trans-unit>
+      <trans-unit id="d6d9c92c2098bc3b067efdbb829d28aa">
+        <source>Only when the photo links to another website.</source>
+        <target>Solo si la foto enlaza a otro sitio.</target>
+      </trans-unit>
+      <trans-unit id="9c1cab34cf178eb954176e7675b5f3f9">
+        <source>Order and visibility save straight away. &quot;More actions&quot; holds Duplicate and Delete.</source>
+        <target>El orden y la visibilidad se guardan al momento. «Más acciones» incluye Duplicar y Eliminar.</target>
+      </trans-unit>
+      <trans-unit id="34c869c542dee932ef8cd96d2f91cae6">
+        <source>Our stores</source>
+        <target>Nuestras tiendas</target>
+      </trans-unit>
+      <trans-unit id="193cfc9be3b995831c6af2fea6650e60">
+        <source>Page</source>
+        <target>Página</target>
+      </trans-unit>
+      <trans-unit id="3ad8f998d750b0a03fdbf4532541f181">
+        <source>Page width</source>
+        <target>Ancho de página</target>
+      </trans-unit>
+      <trans-unit id="b8da6df14bf06283cbf588df6998722e">
+        <source>Panel</source>
+        <target>Panel</target>
+      </trans-unit>
+      <trans-unit id="909bf0878076c296997777c20e282019">
+        <source>Per row</source>
+        <target>Por fila</target>
+      </trans-unit>
+      <trans-unit id="c03d53b70feba4ea842510abecd6c45e">
+        <source>Photo</source>
+        <target>Foto</target>
+      </trans-unit>
+      <trans-unit id="5614c94f50e854f500c1e97d6c1ea981">
+        <source>Photo and name in a box</source>
+        <target>Foto y nombre en un recuadro</target>
+      </trans-unit>
+      <trans-unit id="d3001b99d3f6911f5efc9dc1abd18b1a">
+        <source>Photo for phones</source>
+        <target>Foto para móviles</target>
+      </trans-unit>
+      <trans-unit id="0a3e3d1f4721684682aa3677ede5bc32">
+        <source>Photo shape</source>
+        <target>Forma de la foto</target>
+      </trans-unit>
+      <trans-unit id="5622daf3579d22aa3e69104a70e9fd50">
+        <source>Photo side</source>
+        <target>Lado de la foto</target>
+      </trans-unit>
+      <trans-unit id="7d83926da3c02d78a3129d634a04f59d">
+        <source>Photo with the name below</source>
+        <target>Foto con el nombre debajo</target>
+      </trans-unit>
+      <trans-unit id="5daaf223b01f8f3e1bd9287170826fbc">
+        <source>Photos</source>
+        <target>Fotos</target>
+      </trans-unit>
+      <trans-unit id="a3527af813e208fe7a699b0e9c6e3d42">
+        <source>Photos per row</source>
+        <target>Fotos por fila</target>
+      </trans-unit>
+      <trans-unit id="cbf958695112046a0281446292bdcd33">
+        <source>Pick a category and, if you like, your own photo and name.</source>
+        <target>Elige una categoría y, si quieres, tu propia foto y nombre.</target>
+      </trans-unit>
+      <trans-unit id="63c4002ce1f59807aab8ad3bee66fc18">
+        <source>Pick what it shows. It is added hidden at the bottom, so nothing changes on the shop until you switch it on.</source>
+        <target>Elige qué muestra. Se añade oculta al final: nada cambia en la tienda hasta que la actives.</target>
+      </trans-unit>
+      <trans-unit id="acbb38f37a2c6b09343d467e8c9781d4">
+        <source>Place or role</source>
+        <target>Lugar o cargo</target>
+      </trans-unit>
+      <trans-unit id="1c7444be9626d149ab598fb79b639f96">
+        <source>Portrait</source>
+        <target>Vertical</target>
+      </trans-unit>
+      <trans-unit id="ef3a7be53c1dbb5be8f2f08de5dd7811">
+        <source>Portrait, 1080 × 1350 px. Without it, the main photo is cropped.</source>
+        <target>Vertical, 1080 × 1350 px. Sin ella, se recorta la foto principal.</target>
+      </trans-unit>
+      <trans-unit id="31fde7b05ac8952dacf4af8a704074ec">
+        <source>Preview</source>
+        <target>Vista previa</target>
+      </trans-unit>
+      <trans-unit id="6de5d0b17afc50642850ff9486934f87">
+        <source>Prices drop</source>
+        <target>Bajadas de precio</target>
+      </trans-unit>
+      <trans-unit id="deb10517653c255364175796ace3553f">
+        <source>Product</source>
+        <target>Producto</target>
+      </trans-unit>
+      <trans-unit id="df644ae155e79abf54175bd15d75f363">
+        <source>Product name</source>
+        <target>Nombre del producto</target>
+      </trans-unit>
+      <trans-unit id="89d6e8d3cce47fcfd2afdfbe14da0c93">
+        <source>Product on offer</source>
+        <target>Producto en oferta</target>
+      </trans-unit>
+      <trans-unit id="068f80c7519d0528fb08e82137a72131">
+        <source>Products</source>
+        <target>Productos</target>
+      </trans-unit>
+      <trans-unit id="a97ea56b0e00b2379736ae60869ff66a">
+        <source>Question</source>
+        <target>Pregunta</target>
+      </trans-unit>
+      <trans-unit id="6ce3bdc39e544725038e0e87b771db1e">
+        <source>Questions</source>
+        <target>Preguntas</target>
+      </trans-unit>
+      <trans-unit id="9ea54b1d9546728548c1f97e8a610898">
+        <source>Questions and answers</source>
+        <target>Preguntas y respuestas</target>
+      </trans-unit>
+      <trans-unit id="c48e929b2b1eabba2ba036884433345e">
+        <source>Quote</source>
+        <target>Cita</target>
+      </trans-unit>
+      <trans-unit id="c9a28e7f0dbc3ed20a161351c4f29a7b">
+        <source>Quotes</source>
+        <target>Citas</target>
+      </trans-unit>
+      <trans-unit id="3e954e4b72ddc83aedfc2d5b13b6273f">
+        <source>Quotes from your customers.</source>
+        <target>Opiniones de tus clientes.</target>
+      </trans-unit>
+      <trans-unit id="01a385b24aa8499b95190ed1dd5620f3">
+        <source>Remove existing products, categories and pages first</source>
+        <target>Eliminar primero productos, categorías y páginas existentes</target>
+      </trans-unit>
+      <trans-unit id="26ad21c7851200e020b5120bf47aa205">
+        <source>Remove message</source>
+        <target>Quitar mensaje</target>
+      </trans-unit>
+      <trans-unit id="0ebe6df8a3ac338e0512acc741823fdb">
+        <source>Replace</source>
+        <target>Reemplazar</target>
+      </trans-unit>
+      <trans-unit id="92b09c7c48c520c3c55e497875da437c">
+        <source>Right</source>
+        <target>Derecha</target>
+      </trans-unit>
+      <trans-unit id="1a6276a2fb407950d52b80144e6a95e5">
+        <source>Round photos</source>
+        <target>Fotos redondas</target>
+      </trans-unit>
+      <trans-unit id="a70367aa7cb74e510f4f9413ccf059d3">
+        <source>Row</source>
+        <target>Fila</target>
+      </trans-unit>
+      <trans-unit id="248336101b461380a4b2391a7625493d">
+        <source>Saved</source>
+        <target>Guardado</target>
+      </trans-unit>
+      <trans-unit id="e004f9147a18d2ef1f55007314f7a1b4">
+        <source>Section look</source>
+        <target>Aspecto de la sección</target>
+      </trans-unit>
+      <trans-unit id="6d09e97203e46c644d49fad63ed86ba8">
+        <source>Shop page</source>
+        <target>Página de la tienda</target>
+      </trans-unit>
+      <trans-unit id="884f0e264e045bb98f9abe47eb794951">
+        <source>Short reasons to buy, like free delivery or easy returns.</source>
+        <target>Razones breves para comprar, como envío gratis o devoluciones fáciles.</target>
+      </trans-unit>
+      <trans-unit id="b6746bc8d73078de4bbd11e91020067d">
+        <source>Short text</source>
+        <target>Texto corto</target>
+      </trans-unit>
+      <trans-unit id="07a05baa327333626b2a1b26c4d030ec">
+        <source>Show as</source>
+        <target>Mostrar como</target>
+      </trans-unit>
+      <trans-unit id="6f26d90eb17b16389404277ac7ed4d32">
+        <source>Show logos in grey</source>
+        <target>Logotipos en gris</target>
+      </trans-unit>
+      <trans-unit id="7a5fd2cf4deb804ab9e547479f0f7928">
+        <source>Shown beside the sign-up form.</source>
+        <target>Se muestra junto al formulario de suscripción.</target>
+      </trans-unit>
+      <trans-unit id="5813ce0ec7196c492c97596718f71969">
+        <source>Sitemap</source>
+        <target>Mapa del sitio</target>
+      </trans-unit>
+      <trans-unit id="6160a53ece50ce6d4f5ef4452549835e">
+        <source>Slide</source>
+        <target>Diapositiva</target>
+      </trans-unit>
+      <trans-unit id="2d9b9a764fb0be4be10e1b2fce63f561">
+        <source>Slider</source>
+        <target>Carrusel</target>
+      </trans-unit>
+      <trans-unit id="a8d90ed8f17c347c8d46e0ef22c85ecb">
+        <source>Slides</source>
+        <target>Diapositivas</target>
+      </trans-unit>
+      <trans-unit id="2660064e68655415da2628c2ae2f7592">
+        <source>Small</source>
+        <target>Pequeño</target>
+      </trans-unit>
+      <trans-unit id="76255e319d5787951226efa4a8f4941a">
+        <source>Small and large</source>
+        <target>Pequeño y grande</target>
+      </trans-unit>
+      <trans-unit id="391d308c0b6792a3162748b679c9fab2">
+        <source>Small text above the title</source>
+        <target>Texto pequeño sobre el título</target>
+      </trans-unit>
+      <trans-unit id="b7d13db9345339fa859925236e77666e">
+        <source>Space above and below</source>
+        <target>Espacio arriba y abajo</target>
+      </trans-unit>
+      <trans-unit id="ceb46ca115d05c51aa5a16a8867c3304">
+        <source>Square</source>
+        <target>Cuadrado</target>
+      </trans-unit>
+      <trans-unit id="af091bba2016b3e32c9fdba9aeeb750b">
+        <source>Square or portrait photos look best.</source>
+        <target>Las fotos cuadradas o verticales quedan mejor.</target>
+      </trans-unit>
+      <trans-unit id="d37c550d781bfb93b0088a2470598bcf">
+        <source>Stars</source>
+        <target>Estrellas</target>
+      </trans-unit>
+      <trans-unit id="ae284f900f9d6e21ba69144cfc91e41b">
+        <source>Style</source>
+        <target>Estilo</target>
+      </trans-unit>
+      <trans-unit id="8e753068ca410f0f695f0dd52a975c20">
+        <source>Tab name</source>
+        <target>Nombre de la pestaña</target>
+      </trans-unit>
+      <trans-unit id="13ea583f6474cdce6c0c9b289b652ffe">
+        <source>Testimonials</source>
+        <target>Testimonios</target>
+      </trans-unit>
+      <trans-unit id="8bea10b046cfeadd8809f3d5ac4750ab">
+        <source>Text and lines</source>
+        <target>Texto y líneas</target>
+      </trans-unit>
+      <trans-unit id="fe9704deafc2f7fcba03c27250326ac7">
+        <source>Text beside the photo</source>
+        <target>Texto junto a la foto</target>
+      </trans-unit>
+      <trans-unit id="7ef25f7b93adc8bf024ed532d722f697">
+        <source>Text block</source>
+        <target>Bloque de texto</target>
+      </trans-unit>
+      <trans-unit id="cdd878ec012b41bab2e2cc2619aeae23">
+        <source>Text bottom left</source>
+        <target>Texto abajo a la izquierda</target>
+      </trans-unit>
+      <trans-unit id="429975dc9a033eaefd75856362e6cb5f">
+        <source>Text centred on the photo</source>
+        <target>Texto centrado sobre la foto</target>
+      </trans-unit>
+      <trans-unit id="3749c7343d912a50307df6ac9fbf22cb">
+        <source>Text colour</source>
+        <target>Color del texto</target>
+      </trans-unit>
+      <trans-unit id="ff901526a09082089148c1b60da3372a">
+        <source>Text in the middle</source>
+        <target>Texto en el centro</target>
+      </trans-unit>
+      <trans-unit id="91202622167c7c44f1038b86fc6a4b46">
+        <source>Text position</source>
+        <target>Posición del texto</target>
+      </trans-unit>
+      <trans-unit id="255e04a50d2bd26503548243f742788c">
+        <source>Texts in</source>
+        <target>Textos en</target>
+      </trans-unit>
+      <trans-unit id="00b8bc0566e2c0fab94aac03c34c7ac7">
+        <source>The button text is the small text above the title.</source>
+        <target>El texto del botón es el texto pequeño sobre el título.</target>
+      </trans-unit>
+      <trans-unit id="9792e80a31b2a13f092ce2f11c63f83f">
+        <source>The homepage, top to bottom. Drag a section to move it; the switch hides it without deleting anything.</source>
+        <target>La portada, de arriba abajo. Arrastra una sección para moverla; el interruptor la oculta sin borrar nada.</target>
+      </trans-unit>
+      <trans-unit id="9790b757844a6d9ef0c35b4634aecbf9">
+        <source>The large photo at the top of the homepage. Its title, text and button are set on each slide.</source>
+        <target>La foto grande arriba de la portada. Título, texto y botón se ponen en cada diapositiva.</target>
+      </trans-unit>
+      <trans-unit id="281fbb72b60920420f1221731a48e989">
+        <source>The section hides itself when the time is up.</source>
+        <target>La sección se oculta al terminar el tiempo.</target>
+      </trans-unit>
+      <trans-unit id="8b7379796f48cbc452ba12e52ba8d2c3">
+        <source>The thin strip above the header. With more than one message, they take turns.</source>
+        <target>La franja fina sobre la cabecera. Con varios mensajes, se turnan.</target>
+      </trans-unit>
+      <trans-unit id="37e1fee908f56e70b2c93affd21d7e5c">
+        <source>They turn to colour when pointed at.</source>
+        <target>Se ven en color al pasar el cursor.</target>
+      </trans-unit>
+      <trans-unit id="3109d8dd0069f9fdecc6f54cf90431be">
+        <source>This loads %products% products, %categories% categories and %pages% pages, with the menu, footer links, homepage sections and the %name% design.</source>
+        <target>Carga %products% productos, %categories% categorías y %pages% páginas, con el menú, enlaces del pie, secciones de portada y el diseño %name%.</target>
+      </trans-unit>
+      <trans-unit id="43630b5b2e30e737e49e2c52a87084be">
+        <source>This section has no texts of its own.</source>
+        <target>Esta sección no tiene textos propios.</target>
+      </trans-unit>
+      <trans-unit id="0758fcc3e57c25a1bd04f538a5de39e4">
+        <source>Three or four work best.</source>
+        <target>Tres o cuatro funcionan mejor.</target>
+      </trans-unit>
+      <trans-unit id="27d822674eb108f566c8587b17786dff">
+        <source>Three side by side</source>
+        <target>Tres en fila</target>
+      </trans-unit>
+      <trans-unit id="a67f2c9d056f29b94521c17b838b9756">
+        <source>Tiles</source>
+        <target>Mosaico</target>
+      </trans-unit>
+      <trans-unit id="786437d76bfe592d5703575e61fd8914">
+        <source>Tiles, circles or a list</source>
+        <target>Mosaico, círculos o lista</target>
+      </trans-unit>
+      <trans-unit id="eb800e7f3647cc496f7f1f87b2ff640e">
+        <source>Title position</source>
+        <target>Posición del título</target>
+      </trans-unit>
+      <trans-unit id="aafdb4877a52ea461cf18b88e78625df">
+        <source>Title, text and a button</source>
+        <target>Título, texto y botón</target>
+      </trans-unit>
+      <trans-unit id="6e7bc3be7beb06d1fb0a87a80fae4eaf">
+        <source>Two side by side</source>
+        <target>Dos en fila</target>
+      </trans-unit>
+      <trans-unit id="89a67444ba5a6ce12b54c9597d37982f">
+        <source>Two to four promotions</source>
+        <target>De dos a cuatro promociones</target>
+      </trans-unit>
+      <trans-unit id="52488a02b7849b3a779569b73c836622">
+        <source>Two to four promotions with a photo, a title and a button.</source>
+        <target>De dos a cuatro promociones con foto, título y botón.</target>
+      </trans-unit>
+      <trans-unit id="1cdc076b28f70afac5fcedadf99fa119">
+        <source>Undo</source>
+        <target>Deshacer</target>
+      </trans-unit>
+      <trans-unit id="c227ad77f168e7fd3e21583b324eddf4">
+        <source>Unsaved changes</source>
+        <target>Cambios sin guardar</target>
+      </trans-unit>
+      <trans-unit id="5db2783d52a5c892825b6b376f39b7c7">
+        <source>Use photos of the same size so the row lines up.</source>
+        <target>Usa fotos del mismo tamaño para que la fila quede alineada.</target>
+      </trans-unit>
+      <trans-unit id="00d7c00369821df2efef8cd30e4da634">
+        <source>View homepage</source>
+        <target>Ver la portada</target>
+      </trans-unit>
+      <trans-unit id="b30a60014ba4f2a0a0b850cb158834de">
+        <source>Web address</source>
+        <target>Dirección web</target>
+      </trans-unit>
+      <trans-unit id="e86719e1d406209e42ae3690dbdbd8bb">
+        <source>Which brands</source>
+        <target>Qué marcas</target>
+      </trans-unit>
+      <trans-unit id="818e313a5742dd87882894393df1f87e">
+        <source>Which products</source>
+        <target>Qué productos</target>
+      </trans-unit>
+      <trans-unit id="32954654ac8fe66a1d09be19001de2d4">
+        <source>Width</source>
+        <target>Ancho</target>
+      </trans-unit>
+      <trans-unit id="7b038b1a315422704dcdd9a3a05e36b7">
+        <source>Without a link, the button opens the product.</source>
+        <target>Sin enlace, el botón abre el producto.</target>
+      </trans-unit>
+      <trans-unit id="021a455ad2f444a4e31e55a18e52909b">
+        <source>Without a photo, the product picture is used.</source>
+        <target>Sin foto, se usa la imagen del producto.</target>
+      </trans-unit>
+      <trans-unit id="b63528ff4bf26cfde789684b5237ac40">
+        <source>You have unsaved changes. Leave anyway?</source>
+        <target>Hay cambios sin guardar. ¿Salir de todos modos?</target>
+      </trans-unit>
+      <trans-unit id="d463da684c31f7e97bc48317a6b8fdaa">
+        <source>Your current products, categories, brands, pages, menu and homepage sections will be deleted. Orders and customers stay.</source>
+        <target>Se eliminarán tus productos, categorías, marcas, páginas, menú y secciones de portada actuales. Pedidos y clientes se mantienen.</target>
+      </trans-unit>
+      <trans-unit id="662f707d5491e9bce8238a6c0be92190">
+        <source>hidden</source>
+        <target>oculta</target>
+      </trans-unit>
+      <trans-unit id="d57c24f3fe52d16e7169b912dd647f0d">
+        <source>optional</source>
+        <target>opcional</target>
+      </trans-unit>
+      <trans-unit id="6732acf5f7e14a03e8d2e1441a324a67">
+        <source>Card on the photo</source>
+        <target>Tarjeta sobre la foto</target>
+      </trans-unit>
+      <trans-unit id="bbac974b839083c03b66fc2a910a6ec3">
+        <source>An optional small card in the corner of the first slide, for example this week's weather and the product that suits it. Leave it empty to hide the card.</source>
+        <target>Una pequeña tarjeta opcional en la esquina de la primera diapositiva, por ejemplo el tiempo de esta semana y el producto adecuado. Déjala vacía para ocultarla.</target>
+      </trans-unit>
+      <trans-unit id="bd48ad2893fed20455904281f40fed4b">
+        <source>Small text at the top</source>
+        <target>Texto pequeño arriba</target>
+      </trans-unit>
+      <trans-unit id="d1850def7e5c93fa36068c9e5d2d8243">
+        <source>Large text</source>
+        <target>Texto grande</target>
+      </trans-unit>
+      <trans-unit id="45aab5b6c100cfcf0d02e18247fc36c7">
+        <source>Text next to the large text</source>
+        <target>Texto junto al texto grande</target>
+      </trans-unit>
+      <trans-unit id="80729853dab5248ca6ec02cb8e1afe11">
+        <source>Product on the card</source>
+        <target>Producto en la tarjeta</target>
+      </trans-unit>
+      <trans-unit id="403ba78a73db07c1f587bb1ae976410c">
+        <source>Shown in the card on the photo, with its photo and name.</source>
+        <target>Se muestra en la tarjeta sobre la foto, con su foto y su nombre.</target>
+      </trans-unit>
+      <trans-unit id="2de962068964dc5490e342052b14b2c4">
+        <source>Field with results</source>
+        <target>Campo con resultados</target>
+      </trans-unit>
+      <trans-unit id="eca76d3b2bf3cf451125c0f6085f917c">
+        <source>A search field in the header that lists products while you type.</source>
+        <target>Un campo de búsqueda en la cabecera que muestra productos mientras escribes.</target>
+      </trans-unit>
+      <trans-unit id="a0b9f0e86725e781639636202c48ab16">
+        <source>Header while scrolling</source>
+        <target>Cabecera al desplazarse</target>
+      </trans-unit>
+      <trans-unit id="199451198078814ce456d33991f5282c">
+        <source>Always visible</source>
+        <target>Siempre visible</target>
+      </trans-unit>
+      <trans-unit id="c18d91b42832e4ee6e3df78cbbbe3ca4">
+        <source>Stays at the top of the screen.</source>
+        <target>Se queda en la parte superior de la pantalla.</target>
+      </trans-unit>
+      <trans-unit id="30d11744af4bee2da803a3d5a346c634">
+        <source>Back when scrolling up</source>
+        <target>Vuelve al subir</target>
+      </trans-unit>
+      <trans-unit id="8bc0e6946e35be12e5bbadb765e7fbdf">
+        <source>Hides while you read down the page and comes back as soon as you scroll up.</source>
+        <target>Se oculta mientras bajas por la página y vuelve en cuanto subes.</target>
+      </trans-unit>
+      <trans-unit id="aa7fa7bfc5fca46af54f78c5b1af5445">
+        <source>Scrolls away</source>
+        <target>Se desplaza con la página</target>
+      </trans-unit>
+      <trans-unit id="7bd24404219df72553f2f19a12c8d150">
+        <source>Only at the top of the page.</source>
+        <target>Solo en la parte superior de la página.</target>
+      </trans-unit>
+      <trans-unit id="0b9cba5e32be92459abae9324535e757">
+        <source>Top Rated on Fiverr</source>
+        <target>Top Rated en Fiverr</target>
+      </trans-unit>
+      <trans-unit id="808c092a179c6a13566d93bdd950acdf">
+        <source>Hire me on Fiverr</source>
+        <target>Contráteme en Fiverr</target>
+      </trans-unit>
+      <trans-unit id="8b777ebcc5034ce0fe96dd154bcb370e">
+        <source>WhatsApp</source>
+        <target>WhatsApp</target>
+      </trans-unit>
+      <trans-unit id="ce8ae9da5b7cd6c3df2929543a9af92d">
+        <source>Email</source>
+        <target>Correo</target>
+      </trans-unit>
+      <trans-unit id="32a19418e7bd363250406ccb65334f01">
+        <source>Need help with this theme, or a custom feature for your store? I reply quickly.</source>
+        <target>¿Necesitas ayuda con este tema o una función a medida para tu tienda? Respondo rápido.</target>
+      </trans-unit>
+      <trans-unit id="bb493aa188e4464c49cebe4b58fdc934">
+        <source>Size ruler, no photos</source>
+        <target>Regla de tallas, sin fotos</target>
+      </trans-unit>
+      <trans-unit id="b77ce6e8c44bbe48dcad639630f4c57e">
+        <source>Products in one size or colour</source>
+        <target>Productos de una talla o color</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
