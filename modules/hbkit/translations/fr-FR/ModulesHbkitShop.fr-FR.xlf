@@ -2,129 +2,33 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file original="hbkit" source-language="en-US" target-language="fr-FR" datatype="plaintext">
     <body>
-      <trans-unit id="ca166920f0b3f86337d2917db3f67e54">
-        <source>%d out of 5 stars</source>
-        <target>%d étoiles sur 5</target>
-      </trans-unit>
-      <trans-unit id="2b59bbfc9d431d23f4564d01b0182808">
-        <source>Announcements</source>
-        <target>Annonces</target>
-      </trans-unit>
-      <trans-unit id="fc46f6383e012278263fd788d9b198ad">
-        <source>Discover more</source>
-        <target>En savoir plus</target>
-      </trans-unit>
-      <trans-unit id="8a9d195101d5660dc20d542950128d88">
-        <source>Go to slide %d</source>
-        <target>Aller à la diapositive %d</target>
-      </trans-unit>
-      <trans-unit id="9d636c6a540e6ecb5dfe6b278fc7c110">
-        <source>Next slide</source>
-        <target>Diapositive suivante</target>
-      </trans-unit>
-      <trans-unit id="844e665f1e16a2774d4fdf8adfe4c246">
-        <source>Previous slide</source>
-        <target>Diapositive précédente</target>
-      </trans-unit>
-      <trans-unit id="a4998ce83d6ca4d24421985c0bc68ad9">
-        <source>Shop the offer</source>
-        <target>Profiter de l'offre</target>
-      </trans-unit>
-      <trans-unit id="44fdec47036f482b68b748f9d786801b">
-        <source>days</source>
-        <target>jours</target>
-      </trans-unit>
-      <trans-unit id="73cdddd7730abfc13a55efb9f5685a3b">
-        <source>hours</source>
-        <target>heures</target>
-      </trans-unit>
-      <trans-unit id="d8bd79cc131920d5de426f914d17405a">
-        <source>min</source>
-        <target>min</target>
-      </trans-unit>
-      <trans-unit id="74459ca3cf85a81df90da95ff6e7a207">
-        <source>sec</source>
-        <target>s</target>
-      </trans-unit>
-      <trans-unit id="a407f6df8aa567cb7a222dd49531563d">
-        <source>Add %amount% more for free delivery.</source>
-        <target>Plus que %amount% pour la livraison offerte.</target>
-      </trans-unit>
-      <trans-unit id="6ff063fbc860a79759a7369ac32cee22">
-        <source>Checkout</source>
-        <target>Commander</target>
-      </trans-unit>
-      <trans-unit id="d3d2e617335f08df83599665eef8a418">
-        <source>Close</source>
-        <target>Fermer</target>
-      </trans-unit>
-      <trans-unit id="300225ee958b6350abc51805dab83c24">
-        <source>Continue shopping</source>
-        <target>Continuer mes achats</target>
-      </trans-unit>
-      <trans-unit id="ae5ff2e5665c7a8b00b3cf45eb33dd90">
-        <source>Decrease quantity</source>
-        <target>Diminuer la quantité</target>
-      </trans-unit>
-      <trans-unit id="9f6d1fc8b2558267cfcf467b45c2f548">
-        <source>Find something you love and it will wait for you here.</source>
-        <target>Trouvez un article qui vous plaît, il vous attendra ici.</target>
-      </trans-unit>
-      <trans-unit id="20979edc44dd470012f64c77bd6adddf">
-        <source>Increase quantity</source>
-        <target>Augmenter la quantité</target>
-      </trans-unit>
-      <trans-unit id="694e8d1f2ee056f98ee488bdc4982d73">
-        <source>Quantity</source>
-        <target>Quantité</target>
-      </trans-unit>
-      <trans-unit id="f4ca04f2b913cdb28cf2ffdc8df9d259">
-        <source>Remove %name%</source>
-        <target>Retirer %name%</target>
-      </trans-unit>
-      <trans-unit id="2194aaec8cc7086ab0e93f74547e5f53">
-        <source>Subtotal</source>
-        <target>Sous-total</target>
-      </trans-unit>
-      <trans-unit id="7fcd240329376353e46a2a1a2032cad7">
-        <source>Taxes and delivery are calculated at checkout.</source>
-        <target>Taxes et livraison calculées à la commande.</target>
-      </trans-unit>
-      <trans-unit id="57c1fee9db05c07a96c99d9260d38d6d">
-        <source>View cart</source>
-        <target>Voir le panier</target>
-      </trans-unit>
-      <trans-unit id="9254cd9a15c6cc29d90cf5e585628e0f">
-        <source>Your cart</source>
-        <target>Votre panier</target>
-      </trans-unit>
-      <trans-unit id="a2a24f4120a52aa71620662c73eced9d">
-        <source>Your cart is empty</source>
-        <target>Votre panier est vide</target>
-      </trans-unit>
-      <trans-unit id="dfcad8dec0d96f717d4378fcc3d7dadf">
-        <source>Your order ships free.</source>
-        <target>Votre commande est livrée gratuitement.</target>
-      </trans-unit>
-      <trans-unit id="c76d2d60b05d8699841bde3d088d91ce">
-        <source>Added to your cart</source>
-        <target>Ajouté à votre panier</target>
-      </trans-unit>
-      <trans-unit id="1063e38cb53d94d386f21227fcd84717">
-        <source>Remove</source>
-        <target>Retirer</target>
-      </trans-unit>
-      <trans-unit id="78de86a20eb025cb0250bb9ae048678b">
-        <source>%count% products</source>
-        <target>%count% produits</target>
+      <trans-unit id="9c7a9d110b5971f050af5b8287b168d0">
+        <source>%count% colours</source>
+        <target>%count% couleurs</target>
       </trans-unit>
       <trans-unit id="a1edfe5d2830ff59c976be01c190b85b">
         <source>%count% pieces</source>
         <target>%count% pièces</target>
       </trans-unit>
+      <trans-unit id="78de86a20eb025cb0250bb9ae048678b">
+        <source>%count% products</source>
+        <target>%count% produits</target>
+      </trans-unit>
+      <trans-unit id="ca166920f0b3f86337d2917db3f67e54">
+        <source>%d out of 5 stars</source>
+        <target>%d étoiles sur 5</target>
+      </trans-unit>
+      <trans-unit id="4fe36d98a6f6950cb3ca4b23af8a45d0">
+        <source>1 colour</source>
+        <target>1 couleur</target>
+      </trans-unit>
       <trans-unit id="08bd40c7543007ad06e4fce31618f6ec">
         <source>Account</source>
         <target>Compte</target>
+      </trans-unit>
+      <trans-unit id="a407f6df8aa567cb7a222dd49531563d">
+        <source>Add %amount% more for free delivery.</source>
+        <target>Plus que %amount% pour la livraison offerte.</target>
       </trans-unit>
       <trans-unit id="31eca6c01c9bbf1acd531deaa85086e0">
         <source>Add %product_name% to the bag</source>
@@ -134,17 +38,89 @@
         <source>Add to bag</source>
         <target>Ajouter au sac</target>
       </trans-unit>
+      <trans-unit id="346242db776c37c40edbca4e7ca6e679">
+        <source>Add your initials</source>
+        <target>Ajoutez vos initiales</target>
+      </trans-unit>
+      <trans-unit id="c76d2d60b05d8699841bde3d088d91ce">
+        <source>Added to your cart</source>
+        <target>Ajouté à votre panier</target>
+      </trans-unit>
+      <trans-unit id="e57823894edc7ca915c7dd877e9fa56a">
+        <source>After 1 year</source>
+        <target>Après 1 an</target>
+      </trans-unit>
+      <trans-unit id="7041e535298e591e1b2085be28ef134d">
+        <source>After 5 years</source>
+        <target>Après 5 ans</target>
+      </trans-unit>
+      <trans-unit id="2b59bbfc9d431d23f4564d01b0182808">
+        <source>Announcements</source>
+        <target>Annonces</target>
+      </trans-unit>
+      <trans-unit id="c4ef760679716b7a9fc9f143439a16e9">
+        <source>Approximate on some screens. Free resizing within 60 days.</source>
+        <target>Approximatif sur certains écrans. Mise à taille gratuite sous 60 jours.</target>
+      </trans-unit>
+      <trans-unit id="13882df4b84e5108cd6b7624c2c7add2">
+        <source>Arrives in our gift box, with a card written by hand.</source>
+        <target>Livré dans notre écrin, avec une carte écrite à la main.</target>
+      </trans-unit>
       <trans-unit id="d3ab3d5184fe9b1b4428e4ffb797bdca">
         <source>Bag</source>
         <target>Sac</target>
+      </trans-unit>
+      <trans-unit id="70b75bce5f9189fac775f3135fbb893c">
+        <source>Between two sizes, choose the larger one. We resize rings for free within 60 days.</source>
+        <target>Entre deux tailles, choisissez la plus grande. Nous mettons les bagues à taille gratuitement sous 60 jours.</target>
       </trans-unit>
       <trans-unit id="af1b98adf7f686b84cd0b443e022b7a0">
         <source>Categories</source>
         <target>Catégories</target>
       </trans-unit>
+      <trans-unit id="6ff063fbc860a79759a7369ac32cee22">
+        <source>Checkout</source>
+        <target>Commander</target>
+      </trans-unit>
+      <trans-unit id="94747fb496f84d782401f594c40c1f0d">
+        <source>Choose sizes until the circle meets the inside of your ring.</source>
+        <target>Changez de taille jusqu'à ce que le cercle touche l'intérieur de votre bague.</target>
+      </trans-unit>
+      <trans-unit id="d3d2e617335f08df83599665eef8a418">
+        <source>Close</source>
+        <target>Fermer</target>
+      </trans-unit>
+      <trans-unit id="300225ee958b6350abc51805dab83c24">
+        <source>Continue shopping</source>
+        <target>Continuer mes achats</target>
+      </trans-unit>
+      <trans-unit id="44fdec47036f482b68b748f9d786801b">
+        <source>days</source>
+        <target>jours</target>
+      </trans-unit>
+      <trans-unit id="ae5ff2e5665c7a8b00b3cf45eb33dd90">
+        <source>Decrease quantity</source>
+        <target>Diminuer la quantité</target>
+      </trans-unit>
+      <trans-unit id="099b4616dbfc889614e39b9e8dc7fc1b">
+        <source>Deep patina</source>
+        <target>Patine profonde</target>
+      </trans-unit>
       <trans-unit id="5a8774b08c347b0753d8985e30944f1b">
         <source>Delivery and returns</source>
         <target>Livraison et retours</target>
+      </trans-unit>
+      <trans-unit id="bcfdebad821aef8b2f8b1b6ea481aea4">
+        <source>Discover %brand% at %shop%: %products% and more.</source>
+        <target>Découvrez %brand% chez %shop% : %products% et plus encore.</target>
+      </trans-unit>
+      <trans-unit id="fc46f6383e012278263fd788d9b198ad">
+        <source>Discover more</source>
+        <target>En savoir plus</target>
+      </trans-unit>
+      <trans-unit id="d7171455d4cfc8e540235e120f2977aa">
+        <source>Every piece arrives in our gift box. Add a card message at checkout.</source>
+        <target>Chaque pièce arrive dans notre écrin. Ajoutez un message pour la carte au moment de commander.</target>
       </trans-unit>
       <trans-unit id="3c81b1b353b05c4084a52b728fce0d74">
         <source>Fabric and care</source>
@@ -154,6 +130,82 @@
         <source>Filter</source>
         <target>Filtrer</target>
       </trans-unit>
+      <trans-unit id="9f6d1fc8b2558267cfcf467b45c2f548">
+        <source>Find something you love and it will wait for you here.</source>
+        <target>Trouvez un article qui vous plaît, il vous attendra ici.</target>
+      </trans-unit>
+      <trans-unit id="af46f4dcd6b5c1576d6489e83eb855b7">
+        <source>Find your size</source>
+        <target>Trouver sa taille</target>
+      </trans-unit>
+      <trans-unit id="aa2d6e4f578eb0cfaba23beef76c2194">
+        <source>free</source>
+        <target>offert</target>
+      </trans-unit>
+      <trans-unit id="ab861dcac802d75a691cc94143a9ebdc">
+        <source>Free monogram</source>
+        <target>Monogramme offert</target>
+      </trans-unit>
+      <trans-unit id="8a9d195101d5660dc20d542950128d88">
+        <source>Go to slide %d</source>
+        <target>Aller à la diapositive %d</target>
+      </trans-unit>
+      <trans-unit id="73cdddd7730abfc13a55efb9f5685a3b">
+        <source>hours</source>
+        <target>heures</target>
+      </trans-unit>
+      <trans-unit id="c8a7af208052f8879970cfc920f677b1">
+        <source>How it ages</source>
+        <target>Comment il vieillit</target>
+      </trans-unit>
+      <trans-unit id="20979edc44dd470012f64c77bd6adddf">
+        <source>Increase quantity</source>
+        <target>Augmenter la quantité</target>
+      </trans-unit>
+      <trans-unit id="9b6d3000134648fc9f1e71094ae0847d">
+        <source>Inside</source>
+        <target>Intérieur</target>
+      </trans-unit>
+      <trans-unit id="7cb6b8d0499a155edd6fa11dfff26933">
+        <source>Jewellery care</source>
+        <target>Entretien des bijoux</target>
+      </trans-unit>
+      <trans-unit id="d9105ae149d9bd12dc353ce45bcc1aee">
+        <source>Lay a ring you own on the circle</source>
+        <target>Posez une bague sur le cercle</target>
+      </trans-unit>
+      <trans-unit id="45f44b1e4b32a1c4082291084ebae440">
+        <source>Leather care</source>
+        <target>Entretien du cuir</target>
+      </trans-unit>
+      <trans-unit id="48fe0d6ce3ea65f89acb62de9d6ba40f">
+        <source>Light and firm</source>
+        <target>Clair et ferme</target>
+      </trans-unit>
+      <trans-unit id="593962300e70da424142bfa0800c12c9">
+        <source>Made of</source>
+        <target>Composition</target>
+      </trans-unit>
+      <trans-unit id="d8bd79cc131920d5de426f914d17405a">
+        <source>min</source>
+        <target>min</target>
+      </trans-unit>
+      <trans-unit id="03c2e7e41ffc181a4e84080b4710e81e">
+        <source>New</source>
+        <target>Neuf</target>
+      </trans-unit>
+      <trans-unit id="07f11b6b0fe1ac165eb718dad408ce4d">
+        <source>Next category</source>
+        <target>Catégorie suivante</target>
+      </trans-unit>
+      <trans-unit id="9d636c6a540e6ecb5dfe6b278fc7c110">
+        <source>Next slide</source>
+        <target>Diapositive suivante</target>
+      </trans-unit>
+      <trans-unit id="1da3df79f8e0f787916269f4654becf2">
+        <source>Not sure? Measure their height.</source>
+        <target>Pas sûr ? Mesurez sa taille.</target>
+      </trans-unit>
       <trans-unit id="5eb649fbe5c90a74c9353b378d079c65">
         <source>Nothing found for “%query%”. Try another word, like a colour or a fabric.</source>
         <target>Aucun résultat pour « %query% ». Essayez un autre mot, une couleur ou une matière.</target>
@@ -161,6 +213,30 @@
       <trans-unit id="2cc1943d4c0b46bfcf503a75c44f988b">
         <source>Popular</source>
         <target>Populaire</target>
+      </trans-unit>
+      <trans-unit id="844e665f1e16a2774d4fdf8adfe4c246">
+        <source>Previous slide</source>
+        <target>Diapositive précédente</target>
+      </trans-unit>
+      <trans-unit id="694e8d1f2ee056f98ee488bdc4982d73">
+        <source>Quantity</source>
+        <target>Quantité</target>
+      </trans-unit>
+      <trans-unit id="1063e38cb53d94d386f21227fcd84717">
+        <source>Remove</source>
+        <target>Retirer</target>
+      </trans-unit>
+      <trans-unit id="f4ca04f2b913cdb28cf2ffdc8df9d259">
+        <source>Remove %name%</source>
+        <target>Retirer %name%</target>
+      </trans-unit>
+      <trans-unit id="f726b94859d424e6c1255e4713896d97">
+        <source>Resolable in our workshop</source>
+        <target>Ressemelable dans notre atelier</target>
+      </trans-unit>
+      <trans-unit id="a7cf63f5a70315fce332f1fc0c9201f8">
+        <source>Ring size and resizing</source>
+        <target>Taille et mise à taille</target>
       </trans-unit>
       <trans-unit id="13348442cc6a27032d2b4aa28b75a5d3">
         <source>Search</source>
@@ -170,57 +246,117 @@
         <source>Search products</source>
         <target>Rechercher des produits</target>
       </trans-unit>
+      <trans-unit id="74459ca3cf85a81df90da95ff6e7a207">
+        <source>sec</source>
+        <target>s</target>
+      </trans-unit>
       <trans-unit id="e1f69d33ceb090c1bf90cf0e169e3a70">
         <source>See all %count% results for “%query%”</source>
         <target>Voir les %count% résultats pour « %query% »</target>
+      </trans-unit>
+      <trans-unit id="a4998ce83d6ca4d24421985c0bc68ad9">
+        <source>Shop the offer</source>
+        <target>Profiter de l'offre</target>
       </trans-unit>
       <trans-unit id="d9776f0775997b2e698c6975420b5c5d">
         <source>Sign up</source>
         <target>S'inscrire</target>
       </trans-unit>
+      <trans-unit id="6f6cb72d544962fa333e2e34ce64f719">
+        <source>Size</source>
+        <target>Taille</target>
+      </trans-unit>
+      <trans-unit id="f2b35cd3492f02370ffffa4772d8045e">
+        <source>Size [1] is UK [2], US [3].</source>
+        <target>La taille [1] correspond au UK [2], US [3].</target>
+      </trans-unit>
       <trans-unit id="0b664ca34f7e95f1113b55be203cf68e">
         <source>Size guide</source>
         <target>Guide des tailles</target>
       </trans-unit>
-      <trans-unit id="7ff766d197a304053d5478e21db8831b">
-        <source>View bag</source>
-        <target>Voir le sac</target>
+      <trans-unit id="ded2534113552cb9acfe2d00a88e0ca4">
+        <source>Soak in warm soapy water, brush gently and dry with a soft cloth. Free cleaning for life.</source>
+        <target>Faites tremper dans de l'eau tiède savonneuse, brossez doucement et séchez avec un chiffon doux. Nettoyage offert à vie.</target>
       </trans-unit>
-      <trans-unit id="627cd485e6acccfa0c24384f2e3784fe">
-        <source>Wear it with</source>
-        <target>À porter avec</target>
-      </trans-unit>
-      <trans-unit id="fdafae6d7cb72f2b37ee0b7320440304">
-        <source>Your bag is empty</source>
-        <target>Votre sac est vide</target>
-      </trans-unit>
-      <trans-unit id="07f11b6b0fe1ac165eb718dad408ce4d">
-        <source>Next category</source>
-        <target>Catégorie suivante</target>
-      </trans-unit>
-      <trans-unit id="4fe36d98a6f6950cb3ca4b23af8a45d0">
-        <source>1 colour</source>
-        <target>1 couleur</target>
-      </trans-unit>
-      <trans-unit id="9c7a9d110b5971f050af5b8287b168d0">
-        <source>%count% colours</source>
-        <target>%count% couleurs</target>
+      <trans-unit id="7c725650a0f65b78e26bccb724e7abcf">
+        <source>Softer, warmer</source>
+        <target>Plus souple, plus chaud</target>
       </trans-unit>
       <trans-unit id="679db092832473607ad10034a636ac90">
         <source>Sold out</source>
         <target>Épuisé</target>
       </trans-unit>
-      <trans-unit id="1da3df79f8e0f787916269f4654becf2">
-        <source>Not sure? Measure their height.</source>
-        <target>Pas sûr ? Mesurez sa taille.</target>
+      <trans-unit id="2194aaec8cc7086ab0e93f74547e5f53">
+        <source>Subtotal</source>
+        <target>Sous-total</target>
+      </trans-unit>
+      <trans-unit id="7fcd240329376353e46a2a1a2032cad7">
+        <source>Taxes and delivery are calculated at checkout.</source>
+        <target>Taxes et livraison calculées à la commande.</target>
+      </trans-unit>
+      <trans-unit id="dc5a33a039a1f3e9a55c079cbd5c1f4a">
+        <source>The details</source>
+        <target>Les détails</target>
+      </trans-unit>
+      <trans-unit id="65fd84fc8c2bf912af46d6139be6b49e">
+        <source>The leather darkens and softens with every year of use. Light, hands and rain all leave their mark, and no two pieces age the same.</source>
+        <target>Le cuir fonce et s'assouplit à chaque année d'usage. La lumière, les mains et la pluie y laissent leur trace, et aucune pièce ne vieillit de la même façon.</target>
+      </trans-unit>
+      <trans-unit id="0bafcd82a93adad4f6ef38ab9bc8ffe3">
+        <source>The ring sizer</source>
+        <target>Le baguier</target>
+      </trans-unit>
+      <trans-unit id="e169e64ef1c0e40f21ae382cbd44b426">
+        <source>up to 3 letters</source>
+        <target>jusqu'à 3 lettres</target>
+      </trans-unit>
+      <trans-unit id="660f774a40e01d515f16c04fd2ad2d43">
+        <source>Up to 3 letters, heat-stamped by hand. Leave it empty for no initials.</source>
+        <target>Jusqu'à 3 lettres, marquées à chaud à la main. Laissez vide pour ne pas avoir d'initiales.</target>
+      </trans-unit>
+      <trans-unit id="7ff766d197a304053d5478e21db8831b">
+        <source>View bag</source>
+        <target>Voir le sac</target>
+      </trans-unit>
+      <trans-unit id="57c1fee9db05c07a96c99d9260d38d6d">
+        <source>View cart</source>
+        <target>Voir le panier</target>
+      </trans-unit>
+      <trans-unit id="627cd485e6acccfa0c24384f2e3784fe">
+        <source>Wear it with</source>
+        <target>À porter avec</target>
       </trans-unit>
       <trans-unit id="03bc8fce096dbe5c8909d474780ff1ed">
         <source>What it is made of</source>
         <target>De quoi elle est faite</target>
       </trans-unit>
-      <trans-unit id="f726b94859d424e6c1255e4713896d97">
-        <source>Resolable in our workshop</source>
-        <target>Ressemelable dans notre atelier</target>
+      <trans-unit id="d082c6a7c805d08d1179ebab78aaf32e">
+        <source>Wipe with a soft, dry cloth. Feed the leather with balm once or twice a year, and let it dry slowly if it gets wet.</source>
+        <target>Essuyez avec un chiffon doux et sec. Nourrissez le cuir avec un baume une ou deux fois par an, et laissez-le sécher lentement s'il est mouillé.</target>
+      </trans-unit>
+      <trans-unit id="fdafae6d7cb72f2b37ee0b7320440304">
+        <source>Your bag is empty</source>
+        <target>Votre sac est vide</target>
+      </trans-unit>
+      <trans-unit id="9254cd9a15c6cc29d90cf5e585628e0f">
+        <source>Your cart</source>
+        <target>Votre panier</target>
+      </trans-unit>
+      <trans-unit id="a2a24f4120a52aa71620662c73eced9d">
+        <source>Your cart is empty</source>
+        <target>Votre panier est vide</target>
+      </trans-unit>
+      <trans-unit id="c426af0c661877fd2fa633464b573339">
+        <source>Your initials</source>
+        <target>Vos initiales</target>
+      </trans-unit>
+      <trans-unit id="ea3fd9268436f0e19dc5ec4d3eb95ac0">
+        <source>Your initials could not be saved. Please try again.</source>
+        <target>Vos initiales n'ont pas pu être enregistrées. Veuillez réessayer.</target>
+      </trans-unit>
+      <trans-unit id="dfcad8dec0d96f717d4378fcc3d7dadf">
+        <source>Your order ships free.</source>
+        <target>Votre commande est livrée gratuitement.</target>
       </trans-unit>
     </body>
   </file>

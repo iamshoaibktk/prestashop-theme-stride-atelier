@@ -110,7 +110,7 @@ class Hbkit extends Module
     {
         $this->name = 'hbkit';
         $this->tab = 'front_office_features';
-        $this->version = '1.1.0';
+        $this->version = '1.1.1';
         $this->author = 'iamshoaibktk@gmail.com';
         $this->need_instance = 0;
         $this->ps_versions_compliancy = ['min' => '9.0.0', 'max' => _PS_VERSION_];
@@ -153,6 +153,7 @@ class Hbkit extends Module
         'actionFrontControllerSetMedia',
         'actionFrontControllerSetVariables',
         'actionObjectShopUpdateAfter',
+        'actionOutputHTMLBefore',
     ];
 
     public function ensureHooks(): bool
@@ -165,6 +166,63 @@ class Hbkit extends Module
         }
 
         return $ok;
+    }
+
+    /**
+     * Structured data repair for PrestaShop 9.2. The core builds the JSON-LD in PHP; for product features it uses
+     * preg_replace('/\R+/', ...) without the "u" flag, so "\R" also matches the byte 0x85, the second half of letters such
+     * as "ą" (Polish) or "х" (Russian). The letter is cut, json_encode fails and the block is printed empty, so search
+     * engines see no product, price or availability on that page. Here an empty block is rebuilt from the same data, with
+     * the features read as UTF-8. Pages without an empty block are not touched.
+     */
+    public function hookActionOutputHTMLBefore(array $params)
+    {
+        $empty = '<script type="application/ld+json"></script>';
+        if (!isset($params['html']) || !is_string($params['html']) || strpos($params['html'], $empty) === false) {
+            return;
+        }
+        $controller = $this->context->controller;
+        if (!$controller || !method_exists($controller, 'getStructuredData')) {
+            return;
+        }
+        try {
+            $original = $controller->getStructuredData();
+        } catch (\Throwable $e) {
+            return;
+        }
+        $fixed = $original;
+        if (isset($fixed['product'])) {
+            $product = $this->context->smarty->getTemplateVars('product');
+            $props = [];
+            foreach ((isset($product['grouped_features']) ? $product['grouped_features'] : []) as $feature) {
+                if (!isset($feature['name'], $feature['value'])) {
+                    continue;
+                }
+                $name = trim((string) $feature['name']);
+                $value = preg_replace('/\R+/u', ', ', trim((string) $feature['value']));
+                if ($name === '' || $value === null || $value === '') {
+                    continue;
+                }
+                $props[] = ['@type' => 'PropertyValue', 'name' => $name, 'value' => $value];
+            }
+            if ($props) {
+                $fixed['product']['additionalProperty'] = $props;
+            } else {
+                unset($fixed['product']['additionalProperty']);
+            }
+        }
+        // The blocks are printed in this order; each one whose encoding failed is an empty block, in the same order.
+        foreach ($original as $key => $element) {
+            if (json_encode($element, 320) !== false || !isset($fixed[$key])) {
+                continue;
+            }
+            $json = json_encode($fixed[$key], 320 | JSON_INVALID_UTF8_SUBSTITUTE);
+            $pos = strpos($params['html'], $empty);
+            if ($json === false || $pos === false) {
+                break;
+            }
+            $params['html'] = substr_replace($params['html'], '<script type="application/ld+json">' . $json . '</script>', $pos, strlen($empty));
+        }
     }
 
     /** Fired by the theme manager when the shop's theme changes. */
@@ -381,7 +439,20 @@ class Hbkit extends Module
         }
 
         return ['tokens' => $t, 'demo' => (string) Configuration::get('HBKIT_DEMO'), 'texts' => $this->getTexts(), 'size_guide' => $this->sizeGuide(),
-            'fit' => $this->fitScale(), 'stamp_feature' => (int) Configuration::get('HBKIT_STAMP_FEATURE')];
+            'fit' => $this->fitScale(), 'stamp_feature' => (int) Configuration::get('HBKIT_STAMP_FEATURE'),
+            // Home page: the hero's first title is the page's h1 (the theme header then leaves the logo out of the h1).
+            'hero_h1' => $this->homeHasHero()];
+    }
+
+    /** True on the home page when an active hero section is shown. */
+    private function homeHasHero(): bool
+    {
+        $controller = $this->context->controller;
+        if (!$controller || ($controller->php_self ?? '') !== 'index') {
+            return false;
+        }
+
+        return (bool) Db::getInstance()->getValue('SELECT 1 FROM `' . _DB_PREFIX_ . "hbkit_section` WHERE `type` = 'hero' AND active = 1 AND id_shop = " . (int) $this->context->shop->id);
     }
 
     public function hookDisplayBanner()

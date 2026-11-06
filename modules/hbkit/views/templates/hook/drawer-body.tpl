@@ -16,6 +16,15 @@
           {if $product.attributes}
             <p class="hbk-line__attrs">{foreach from=$product.attributes key=k item=v name=a}{$v|trim}{if !$smarty.foreach.a.last}, {/if}{/foreach}</p>
           {/if}
+          {if !empty($product.customizations)}
+            {foreach from=$product.customizations item=custom}
+              {foreach from=$custom.fields item=field}
+                {if $field.type == 'text' && $field.text !== ''}
+                  <p class="hbk-line__custom"><span class="hbk-line__custom-label">{$field.label}:</span> <b class="hbk-line__custom-text">{$field.text}</b></p>
+                {/if}
+              {/foreach}
+            {/foreach}
+          {/if}
           <div class="hbk-line__row hbk-line__ctl">
             <div class="hbk-qty" role="group" aria-label="{l s='Quantity' d='Modules.Hbkit.Shop'}">
               <button type="button" class="js-hbk-line" data-url="{$product.down_quantity_url}" aria-label="{l s='Decrease quantity' d='Modules.Hbkit.Shop'}"{if $product.quantity <= 1} data-remove="{$product.remove_from_cart_url}"{/if}>&minus;</button>

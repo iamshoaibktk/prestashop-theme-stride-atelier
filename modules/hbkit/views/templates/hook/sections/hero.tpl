@@ -11,7 +11,7 @@
         <div class="hbk-hero__content">
           <div class="hbk-hero__box">
             {if $slide.subtitle}<p class="hbk-eyebrow">{$slide.subtitle}</p>{/if}
-            {if $slide.title}{if $slide@first}<h2 class="hbk-hero__title">{$slide.title}</h2>{else}<p class="hbk-hero__title">{$slide.title}</p>{/if}{/if}
+            {if $slide.title}{if $slide@first && !empty($modules.hbkit.hero_h1)}<h1 class="hbk-hero__title">{$slide.title}</h1>{elseif $slide@first}<h2 class="hbk-hero__title">{$slide.title}</h2>{else}<p class="hbk-hero__title">{$slide.title}</p>{/if}{/if}
             {if $slide.text}<div class="hbk-hero__text">{$slide.text nofilter}</div>{/if}
             {if $slide.button && $slide.href}<a class="btn btn-primary hbk-btn" href="{$slide.href}">{$slide.button}</a>{/if}
           </div>

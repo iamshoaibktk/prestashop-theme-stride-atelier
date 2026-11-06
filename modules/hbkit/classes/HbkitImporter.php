@@ -108,6 +108,7 @@ class HbkitImporter
         $this->importLinkBlocks();
         $this->importReassurance();
         $this->importHome();
+        $this->importSeo();
         $this->importConfig();
         $this->finish();
         Configuration::updateValue('HBKIT_DEMO', (string) ($this->demo['meta']['slug'] ?? ''));
@@ -527,6 +528,30 @@ class HbkitImporter
                 }
             }
 
+            // Text the customer types on the product page (for example initials for a free monogram):
+            // PrestaShop customization fields. The theme decides how the field looks.
+            $textFields = 0;
+            $required = false;
+            foreach ($p['text_fields'] ?? [] as $tf) {
+                $field = new CustomizationField();
+                $field->id_product = $id;
+                $field->type = Product::CUSTOMIZE_TEXTFIELD;
+                $field->required = !empty($tf['required']) ? 1 : 0;
+                $field->is_module = 0;
+                $field->is_deleted = 0;
+                $field->name = $this->lang($tf['name'], function ($v) { return trim(preg_replace('/[<>;=#{}]/', '', $v)); });
+                $this->save($field);
+                ++$textFields;
+                $required = $required || $field->required;
+            }
+            if ($textFields) {
+                // 1 = has fields, 2 = has a required field (then the product cannot be added from a listing).
+                $flags = ['customizable' => $required ? 2 : 1, 'text_fields' => $textFields];
+                foreach (['product', 'product_shop'] as $table) {
+                    Db::getInstance()->update($table, $flags, 'id_product = ' . $id);
+                }
+            }
+
             // Images (first = cover)
             $imageIds = [];
             foreach ($p['images'] ?? [] as $k => $rel) {
@@ -764,6 +789,156 @@ class HbkitImporter
         Configuration::updateValue('PSR_ICON_COLOR', $tokens['accent']);
         Configuration::updateValue('PSR_TEXT_COLOR', $tokens['text']);
         $this->log(count($this->demo['reassurance']) . ' reassurance blocks created.');
+    }
+
+    /**
+     * Titles and descriptions for search engines, from the demo's own texts:
+     * - home page: "<shop> | <hero title>" and the hero text as its description (also the "Home" category text);
+     * - products, categories and CMS pages: "<name> | <shop>" (when it fits in 65 characters);
+     * - products: a description of up to 155 characters from the short and long texts;
+     * - brands: "Discover <brand> at <shop>: <three of its products> and more."
+     */
+    private function importSeo(): void
+    {
+        $shop = (string) ($this->demo['shop']['name'] ?? Configuration::get('PS_SHOP_NAME'));
+        $db = Db::getInstance();
+        $titled = function (string $name) use ($shop): string {
+            $t = trim($name) . ' | ' . $shop;
+
+            return ($shop !== '' && mb_strlen($t) <= 65) ? $t : trim($name);
+        };
+
+        // Home page
+        $hero = null;
+        foreach ($this->demo['home'] ?? [] as $section) {
+            if (($section['type'] ?? '') === 'hero' && !empty($section['items'][0])) {
+                $hero = $section['items'][0];
+                break;
+            }
+        }
+        $meta = Meta::getMetaByPage('index', (int) Configuration::get('PS_LANG_DEFAULT'));
+        if ($hero && !empty($meta['id_meta'])) {
+            $m = new Meta((int) $meta['id_meta']);
+            $homeCat = new Category((int) Configuration::get('PS_HOME_CATEGORY'));
+            foreach ($this->langs as $id => $iso) {
+                $title = self::plain($this->langOne($hero['title'] ?? '', $id));
+                $text = self::sentences(self::plain($this->langOne($hero['text'] ?? '', $id)), 155);
+                if ($title !== '') {
+                    $m->title[$id] = mb_substr($shop . ' | ' . $title, 0, 128);
+                }
+                if (trim((string) ($homeCat->meta_title[$id] ?? '')) === '') {
+                    $homeCat->meta_title[$id] = $titled((string) ($homeCat->name[$id] ?? ''));
+                }
+                if ($text !== '') {
+                    $m->description[$id] = $text;
+                    if (trim(strip_tags((string) ($homeCat->description[$id] ?? ''))) === '') {
+                        $homeCat->description[$id] = '<p>' . htmlspecialchars($text, ENT_QUOTES, 'UTF-8') . '</p>';
+                        $homeCat->meta_description[$id] = $text;
+                    }
+                }
+            }
+            $m->save();
+            $homeCat->update();
+        }
+
+        // Products
+        $byBrand = [];
+        foreach ($this->demo['products'] ?? [] as $p) {
+            $idProduct = $this->id('product', $p['key']);
+            if (!$idProduct) {
+                continue;
+            }
+            foreach ($this->langs as $id => $iso) {
+                $name = self::plain($this->langOne($p['name'], $id));
+                $desc = self::sentences(trim(self::plain($this->langOne($p['short'] ?? '', $id)) . ' ' . self::plain($this->langOne($p['description'] ?? '', $id))), 155);
+                $row = ['meta_title' => pSQL($titled($name))];
+                if ($desc !== '') {
+                    $row['meta_description'] = pSQL($desc);
+                }
+                $db->update('product_lang', $row, 'id_product = ' . (int) $idProduct . ' AND id_lang = ' . (int) $id);
+                if (!empty($p['brand'])) {
+                    $byBrand[$p['brand']][$id][] = $name;
+                }
+            }
+        }
+
+        // Categories and CMS pages
+        foreach ($this->demo['categories'] ?? [] as $c) {
+            $idCat = $this->id('category', $c['key']);
+            if (!$idCat) {
+                continue;
+            }
+            foreach ($this->langs as $id => $iso) {
+                $row = ['meta_title' => pSQL($titled(self::plain($this->langOne($c['meta_title'] ?? $c['name'], $id))))];
+                $text = self::sentences(self::plain($this->langOne($c['description'] ?? '', $id)), 155);
+                if ($text !== '' && empty($c['meta_description'])) {
+                    $row['meta_description'] = pSQL($text);
+                }
+                $db->update('category_lang', $row, 'id_category = ' . (int) $idCat . ' AND id_lang = ' . (int) $id);
+            }
+        }
+        foreach ($this->ids['cms'] ?? [] as $idCms) {
+            foreach ($this->langs as $id => $iso) {
+                // meta_title is the page's heading; head_seo_title is its <title>.
+                $row = $db->getRow('SELECT meta_title, head_seo_title FROM `' . _DB_PREFIX_ . 'cms_lang` WHERE id_cms = ' . (int) $idCms . ' AND id_lang = ' . (int) $id);
+                $title = trim((string) (($row['head_seo_title'] ?? '') !== '' ? $row['head_seo_title'] : ($row['meta_title'] ?? '')));
+                if ($title !== '' && strpos($title, ' | ') === false) {
+                    $db->update('cms_lang', ['head_seo_title' => pSQL($titled($title))], 'id_cms = ' . (int) $idCms . ' AND id_lang = ' . (int) $id);
+                }
+            }
+        }
+
+        // Brands
+        $translator = Context::getContext()->getTranslator();
+        foreach ($this->demo['brands'] ?? [] as $b) {
+            $idBrand = $this->id('brand', $b['key']);
+            if (!$idBrand || empty($byBrand[$b['key']])) {
+                continue;
+            }
+            foreach ($this->langs as $id => $iso) {
+                $names = array_slice($byBrand[$b['key']][$id] ?? [], 0, 3);
+                if (!$names) {
+                    continue;
+                }
+                $locale = (string) ((Language::getLanguage($id) ?: [])['locale'] ?? 'en-US');
+                $text = $translator->trans('Discover %brand% at %shop%: %products% and more.', ['%brand%' => $b['name'], '%shop%' => $shop, '%products%' => implode(', ', $names)], 'Modules.Hbkit.Shop', $locale);
+                $db->update('manufacturer_lang', [
+                    'meta_title' => pSQL($titled($b['name'])),
+                    'meta_description' => pSQL(mb_substr($text, 0, 255)),
+                    'short_description' => pSQL('<p>' . htmlspecialchars($text, ENT_QUOTES, 'UTF-8') . '</p>', true),
+                ], 'id_manufacturer = ' . (int) $idBrand . ' AND id_lang = ' . (int) $id);
+            }
+        }
+        $this->log('Search engine titles and descriptions written.');
+    }
+
+    /** HTML -> one line of plain text. */
+    private static function plain(string $html): string
+    {
+        return trim(preg_replace('/\s+/u', ' ', html_entity_decode(strip_tags(str_replace(['</p>', '<br>', '<br/>', '<br />', '</li>'], ' ', $html)), ENT_QUOTES | ENT_HTML5, 'UTF-8')));
+    }
+
+    /** Whole sentences up to $max characters; if the first sentence is longer, it is cut at a word. */
+    private static function sentences(string $text, int $max): string
+    {
+        if (mb_strlen($text) <= $max) {
+            return $text;
+        }
+        $parts = preg_split('/(?<=[.!?…])\s+/u', $text) ?: [$text];
+        $out = '';
+        foreach ($parts as $part) {
+            $next = $out === '' ? $part : $out . ' ' . $part;
+            if (mb_strlen($next) > $max) {
+                break;
+            }
+            $out = $next;
+        }
+        if ($out === '') {
+            $out = mb_substr($text, 0, $max - 1);
+            $out = rtrim(mb_substr($out, 0, (int) mb_strrpos($out, ' ') ?: $max - 1), ' ,;:') . '…';
+        }
+
+        return $out;
     }
 
     private function importHome(): void

@@ -22,6 +22,8 @@ class HbkitTypes
         'width' => ['select', ['container', 'full', 'narrow']],
         'heading_align' => ['select', ['center', 'left', 'split']],
         'head_link' => ['link'],
+        // A style name a demo theme can use for one section (for example "kl-monogram"). Set by the demo pack, kept when the section is saved.
+        'css' => ['class', ''],
     ];
 
     public const ICONS = [

@@ -1,7 +1,7 @@
 <div class="hbk-home">
   {foreach $hbkit_sections as $section}
     {assign var=s value=$section.settings}
-    <section id="hbk-s{$section.id}" class="hbk-section hbk-s-{$section.type|replace:'_':'-'} hbk-bg-{$s.background} hbk-space-{$s.spacing} hbk-w-{$s.width}">
+    <section id="hbk-s{$section.id}" class="hbk-section hbk-s-{$section.type|replace:'_':'-'} hbk-bg-{$s.background} hbk-space-{$s.spacing} hbk-w-{$s.width}{if !empty($s.css)} {$s.css|escape:'html':'UTF-8'}{/if}">
       <div class="{if $s.width == 'full'}hbk-full{elseif $s.width == 'narrow'}container hbk-narrow{else}container{/if}">
         {if $section.type != 'hero' && $section.type != 'countdown' && $section.type != 'newsletter' && $section.type != 'text' && ($section.title || $section.subtitle)}
           <header class="hbk-head hbk-head--{$s.heading_align}">

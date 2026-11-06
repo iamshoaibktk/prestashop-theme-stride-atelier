@@ -5458,324 +5458,16 @@
   }
  },
  "Shop": {
-  "%d out of 5 stars": {
-   "fr-FR": "%d étoiles sur 5",
-   "es-ES": "%d de 5 estrellas",
-   "it-IT": "%d stelle su 5",
-   "pl-PL": "%d z 5 gwiazdek",
-   "de-DE": "%d von 5 Sternen",
-   "cs-CZ": "%d z 5 hvězdiček",
-   "nl-NL": "%d van de 5 sterren",
-   "pt-PT": "%d de 5 estrelas",
-   "ru-RU": "%d из 5 звёзд"
-  },
-  "Announcements": {
-   "fr-FR": "Annonces",
-   "es-ES": "Avisos",
-   "it-IT": "Annunci",
-   "pl-PL": "Ogłoszenia",
-   "de-DE": "Hinweise",
-   "cs-CZ": "Oznámení",
-   "nl-NL": "Mededelingen",
-   "pt-PT": "Avisos",
-   "ru-RU": "Объявления"
-  },
-  "Discover more": {
-   "fr-FR": "En savoir plus",
-   "es-ES": "Descubrir más",
-   "it-IT": "Scopri di più",
-   "pl-PL": "Dowiedz się więcej",
-   "de-DE": "Mehr entdecken",
-   "cs-CZ": "Zjistit více",
-   "nl-NL": "Meer ontdekken",
-   "pt-PT": "Descobrir mais",
-   "ru-RU": "Узнать больше"
-  },
-  "Go to slide %d": {
-   "fr-FR": "Aller à la diapositive %d",
-   "es-ES": "Ir a la diapositiva %d",
-   "it-IT": "Vai alla slide %d",
-   "pl-PL": "Przejdź do slajdu %d",
-   "de-DE": "Zu Folie %d",
-   "cs-CZ": "Přejít na snímek %d",
-   "nl-NL": "Ga naar dia %d",
-   "pt-PT": "Ir para o diapositivo %d",
-   "ru-RU": "Перейти к слайду %d"
-  },
-  "Next slide": {
-   "fr-FR": "Diapositive suivante",
-   "es-ES": "Diapositiva siguiente",
-   "it-IT": "Slide successiva",
-   "pl-PL": "Następny slajd",
-   "de-DE": "Nächste Folie",
-   "cs-CZ": "Další snímek",
-   "nl-NL": "Volgende dia",
-   "pt-PT": "Diapositivo seguinte",
-   "ru-RU": "Следующий слайд"
-  },
-  "Previous slide": {
-   "fr-FR": "Diapositive précédente",
-   "es-ES": "Diapositiva anterior",
-   "it-IT": "Slide precedente",
-   "pl-PL": "Poprzedni slajd",
-   "de-DE": "Vorherige Folie",
-   "cs-CZ": "Předchozí snímek",
-   "nl-NL": "Vorige dia",
-   "pt-PT": "Diapositivo anterior",
-   "ru-RU": "Предыдущий слайд"
-  },
-  "Shop the offer": {
-   "fr-FR": "Profiter de l'offre",
-   "es-ES": "Ver la oferta",
-   "it-IT": "Approfitta dell'offerta",
-   "pl-PL": "Skorzystaj z oferty",
-   "de-DE": "Zum Angebot",
-   "cs-CZ": "Využít nabídku",
-   "nl-NL": "Naar de aanbieding",
-   "pt-PT": "Aproveitar a oferta",
-   "ru-RU": "К предложению"
-  },
-  "days": {
-   "fr-FR": "jours",
-   "es-ES": "días",
-   "it-IT": "giorni",
-   "pl-PL": "dni",
-   "de-DE": "Tage",
-   "cs-CZ": "dní",
-   "nl-NL": "dagen",
-   "pt-PT": "dias",
-   "ru-RU": "дн."
-  },
-  "hours": {
-   "fr-FR": "heures",
-   "es-ES": "horas",
-   "it-IT": "ore",
-   "pl-PL": "godz.",
-   "de-DE": "Std.",
-   "cs-CZ": "hod.",
-   "nl-NL": "uur",
-   "pt-PT": "horas",
-   "ru-RU": "ч."
-  },
-  "min": {
-   "fr-FR": "min",
-   "es-ES": "min",
-   "it-IT": "min",
-   "pl-PL": "min",
-   "de-DE": "Min.",
-   "cs-CZ": "min",
-   "nl-NL": "min",
-   "pt-PT": "min",
-   "ru-RU": "мин"
-  },
-  "sec": {
-   "fr-FR": "s",
-   "es-ES": "s",
-   "it-IT": "s",
-   "pl-PL": "s",
-   "de-DE": "Sek.",
-   "cs-CZ": "s",
-   "nl-NL": "s",
-   "pt-PT": "s",
-   "ru-RU": "сек"
-  },
-  "Add %amount% more for free delivery.": {
-   "fr-FR": "Plus que %amount% pour la livraison offerte.",
-   "es-ES": "Añade %amount% más para el envío gratis.",
-   "it-IT": "Aggiungi ancora %amount% per la consegna gratuita.",
-   "pl-PL": "Dodaj jeszcze %amount%, aby otrzymać darmową dostawę.",
-   "de-DE": "Noch %amount% bis zur kostenlosen Lieferung.",
-   "cs-CZ": "Přidejte ještě %amount% a máte dopravu zdarma.",
-   "nl-NL": "Nog %amount% tot gratis bezorging.",
-   "pt-PT": "Adicione mais %amount% para entrega grátis.",
-   "ru-RU": "Добавьте ещё %amount% для бесплатной доставки."
-  },
-  "Checkout": {
-   "fr-FR": "Commander",
-   "es-ES": "Finalizar compra",
-   "it-IT": "Cassa",
-   "pl-PL": "Do kasy",
-   "de-DE": "Zur Kasse",
-   "cs-CZ": "K pokladně",
-   "nl-NL": "Afrekenen",
-   "pt-PT": "Finalizar compra",
-   "ru-RU": "Оформить заказ"
-  },
-  "Close": {
-   "fr-FR": "Fermer",
-   "es-ES": "Cerrar",
-   "it-IT": "Chiudi",
-   "pl-PL": "Zamknij",
-   "de-DE": "Schließen",
-   "cs-CZ": "Zavřít",
-   "nl-NL": "Sluiten",
-   "pt-PT": "Fechar",
-   "ru-RU": "Закрыть"
-  },
-  "Continue shopping": {
-   "fr-FR": "Continuer mes achats",
-   "es-ES": "Seguir comprando",
-   "it-IT": "Continua lo shopping",
-   "pl-PL": "Kontynuuj zakupy",
-   "de-DE": "Weiter einkaufen",
-   "cs-CZ": "Pokračovat v nákupu",
-   "nl-NL": "Verder winkelen",
-   "pt-PT": "Continuar a comprar",
-   "ru-RU": "Продолжить покупки"
-  },
-  "Decrease quantity": {
-   "fr-FR": "Diminuer la quantité",
-   "es-ES": "Reducir cantidad",
-   "it-IT": "Diminuisci quantità",
-   "pl-PL": "Zmniejsz ilość",
-   "de-DE": "Menge verringern",
-   "cs-CZ": "Snížit množství",
-   "nl-NL": "Aantal verlagen",
-   "pt-PT": "Diminuir quantidade",
-   "ru-RU": "Уменьшить количество"
-  },
-  "Find something you love and it will wait for you here.": {
-   "fr-FR": "Trouvez un article qui vous plaît, il vous attendra ici.",
-   "es-ES": "Encuentra algo que te guste y te esperará aquí.",
-   "it-IT": "Trova qualcosa che ami e ti aspetterà qui.",
-   "pl-PL": "Znajdź coś dla siebie, a poczeka tutaj.",
-   "de-DE": "Finden Sie etwas, das Ihnen gefällt – es wartet hier auf Sie.",
-   "cs-CZ": "Najděte něco, co se vám líbí, a počká to tady.",
-   "nl-NL": "Vind iets moois, het wacht hier op je.",
-   "pt-PT": "Encontre algo de que goste e ficará aqui à sua espera.",
-   "ru-RU": "Выберите то, что нравится, — оно будет ждать здесь."
-  },
-  "Increase quantity": {
-   "fr-FR": "Augmenter la quantité",
-   "es-ES": "Aumentar cantidad",
-   "it-IT": "Aumenta quantità",
-   "pl-PL": "Zwiększ ilość",
-   "de-DE": "Menge erhöhen",
-   "cs-CZ": "Zvýšit množství",
-   "nl-NL": "Aantal verhogen",
-   "pt-PT": "Aumentar quantidade",
-   "ru-RU": "Увеличить количество"
-  },
-  "Quantity": {
-   "fr-FR": "Quantité",
-   "es-ES": "Cantidad",
-   "it-IT": "Quantità",
-   "pl-PL": "Ilość",
-   "de-DE": "Menge",
-   "cs-CZ": "Množství",
-   "nl-NL": "Aantal",
-   "pt-PT": "Quantidade",
-   "ru-RU": "Количество"
-  },
-  "Remove %name%": {
-   "fr-FR": "Retirer %name%",
-   "es-ES": "Eliminar %name%",
-   "it-IT": "Rimuovi %name%",
-   "pl-PL": "Usuń %name%",
-   "de-DE": "%name% entfernen",
-   "cs-CZ": "Odebrat %name%",
-   "nl-NL": "%name% verwijderen",
-   "pt-PT": "Remover %name%",
-   "ru-RU": "Удалить %name%"
-  },
-  "Subtotal": {
-   "fr-FR": "Sous-total",
-   "es-ES": "Subtotal",
-   "it-IT": "Subtotale",
-   "pl-PL": "Suma częściowa",
-   "de-DE": "Zwischensumme",
-   "cs-CZ": "Mezisoučet",
-   "nl-NL": "Subtotaal",
-   "pt-PT": "Subtotal",
-   "ru-RU": "Подытог"
-  },
-  "Taxes and delivery are calculated at checkout.": {
-   "fr-FR": "Taxes et livraison calculées à la commande.",
-   "es-ES": "Impuestos y envío se calculan al finalizar la compra.",
-   "it-IT": "Tasse e consegna vengono calcolate alla cassa.",
-   "pl-PL": "Podatki i dostawa są liczone przy zamówieniu.",
-   "de-DE": "Steuern und Versand werden an der Kasse berechnet.",
-   "cs-CZ": "Daně a doprava se počítají v pokladně.",
-   "nl-NL": "Belastingen en verzending worden bij het afrekenen berekend.",
-   "pt-PT": "Impostos e entrega são calculados na finalização.",
-   "ru-RU": "Налоги и доставка рассчитываются при оформлении."
-  },
-  "View cart": {
-   "fr-FR": "Voir le panier",
-   "es-ES": "Ver carrito",
-   "it-IT": "Vedi carrello",
-   "pl-PL": "Zobacz koszyk",
-   "de-DE": "Warenkorb ansehen",
-   "cs-CZ": "Zobrazit košík",
-   "nl-NL": "Winkelwagen bekijken",
-   "pt-PT": "Ver carrinho",
-   "ru-RU": "Открыть корзину"
-  },
-  "Your cart": {
-   "fr-FR": "Votre panier",
-   "es-ES": "Tu carrito",
-   "it-IT": "Il tuo carrello",
-   "pl-PL": "Twój koszyk",
-   "de-DE": "Ihr Warenkorb",
-   "cs-CZ": "Váš košík",
-   "nl-NL": "Je winkelwagen",
-   "pt-PT": "O seu carrinho",
-   "ru-RU": "Ваша корзина"
-  },
-  "Your cart is empty": {
-   "fr-FR": "Votre panier est vide",
-   "es-ES": "Tu carrito está vacío",
-   "it-IT": "Il tuo carrello è vuoto",
-   "pl-PL": "Twój koszyk jest pusty",
-   "de-DE": "Ihr Warenkorb ist leer",
-   "cs-CZ": "Váš košík je prázdný",
-   "nl-NL": "Je winkelwagen is leeg",
-   "pt-PT": "O seu carrinho está vazio",
-   "ru-RU": "Ваша корзина пуста"
-  },
-  "Your order ships free.": {
-   "fr-FR": "Votre commande est livrée gratuitement.",
-   "es-ES": "Tu pedido tiene envío gratis.",
-   "it-IT": "Il tuo ordine ha la consegna gratuita.",
-   "pl-PL": "Twoje zamówienie ma darmową dostawę.",
-   "de-DE": "Ihre Bestellung wird kostenlos geliefert.",
-   "cs-CZ": "Vaše objednávka má dopravu zdarma.",
-   "nl-NL": "Je bestelling wordt gratis bezorgd.",
-   "pt-PT": "A sua encomenda tem entrega grátis.",
-   "ru-RU": "Ваш заказ доставим бесплатно."
-  },
-  "Added to your cart": {
-   "fr-FR": "Ajouté à votre panier",
-   "es-ES": "Añadido a tu carrito",
-   "it-IT": "Aggiunto al carrello",
-   "pl-PL": "Dodano do koszyka",
-   "de-DE": "In den Warenkorb gelegt",
-   "cs-CZ": "Přidáno do košíku",
-   "nl-NL": "Toegevoegd aan je winkelwagen",
-   "pt-PT": "Adicionado ao carrinho",
-   "ru-RU": "Добавлено в корзину"
-  },
-  "Remove": {
-   "fr-FR": "Retirer",
-   "es-ES": "Eliminar",
-   "it-IT": "Rimuovi",
-   "pl-PL": "Usuń",
-   "de-DE": "Entfernen",
-   "cs-CZ": "Odebrat",
-   "nl-NL": "Verwijderen",
-   "pt-PT": "Remover",
-   "ru-RU": "Удалить"
-  },
-  "%count% products": {
-   "fr-FR": "%count% produits",
-   "es-ES": "%count% productos",
-   "it-IT": "%count% prodotti",
-   "pl-PL": "%count% produktów",
-   "de-DE": "%count% Produkte",
-   "cs-CZ": "%count% produktů",
-   "nl-NL": "%count% producten",
-   "pt-PT": "%count% produtos",
-   "ru-RU": "Товаров: %count%"
+  "%count% colours": {
+   "fr-FR": "%count% couleurs",
+   "es-ES": "%count% colores",
+   "it-IT": "%count% colori",
+   "pl-PL": "Kolory: %count%",
+   "de-DE": "%count% Farben",
+   "cs-CZ": "Barvy: %count%",
+   "nl-NL": "%count% kleuren",
+   "pt-PT": "%count% cores",
+   "ru-RU": "Цветов: %count%"
   },
   "%count% pieces": {
    "fr-FR": "%count% pièces",
@@ -5788,6 +5480,39 @@
    "pt-PT": "%count% peças",
    "ru-RU": "Вещей: %count%"
   },
+  "%count% products": {
+   "fr-FR": "%count% produits",
+   "es-ES": "%count% productos",
+   "it-IT": "%count% prodotti",
+   "pl-PL": "%count% produktów",
+   "de-DE": "%count% Produkte",
+   "cs-CZ": "%count% produktů",
+   "nl-NL": "%count% producten",
+   "pt-PT": "%count% produtos",
+   "ru-RU": "Товаров: %count%"
+  },
+  "%d out of 5 stars": {
+   "fr-FR": "%d étoiles sur 5",
+   "es-ES": "%d de 5 estrellas",
+   "it-IT": "%d stelle su 5",
+   "pl-PL": "%d z 5 gwiazdek",
+   "de-DE": "%d von 5 Sternen",
+   "cs-CZ": "%d z 5 hvězdiček",
+   "nl-NL": "%d van de 5 sterren",
+   "pt-PT": "%d de 5 estrelas",
+   "ru-RU": "%d из 5 звёзд"
+  },
+  "1 colour": {
+   "fr-FR": "1 couleur",
+   "es-ES": "1 color",
+   "it-IT": "1 colore",
+   "pl-PL": "1 kolor",
+   "de-DE": "1 Farbe",
+   "cs-CZ": "1 barva",
+   "nl-NL": "1 kleur",
+   "pt-PT": "1 cor",
+   "ru-RU": "1 цвет"
+  },
   "Account": {
    "fr-FR": "Compte",
    "es-ES": "Cuenta",
@@ -5798,6 +5523,17 @@
    "nl-NL": "Account",
    "pt-PT": "Conta",
    "ru-RU": "Аккаунт"
+  },
+  "Add %amount% more for free delivery.": {
+   "fr-FR": "Plus que %amount% pour la livraison offerte.",
+   "es-ES": "Añade %amount% más para el envío gratis.",
+   "it-IT": "Aggiungi ancora %amount% per la consegna gratuita.",
+   "pl-PL": "Dodaj jeszcze %amount%, aby otrzymać darmową dostawę.",
+   "de-DE": "Noch %amount% bis zur kostenlosen Lieferung.",
+   "cs-CZ": "Přidejte ještě %amount% a máte dopravu zdarma.",
+   "nl-NL": "Nog %amount% tot gratis bezorging.",
+   "pt-PT": "Adicione mais %amount% para entrega grátis.",
+   "ru-RU": "Добавьте ещё %amount% для бесплатной доставки."
   },
   "Add %product_name% to the bag": {
    "fr-FR": "Ajouter %product_name% au sac",
@@ -5821,6 +5557,83 @@
    "pt-PT": "Adicionar ao saco",
    "ru-RU": "В сумку"
   },
+  "Add your initials": {
+   "fr-FR": "Ajoutez vos initiales",
+   "es-ES": "Añade tus iniciales",
+   "it-IT": "Aggiungi le tue iniziali",
+   "pl-PL": "Dodaj swoje inicjały",
+   "de-DE": "Ihre Initialen",
+   "cs-CZ": "Přidejte své iniciály",
+   "nl-NL": "Voeg je initialen toe",
+   "pt-PT": "Acrescente as suas iniciais",
+   "ru-RU": "Добавьте инициалы"
+  },
+  "Added to your cart": {
+   "fr-FR": "Ajouté à votre panier",
+   "es-ES": "Añadido a tu carrito",
+   "it-IT": "Aggiunto al carrello",
+   "pl-PL": "Dodano do koszyka",
+   "de-DE": "In den Warenkorb gelegt",
+   "cs-CZ": "Přidáno do košíku",
+   "nl-NL": "Toegevoegd aan je winkelwagen",
+   "pt-PT": "Adicionado ao carrinho",
+   "ru-RU": "Добавлено в корзину"
+  },
+  "After 1 year": {
+   "fr-FR": "Après 1 an",
+   "es-ES": "Tras 1 año",
+   "it-IT": "Dopo 1 anno",
+   "pl-PL": "Po roku",
+   "de-DE": "Nach 1 Jahr",
+   "cs-CZ": "Po 1 roce",
+   "nl-NL": "Na 1 jaar",
+   "pt-PT": "Após 1 ano",
+   "ru-RU": "Через год"
+  },
+  "After 5 years": {
+   "fr-FR": "Après 5 ans",
+   "es-ES": "Tras 5 años",
+   "it-IT": "Dopo 5 anni",
+   "pl-PL": "Po 5 latach",
+   "de-DE": "Nach 5 Jahren",
+   "cs-CZ": "Po 5 letech",
+   "nl-NL": "Na 5 jaar",
+   "pt-PT": "Após 5 anos",
+   "ru-RU": "Через 5 лет"
+  },
+  "Announcements": {
+   "fr-FR": "Annonces",
+   "es-ES": "Avisos",
+   "it-IT": "Annunci",
+   "pl-PL": "Ogłoszenia",
+   "de-DE": "Hinweise",
+   "cs-CZ": "Oznámení",
+   "nl-NL": "Mededelingen",
+   "pt-PT": "Avisos",
+   "ru-RU": "Объявления"
+  },
+  "Approximate on some screens. Free resizing within 60 days.": {
+   "fr-FR": "Approximatif sur certains écrans. Mise à taille gratuite sous 60 jours.",
+   "es-ES": "Aproximado en algunas pantallas. Ajuste de talla gratis en 60 días.",
+   "it-IT": "Approssimativo su alcuni schermi. Adattamento gratuito entro 60 giorni.",
+   "pl-PL": "Przybliżone na niektórych ekranach. Bezpłatna zmiana rozmiaru w ciągu 60 dni.",
+   "de-DE": "Auf manchen Bildschirmen ungefähr. Kostenlose Größenanpassung innerhalb von 60 Tagen.",
+   "cs-CZ": "Na některých obrazovkách přibližné. Úprava velikosti zdarma do 60 dnů.",
+   "nl-NL": "Bij benadering op sommige schermen. Gratis maat aanpassen binnen 60 dagen.",
+   "pt-PT": "Aproximado em alguns ecrãs. Ajuste de tamanho grátis em 60 dias.",
+   "ru-RU": "На некоторых экранах приблизительно. Бесплатная подгонка размера в течение 60 дней."
+  },
+  "Arrives in our gift box, with a card written by hand.": {
+   "fr-FR": "Livré dans notre écrin, avec une carte écrite à la main.",
+   "es-ES": "Llega en nuestro estuche, con una tarjeta escrita a mano.",
+   "it-IT": "Arriva nella nostra scatola regalo, con un biglietto scritto a mano.",
+   "pl-PL": "Dociera w naszym pudełku prezentowym, z kartką pisaną ręcznie.",
+   "de-DE": "Kommt in unserer Geschenkbox, mit einer handgeschriebenen Karte.",
+   "cs-CZ": "Dorazí v naší dárkové krabičce s ručně psaným přáníčkem.",
+   "nl-NL": "Komt in onze geschenkdoos, met een met de hand geschreven kaartje.",
+   "pt-PT": "Chega na nossa caixa de oferta, com um cartão escrito à mão.",
+   "ru-RU": "Приходит в нашей подарочной коробке с открыткой, написанной от руки."
+  },
   "Bag": {
    "fr-FR": "Sac",
    "es-ES": "Bolsa",
@@ -5831,6 +5644,17 @@
    "nl-NL": "Tas",
    "pt-PT": "Saco",
    "ru-RU": "Сумка"
+  },
+  "Between two sizes, choose the larger one. We resize rings for free within 60 days.": {
+   "fr-FR": "Entre deux tailles, choisissez la plus grande. Nous mettons les bagues à taille gratuitement sous 60 jours.",
+   "es-ES": "Entre dos tallas, elige la mayor. Ajustamos los anillos gratis en 60 días.",
+   "it-IT": "Tra due misure, scegli la più grande. Adattiamo gli anelli gratis entro 60 giorni.",
+   "pl-PL": "Między dwoma rozmiarami wybierz większy. Rozmiar pierścionka zmieniamy bezpłatnie w ciągu 60 dni.",
+   "de-DE": "Zwischen zwei Größen wählen Sie die größere. Wir passen Ringe innerhalb von 60 Tagen kostenlos an.",
+   "cs-CZ": "Mezi dvěma velikostmi zvolte větší. Prsteny upravíme zdarma do 60 dnů.",
+   "nl-NL": "Twijfel je tussen twee maten, kies dan de grotere. We passen ringen binnen 60 dagen gratis aan.",
+   "pt-PT": "Entre dois tamanhos, escolha o maior. Ajustamos os anéis gratuitamente em 60 dias.",
+   "ru-RU": "Если сомневаетесь между двумя размерами, выбирайте больший. Мы бесплатно подгоняем кольца в течение 60 дней."
   },
   "Categories": {
    "fr-FR": "Catégories",
@@ -5843,6 +5667,83 @@
    "pt-PT": "Categorias",
    "ru-RU": "Категории"
   },
+  "Checkout": {
+   "fr-FR": "Commander",
+   "es-ES": "Finalizar compra",
+   "it-IT": "Cassa",
+   "pl-PL": "Do kasy",
+   "de-DE": "Zur Kasse",
+   "cs-CZ": "K pokladně",
+   "nl-NL": "Afrekenen",
+   "pt-PT": "Finalizar compra",
+   "ru-RU": "Оформить заказ"
+  },
+  "Choose sizes until the circle meets the inside of your ring.": {
+   "fr-FR": "Changez de taille jusqu'à ce que le cercle touche l'intérieur de votre bague.",
+   "es-ES": "Cambia de talla hasta que el círculo toque el interior de tu anillo.",
+   "it-IT": "Cambia misura finché il cerchio tocca l'interno del tuo anello.",
+   "pl-PL": "Zmieniaj rozmiar, aż okrąg dotknie wnętrza pierścionka.",
+   "de-DE": "Wechseln Sie die Größe, bis der Kreis die Innenseite Ihres Rings trifft.",
+   "cs-CZ": "Měňte velikost, dokud se kruh nedotkne vnitřku prstenu.",
+   "nl-NL": "Wissel van maat tot de cirkel de binnenkant van je ring raakt.",
+   "pt-PT": "Mude de tamanho até o círculo tocar o interior do seu anel.",
+   "ru-RU": "Меняйте размер, пока круг не совпадёт с внутренней стороной кольца."
+  },
+  "Close": {
+   "fr-FR": "Fermer",
+   "es-ES": "Cerrar",
+   "it-IT": "Chiudi",
+   "pl-PL": "Zamknij",
+   "de-DE": "Schließen",
+   "cs-CZ": "Zavřít",
+   "nl-NL": "Sluiten",
+   "pt-PT": "Fechar",
+   "ru-RU": "Закрыть"
+  },
+  "Continue shopping": {
+   "fr-FR": "Continuer mes achats",
+   "es-ES": "Seguir comprando",
+   "it-IT": "Continua lo shopping",
+   "pl-PL": "Kontynuuj zakupy",
+   "de-DE": "Weiter einkaufen",
+   "cs-CZ": "Pokračovat v nákupu",
+   "nl-NL": "Verder winkelen",
+   "pt-PT": "Continuar a comprar",
+   "ru-RU": "Продолжить покупки"
+  },
+  "days": {
+   "fr-FR": "jours",
+   "es-ES": "días",
+   "it-IT": "giorni",
+   "pl-PL": "dni",
+   "de-DE": "Tage",
+   "cs-CZ": "dní",
+   "nl-NL": "dagen",
+   "pt-PT": "dias",
+   "ru-RU": "дн."
+  },
+  "Decrease quantity": {
+   "fr-FR": "Diminuer la quantité",
+   "es-ES": "Reducir cantidad",
+   "it-IT": "Diminuisci quantità",
+   "pl-PL": "Zmniejsz ilość",
+   "de-DE": "Menge verringern",
+   "cs-CZ": "Snížit množství",
+   "nl-NL": "Aantal verlagen",
+   "pt-PT": "Diminuir quantidade",
+   "ru-RU": "Уменьшить количество"
+  },
+  "Deep patina": {
+   "fr-FR": "Patine profonde",
+   "es-ES": "Pátina profunda",
+   "it-IT": "Patina profonda",
+   "pl-PL": "Głęboka patyna",
+   "de-DE": "Tiefe Patina",
+   "cs-CZ": "Hluboká patina",
+   "nl-NL": "Diep patina",
+   "pt-PT": "Pátina profunda",
+   "ru-RU": "Глубокая патина"
+  },
   "Delivery and returns": {
    "fr-FR": "Livraison et retours",
    "es-ES": "Envío y devoluciones",
@@ -5853,6 +5754,39 @@
    "nl-NL": "Bezorging en retour",
    "pt-PT": "Entrega e devoluções",
    "ru-RU": "Доставка и возврат"
+  },
+  "Discover %brand% at %shop%: %products% and more.": {
+   "fr-FR": "Découvrez %brand% chez %shop% : %products% et plus encore.",
+   "es-ES": "Descubre %brand% en %shop%: %products% y mucho más.",
+   "it-IT": "Scopri %brand% da %shop%: %products% e molto altro.",
+   "pl-PL": "Odkryj %brand% w %shop%: %products% i nie tylko.",
+   "de-DE": "Entdecken Sie %brand% bei %shop%: %products% und mehr.",
+   "cs-CZ": "Objevte %brand% v %shop%: %products% a další.",
+   "nl-NL": "Ontdek %brand% bij %shop%: %products% en meer.",
+   "pt-PT": "Descubra %brand% na %shop%: %products% e muito mais.",
+   "ru-RU": "Откройте для себя %brand% в %shop%: %products% и не только."
+  },
+  "Discover more": {
+   "fr-FR": "En savoir plus",
+   "es-ES": "Descubrir más",
+   "it-IT": "Scopri di più",
+   "pl-PL": "Dowiedz się więcej",
+   "de-DE": "Mehr entdecken",
+   "cs-CZ": "Zjistit více",
+   "nl-NL": "Meer ontdekken",
+   "pt-PT": "Descobrir mais",
+   "ru-RU": "Узнать больше"
+  },
+  "Every piece arrives in our gift box. Add a card message at checkout.": {
+   "fr-FR": "Chaque pièce arrive dans notre écrin. Ajoutez un message pour la carte au moment de commander.",
+   "es-ES": "Cada pieza llega en nuestro estuche. Añade un mensaje para la tarjeta al pagar.",
+   "it-IT": "Ogni pezzo arriva nella nostra scatola regalo. Aggiungi un messaggio per il biglietto al checkout.",
+   "pl-PL": "Każdy egzemplarz dociera w naszym pudełku prezentowym. Dodaj wiadomość na kartkę przy zamówieniu.",
+   "de-DE": "Jedes Stück kommt in unserer Geschenkbox. Fügen Sie an der Kasse eine Nachricht für die Karte hinzu.",
+   "cs-CZ": "Každý kus dorazí v naší dárkové krabičce. Vzkaz na přáníčko přidáte při objednávce.",
+   "nl-NL": "Elk stuk komt in onze geschenkdoos. Voeg bij het afrekenen een bericht voor het kaartje toe.",
+   "pt-PT": "Cada peça chega na nossa caixa de oferta. Acrescente uma mensagem para o cartão ao finalizar a compra.",
+   "ru-RU": "Каждое украшение приходит в нашей подарочной коробке. Добавьте текст открытки при оформлении заказа."
   },
   "Fabric and care": {
    "fr-FR": "Tissu et entretien",
@@ -5876,6 +5810,215 @@
    "pt-PT": "Filtrar",
    "ru-RU": "Фильтр"
   },
+  "Find something you love and it will wait for you here.": {
+   "fr-FR": "Trouvez un article qui vous plaît, il vous attendra ici.",
+   "es-ES": "Encuentra algo que te guste y te esperará aquí.",
+   "it-IT": "Trova qualcosa che ami e ti aspetterà qui.",
+   "pl-PL": "Znajdź coś dla siebie, a poczeka tutaj.",
+   "de-DE": "Finden Sie etwas, das Ihnen gefällt – es wartet hier auf Sie.",
+   "cs-CZ": "Najděte něco, co se vám líbí, a počká to tady.",
+   "nl-NL": "Vind iets moois, het wacht hier op je.",
+   "pt-PT": "Encontre algo de que goste e ficará aqui à sua espera.",
+   "ru-RU": "Выберите то, что нравится, — оно будет ждать здесь."
+  },
+  "Find your size": {
+   "fr-FR": "Trouver sa taille",
+   "es-ES": "Encuentra tu talla",
+   "it-IT": "Trova la tua misura",
+   "pl-PL": "Znajdź swój rozmiar",
+   "de-DE": "Größe finden",
+   "cs-CZ": "Najít velikost",
+   "nl-NL": "Vind je maat",
+   "pt-PT": "Encontrar o tamanho",
+   "ru-RU": "Узнать размер"
+  },
+  "free": {
+   "fr-FR": "offert",
+   "es-ES": "gratis",
+   "it-IT": "gratis",
+   "pl-PL": "gratis",
+   "de-DE": "kostenlos",
+   "cs-CZ": "zdarma",
+   "nl-NL": "gratis",
+   "pt-PT": "grátis",
+   "ru-RU": "бесплатно"
+  },
+  "Free monogram": {
+   "fr-FR": "Monogramme offert",
+   "es-ES": "Monograma gratis",
+   "it-IT": "Monogramma gratuito",
+   "pl-PL": "Darmowy monogram",
+   "de-DE": "Gratis-Monogramm",
+   "cs-CZ": "Monogram zdarma",
+   "nl-NL": "Gratis monogram",
+   "pt-PT": "Monograma grátis",
+   "ru-RU": "Бесплатная монограмма"
+  },
+  "Go to slide %d": {
+   "fr-FR": "Aller à la diapositive %d",
+   "es-ES": "Ir a la diapositiva %d",
+   "it-IT": "Vai alla slide %d",
+   "pl-PL": "Przejdź do slajdu %d",
+   "de-DE": "Zu Folie %d",
+   "cs-CZ": "Přejít na snímek %d",
+   "nl-NL": "Ga naar dia %d",
+   "pt-PT": "Ir para o diapositivo %d",
+   "ru-RU": "Перейти к слайду %d"
+  },
+  "hours": {
+   "fr-FR": "heures",
+   "es-ES": "horas",
+   "it-IT": "ore",
+   "pl-PL": "godz.",
+   "de-DE": "Std.",
+   "cs-CZ": "hod.",
+   "nl-NL": "uur",
+   "pt-PT": "horas",
+   "ru-RU": "ч."
+  },
+  "How it ages": {
+   "fr-FR": "Comment il vieillit",
+   "es-ES": "Cómo envejece",
+   "it-IT": "Come invecchia",
+   "pl-PL": "Jak się starzeje",
+   "de-DE": "So altert es",
+   "cs-CZ": "Jak stárne",
+   "nl-NL": "Zo veroudert het",
+   "pt-PT": "Como envelhece",
+   "ru-RU": "Как стареет кожа"
+  },
+  "Increase quantity": {
+   "fr-FR": "Augmenter la quantité",
+   "es-ES": "Aumentar cantidad",
+   "it-IT": "Aumenta quantità",
+   "pl-PL": "Zwiększ ilość",
+   "de-DE": "Menge erhöhen",
+   "cs-CZ": "Zvýšit množství",
+   "nl-NL": "Aantal verhogen",
+   "pt-PT": "Aumentar quantidade",
+   "ru-RU": "Увеличить количество"
+  },
+  "Inside": {
+   "fr-FR": "Intérieur",
+   "es-ES": "Interior",
+   "it-IT": "Interno",
+   "pl-PL": "Wewnątrz",
+   "de-DE": "Innen",
+   "cs-CZ": "Uvnitř",
+   "nl-NL": "Binnenkant",
+   "pt-PT": "Interior",
+   "ru-RU": "Внутри"
+  },
+  "Jewellery care": {
+   "fr-FR": "Entretien des bijoux",
+   "es-ES": "Cuidado de las joyas",
+   "it-IT": "Cura dei gioielli",
+   "pl-PL": "Pielęgnacja biżuterii",
+   "de-DE": "Schmuckpflege",
+   "cs-CZ": "Péče o šperky",
+   "nl-NL": "Sieradenverzorging",
+   "pt-PT": "Cuidados com as joias",
+   "ru-RU": "Уход за украшениями"
+  },
+  "Lay a ring you own on the circle": {
+   "fr-FR": "Posez une bague sur le cercle",
+   "es-ES": "Coloca un anillo tuyo sobre el círculo",
+   "it-IT": "Appoggia un anello sul cerchio",
+   "pl-PL": "Połóż swój pierścionek na okręgu",
+   "de-DE": "Legen Sie einen Ring auf den Kreis",
+   "cs-CZ": "Položte svůj prsten na kruh",
+   "nl-NL": "Leg een eigen ring op de cirkel",
+   "pt-PT": "Pouse um anel seu sobre o círculo",
+   "ru-RU": "Положите своё кольцо на круг"
+  },
+  "Leather care": {
+   "fr-FR": "Entretien du cuir",
+   "es-ES": "Cuidado de la piel",
+   "it-IT": "Cura della pelle",
+   "pl-PL": "Pielęgnacja skóry",
+   "de-DE": "Lederpflege",
+   "cs-CZ": "Péče o kůži",
+   "nl-NL": "Leerverzorging",
+   "pt-PT": "Cuidados com a pele",
+   "ru-RU": "Уход за кожей"
+  },
+  "Light and firm": {
+   "fr-FR": "Clair et ferme",
+   "es-ES": "Clara y firme",
+   "it-IT": "Chiara e soda",
+   "pl-PL": "Jasna i twarda",
+   "de-DE": "Hell und fest",
+   "cs-CZ": "Světlá a pevná",
+   "nl-NL": "Licht en stevig",
+   "pt-PT": "Clara e firme",
+   "ru-RU": "Светлая и плотная"
+  },
+  "Made of": {
+   "fr-FR": "Composition",
+   "es-ES": "Materiales",
+   "it-IT": "Materiali",
+   "pl-PL": "Wykonanie",
+   "de-DE": "Material",
+   "cs-CZ": "Materiály",
+   "nl-NL": "Gemaakt van",
+   "pt-PT": "Materiais",
+   "ru-RU": "Материалы"
+  },
+  "min": {
+   "fr-FR": "min",
+   "es-ES": "min",
+   "it-IT": "min",
+   "pl-PL": "min",
+   "de-DE": "Min.",
+   "cs-CZ": "min",
+   "nl-NL": "min",
+   "pt-PT": "min",
+   "ru-RU": "мин"
+  },
+  "New": {
+   "fr-FR": "Neuf",
+   "es-ES": "Nueva",
+   "it-IT": "Nuova",
+   "pl-PL": "Nowa",
+   "de-DE": "Neu",
+   "cs-CZ": "Nová",
+   "nl-NL": "Nieuw",
+   "pt-PT": "Nova",
+   "ru-RU": "Новая"
+  },
+  "Next category": {
+   "fr-FR": "Catégorie suivante",
+   "es-ES": "Siguiente categoría",
+   "it-IT": "Categoria successiva",
+   "pl-PL": "Następna kategoria",
+   "de-DE": "Nächste Kategorie",
+   "cs-CZ": "Další kategorie",
+   "nl-NL": "Volgende categorie",
+   "pt-PT": "Categoria seguinte",
+   "ru-RU": "Следующая категория"
+  },
+  "Next slide": {
+   "fr-FR": "Diapositive suivante",
+   "es-ES": "Diapositiva siguiente",
+   "it-IT": "Slide successiva",
+   "pl-PL": "Następny slajd",
+   "de-DE": "Nächste Folie",
+   "cs-CZ": "Další snímek",
+   "nl-NL": "Volgende dia",
+   "pt-PT": "Diapositivo seguinte",
+   "ru-RU": "Следующий слайд"
+  },
+  "Not sure? Measure their height.": {
+   "fr-FR": "Pas sûr ? Mesurez sa taille.",
+   "es-ES": "¿No estás seguro? Mide su altura.",
+   "it-IT": "Non sei sicuro? Misura la sua altezza.",
+   "pl-PL": "Nie wiesz? Zmierz wzrost dziecka.",
+   "de-DE": "Unsicher? Messen Sie die Körpergröße.",
+   "cs-CZ": "Nejste si jistí? Změřte výšku dítěte.",
+   "nl-NL": "Twijfel je? Meet de lengte.",
+   "pt-PT": "Não tem a certeza? Meça a altura.",
+   "ru-RU": "Не уверены? Измерьте рост."
+  },
   "Nothing found for “%query%”. Try another word, like a colour or a fabric.": {
    "fr-FR": "Aucun résultat pour « %query% ». Essayez un autre mot, une couleur ou une matière.",
    "es-ES": "Nada para «%query%». Prueba otra palabra, como un color o un tejido.",
@@ -5897,6 +6040,72 @@
    "nl-NL": "Populair",
    "pt-PT": "Populares",
    "ru-RU": "Популярное"
+  },
+  "Previous slide": {
+   "fr-FR": "Diapositive précédente",
+   "es-ES": "Diapositiva anterior",
+   "it-IT": "Slide precedente",
+   "pl-PL": "Poprzedni slajd",
+   "de-DE": "Vorherige Folie",
+   "cs-CZ": "Předchozí snímek",
+   "nl-NL": "Vorige dia",
+   "pt-PT": "Diapositivo anterior",
+   "ru-RU": "Предыдущий слайд"
+  },
+  "Quantity": {
+   "fr-FR": "Quantité",
+   "es-ES": "Cantidad",
+   "it-IT": "Quantità",
+   "pl-PL": "Ilość",
+   "de-DE": "Menge",
+   "cs-CZ": "Množství",
+   "nl-NL": "Aantal",
+   "pt-PT": "Quantidade",
+   "ru-RU": "Количество"
+  },
+  "Remove": {
+   "fr-FR": "Retirer",
+   "es-ES": "Eliminar",
+   "it-IT": "Rimuovi",
+   "pl-PL": "Usuń",
+   "de-DE": "Entfernen",
+   "cs-CZ": "Odebrat",
+   "nl-NL": "Verwijderen",
+   "pt-PT": "Remover",
+   "ru-RU": "Удалить"
+  },
+  "Remove %name%": {
+   "fr-FR": "Retirer %name%",
+   "es-ES": "Eliminar %name%",
+   "it-IT": "Rimuovi %name%",
+   "pl-PL": "Usuń %name%",
+   "de-DE": "%name% entfernen",
+   "cs-CZ": "Odebrat %name%",
+   "nl-NL": "%name% verwijderen",
+   "pt-PT": "Remover %name%",
+   "ru-RU": "Удалить %name%"
+  },
+  "Resolable in our workshop": {
+   "fr-FR": "Ressemelable dans notre atelier",
+   "es-ES": "Se cambia la suela en nuestro taller",
+   "it-IT": "Risuolabile nel nostro laboratorio",
+   "pl-PL": "Wymiana podeszwy w naszej pracowni",
+   "de-DE": "In unserer Werkstatt neu besohlbar",
+   "cs-CZ": "Podrazitelné v naší dílně",
+   "nl-NL": "Te verzolen in onze werkplaats",
+   "pt-PT": "Sola trocável na nossa oficina",
+   "ru-RU": "Замена подошвы в нашей мастерской"
+  },
+  "Ring size and resizing": {
+   "fr-FR": "Taille et mise à taille",
+   "es-ES": "Talla y ajuste",
+   "it-IT": "Misura e adattamento",
+   "pl-PL": "Rozmiar i jego zmiana",
+   "de-DE": "Ringgröße und Anpassung",
+   "cs-CZ": "Velikost a její úprava",
+   "nl-NL": "Ringmaat en aanpassen",
+   "pt-PT": "Tamanho e ajuste",
+   "ru-RU": "Размер и подгонка"
   },
   "Search": {
    "fr-FR": "Rechercher",
@@ -5920,6 +6129,17 @@
    "pt-PT": "Pesquisar produtos",
    "ru-RU": "Поиск товаров"
   },
+  "sec": {
+   "fr-FR": "s",
+   "es-ES": "s",
+   "it-IT": "s",
+   "pl-PL": "s",
+   "de-DE": "Sek.",
+   "cs-CZ": "s",
+   "nl-NL": "s",
+   "pt-PT": "s",
+   "ru-RU": "сек"
+  },
   "See all %count% results for “%query%”": {
    "fr-FR": "Voir les %count% résultats pour « %query% »",
    "es-ES": "Ver los %count% resultados de «%query%»",
@@ -5930,6 +6150,17 @@
    "nl-NL": "Bekijk alle %count% resultaten voor '%query%'",
    "pt-PT": "Ver os %count% resultados para «%query%»",
    "ru-RU": "Все результаты по запросу «%query%» (%count%)"
+  },
+  "Shop the offer": {
+   "fr-FR": "Profiter de l'offre",
+   "es-ES": "Ver la oferta",
+   "it-IT": "Approfitta dell'offerta",
+   "pl-PL": "Skorzystaj z oferty",
+   "de-DE": "Zum Angebot",
+   "cs-CZ": "Využít nabídku",
+   "nl-NL": "Naar de aanbieding",
+   "pt-PT": "Aproveitar a oferta",
+   "ru-RU": "К предложению"
   },
   "Sign up": {
    "fr-FR": "S'inscrire",
@@ -5942,6 +6173,28 @@
    "pt-PT": "Subscrever",
    "ru-RU": "Подписаться"
   },
+  "Size": {
+   "fr-FR": "Taille",
+   "es-ES": "Talla",
+   "it-IT": "Misura",
+   "pl-PL": "Rozmiar",
+   "de-DE": "Größe",
+   "cs-CZ": "Velikost",
+   "nl-NL": "Maat",
+   "pt-PT": "Tamanho",
+   "ru-RU": "Размер"
+  },
+  "Size [1] is UK [2], US [3].": {
+   "fr-FR": "La taille [1] correspond au UK [2], US [3].",
+   "es-ES": "La talla [1] equivale a UK [2], US [3].",
+   "it-IT": "La misura [1] corrisponde a UK [2], US [3].",
+   "pl-PL": "Rozmiar [1] to UK [2], US [3].",
+   "de-DE": "Größe [1] entspricht UK [2], US [3].",
+   "cs-CZ": "Velikost [1] odpovídá UK [2], US [3].",
+   "nl-NL": "Maat [1] is UK [2], US [3].",
+   "pt-PT": "O tamanho [1] corresponde a UK [2], US [3].",
+   "ru-RU": "Размер [1] — это UK [2], US [3]."
+  },
   "Size guide": {
    "fr-FR": "Guide des tailles",
    "es-ES": "Guía de tallas",
@@ -5953,71 +6206,27 @@
    "pt-PT": "Guia de tamanhos",
    "ru-RU": "Таблица размеров"
   },
-  "View bag": {
-   "fr-FR": "Voir le sac",
-   "es-ES": "Ver bolsa",
-   "it-IT": "Vedi borsa",
-   "pl-PL": "Zobacz torbę",
-   "de-DE": "Tasche ansehen",
-   "cs-CZ": "Zobrazit tašku",
-   "nl-NL": "Bekijk tas",
-   "pt-PT": "Ver saco",
-   "ru-RU": "Открыть сумку"
+  "Soak in warm soapy water, brush gently and dry with a soft cloth. Free cleaning for life.": {
+   "fr-FR": "Faites tremper dans de l'eau tiède savonneuse, brossez doucement et séchez avec un chiffon doux. Nettoyage offert à vie.",
+   "es-ES": "Sumérgelas en agua tibia con jabón, cepilla suavemente y sécalas con un paño suave. Limpieza gratis de por vida.",
+   "it-IT": "Immergi in acqua tiepida e sapone, spazzola delicatamente e asciuga con un panno morbido. Pulizia gratuita a vita.",
+   "pl-PL": "Namocz w ciepłej wodzie z mydłem, delikatnie wyszczotkuj i osusz miękką ściereczką. Dożywotnie bezpłatne czyszczenie.",
+   "de-DE": "In warmem Seifenwasser einweichen, sanft bürsten und mit einem weichen Tuch trocknen. Lebenslang kostenlose Reinigung.",
+   "cs-CZ": "Namočte do teplé mýdlové vody, jemně vykartáčujte a osušte měkkým hadříkem. Doživotní čištění zdarma.",
+   "nl-NL": "Week in lauw zeepwater, borstel zacht en droog met een zachte doek. Levenslang gratis reinigen.",
+   "pt-PT": "Mergulhe em água morna com sabão, escove suavemente e seque com um pano macio. Limpeza grátis para toda a vida.",
+   "ru-RU": "Замочите в тёплой мыльной воде, аккуратно почистите щёточкой и протрите мягкой тканью. Бесплатная чистка пожизненно."
   },
-  "Wear it with": {
-   "fr-FR": "À porter avec",
-   "es-ES": "Combínalo con",
-   "it-IT": "Da abbinare a",
-   "pl-PL": "Noś to z",
-   "de-DE": "Dazu passt",
-   "cs-CZ": "Noste s",
-   "nl-NL": "Draag het met",
-   "pt-PT": "Use com",
-   "ru-RU": "Носить с"
-  },
-  "Your bag is empty": {
-   "fr-FR": "Votre sac est vide",
-   "es-ES": "Tu bolsa está vacía",
-   "it-IT": "La tua borsa è vuota",
-   "pl-PL": "Twoja torba jest pusta",
-   "de-DE": "Ihre Tasche ist leer",
-   "cs-CZ": "Vaše taška je prázdná",
-   "nl-NL": "Je tas is leeg",
-   "pt-PT": "O seu saco está vazio",
-   "ru-RU": "Ваша сумка пуста"
-  },
-  "Next category": {
-   "fr-FR": "Catégorie suivante",
-   "es-ES": "Siguiente categoría",
-   "it-IT": "Categoria successiva",
-   "pl-PL": "Następna kategoria",
-   "de-DE": "Nächste Kategorie",
-   "cs-CZ": "Další kategorie",
-   "nl-NL": "Volgende categorie",
-   "pt-PT": "Categoria seguinte",
-   "ru-RU": "Следующая категория"
-  },
-  "1 colour": {
-   "fr-FR": "1 couleur",
-   "es-ES": "1 color",
-   "it-IT": "1 colore",
-   "pl-PL": "1 kolor",
-   "de-DE": "1 Farbe",
-   "cs-CZ": "1 barva",
-   "nl-NL": "1 kleur",
-   "pt-PT": "1 cor",
-   "ru-RU": "1 цвет"
-  },
-  "%count% colours": {
-   "fr-FR": "%count% couleurs",
-   "es-ES": "%count% colores",
-   "it-IT": "%count% colori",
-   "pl-PL": "Kolory: %count%",
-   "de-DE": "%count% Farben",
-   "cs-CZ": "Barvy: %count%",
-   "nl-NL": "%count% kleuren",
-   "pt-PT": "%count% cores",
-   "ru-RU": "Цветов: %count%"
+  "Softer, warmer": {
+   "fr-FR": "Plus souple, plus chaud",
+   "es-ES": "Más suave y cálida",
+   "it-IT": "Più morbida e calda",
+   "pl-PL": "Miększa, cieplejsza",
+   "de-DE": "Weicher, wärmer",
+   "cs-CZ": "Měkčí, teplejší",
+   "nl-NL": "Zachter, warmer",
+   "pt-PT": "Mais macia e quente",
+   "ru-RU": "Мягче и теплее"
   },
   "Sold out": {
    "fr-FR": "Épuisé",
@@ -6030,16 +6239,115 @@
    "pt-PT": "Esgotado",
    "ru-RU": "Нет в наличии"
   },
-  "Not sure? Measure their height.": {
-   "fr-FR": "Pas sûr ? Mesurez sa taille.",
-   "es-ES": "¿No estás seguro? Mide su altura.",
-   "it-IT": "Non sei sicuro? Misura la sua altezza.",
-   "pl-PL": "Nie wiesz? Zmierz wzrost dziecka.",
-   "de-DE": "Unsicher? Messen Sie die Körpergröße.",
-   "cs-CZ": "Nejste si jistí? Změřte výšku dítěte.",
-   "nl-NL": "Twijfel je? Meet de lengte.",
-   "pt-PT": "Não tem a certeza? Meça a altura.",
-   "ru-RU": "Не уверены? Измерьте рост."
+  "Subtotal": {
+   "fr-FR": "Sous-total",
+   "es-ES": "Subtotal",
+   "it-IT": "Subtotale",
+   "pl-PL": "Suma częściowa",
+   "de-DE": "Zwischensumme",
+   "cs-CZ": "Mezisoučet",
+   "nl-NL": "Subtotaal",
+   "pt-PT": "Subtotal",
+   "ru-RU": "Подытог"
+  },
+  "Taxes and delivery are calculated at checkout.": {
+   "fr-FR": "Taxes et livraison calculées à la commande.",
+   "es-ES": "Impuestos y envío se calculan al finalizar la compra.",
+   "it-IT": "Tasse e consegna vengono calcolate alla cassa.",
+   "pl-PL": "Podatki i dostawa są liczone przy zamówieniu.",
+   "de-DE": "Steuern und Versand werden an der Kasse berechnet.",
+   "cs-CZ": "Daně a doprava se počítají v pokladně.",
+   "nl-NL": "Belastingen en verzending worden bij het afrekenen berekend.",
+   "pt-PT": "Impostos e entrega são calculados na finalização.",
+   "ru-RU": "Налоги и доставка рассчитываются при оформлении."
+  },
+  "The details": {
+   "fr-FR": "Les détails",
+   "es-ES": "Los detalles",
+   "it-IT": "I dettagli",
+   "pl-PL": "Szczegóły",
+   "de-DE": "Die Details",
+   "cs-CZ": "Podrobnosti",
+   "nl-NL": "De details",
+   "pt-PT": "Os detalhes",
+   "ru-RU": "Подробности"
+  },
+  "The leather darkens and softens with every year of use. Light, hands and rain all leave their mark, and no two pieces age the same.": {
+   "fr-FR": "Le cuir fonce et s'assouplit à chaque année d'usage. La lumière, les mains et la pluie y laissent leur trace, et aucune pièce ne vieillit de la même façon.",
+   "es-ES": "La piel se oscurece y se suaviza con cada año de uso. La luz, las manos y la lluvia dejan su huella, y no hay dos piezas que envejezcan igual.",
+   "it-IT": "La pelle si scurisce e si ammorbidisce a ogni anno d'uso. Luce, mani e pioggia lasciano il segno, e nessun pezzo invecchia allo stesso modo.",
+   "pl-PL": "Skóra ciemnieje i mięknie z każdym rokiem używania. Światło, dłonie i deszcz zostawiają ślad, a każdy egzemplarz starzeje się inaczej.",
+   "de-DE": "Das Leder wird mit jedem Jahr dunkler und weicher. Licht, Hände und Regen hinterlassen ihre Spuren, und kein Stück altert gleich.",
+   "cs-CZ": "Kůže s každým rokem nošení tmavne a měkne. Světlo, ruce i déšť zanechají stopu a žádné dva kusy nestárnou stejně.",
+   "nl-NL": "Het leer wordt elk jaar donkerder en zachter. Licht, handen en regen laten hun sporen na, en geen twee stukken verouderen hetzelfde.",
+   "pt-PT": "A pele escurece e amacia a cada ano de uso. A luz, as mãos e a chuva deixam a sua marca, e não há duas peças que envelheçam da mesma forma.",
+   "ru-RU": "Кожа темнеет и становится мягче с каждым годом носки. Свет, руки и дождь оставляют свой след, и никакие две вещи не стареют одинаково."
+  },
+  "The ring sizer": {
+   "fr-FR": "Le baguier",
+   "es-ES": "El medidor de anillos",
+   "it-IT": "Il misuratore di anelli",
+   "pl-PL": "Miarka pierścionków",
+   "de-DE": "Der Ringmesser",
+   "cs-CZ": "Měřič prstenů",
+   "nl-NL": "De ringmeter",
+   "pt-PT": "O medidor de anéis",
+   "ru-RU": "Измеритель колец"
+  },
+  "up to 3 letters": {
+   "fr-FR": "jusqu'à 3 lettres",
+   "es-ES": "hasta 3 letras",
+   "it-IT": "fino a 3 lettere",
+   "pl-PL": "do 3 liter",
+   "de-DE": "bis zu 3 Buchstaben",
+   "cs-CZ": "až 3 písmena",
+   "nl-NL": "tot 3 letters",
+   "pt-PT": "até 3 letras",
+   "ru-RU": "до 3 букв"
+  },
+  "Up to 3 letters, heat-stamped by hand. Leave it empty for no initials.": {
+   "fr-FR": "Jusqu'à 3 lettres, marquées à chaud à la main. Laissez vide pour ne pas avoir d'initiales.",
+   "es-ES": "Hasta 3 letras, estampadas a mano en caliente. Déjalo vacío si no quieres iniciales.",
+   "it-IT": "Fino a 3 lettere, impresse a caldo a mano. Lascia vuoto per nessuna iniziale.",
+   "pl-PL": "Do 3 liter, tłoczonych ręcznie na gorąco. Zostaw puste, jeśli nie chcesz inicjałów.",
+   "de-DE": "Bis zu 3 Buchstaben, von Hand heißgeprägt. Leer lassen für keine Initialen.",
+   "cs-CZ": "Až 3 písmena, ručně ražená za tepla. Nechte prázdné, pokud iniciály nechcete.",
+   "nl-NL": "Tot 3 letters, met de hand heet geslagen. Laat leeg voor geen initialen.",
+   "pt-PT": "Até 3 letras, gravadas a quente à mão. Deixe vazio para não ter iniciais.",
+   "ru-RU": "До 3 букв, горячее тиснение вручную. Оставьте пустым, если инициалы не нужны."
+  },
+  "View bag": {
+   "fr-FR": "Voir le sac",
+   "es-ES": "Ver bolsa",
+   "it-IT": "Vedi borsa",
+   "pl-PL": "Zobacz torbę",
+   "de-DE": "Tasche ansehen",
+   "cs-CZ": "Zobrazit tašku",
+   "nl-NL": "Bekijk tas",
+   "pt-PT": "Ver saco",
+   "ru-RU": "Открыть сумку"
+  },
+  "View cart": {
+   "fr-FR": "Voir le panier",
+   "es-ES": "Ver carrito",
+   "it-IT": "Vedi carrello",
+   "pl-PL": "Zobacz koszyk",
+   "de-DE": "Warenkorb ansehen",
+   "cs-CZ": "Zobrazit košík",
+   "nl-NL": "Winkelwagen bekijken",
+   "pt-PT": "Ver carrinho",
+   "ru-RU": "Открыть корзину"
+  },
+  "Wear it with": {
+   "fr-FR": "À porter avec",
+   "es-ES": "Combínalo con",
+   "it-IT": "Da abbinare a",
+   "pl-PL": "Noś to z",
+   "de-DE": "Dazu passt",
+   "cs-CZ": "Noste s",
+   "nl-NL": "Draag het met",
+   "pt-PT": "Use com",
+   "ru-RU": "Носить с"
   },
   "What it is made of": {
    "fr-FR": "De quoi elle est faite",
@@ -6052,16 +6360,82 @@
    "pt-PT": "De que é feito",
    "ru-RU": "Из чего сделано"
   },
-  "Resolable in our workshop": {
-   "fr-FR": "Ressemelable dans notre atelier",
-   "es-ES": "Se cambia la suela en nuestro taller",
-   "it-IT": "Risuolabile nel nostro laboratorio",
-   "pl-PL": "Wymiana podeszwy w naszej pracowni",
-   "de-DE": "In unserer Werkstatt neu besohlbar",
-   "cs-CZ": "Podrazitelné v naší dílně",
-   "nl-NL": "Te verzolen in onze werkplaats",
-   "pt-PT": "Sola trocável na nossa oficina",
-   "ru-RU": "Замена подошвы в нашей мастерской"
+  "Wipe with a soft, dry cloth. Feed the leather with balm once or twice a year, and let it dry slowly if it gets wet.": {
+   "fr-FR": "Essuyez avec un chiffon doux et sec. Nourrissez le cuir avec un baume une ou deux fois par an, et laissez-le sécher lentement s'il est mouillé.",
+   "es-ES": "Límpiala con un paño suave y seco. Nutre la piel con bálsamo una o dos veces al año y, si se moja, deja que se seque despacio.",
+   "it-IT": "Pulisci con un panno morbido e asciutto. Nutri la pelle con un balsamo una o due volte l'anno e, se si bagna, lasciala asciugare lentamente.",
+   "pl-PL": "Przecieraj miękką, suchą ściereczką. Raz lub dwa razy w roku natłuść skórę balsamem, a gdy zmoknie, pozwól jej powoli wyschnąć.",
+   "de-DE": "Mit einem weichen, trockenen Tuch abwischen. Das Leder ein- bis zweimal im Jahr mit Balsam pflegen und nass gewordenes Leder langsam trocknen lassen.",
+   "cs-CZ": "Otírejte měkkým suchým hadříkem. Jednou až dvakrát ročně kůži ošetřete balzámem, a když zmokne, nechte ji pomalu uschnout.",
+   "nl-NL": "Afnemen met een zachte, droge doek. Voed het leer een- of tweemaal per jaar met balsem en laat het langzaam drogen als het nat wordt.",
+   "pt-PT": "Limpe com um pano macio e seco. Nutra a pele com bálsamo uma ou duas vezes por ano e, se se molhar, deixe-a secar devagar.",
+   "ru-RU": "Протирайте мягкой сухой тканью. Раз или два в год питайте кожу бальзамом, а если она намокла, дайте ей медленно высохнуть."
+  },
+  "Your bag is empty": {
+   "fr-FR": "Votre sac est vide",
+   "es-ES": "Tu bolsa está vacía",
+   "it-IT": "La tua borsa è vuota",
+   "pl-PL": "Twoja torba jest pusta",
+   "de-DE": "Ihre Tasche ist leer",
+   "cs-CZ": "Vaše taška je prázdná",
+   "nl-NL": "Je tas is leeg",
+   "pt-PT": "O seu saco está vazio",
+   "ru-RU": "Ваша сумка пуста"
+  },
+  "Your cart": {
+   "fr-FR": "Votre panier",
+   "es-ES": "Tu carrito",
+   "it-IT": "Il tuo carrello",
+   "pl-PL": "Twój koszyk",
+   "de-DE": "Ihr Warenkorb",
+   "cs-CZ": "Váš košík",
+   "nl-NL": "Je winkelwagen",
+   "pt-PT": "O seu carrinho",
+   "ru-RU": "Ваша корзина"
+  },
+  "Your cart is empty": {
+   "fr-FR": "Votre panier est vide",
+   "es-ES": "Tu carrito está vacío",
+   "it-IT": "Il tuo carrello è vuoto",
+   "pl-PL": "Twój koszyk jest pusty",
+   "de-DE": "Ihr Warenkorb ist leer",
+   "cs-CZ": "Váš košík je prázdný",
+   "nl-NL": "Je winkelwagen is leeg",
+   "pt-PT": "O seu carrinho está vazio",
+   "ru-RU": "Ваша корзина пуста"
+  },
+  "Your initials": {
+   "fr-FR": "Vos initiales",
+   "es-ES": "Tus iniciales",
+   "it-IT": "Le tue iniziali",
+   "pl-PL": "Twoje inicjały",
+   "de-DE": "Ihre Initialen",
+   "cs-CZ": "Vaše iniciály",
+   "nl-NL": "Je initialen",
+   "pt-PT": "As suas iniciais",
+   "ru-RU": "Ваши инициалы"
+  },
+  "Your initials could not be saved. Please try again.": {
+   "fr-FR": "Vos initiales n'ont pas pu être enregistrées. Veuillez réessayer.",
+   "es-ES": "No se han podido guardar tus iniciales. Inténtalo de nuevo.",
+   "it-IT": "Non è stato possibile salvare le tue iniziali. Riprova.",
+   "pl-PL": "Nie udało się zapisać inicjałów. Spróbuj ponownie.",
+   "de-DE": "Ihre Initialen konnten nicht gespeichert werden. Bitte versuchen Sie es erneut.",
+   "cs-CZ": "Iniciály se nepodařilo uložit. Zkuste to prosím znovu.",
+   "nl-NL": "Je initialen konden niet worden opgeslagen. Probeer het opnieuw.",
+   "pt-PT": "Não foi possível guardar as suas iniciais. Tente novamente.",
+   "ru-RU": "Не удалось сохранить инициалы. Попробуйте ещё раз."
+  },
+  "Your order ships free.": {
+   "fr-FR": "Votre commande est livrée gratuitement.",
+   "es-ES": "Tu pedido tiene envío gratis.",
+   "it-IT": "Il tuo ordine ha la consegna gratuita.",
+   "pl-PL": "Twoje zamówienie ma darmową dostawę.",
+   "de-DE": "Ihre Bestellung wird kostenlos geliefert.",
+   "cs-CZ": "Vaše objednávka má dopravu zdarma.",
+   "nl-NL": "Je bestelling wordt gratis bezorgd.",
+   "pt-PT": "A sua encomenda tem entrega grátis.",
+   "ru-RU": "Ваш заказ доставим бесплатно."
   }
  }
 }

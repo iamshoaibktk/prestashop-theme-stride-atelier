@@ -466,6 +466,10 @@ class AdminHbkitController extends ModuleAdminController
                 case 'icon':
                     $out[$key] = preg_replace('/[^a-z0-9_]/', '', (string) $value);
                     break;
+                case 'class':
+                    // Not in the form: keep the saved value unless one is posted.
+                    $out[$key] = trim(preg_replace('/[^a-z0-9 _-]/i', '', (string) ($value ?? ($current[$key] ?? ''))));
+                    break;
                 default:
                     $out[$key] = strip_tags((string) $value);
             }
