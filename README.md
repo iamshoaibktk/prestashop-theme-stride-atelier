@@ -18,7 +18,7 @@ Stride Atelier is a free PrestaShop 9 theme for shoe, sneaker and boot shops. It
 - **Resolable stamp**: shoes with a stitched sole carry a stamp, and the homepage explains the resoling service in three steps.
 - **AJAX add to bag**: a side bag with the free-delivery bar, and a square "+" on each product card that asks for the size first.
 - **Child theme of Hummingbird** (`parent: hummingbird`). No parent templates are copied, so Hummingbird and PrestaShop updates keep working.
-- **Hummingbird Theme Kit module** (`hbkit` v1.1.1): colours, fonts, corners, header and footer style as CSS variables, a top bar, and a homepage builder (categories, faq, hero, image text, products, testimonials).
+- **Hummingbird Theme Kit module** (`hbkit` v1.1.2): colours, fonts, corners, header and footer style as CSS variables, a top bar, and a homepage builder (categories, faq, hero, image text, products, testimonials).
 - **Page layouts you can switch in the back office**: side cart, cart page, category pages, product page and product cards, each with several picture-chosen styles. This demo uses: side cart that slides in; classic cart page; full-width grid with a filter button; minimal centred category header; classic product page; details in an accordion; 4 products per row; overlay product cards.
 - **One-click demo import**: 24 products with sizes/colours and features, 6 categories, brands, 8 CMS pages, main menu, footer links, reassurance blocks and 7 homepage sections.
 - **10 languages** for everything: English, French, Spanish, Italian, Polish, German, Czech, Dutch, Portuguese, Russian.
@@ -31,9 +31,9 @@ Stride Atelier is a free PrestaShop 9 theme for shoe, sneaker and boot shops. It
 
 ## Installation
 
-1. Download the release files: `stride-atelier-theme-v1.0.1.zip` and `hbkit-v1.1.1.zip`.
-2. **Modules > Module Manager > Upload a module**: upload `hbkit-v1.1.1.zip`.
-3. **Design > Theme & Logo > Add new theme**: upload `stride-atelier-theme-v1.0.1.zip`, then click *Use this theme*.
+1. Download the release files: `stride-atelier-theme-v1.0.2.zip` and `hbkit-v1.1.2.zip`.
+2. **Modules > Module Manager > Upload a module**: upload `hbkit-v1.1.2.zip`.
+3. **Design > Theme & Logo > Add new theme**: upload `stride-atelier-theme-v1.0.2.zip`, then click *Use this theme*.
 4. **Design > Theme Kit > Demo import**: pick *Stride Atelier*, type `IMPORT` and click *Import this demo*.
    On a fresh shop keep *Remove existing content first* checked. Orders and customers are never touched.
 5. Adjust colours, fonts and page layouts in **Theme Kit > Design**, and every homepage section in **Theme Kit > Homepage sections**.

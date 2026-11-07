@@ -795,7 +795,7 @@ body.hbk-searchtrigger-icon .hbk-search-trigger .header-block__action-btn { just
 .hbk-hcard { align-self: flex-end; width: 22rem; max-width: 100%; margin-left: auto; padding: 1.25rem; border-radius: var(--hb-radius); background: var(--hb-bg); color: var(--hb-text); text-align: left; box-shadow: 0 10px 30px rgba(0, 0, 0, .18); }
 .hbk-hcard__label { margin: 0 0 .25rem; color: var(--hb-muted); font-size: .8125rem; font-weight: 500; }
 .hbk-hcard__now { display: flex; align-items: baseline; gap: .75rem; margin: 0; padding-bottom: .875rem; border-bottom: 1px solid var(--hb-border); }
-.hbk-hcard__now b { font-family: var(--hb-font-heading); font-size: 2.5rem; font-weight: var(--hb-heading-weight); line-height: 1; font-variant-numeric: tabular-nums; }
+.hbk-hcard__now b { flex: none; white-space: nowrap; font-family: var(--hb-font-heading); font-size: 2.5rem; font-weight: var(--hb-heading-weight); line-height: 1; font-variant-numeric: tabular-nums; }
 .hbk-hcard__now span { color: var(--hb-muted); font-size: .875rem; }
 .hbk-hcard__product { display: flex; align-items: center; gap: .75rem; margin-top: .875rem; color: inherit; text-decoration: none; }
 .hbk-hcard__product img { width: 3.5rem; height: 4.375rem; object-fit: cover; flex: none; }
