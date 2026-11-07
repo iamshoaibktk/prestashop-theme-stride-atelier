@@ -314,3 +314,9 @@
 .hbbo .hbbo-author__help { margin: 2px 0 0; color: var(--hbbo-muted); font-size: 13px; }
 .hbbo .hbbo-author__links { display: flex; flex-wrap: wrap; gap: 6px; }
 .hbbo .hbbo-author__links .material-icons { font-size: 16px; }
+.hbbo .hbbo-author__free { flex-basis: 100%; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; padding: 10px 12px; border: 1px solid var(--hbbo-line); border-radius: 10px; background: #f6f8fa; }
+.hbbo .hbbo-author__gh { flex: none; color: #24292f; }
+.hbbo .hbbo-author__freetext { flex: 1 1 220px; min-width: 0; }
+.hbbo .hbbo-author__freetext a { color: var(--hbbo-ink); font-weight: 600; }
+.hbbo .hbbo-author__ghbtn { display: inline-flex; align-items: center; gap: 6px; background: #24292f; border-color: #24292f; color: #fff !important; }
+.hbbo .hbbo-author__ghbtn:hover, .hbbo .hbbo-author__ghbtn:focus { background: #000; border-color: #000; color: #fff !important; }

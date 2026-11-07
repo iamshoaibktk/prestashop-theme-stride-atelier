@@ -110,7 +110,7 @@ class Hbkit extends Module
     {
         $this->name = 'hbkit';
         $this->tab = 'front_office_features';
-        $this->version = '1.1.2';
+        $this->version = '1.1.3';
         $this->author = 'iamshoaibktk@gmail.com';
         $this->need_instance = 0;
         $this->ps_versions_compliancy = ['min' => '9.0.0', 'max' => _PS_VERSION_];
